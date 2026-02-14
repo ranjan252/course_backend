@@ -1,0 +1,400 @@
+{
+  "course": "General Chemistry",
+  "topic": "3_periodic_table",
+  "subtopic": "3.1_organization",
+  "foundation_id": "periodic_table_advanced",
+  "foundation_title": "The Periodic Table",
+  "foundation_tier": 1,
+  "prerequisites": ["atomic_structure", "electron_shells"],
+  "curriculum_concepts_covered": [
+    "periods_and_groups",
+    "metals_nonmetals",
+    "families",
+    "element_box_reading",
+    "block_structure",
+    "periodicity_meaning"
+  ],
+  "coverage_notes": "EXTENDED TREATMENT — 9 parts instead of standard 4-5. The periodic table is the keystone of chemistry. Understanding it deeply — not just what it shows, but WHY it's shaped this way, what periodicity reveals about the quantum structure of reality, and how to read it as a prediction engine — transforms every subsequent topic. This treatment covers philosophy (why patterns exist), logic (orbital filling → table shape), and experience (reading, predicting, discovering).",
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "The periodic table is not a fact to memorize but a deep pattern reflecting quantum mechanics. Students who understand WHY it's organized this way — not just THAT it is — develop permanent intuition for chemistry. Philosophical and logical depth here pays dividends in every subsequent concept.",
+
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — the universe has a hidden order)",
+    "step_2": "READ Part 2 (the detective story — Mendeleev to Moseley)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "READ Part 3 (periods and groups — the grid logic)",
+    "step_5": "QUIZ Part 3",
+    "step_6": "WATCH matched video for periods_and_groups",
+    "step_7": "READ Part 4 (reading an element box — every number decoded)",
+    "step_8": "QUIZ Part 4",
+    "step_9": "READ Part 5 (metals, nonmetals, metalloids — three kingdoms)",
+    "step_10": "QUIZ Part 5",
+    "step_11": "WATCH matched video for metals_nonmetals",
+    "step_12": "READ Part 6 (the shape of the table — s, p, d, f blocks)",
+    "step_13": "QUIZ Part 6",
+    "step_14": "READ Part 7 (element families — personality groups)",
+    "step_15": "QUIZ Part 7",
+    "step_16": "WATCH matched video for families",
+    "step_17": "READ Part 8 (prediction engine — gaps, synthetics, unknowns)",
+    "step_18": "QUIZ Part 8",
+    "step_19": "READ Part 9 (philosophy — why periodicity exists at all)",
+    "step_20": "FINAL QUIZ (cumulative, 4+ questions)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "periodic_table_basic_p1",
+      "part_title": "The Universe Has a Hidden Order",
+      "purpose": "Hook — philosophical framing. The periodic table isn't arbitrary; it reflects a deep pattern woven into the fabric of reality.",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": null, "body": "There are 118 known elements. They combine to form every material in existence — every star, every rock, every living cell, every thought you've ever had (which is electrochemistry in your neurons, which are made of atoms, which are elements). These 118 building blocks could have been random, each with arbitrary, unpredictable properties. They're not."},
+          {"type": "callout", "style": "key_idea", "body": "The periodic table reveals that the properties of elements repeat in a regular, predictable cycle. Elements 3, 11, 19, 37, 55, and 87 all behave almost identically — soft metals that explode in water. Elements 2, 10, 18, 36, 54, and 86 are all unreactive gases. This repetition isn't coincidence. It's a consequence of how electrons fill orbitals — a quantum mechanical pattern built into the structure of atoms themselves."},
+          {"type": "section", "title": null, "body": "The periodic table is not something humans invented. It's something humans DISCOVERED — a pattern that was always there, written into the quantum rules that govern how electrons arrange themselves around nuclei. Mendeleev didn't create order. He revealed it."},
+          {"type": "callout", "style": "philosophy", "body": "Think about what it means that the universe has this kind of built-in structure. The same pattern that makes lithium reactive makes sodium reactive makes potassium reactive — across entirely different scales of atomic size. The rules of electron filling are the same everywhere in the universe. A periodic table on a planet orbiting another star would look identical to ours. This is a universal truth, not a human convention."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "See the Pattern Before Understanding It", "body": "Open a periodic table. Look at the leftmost column (Group 1): H, Li, Na, K, Rb, Cs, Fr. Now look at the rightmost column (Group 18): He, Ne, Ar, Kr, Xe, Rn. The left column elements are all fiercely reactive metals. The right column elements are all completely inert gases. Same column = same behavior. This pattern holds for EVERY column."},
+          {"type": "section", "title": null, "body": "Now look at the rows. Each row (period) starts with a reactive metal on the left and ends with an inert gas on the right. The journey from left to right is always the same: metal → less reactive metal → metalloid → nonmetal → reactive nonmetal → noble gas. Every single row follows this arc."},
+          {"type": "callout", "style": "key_idea", "body": "The pattern you're seeing — same behavior repeating vertically, gradual change horizontally — is called PERIODICITY. It's the single most important pattern in all of chemistry. Everything else we study is a consequence of it."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": null, "body": "The periodic table has a reputation as a scary poster full of boxes. But here's what it actually is: proof that the universe is organized. Not randomly. Not chaotically. With a repeating pattern so reliable that a Russian chemist in 1869 could predict elements that hadn't been discovered yet — and get their properties right."},
+          {"type": "callout", "style": "fun_fact", "body": "If the periodic table were a Spotify playlist, it would be the universe's favorite album on repeat. Group 1: bangers (explosive). Group 18: chill ambient (zero reactivity). Group 17: aggressive punk (steal your electrons). And the track list repeats with slight variations every period. The universe has a music taste, and it's periodic."},
+          {"type": "section", "title": null, "body": "Most 'discoveries' in science are about finding something new. The periodic table discovery was about finding something OLD — a pattern that existed since the first atoms formed after the Big Bang, 13.8 billion years ago. We didn't invent it. We finally noticed it."}
+        ]}
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "periodic_table_basic_p2",
+      "part_title": "The Detective Story — From Mendeleev to Moseley",
+      "purpose": "History with depth — how the table was discovered, why it was revolutionary, and how it was corrected",
+      "curriculum_concepts": ["periods_and_groups"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Before the Table: Chaos", "body": "By the mid-1800s, scientists had discovered about 63 elements. They knew each had different properties — some were metals, some gases, some reactive, some inert. But there was no organizing principle. Imagine knowing 63 different animals with no concept of species, genus, or evolution. Just a list of names and behaviors. That was chemistry before the periodic table."},
+          {"type": "section", "title": "Mendeleev's Breakthrough (1869)", "body": "Dmitri Mendeleev, a Russian chemistry professor, wrote each known element's properties on a card. He arranged them by atomic weight and noticed: properties repeated periodically. Every 8 or 18 elements, similar behaviors returned. He arranged them into a table where elements with similar properties aligned in vertical columns."},
+          {"type": "callout", "style": "mind_blow", "title": "The Gaps", "body": "Here's what made Mendeleev a genius, not just a sorter: when the pattern demanded an element that didn't exist yet, he LEFT A GAP and predicted the missing element's properties. For 'eka-silicon' (later named germanium), he predicted: atomic weight ~72, density ~5.5 g/cm³, high melting point, forms oxide GeO₂. When germanium was discovered in 1886, actual values matched almost exactly. He predicted the future from a pattern."},
+          {"type": "section", "title": "Moseley's Correction (1913)", "body": "Mendeleev ordered by atomic weight — but this created a few misfits. Henry Moseley, a young British physicist, discovered that atomic NUMBER (protons), not atomic weight (protons + neutrons), was the true organizing principle. Reordering by atomic number fixed every anomaly. The periodic table became what it is today: elements 1 through 118, ordered by proton count."},
+          {"type": "callout", "style": "key_idea", "body": "The periodic table is ordered by ATOMIC NUMBER (number of protons). This matters because the number of protons determines the number of electrons, and the arrangement of electrons determines ALL chemical properties. Atomic number → electron configuration → chemical behavior. The causal chain is complete."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Re-Create Mendeleev's Logic", "body": "Imagine you have cards for these elements with just their properties: Na (soft metal, reacts with water, 1 valence electron), Mg (metal, moderate reactivity, 2 valence electrons), Cl (yellow gas, very reactive nonmetal, 7 valence electrons), Ar (colorless gas, zero reactivity, 8 valence electrons), K (soft metal, reacts violently with water, 1 valence electron)."},
+          {"type": "section", "title": null, "body": "You'd naturally group Na with K (same behavior) and put Cl near Ar (both gases, opposite reactivity). This grouping IS the periodic table. Mendeleev did this with 63 elements and no knowledge of electrons or orbitals. Pure pattern recognition from observable properties."},
+          {"type": "callout", "style": "key_idea", "body": "The table was discovered from PROPERTIES, then later EXPLAINED by electron theory. This is powerful: it means the pattern is real and observable, not just a theoretical construct. You can see periodicity by handling elements, measuring their densities, testing their reactivity — no quantum mechanics needed to notice the pattern."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Mendeleev: The Original Data Scientist", "body": "Mendeleev essentially put 63 data points on index cards, sorted them by one variable (weight), noticed a repeating pattern, identified gaps in the data, and predicted what the missing data points would look like. In 1869. Without a computer. He was doing machine learning by hand with a pen and vodka (he was Russian, some legends say he dreamed the table arrangement)."},
+          {"type": "callout", "style": "fun_fact", "body": "The 'Mendeleev dreamed the periodic table' story is probably exaggerated, but he DID reportedly work obsessively for three days without sleep arranging element cards, and the breakthrough arrangement came to him while napping. So: history's most important nap. Not bad for a few hours of rest."},
+          {"type": "section", "title": null, "body": "Moseley's correction was elegant: swap atomic weight for atomic number, and EVERYTHING works. Tragically, Moseley was killed at age 27 in World War I at Gallipoli. His death was so impactful that the British government subsequently banned prominent scientists from serving in combat. One physicist's death changed military policy. His contribution — one idea — transformed chemistry forever."}
+        ]}
+      },
+      "questions": [
+        {"question": "Why was Mendeleev's periodic table considered revolutionary?", "options": {"A": "He discovered new elements in his laboratory", "B": "He arranged known elements by properties, identified repeating patterns, and predicted undiscovered elements — which were later found with matching properties", "C": "He was the first person to list all elements", "D": "He invented the concept of atomic number"}, "correct_answer": "B", "explanation": "Mendeleev's genius was the PREDICTIONS. Arranging known elements revealed gaps. He described what the missing elements should look like (weight, density, reactivity). When gallium (1875), scandium (1879), and germanium (1886) were discovered, they matched his predictions almost exactly. The table's predictive power proved it reflected a real pattern in nature.", "tests_concept": "periods_and_groups"},
+        {"question": "Moseley reordered the periodic table by atomic number instead of atomic weight. Why did this matter?", "options": {"A": "Atomic number is a bigger number", "B": "Atomic number (protons) determines electron count, which determines chemical behavior — making the table's logic causal, not just correlational", "C": "Atomic weight was inaccurate", "D": "It didn't change anything significant"}, "correct_answer": "B", "explanation": "Atomic number = proton count = electron count (in neutral atoms). Electrons determine ALL chemical properties. Ordering by atomic number connects the table to its causal mechanism: more protons → more electrons → different electron configuration → different properties. Weight was a useful proxy but the real organizer is proton count.", "tests_concept": "periods_and_groups"}
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "periodic_table_basic_p3",
+      "part_title": "Periods and Groups — The Logic of the Grid",
+      "purpose": "Deep treatment of rows and columns, including WHY periods have different lengths",
+      "curriculum_concepts": ["periods_and_groups"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "Periods (Rows)", "body": "Horizontal rows. The period number = number of electron shells. Period 1: 1 shell (only 2 elements — H, He). Period 2: 2 shells (8 elements). Period 3: 3 shells (8 elements). Period 4: 4 shells (18 elements). Moving across a period, you're filling one shell with electrons, one at a time. When the shell's outer capacity is full, the period ends with a noble gas."},
+          {"type": "callout", "style": "definition", "title": "Groups (Columns)", "body": "Vertical columns. 18 groups total. Elements in the same group have the same number of VALENCE (outer shell) electrons. Same valence count = same chemical personality. Group 1: 1 valence electron (all reactive metals). Group 17: 7 valence electrons (all reactive nonmetals). Group 18: 8 (or 2 for He) valence electrons (all inert gases)."},
+          {"type": "section", "title": "Why Periods Have Different Lengths", "body": "This is the key insight most courses skip. Period 1 has only 2 elements because Shell 1 holds only 2 electrons (one s orbital). Period 2 has 8 elements because Shell 2 holds 8 (one s + three p orbitals). Period 3 also has 8 because only the s and p orbitals fill. But Period 4 has 18 elements because NOW the d orbitals from Shell 3 also fill — adding 10 transition metals. Period lengths: 2, 8, 8, 18, 18, 32, 32. These numbers come directly from orbital capacities."},
+          {"type": "callout", "style": "mind_blow", "body": "The SHAPE of the periodic table — why it's wide in the middle, narrow at the top, with that detached block at the bottom — is a direct map of electron orbital filling. The table's shape IS the shape of quantum mechanics. It's not a design choice. It's physics made visible."},
+          {"type": "section", "title": "Reading the Grid", "body": "Moving LEFT→RIGHT across a period: same number of shells, one more electron each step, nuclear charge increases, properties shift from metallic to nonmetallic. Moving TOP→BOTTOM down a group: one more shell each step, same valence configuration, atoms get bigger, same chemical personality but at larger scale."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Count the Elements in Each Period", "body": "Open a periodic table and count: Period 1: 2 elements (H, He). Period 2: 8 (Li through Ne). Period 3: 8 (Na through Ar). Period 4: 18 (K through Kr). Period 5: 18 (Rb through Xe). Period 6: 32 (Cs through Rn, including lanthanides). Period 7: 32 (Fr through Og, including actinides). The lengths 2, 8, 8, 18, 18, 32, 32 are NOT random — they're 2(1²), 2(2²), 2(2²), 2(3²), 2(3²), 2(4²), 2(4²). Each capacity = 2n² where n is the principal quantum number."},
+          {"type": "callout", "style": "key_idea", "body": "Period length = total orbital capacity being filled. Period 1: just the 1s orbital (2 electrons). Periods 2-3: s + p orbitals (2 + 6 = 8). Periods 4-5: s + d + p (2 + 10 + 6 = 18). Periods 6-7: s + f + d + p (2 + 14 + 10 + 6 = 32). The table literally grows wider as more orbital types become available."},
+          {"type": "section", "title": "Walking Across Period 3", "body": "Start at Na (11 protons, 1 valence e⁻ in 3s) — explosive metal. Step right: Mg (2 valence, still metal), Al (3, metal), Si (4, metalloid), P (5, nonmetal), S (6, nonmetal), Cl (7, reactive nonmetal), Ar (8, inert gas). You just watched Shell 3's s and p orbitals fill, one electron at a time. The personality changed from 'gives electrons away' to 'full — wants nothing.'"}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Why Is the Table Shaped So Weird?", "body": "Period 1: 2 elements wide. Periods 2-3: 8 wide. Periods 4-5: 18 wide. Periods 6-7: 32 wide (with 14 elements banished to the bottom). The table keeps getting WIDER because each new period has access to more orbital types. It's like an apartment building where each floor has more rooms: floor 1 has a studio (1 orbital, 2 spots). Floor 2 has 4 rooms (4 orbitals, 8 spots). Floor 4 has 9 rooms (9 orbitals, 18 spots)."},
+          {"type": "callout", "style": "fun_fact", "body": "The lanthanides and actinides (those two rows floating at the bottom) are actually IN Period 6 and 7 respectively. They're placed below to stop the table from being absurdly wide (32 columns). If you unfold them back in, the table is a clean rectangle — but it wouldn't fit on a classroom wall. The 'basement' arrangement is purely a space-saving hack."},
+          {"type": "section", "title": null, "body": "Think of periods as seasons: each period starts fresh (reactive metal, eager to give electrons), builds through the middle (transition metals doing their thing), and ends in quiet satisfaction (noble gas, full shell, wants nothing). Then a new period begins — one more shell, same emotional arc. Chemistry has narrative structure."}
+        ]}
+      },
+      "questions": [
+        {"question": "Period 4 has 18 elements while Period 2 has only 8. Why?", "options": {"A": "Scientists discovered more elements in Period 4", "B": "Period 4 fills s, d, AND p orbitals (2 + 10 + 6 = 18 electrons), while Period 2 only fills s and p (2 + 6 = 8)", "C": "Period 4 atoms are bigger so they hold more", "D": "The table was designed that way for convenience"}, "correct_answer": "B", "explanation": "Period lengths reflect orbital availability. Periods 2-3: only s and p orbitals fill (8 electrons). Period 4: the 3d orbitals become available, adding 10 transition metal elements (2 + 10 + 6 = 18 total). The table's width is determined by quantum mechanics, not design choice.", "tests_concept": "periods_and_groups"},
+        {"question": "Elements in the same group behave similarly because they have:", "options": {"A": "The same atomic weight", "B": "The same number of valence (outer shell) electrons", "C": "The same number of total electrons", "D": "The same number of neutrons"}, "correct_answer": "B", "explanation": "Chemical behavior is determined by valence electrons. Group members share the same valence electron count (same outer configuration). Group 1: all have 1 valence e⁻. Group 17: all have 7. Same valence = same reactivity pattern, even though total electron counts differ greatly.", "tests_concept": "periods_and_groups"}
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "periodic_table_basic_p4",
+      "part_title": "Reading an Element Box — Every Number Decoded",
+      "purpose": "Teach students to extract all information from a single element's box on the table",
+      "curriculum_concepts": ["element_box_reading"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Each Box Is a Data Card", "body": "Every element on the periodic table sits inside a box containing several pieces of information. Learning to read this box means you can extract an enormous amount about any element at a glance."},
+          {"type": "list", "style": "icon_list", "title": "What's in the Box", "items": [
+            {"label": "Atomic Number (top)", "icon": "hash", "body": "Number of protons. Defines which element it is. Carbon = 6 protons. Gold = 79 protons. This number NEVER changes for a given element."},
+            {"label": "Symbol (center)", "icon": "type", "body": "1-2 letter abbreviation. First letter always capitalized, second (if present) lowercase. C = carbon. Ca = calcium. Co = cobalt. CO is carbon monoxide (a compound, two letters both significant)."},
+            {"label": "Name (below symbol)", "icon": "file-text", "body": "Full element name. On some tables this is omitted to save space."},
+            {"label": "Atomic Mass (bottom)", "icon": "scale", "body": "Weighted average of all natural isotopes, in amu. Carbon: 12.01 (mostly ¹²C with some ¹³C). This IS the molar mass in g/mol — directly usable in calculations."},
+            {"label": "Electron Configuration (some tables)", "icon": "layers", "body": "Shows how electrons fill orbitals. [He] 2s² 2p⁴ for oxygen tells you: helium core + 2 electrons in 2s + 4 in 2p = 6 valence electrons."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "From atomic number alone, you can determine: number of protons, number of electrons (in a neutral atom), which period (by shell count), which group (by electron configuration), and therefore ALL chemical properties. One number → everything."},
+          {"type": "section", "title": "Hidden Information from Position", "body": "The box's POSITION reveals more than what's printed inside it. Left side = metal. Right side = nonmetal. Same column as another element = similar behavior. Same row = same number of shells. Color-coding (on most tables) shows metal/nonmetal/metalloid and sometimes state at room temperature (solid/liquid/gas)."},
+          {"type": "callout", "style": "remember", "body": "Atomic number ≠ atomic mass. Atomic number = protons (whole number, defines the element). Atomic mass = weighted average including neutrons (decimal number, used for calculations). Carbon's atomic number is exactly 6. Carbon's atomic mass is 12.01 (because of isotope averaging)."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Full Read: Decode Three Elements", "body": "Use a periodic table to extract ALL information from each element's box AND position."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "Oxygen (O)", "hints": "Atomic number: 8. Protons: 8. Electrons: 8 (neutral). Mass: 16.00. Position: Period 2, Group 16. Therefore: 2 shells, 6 valence electrons, needs 2 more for octet, nonmetal (right side). Prediction: forms O²⁻ ions or covalent bonds, highly reactive, essential for combustion and life."},
+            {"label": "Gold (Au)", "hints": "Atomic number: 79. Mass: 197.0. Period 6, Group 11. Transition metal. Dense, excellent conductor. The symbol 'Au' comes from Latin 'aurum.' Molar mass: 197.0 g/mol — used directly in calculations."},
+            {"label": "Uranium (U)", "hints": "Atomic number: 92. Mass: 238.0. Period 7, but actually an actinide (f-block). 92 protons, 92 electrons. Radioactive. Last naturally occurring element in significant quantities. Used in nuclear energy and weapons."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Every element box tells the same story: 'I have THIS many protons, I weigh approximately THIS much, and my position tells you HOW I behave.' The box is compressed information. Position is expanded meaning."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Box Is a Dating Profile", "body": "Each element's box is its dating profile. Atomic number = age (fixed, can't change). Symbol = nickname (C for carbon, Au for gold, because Latin). Atomic mass = weight (a bit fuzzy because of isotopes). Position on table = neighborhood (metals live on the left, nonmetals on the right, noble gases in the gated community on the far right)."},
+          {"type": "callout", "style": "fun_fact", "body": "Some element symbols make NO sense in English because they come from Latin or German. Au (gold) = aurum. Ag (silver) = argentum. Fe (iron) = ferrum. Pb (lead) = plumbum (yes, this is why lead pipes → 'plumbing'). W (tungsten) = wolfram. Na (sodium) = natrium. K (potassium) = kalium. Chemistry is multilingual."},
+          {"type": "section", "title": null, "body": "The atomic mass having a decimal (carbon = 12.01, not 12) confused students for decades. It's because it's an AVERAGE of isotopes. Carbon is ~99% ¹²C and ~1% ¹³C. Average: 12.01. It's like saying the 'average family has 2.3 children.' No family has 0.3 of a child, but the average is still useful."}
+        ]}
+      },
+      "questions": [
+        {"question": "An element has atomic number 17 and atomic mass 35.45. What can you determine?", "options": {"A": "It has 35 protons and 17 neutrons", "B": "It has 17 protons, 17 electrons (neutral), is in Period 3, Group 17 (halogen), and its molar mass is 35.45 g/mol", "C": "It is a noble gas with full electron shells", "D": "Nothing useful — you need more data"}, "correct_answer": "B", "explanation": "Atomic number 17 = 17 protons = 17 electrons = chlorine. Period 3 (electrons fill up to shell 3). Group 17 (halogen, 7 valence electrons). Molar mass = 35.45 g/mol (directly from atomic mass). From one number (17), you derive everything.", "tests_concept": "element_box_reading"},
+        {"question": "Why does the atomic mass of chlorine (35.45) have a decimal?", "options": {"A": "Protons have fractional mass", "B": "It's the weighted average of Cl-35 (75.8%) and Cl-37 (24.2%) isotopes — not a single atom's mass", "C": "The measurement is imprecise", "D": "Electrons contribute fractional mass"}, "correct_answer": "B", "explanation": "Atomic mass is a weighted average of natural isotopes. Chlorine: 75.8% is Cl-35 and 24.2% is Cl-37. Average: 0.758(35) + 0.242(37) = 35.45. No single chlorine atom weighs 35.45 — but a large sample averages to this value.", "tests_concept": "element_box_reading"}
+      ]
+    },
+
+    {
+      "part_number": 5,
+      "part_id": "periodic_table_basic_p5",
+      "part_title": "Metals, Nonmetals, and Metalloids — The Three Kingdoms",
+      "purpose": "Deep treatment of the metal-nonmetal divide, the staircase, and WHY the division exists",
+      "curriculum_concepts": ["metals_nonmetals"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "The Table Has a Boundary", "body": "Draw a staircase line from boron (B) down to astatine (At). Left of the staircase: metals (~80% of elements). Right: nonmetals. Straddling the line: metalloids (with properties of both). This isn't arbitrary — it reflects electron behavior. Metals have few valence electrons and LOSE them easily. Nonmetals have many valence electrons and GAIN them readily."},
+          {"type": "list", "style": "comparison", "items": [
+            {"label": "Metals (Left and Center)", "body": "Shiny (luster). Conduct heat and electricity (free electrons). Malleable and ductile (can be shaped). Solid at room temperature (except mercury). LOSE electrons to form positive ions (cations). About 80% of all elements.", "examples": "Na, Fe, Cu, Au, Al, Ti"},
+            {"label": "Nonmetals (Upper Right)", "body": "Dull (no luster). Poor conductors (insulators). Brittle as solids. Many are gases at room temperature. GAIN electrons to form negative ions (anions). Only about 18 elements.", "examples": "O, N, C, S, Cl, P, noble gases"},
+            {"label": "Metalloids (Along the Staircase)", "body": "Properties of BOTH metals and nonmetals. Semiconductors — conduct electricity somewhat (critical for electronics). Appearance can be metallic. About 6-8 elements.", "examples": "B, Si, Ge, As, Sb, Te"}
+          ]},
+          {"type": "callout", "style": "key_idea", "title": "Why the Divide Exists", "body": "Metals (left side) have 1-3 valence electrons — it's energetically easy to LOSE them. Nonmetals (right side) have 5-7 valence electrons — it's energetically easy to GAIN a few more to complete the octet. Metalloids (middle) have 4 — they can go either way. The metal-nonmetal divide is actually an ELECTRON divide."},
+          {"type": "callout", "style": "mind_blow", "body": "Silicon — a metalloid — is the element that built the digital age. Its semiconductor property (conducts under some conditions, insulates under others) makes transistors possible. Every computer chip, every phone, every digital device relies on silicon's intermediate nature — not quite metal, not quite nonmetal, perfectly in between. The most important material in modern technology sits on the staircase."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Touch the Difference", "body": "Pick up a metal object (a coin, a key, a fork). It feels cold because metal conducts heat away from your warm fingers. It's shiny. Tap it — it rings. Now touch something plastic or wooden (nonmetal). It feels warmer (poor conductor). It's dull. It doesn't ring. Every difference traces back to electron behavior: metals have delocalized electrons; nonmetals don't."},
+          {"type": "section", "title": null, "body": "Look at your phone. The case: aluminum (metal) or plastic (polymer of nonmetals). The screen: silicon dioxide glass (nonmetal + metalloid). The chip inside: silicon wafers (metalloid). The wiring: copper (metal). The battery: lithium (metal) + organic electrolyte (nonmetals). Your phone is a collaboration between all three kingdoms."},
+          {"type": "callout", "style": "key_idea", "body": "The metal-nonmetal distinction isn't just academic categorization — it determines what every material around you can DO. Conduct electricity? Metal. Insulate? Nonmetal. Sometimes conduct? Metalloid/semiconductor. Every engineered object is designed around these properties."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Kingdoms of Matter", "body": "Metals: the extroverts. They give away electrons freely, conduct everything, and are shiny (literally — their free electrons absorb and re-emit light). About 80% of elements are metals. They dominate the table like extroverts dominate a party."},
+          {"type": "section", "title": null, "body": "Nonmetals: the introverts. They hold onto their electrons tightly, don't conduct, and many prefer to exist as gases — literally maintaining distance from everything. Only about 18 elements, but they include oxygen, nitrogen, and carbon — the three most important elements for life. Quality over quantity."},
+          {"type": "section", "title": null, "body": "Metalloids: the ambiverts. Sometimes they conduct. Sometimes they don't. It depends on conditions. Silicon is the ultimate ambivert — 'I'll conduct if you apply enough voltage, but otherwise I'm insulating.' This indecisiveness accidentally enabled the entire computer revolution."},
+          {"type": "callout", "style": "fun_fact", "body": "Mercury is the only metal that's liquid at room temperature. Bromine is the only nonmetal that's liquid. Everything else: metals are solid, most nonmetals are gas (with some solid). The periodic table predicts physical state too — heavier elements with stronger metallic bonds tend to be solid with high melting points."}
+        ]}
+      },
+      "questions": [
+        {"question": "What fundamental property explains why metals conduct electricity and nonmetals don't?", "options": {"A": "Metals are heavier", "B": "Metals have delocalized (free-moving) electrons that carry charge; nonmetal electrons are localized in bonds", "C": "Nonmetals are always gases", "D": "Metals are denser"}, "correct_answer": "B", "explanation": "Metals lose valence electrons easily → these electrons become delocalized (the electron sea). Free electrons can flow = electrical conductivity. Nonmetals hold electrons tightly in covalent bonds or as lone pairs → no free electrons to carry current.", "tests_concept": "metals_nonmetals"},
+        {"question": "Silicon is a metalloid. What property makes it essential for electronics?", "options": {"A": "It's very hard and durable", "B": "It's a semiconductor — it can conduct electricity under some conditions (controllable), enabling transistors and computer chips", "C": "It's the lightest metalloid", "D": "It forms strong ionic bonds"}, "correct_answer": "B", "explanation": "Semiconductors conduct under controlled conditions (temperature, doping with other elements, applied voltage). This on/off switching ability is the foundation of transistors — the building blocks of all digital electronics. Silicon's intermediate electron behavior makes it perfect.", "tests_concept": "metals_nonmetals"}
+      ]
+    },
+
+    {
+      "part_number": 6,
+      "part_id": "periodic_table_basic_p6",
+      "part_title": "The Shape of the Table — s, p, d, f Blocks",
+      "purpose": "Deep logical treatment — WHY the table has its specific shape, orbital filling sequence, block structure",
+      "curriculum_concepts": ["block_structure"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "The Table's Shape Is Not a Design Choice", "body": "The periodic table has a distinctive shape: narrow at the top, wider in the middle, with a detached section at the bottom. This shape is a DIRECT MAP of how electron orbitals fill. Each section of the table corresponds to a type of orbital being filled."},
+          {"type": "list", "style": "icon_list", "title": "The Four Blocks", "items": [
+            {"label": "s-Block (Groups 1-2 + Helium)", "icon": "square", "body": "2 columns wide. The s orbital holds 2 electrons. Groups 1-2 are filling their outermost s orbital. Hydrogen, alkali metals, alkaline earth metals — all s-block. These elements' chemistry is dominated by losing 1-2 electrons."},
+            {"label": "p-Block (Groups 13-18)", "icon": "hexagon", "body": "6 columns wide. Three p orbitals hold 6 electrons total. Groups 13-18 are filling p orbitals. Includes metals (Al, Sn), metalloids (Si, Ge), nonmetals (C, N, O, S), halogens (F, Cl), and noble gases (Ne, Ar). The most diverse block."},
+            {"label": "d-Block (Groups 3-12)", "icon": "grid", "body": "10 columns wide. Five d orbitals hold 10 electrons. These are the TRANSITION METALS — Fe, Cu, Ag, Au, Ti, Cr, Ni. The d orbitals add 10 elements to Periods 4-7, which is why those periods are wider (18 vs 8 elements)."},
+            {"label": "f-Block (Lanthanides + Actinides)", "icon": "layers", "body": "14 columns wide. Seven f orbitals hold 14 electrons. These are the lanthanides (Period 6) and actinides (Period 7). They're placed below the main table to save space — but they belong in Period 6 and 7 between Groups 3 and 4."}
+          ]},
+          {"type": "callout", "style": "mind_blow", "title": "The Table IS Quantum Mechanics", "body": "s orbital: 1 type × 2 electrons = 2 columns. p orbitals: 3 types × 2 = 6 columns. d orbitals: 5 types × 2 = 10 columns. f orbitals: 7 types × 2 = 14 columns. Total: 2 + 6 + 10 + 14 = 32 columns (the true width of Periods 6-7). The table's shape is quantum mechanics made visible. Every column exists because a specific orbital exists."},
+          {"type": "section", "title": "The Filling Order", "body": "Orbitals don't fill in simple shell order. The actual sequence: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p. Notice: 4s fills BEFORE 3d. This is why transition metals (d-block) appear in Period 4 but are actually filling Shell 3's d orbitals. The filling order follows energy, not shell number."},
+          {"type": "callout", "style": "key_idea", "body": "The periodic table is a physical map of the aufbau (building-up) principle — each element adds one more electron to the next available orbital. Read left to right, top to bottom: you're literally watching electrons fill orbitals in energy order. The table IS the filling sequence, laid out in two dimensions."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Map the Blocks on Your Table", "body": "Color-code your periodic table: s-block = 2 columns on the left (red). d-block = 10 columns in the middle (yellow). p-block = 6 columns on the right (blue). f-block = 14 columns at the bottom (green). Now you see: the table's entire shape is determined by how many orbitals of each type exist."},
+          {"type": "list", "style": "challenge", "title": "Which Block?", "items": [
+            {"label": "Iron (Fe) — Period 4, Group 8", "hints": "Groups 3-12 = d-block. Iron is a transition metal filling 3d orbitals."},
+            {"label": "Carbon (C) — Period 2, Group 14", "hints": "Groups 13-18 = p-block. Carbon is filling 2p orbitals."},
+            {"label": "Calcium (Ca) — Period 4, Group 2", "hints": "Groups 1-2 = s-block. Calcium is filling the 4s orbital."},
+            {"label": "Uranium (U) — actinide", "hints": "f-block. Uranium is filling 5f orbitals. It belongs in Period 7."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Knowing the block tells you which orbital type is being filled, which tells you the element's electron configuration, which tells you its chemical behavior. Block → orbitals → configuration → properties. One glance at position gives you the complete story."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Table's Architecture", "body": "Think of the periodic table as an apartment building. The s-block is the narrow entrance hall (2 rooms per floor). The p-block is the main wing (6 rooms per floor). The d-block is the middle addition that gets built starting on Floor 4 (10 rooms). The f-block is the basement extension built on Floors 6-7 (14 rooms). Each 'room' is an orbital that holds 2 electrons."},
+          {"type": "callout", "style": "fun_fact", "body": "If you laid the periodic table out in its TRUE form (with f-block elements inserted where they actually belong), it would be 32 columns wide. It's printed as 18 columns with the f-block below because a 32-column table wouldn't fit on paper, posters, or classroom walls. The 'standard' periodic table is a space-saving compromise. The REAL table is wider than your desk."},
+          {"type": "section", "title": null, "body": "The fact that 4s fills before 3d is one of those quantum mechanical quirks that makes chemistry interesting. The 4s orbital is slightly lower in energy than 3d for the first few elements, so electrons prefer it. Then 3d fills. Then 4p. It's like boarding a bus: sometimes the seat in the back row is closer to the door than the front-row window seat, so you sit there first."},
+          {"type": "creator_challenge", "prompt": "Create a color-coded periodic table showing the four blocks (s, p, d, f) with clear labels explaining what orbital type each block represents and how many columns/electrons each has. Best version becomes the official block-structure reference!", "placeholder_type": "block_structure_diagram"}
+        ]}
+      },
+      "questions": [
+        {"question": "The d-block is 10 columns wide because:", "options": {"A": "There are 10 transition metals", "B": "Five d orbitals × 2 electrons each = 10 elements per period filling d orbitals", "C": "It was designed for symmetry", "D": "10 is halfway between 2 and 18"}, "correct_answer": "B", "explanation": "Each d orbital holds 2 electrons. There are 5 d orbitals (dxy, dxz, dyz, dx²-y², dz²). 5 × 2 = 10 electrons = 10 columns. The table's width directly reflects orbital mathematics. s=2, p=6, d=10, f=14 — all from orbital count × 2.", "tests_concept": "block_structure"},
+        {"question": "Why do transition metals first appear in Period 4 (not Period 3)?", "options": {"A": "Period 3 is too small for transition metals", "B": "The 3d orbitals don't begin filling until after the 4s orbital fills — so d-block elements first appear in Period 4", "C": "Transition metals need at least 4 electron shells", "D": "Period 3 only has nonmetals"}, "correct_answer": "B", "explanation": "Electron filling follows energy order, not shell order. 4s fills before 3d (4s is lower energy for the first elements). So the 3d orbitals start filling in Period 4: elements K and Ca fill 4s, then Sc through Zn fill 3d. This is why the d-block 'inserts' starting at Period 4.", "tests_concept": "block_structure"}
+      ]
+    },
+
+    {
+      "part_number": 7,
+      "part_id": "periodic_table_basic_p7",
+      "part_title": "Element Families — The Personality Groups",
+      "purpose": "Deep treatment of major families with property explanations traced to electron configuration",
+      "curriculum_concepts": ["families"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Chemical Families", "body": "Some groups have such distinctive shared behaviors that they've earned family names. Each family's personality traces directly to its electron configuration."},
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "Group 1: Alkali Metals", "icon": "flame", "body": "Li, Na, K, Rb, Cs, Fr. 1 valence electron. Softest metals — cut with a knife. Most reactive metals — explode on contact with water. Reactivity INCREASES down the group (Cs > K > Na > Li) because the valence electron is farther from the nucleus, easier to remove. Store under oil because they react with air and moisture."},
+            {"label": "Group 2: Alkaline Earth Metals", "icon": "shield", "body": "Be, Mg, Ca, Sr, Ba, Ra. 2 valence electrons. Harder and less reactive than Group 1 (2 electrons to lose is harder than 1). Still reactive — Mg burns with brilliant white light. Ca is essential for bones and teeth. Ba is used in medical imaging (barium swallow)."},
+            {"label": "Groups 3-12: Transition Metals", "icon": "grid", "body": "Fe, Cu, Ag, Au, Ni, Cr, Ti, Zn, etc. Filling d orbitals. Hard, strong, high melting points. Can form MULTIPLE charge states (Fe²⁺ AND Fe³⁺) because d electrons can be variably lost. Colored compounds (copper = blue/green, chromium = green/orange). Include most 'everyday metals' and precious metals."},
+            {"label": "Group 17: Halogens", "icon": "alert-triangle", "body": "F, Cl, Br, I, At. 7 valence electrons — one short of full. Most reactive NONMETALS. Reactivity DECREASES down the group (F > Cl > Br > I) — opposite of alkali metals! All form diatomic molecules (F₂, Cl₂, Br₂, I₂). States vary: F₂ and Cl₂ are gases, Br₂ is liquid, I₂ is solid. They aggressively GAIN one electron."},
+            {"label": "Group 18: Noble Gases", "icon": "lock", "body": "He, Ne, Ar, Kr, Xe, Rn. Full valence shells (2 for He, 8 for others). ZERO normal reactivity. Don't form compounds under ordinary conditions (Xe forms a few under extreme conditions). Used in lighting (neon signs), welding (argon shielding), balloons (helium). The 'goal' that other elements strive toward."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Alkali metal reactivity INCREASES down the group (bigger atom → valence electron farther from nucleus → easier to lose). Halogen reactivity DECREASES down the group (bigger atom → harder to attract an additional electron). These OPPOSITE trends both trace to the same cause: increasing atomic size. The effect on givers (metals) is opposite to the effect on takers (nonmetals)."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "list", "style": "challenge", "title": "Predict Family Behavior", "items": [
+            {"label": "Rubidium (Rb) — Group 1, Period 5", "hints": "Alkali metal. 1 valence electron. MORE reactive than potassium (below K). Will explode violently in water. Must be stored in inert atmosphere."},
+            {"label": "Bromine (Br) — Group 17, Period 4", "hints": "Halogen. 7 valence electrons. LESS reactive than chlorine (below Cl). Liquid at room temperature (only nonmetal liquid besides mercury). Dark reddish-brown with noxious fumes."},
+            {"label": "Krypton (Kr) — Group 18, Period 4", "hints": "Noble gas. Full outer shell. Unreactive. Used in certain fluorescent lighting. Yes, Superman's planet was named after a real element. No, it doesn't have the same properties."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Every family prediction follows the same logic: identify the group → know the valence electron count → predict bonding behavior → predict reactivity trend (increases or decreases down group, depending on metal vs nonmetal). Position → electrons → behavior."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "Alkali Metals: The Overreactors", "icon": "flame", "body": "They have ONE valence electron and they want NOTHING more than to get rid of it. Drop cesium in water and it doesn't just react — it EXPLODES. Then the hydrogen produced ALSO catches fire. These elements have zero chill. They're stored under oil because even AIR is too exciting for them."},
+            {"label": "Halogens: The Electron Thieves", "icon": "alert-triangle", "body": "Seven valence electrons. One short. They will TAKE that electron from anything that has one. Fluorine is so reactive it attacks glass, concrete, and most metals. Chlorine was used as a chemical weapon. These elements are the aggressive extroverts of the nonmetal world."},
+            {"label": "Noble Gases: The Enlightened Ones", "icon": "lock", "body": "Full outer shell. Want nothing. Need nothing. React with nothing (mostly). They're the monks of the periodic table — completely self-sufficient, observing the chaos of reactivity around them with serene indifference."},
+            {"label": "Transition Metals: The Versatile Middle", "icon": "settings", "body": "Can form multiple charges (Fe²⁺ or Fe³⁺? Both!). Make colored compounds (why gemstones have color). Include the metals civilization was built on: iron, copper, bronze, gold, silver. They're the Renaissance artists of elements — multitalented and everywhere."}
+          ]},
+          {"type": "callout", "style": "fun_fact", "body": "Francium (Fr, Group 1, Period 7) is predicted to be the most reactive alkali metal — but it's so radioactive (half-life: 22 minutes) that no one has ever accumulated enough to test its reactivity with water. The most reactive metal in theory is also the most ephemeral in practice. Chemistry's ultimate tease."}
+        ]}
+      },
+      "questions": [
+        {"question": "Alkali metal reactivity INCREASES going down Group 1 (Li < Na < K < Rb < Cs). Why?", "options": {"A": "Larger atoms have more protons pulling electrons in", "B": "Larger atoms have the valence electron farther from the nucleus — weaker attraction makes it easier to lose", "C": "Lower elements are less stable", "D": "It's just a memorized trend with no explanation"}, "correct_answer": "B", "explanation": "Going down Group 1, each element has one more electron shell. The single valence electron is farther from the nucleus, shielded by more inner electrons. Weaker attraction → easier to remove → more reactive. Cs's valence electron is barely held — hence explosive reactivity.", "tests_concept": "families"},
+        {"question": "Halogen reactivity DECREASES going down Group 17 (F > Cl > Br > I). This is the OPPOSITE of alkali metals. Why?", "options": {"A": "Halogens are nonmetals so everything is opposite", "B": "Larger halogen atoms have the valence shell farther from the nucleus — harder to attract an additional electron into a more distant shell", "C": "Fluorine is smaller so it's lighter and faster", "D": "It's coincidental"}, "correct_answer": "B", "explanation": "Halogens GAIN electrons. A smaller atom (F) holds the incoming electron closer to the nucleus = stronger attraction = more reactive. Larger atoms (I) have the outer shell farther away = weaker pull on the incoming electron = less reactive. Same principle (atomic size) but opposite effect because givers vs takers.", "tests_concept": "families"}
+      ]
+    },
+
+    {
+      "part_number": 8,
+      "part_id": "periodic_table_basic_p8",
+      "part_title": "The Prediction Engine — Gaps, Discovery, and Synthetic Elements",
+      "purpose": "The table as a prediction tool — historical gaps, modern synthetic elements, element 119+",
+      "curriculum_concepts": ["periods_and_groups", "families"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Mendeleev's Predictions — In Detail", "body": "Mendeleev didn't just leave gaps — he wrote detailed predictions for three missing elements he called eka-boron, eka-aluminum, and eka-silicon ('eka' = Sanskrit for 'one beyond')."},
+          {"type": "list", "style": "two_column", "title": "Eka-Silicon vs Germanium (Discovered 1886)", "items": [
+            {"term": "Mendeleev predicted (1871)", "definition": "Atomic weight ~72. Density ~5.5 g/cm³. Gray metal. Oxide formula XO₂, density ~4.7. Chloride formula XCl₄, boiling point under 100°C."},
+            {"term": "Germanium actual (Winkler, 1886)", "definition": "Atomic weight 72.6. Density 5.32 g/cm³. Gray metal. Oxide GeO₂, density 4.70. Chloride GeCl₄, boiling point 86°C."}
+          ]},
+          {"type": "callout", "style": "mind_blow", "body": "Mendeleev predicted the density of an element's oxide to within 0.00 g/cm³ — fifteen years before the element was found. This level of accuracy from a table position is what convinced the scientific world that periodicity was real, not just a clever arrangement."},
+          {"type": "section", "title": "Synthetic Elements: Beyond Uranium", "body": "Elements 1-92 (hydrogen through uranium) occur naturally. Elements 93-118 are SYNTHETIC — created in laboratories by smashing lighter nuclei together. Neptunium (93) and plutonium (94) were first made in 1940-41. The latest: oganesson (118), confirmed in 2006, named after nuclear physicist Yuri Oganessian."},
+          {"type": "section", "title": "Element 119 and Beyond", "body": "Scientists are actively trying to create element 119 (eka-francium). The periodic table predicts it should be an alkali metal — ultra-reactive. But at this size, relativistic effects (electrons moving near the speed of light) may make its behavior deviate from predictions. The table's patterns may break down at the frontier. We're testing the limits of periodicity itself."},
+          {"type": "callout", "style": "key_idea", "body": "The periodic table continues to make predictions about elements that don't exist yet. Its patterns guide where to look and what to expect. Even when predictions might fail (at ultra-heavy elements), the table tells us WHERE they'll fail and WHY — because we understand the quantum mechanical basis for the pattern."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Make Your Own Prediction", "body": "Element 119 hasn't been created yet. Using the periodic table's patterns, predict its properties."},
+          {"type": "list", "style": "numbered_steps", "items": [
+            {"label": "Position: Period 8, Group 1", "body": "Below francium. First element in a new period."},
+            {"label": "Block: s-block", "body": "Filling the 8s orbital. 1 valence electron."},
+            {"label": "Category: Alkali metal", "body": "Should be the most reactive metal ever — 1 valence electron, very far from nucleus."},
+            {"label": "State: Probably solid metal", "body": "All Group 1 elements are solid metals (except hydrogen)."},
+            {"label": "Caveat: Relativistic effects", "body": "At 119 protons, inner electrons move at ~80% the speed of light. This changes orbital shapes and energies. Predictions may not hold perfectly."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "You just predicted the properties of an element that doesn't exist yet — using the same method Mendeleev used 150 years ago. The periodic table isn't just a catalog of what we know. It's a tool for predicting what we haven't yet discovered."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Mendeleev Was Basically a Prophet", "body": "He predicted three elements in 1871. All three were found within 15 years. All matched his predictions nearly exactly. If he'd been alive today, he'd be a data scientist making a fortune in predictive analytics. Instead, he got an element named after him: mendelevium (Md, element 101). Not a bad legacy."},
+          {"type": "callout", "style": "fun_fact", "body": "The heaviest synthetic elements exist for fractions of a second. Oganesson (118) has a half-life of about 0.7 milliseconds. Scientists create a few atoms, detect their decay products, and declare success. It's like baking a cake that evaporates before you can taste it — but you know it existed because you smelled it briefly."},
+          {"type": "section", "title": null, "body": "Element 119 might break the periodic table's patterns because of relativistic effects — at 119 protons, the inner electrons are moving so fast that Einstein's relativity changes their behavior. The periodic table might need modifications at the frontier. We built a map so good that finding its edge is a major scientific quest."}
+        ]}
+      },
+      "questions": [
+        {"question": "Mendeleev predicted eka-silicon would have density ~5.5 g/cm³. Germanium (discovered 1886) has density 5.32. What does this accuracy demonstrate?", "options": {"A": "Mendeleev got lucky", "B": "Periodicity is a real, quantitative pattern — element properties are so predictable from position that density can be estimated to within 3% before discovery", "C": "All elements near silicon have similar density", "D": "Density is the same for all elements in the same group"}, "correct_answer": "B", "explanation": "Mendeleev extrapolated from neighboring elements' properties. The accuracy (~3% error) proves periodicity isn't vague — it's quantitatively predictive. Position on the table constrains properties narrowly enough to predict density, melting point, oxide formulas, and more.", "tests_concept": "periods_and_groups"},
+        {"question": "Why might element 119's properties deviate from periodic table predictions?", "options": {"A": "The table only works for elements up to 118", "B": "At 119 protons, inner electrons move near the speed of light — relativistic effects change orbital shapes and energies, potentially altering expected chemical behavior", "C": "Element 119 would be a gas, not a metal", "D": "Nobody can predict properties of new elements"}, "correct_answer": "B", "explanation": "Relativistic quantum effects become significant for super-heavy elements. Inner electrons traveling at ~80% light speed become more massive, contracting s and p orbitals while expanding d and f orbitals. This could make element 119 less reactive than expected — potentially the first deviation from the periodic law.", "tests_concept": "periods_and_groups"}
+      ]
+    },
+
+    {
+      "part_number": 9,
+      "part_id": "periodic_table_basic_p9",
+      "part_title": "Why Periodicity Exists — The Deepest Question",
+      "purpose": "Philosophical capstone — what does periodicity reveal about the nature of reality?",
+      "curriculum_concepts": ["periodicity_meaning"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "The Question Behind the Table", "body": "We've learned WHAT the periodic table shows and HOW to read it. But there's a deeper question: WHY does periodicity exist at all? Why do element properties repeat in cycles? The answer connects chemistry to the deepest physics of the universe."},
+          {"type": "section", "title": "Periodicity Exists Because Quantum Mechanics Exists", "body": "Electrons can only exist in specific energy levels (shells) and specific shapes (orbitals). These aren't arbitrary — they're solutions to the Schrödinger equation, which governs all quantum systems. The shell structure is a mathematical consequence of the wave nature of electrons. Electrons are standing waves confined around nuclei, and only certain wave patterns are stable — just like a guitar string can only vibrate at certain frequencies."},
+          {"type": "callout", "style": "philosophy", "body": "The periodic table is what happens when wave mechanics meets nuclear charge. Each new proton adds one electron. Each electron finds the lowest available orbital. When one set of orbitals fills, a new shell begins — and the pattern of filling repeats. Periodicity is the chemical echo of quantum constraints on electron waves. It's not that elements CHOOSE to be periodic. It's that the mathematics of standing waves FORCES them to be."},
+          {"type": "section", "title": "Universal Implications", "body": "The quantum rules that produce periodicity are the same everywhere in the universe. The Schrödinger equation doesn't change in other galaxies. This means: the periodic table is universal. Any civilization, anywhere, that discovers the elements will find the same patterns. Periodicity isn't a human discovery about chemistry — it's a mathematical truth about how matter organizes itself at the quantum level."},
+          {"type": "callout", "style": "mind_blow", "body": "Consider: the fact that sodium and potassium behave the same way is a consequence of the fact that the number π exists, that wave equations have discrete solutions, and that the universe has exactly the physical constants it has. The periodic table connects atomic chemistry to the mathematical structure of reality itself. It's not just a chart — it's evidence that the universe operates according to deep, elegant mathematical rules."},
+          {"type": "section", "title": "The Table as Foundation", "body": "Every topic in this course — bonding, reactions, stoichiometry, acids, redox, organic chemistry — is a consequence of how elements behave. And how elements behave is determined by their position on the periodic table. And their position reflects electron configuration. And electron configuration reflects quantum mechanics. The periodic table is the bridge between the quantum world and the macroscopic chemistry you see, touch, and live in."},
+          {"type": "callout", "style": "key_idea", "body": "The periodic table is not a list of facts to memorize. It is a compressed representation of quantum mechanics, encoded in a two-dimensional grid, that predicts the behavior of all matter in the universe. Learn to read it deeply, and every subsequent chemistry topic becomes a footnote to this single, extraordinary pattern."},
+          {"type": "transition", "body": "With the periodic table as your foundation, we're ready to zoom in on the specific electrons that drive all bonding: valence electrons. Then we'll explore the quantitative trends (size, electronegativity, ionization energy) that change predictably across the table. The table has given you the map — now we'll explore its landscape in detail."},
+          {"type": "creator_challenge", "prompt": "Create a visual that captures the MEANING of periodicity — not just the table itself, but WHY properties repeat. Show the connection between electron shells, orbital filling, and the repeating pattern of properties. Could be abstract, scientific, artistic, or philosophical. Best interpretation becomes the course's defining image for what periodicity means.", "placeholder_type": "periodicity_meaning_visual"}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "The Full Read — Putting It All Together", "body": "Pick any element. From just its atomic number, trace the full chain: atomic number → electron count → electron configuration (which shells, which orbitals) → block on table → group → family → predicted properties (metal/nonmetal, reactivity, bonding, physical state). Every prediction flows from one number."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "Element 20 (Calcium)", "hints": "20 electrons: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s². Period 4, Group 2. s-block. Alkaline earth metal. 2 valence electrons. Loses 2e⁻ to form Ca²⁺. Reactive metal but less than Group 1. Found in bones, teeth, milk, limestone. Silver-white solid."},
+            {"label": "Element 35 (Bromine)", "hints": "35 electrons: [Ar] 3d¹⁰ 4s² 4p⁵. Period 4, Group 17. p-block. Halogen. 7 valence electrons. Gains 1e⁻ to form Br⁻. Reactive nonmetal. Dark reddish-brown LIQUID (one of only 2 elements liquid at room temp). Noxious fumes. Used in flame retardants."},
+            {"label": "Element 47 (Silver)", "hints": "47 electrons: [Kr] 4d¹⁰ 5s¹. Period 5, Group 11. d-block. Transition metal. Best electrical conductor of all elements. Has been used as currency for millennia. Tarnishes (reacts with sulfur in air). Symbol Ag from Latin argentum."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "You've just performed the same intellectual operation that powers all of chemistry: starting from atomic number, deducing electron configuration, and predicting observable properties. The periodic table makes this possible for every one of the 118 known elements — and any that will be discovered in the future."},
+          {"type": "transition", "body": "Next: valence electrons in detail — the specific outer electrons that participate in bonding — and periodic trends that quantify how properties change across the table."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Table Is the Universe's Source Code", "body": "If the universe were a software application, the periodic table would be its source code. The quantum rules are the programming language. The elements are the classes. Their properties are the methods. And every material object in existence — from stars to smartphones — is a runtime instance built from those classes. You just learned to read the source code of matter."},
+          {"type": "callout", "style": "fun_fact", "body": "Richard Feynman (Nobel physicist) was once asked what single piece of scientific knowledge he'd pass to a post-apocalyptic civilization. His answer: 'All things are made of atoms.' The periodic table is the next sentence in that message — 'and here's how those atoms are organized, and from this organization, you can derive all of chemistry.' Two ideas. All of material science."},
+          {"type": "section", "title": null, "body": "You started this lesson looking at a colorful poster on a wall. You're ending it understanding that the poster is a compressed map of quantum mechanics, a prediction engine for all matter, a universal truth valid across the cosmos, and the single most important reference document in science. Not bad for a bunch of colored boxes."},
+          {"type": "transition", "body": "Armed with the periodic table, everything else in chemistry is filling in details. Valence electrons and periodic trends are next — the quantitative depth that turns 'this element behaves like that one' into 'here's exactly how much more reactive, how much smaller, and how much harder it grips electrons.'"}
+        ]}
+      },
+      "questions": [
+        {"question": "Why do element properties repeat periodically?", "options": {"A": "Scientists arranged them that way for convenience", "B": "It's a coincidence with no deeper explanation", "C": "Electron orbitals fill in a repeating pattern — when one set of orbitals is full, a new shell begins with the same orbital sequence, producing the same sequence of properties", "D": "Elements were created in order during the Big Bang"}, "correct_answer": "C", "explanation": "Periodicity = repeating electron configuration pattern. Each period starts filling s, then p (and d, f in later periods). When the outermost orbitals are full (noble gas), the next element starts a new shell with the same s orbital. Same orbital filling sequence → same property sequence → periodicity. It's quantum mechanics, not convention.", "tests_concept": "periodicity_meaning"},
+        {"question": "Would an alien civilization discover the same periodic table?", "options": {"A": "No — the periodic table is a human invention", "B": "Yes — the quantum rules governing electron behavior are universal physical laws, so any civilization studying elements would find the same patterns", "C": "Only if they use the same instruments", "D": "Only for elements lighter than iron"}, "correct_answer": "B", "explanation": "The Schrödinger equation is a universal law of physics. Electron orbital structure, shell filling, and therefore periodicity are consequences of this equation. Any civilization anywhere in the universe, studying the same 118 elements, would discover the same repeating patterns and organize them the same way. The periodic table is a universal truth.", "tests_concept": "periodicity_meaning"}
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 16,
+    "block_types_used": ["section", "callout", "list", "visual", "transition", "creator_challenge"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember", "mind_blow", "philosophy"],
+    "list_styles_used": ["icon_list", "two_column", "comparison", "challenge", "numbered_steps"],
+    "curriculum_concepts_covered": ["periods_and_groups", "metals_nonmetals", "families", "element_box_reading", "block_structure", "periodicity_meaning"],
+    "bridges_from": "atomic_structure + electron_shells",
+    "bridges_to": "valence_electrons + periodic_trends",
+    "extended_treatment": true,
+    "extended_reason": "The periodic table is the keystone concept of chemistry. Deep philosophical, logical, and experiential treatment builds permanent intuition that transforms every subsequent topic.",
+    "new_callout_style": "philosophy — used for deeper meaning blocks that connect chemistry to the nature of reality"
+  }
+}

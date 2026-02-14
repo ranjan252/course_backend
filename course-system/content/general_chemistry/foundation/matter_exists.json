@@ -1,0 +1,698 @@
+{
+  "course": "General Chemistry",
+  "topic": "1_matter_and_atoms",
+  "subtopic": "1.1_what_is_matter",
+  "foundation_id": "matter_exists",
+  "foundation_title": "Matter Exists",
+  "foundation_tier": 0,
+  "prerequisites": [],
+  "curriculum_concepts_covered": [
+    "states_of_matter",
+    "pure_substances_vs_mixtures",
+    "elements_vs_compounds"
+  ],
+  "total_parts": 4,
+
+  "rendering_guide": {
+    "section": "Render as a headed paragraph block with spacing above/below",
+    "callout": "Render as a highlighted box (colored background, icon optional). Types: definition, key_idea, fun_fact, remember",
+    "key_terms": "Render inline bold or with tooltip showing definition",
+    "transition": "Render as italic bridge text between sections, lighter font weight",
+    "visual": "Placeholder for diagram/illustration — describes what to show",
+    "list": "Render as a styled list (numbered or bulleted based on type)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "matter_exists_p1",
+      "part_title": "Why Should I Care?",
+      "purpose": "Hook — emotional connection, curiosity, relevance",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Right now, you're surrounded by matter — and you're made of it too. The screen you're reading this on, the air filling your lungs, the water in the glass next to you, even the smell of food cooking in the next room. All of it is matter."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Every single thing in the universe — from a tiny grain of sand to a massive star billions of light years away — follows the same basic rules about matter."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The same principles that explain why ice melts in your drink also explain how planets form. Chemistry is just the study of what stuff is made of and how it behaves. And it starts right here, with the simplest question science has ever asked: what IS stuff?"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Stop reading for a second. Look around you. Pick three things you can see right now — maybe your phone, a wall, and a window."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Now think about three things you CAN'T see but know are there — the air between you and that wall, the oxygen entering your lungs right now, the carbon dioxide you just exhaled. Every single one of those things — visible or invisible — is made of the same kind of stuff, following the same rules."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Put your hand flat on the nearest surface. Feel its hardness or softness, its temperature. Now wave your hand through the air in front of you. One resists your touch, the other doesn't — but both are made of matter."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "By the end of this lesson, you'll understand why they behave so differently despite being the same kind of 'stuff' at the most fundamental level."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Quick question: what do you, a rock, a fart, and the sun all have in common? You're all made of matter. Congratulations — you just learned the first rule of chemistry. Everything is stuff."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Your phone is stuff. The air is stuff. That questionable thing in the back of your fridge that's been there since last month? Also stuff — probably evolving into NEW stuff, but still stuff."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Chemistry is basically the science of asking 'what is this stuff, why does it do that, and should I be concerned?' The answer to the last question is sometimes yes."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "But before we get to exploding metals and acids that eat through tables (that's coming, I promise), we need to start with the basics: what even IS this 'stuff' we call matter? Spoiler: it's everything. Literally everything. Even the things you can't see. Especially the things you can't see."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "matter_exists_p2",
+      "part_title": "The Three States of Matter",
+      "purpose": "Core teaching — define matter, three states, particle behavior, state changes",
+      "curriculum_concepts": ["states_of_matter"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Matter",
+              "body": "Anything that has mass and takes up space."
+            },
+            {
+              "type": "section",
+              "title": "It's Everywhere",
+              "body": "A rock has mass — you can feel its weight. It takes up space — you can't put your hand through it. So it's matter. Air has mass too — a basketball weighs slightly more inflated than deflated. And air takes up space — blow into a sealed bag and it puffs up. So air is also matter, even though you can't see it."
+            },
+            {
+              "type": "section",
+              "title": "Three States, One Difference",
+              "body": "Matter exists in three familiar states: solid, liquid, and gas. The difference between them comes down to how their particles behave."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Solid",
+                  "icon": "cube",
+                  "body": "Particles packed tightly in a fixed arrangement. They vibrate in place but don't move around. This is why solids hold their shape — a rock, a phone, an ice cube."
+                },
+                {
+                  "label": "Liquid",
+                  "icon": "droplet",
+                  "body": "Particles close together but free to slide past each other. That's why liquids flow and take the shape of their container. Pour water into a glass, bowl, or puddle — it fills whatever shape it's given."
+                },
+                {
+                  "label": "Gas",
+                  "icon": "wind",
+                  "body": "Particles spread far apart, moving rapidly in all directions. They fill any space available — a gas released in one corner of a room eventually reaches every corner."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Same Stuff, Different Energy",
+              "body": "These three states are the SAME matter behaving differently based on energy. Water is the perfect example: ice (solid) → water (liquid) → steam (gas). Same H₂O molecules. Nothing created or destroyed. Just energy changing how particles interact."
+            },
+            {
+              "type": "section",
+              "title": "State Changes Have Names",
+              "body": "Each transition has a specific name:"
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Melting", "definition": "Solid → Liquid"},
+                {"term": "Freezing", "definition": "Liquid → Solid"},
+                {"term": "Evaporation / Boiling", "definition": "Liquid → Gas"},
+                {"term": "Condensation", "definition": "Gas → Liquid"},
+                {"term": "Sublimation", "definition": "Solid → Gas (e.g. dry ice)"},
+                {"term": "Deposition", "definition": "Gas → Solid (e.g. frost forming)"}
+              ]
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Start With Ice",
+              "body": "Go to your freezer and pull out an ice cube. Hold it in your palm. It's hard, it holds its shape, and it's cold. Inside this cube, billions of water molecules are locked in a hexagonal crystal — each one vibrating slightly but held in place by bonds to its neighbors. That's why the cube keeps its shape."
+            },
+            {
+              "type": "section",
+              "title": "Feel It Melt",
+              "body": "Keep holding it. Feel the cold water starting to pool in your hand — the ice is melting. The energy from your warm skin is transferring into the ice, and molecule by molecule, the crystal breaks apart. The molecules start sliding over each other. That puddle in your hand is the exact same molecules — they just have enough energy now to move freely."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Same molecule. Same H₂O. Ice in your hand → water in your palm → steam above a pot. Three states, one substance, and the only difference was energy."
+            },
+            {
+              "type": "section",
+              "title": "Watch It Boil",
+              "body": "Now imagine putting that puddle in a pot on the stove. As heat pours in, water molecules move faster. Some at the surface launch free — that's evaporation. Crank up the heat and bubbles form INSIDE the liquid — molecules in the middle become gas right there. That's boiling. The steam rising is water molecules flying freely in every direction."
+            },
+            {
+              "type": "section",
+              "title": "Bonus: Frost",
+              "body": "Ever seen frost on a window on a cold morning? That's water vapor from the air going directly to solid ice crystals on the glass — skipping the liquid phase entirely. That's deposition, and it's how snowflakes form too."
+            },
+            {
+              "type": "visual",
+              "description": "Diagram: Single H₂O molecule shown in three states — locked in crystal (solid), sliding freely (liquid), flying apart (gas). Arrow showing energy increasing left to right.",
+              "placeholder_type": "state_change_diagram"
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Matter",
+              "body": "Anything that has mass and takes up space — which means your ex's ego definitely counts."
+            },
+            {
+              "type": "section",
+              "title": "The Party Analogy",
+              "body": "Matter comes in three states, and the easiest way to remember them is with a party analogy."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Solids = Military Formation",
+                  "icon": "shield",
+                  "body": "Everyone stands in their assigned spot, barely moving, very rigid, very disciplined. That's why a rock is hard — its particles are basically standing at attention."
+                },
+                {
+                  "label": "Liquids = Cocktail Party",
+                  "icon": "wine-glass",
+                  "body": "Everyone is mingling, sliding past each other, moving around the room freely — but nobody's leaving the building. That's why water flows."
+                },
+                {
+                  "label": "Gases = Food Fight",
+                  "icon": "zap",
+                  "body": "Complete chaos. Particles flying in every direction at hundreds of meters per second, smashing into walls, filling every corner. There are no rules anymore."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "You can convert between all three just by adding or removing energy. Ice = military formation. Warm it up → cocktail party (water). Heat more → food fight (steam). Same people, different energy levels."
+            },
+            {
+              "type": "section",
+              "title": "Fancy Names for Simple Things",
+              "body": "State changes have fancy names:"
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Melting", "definition": "Formation breaks down"},
+                {"term": "Freezing", "definition": "Party gets shut down"},
+                {"term": "Evaporation", "definition": "Guests escape through windows"},
+                {"term": "Condensation", "definition": "Escapees get caught and brought back"},
+                {"term": "Sublimation", "definition": "Straight from military to food fight — dry ice does this"}
+              ]
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You leave a glass of water on the counter and the next day the water level has dropped. No one drank it. What happened?",
+          "options": {
+            "A": "The water was destroyed — it no longer exists",
+            "B": "Water molecules at the surface gained enough energy to escape into the air as gas (evaporation)",
+            "C": "The glass slowly absorbed the water through its walls",
+            "D": "Gravity pulled the water molecules down through the bottom of the glass"
+          },
+          "correct_answer": "B",
+          "explanation": "Even at room temperature, some water molecules at the surface have enough energy to escape into the air as gas. This is evaporation — a state change from liquid to gas. The water isn't gone; it's in the air.",
+          "tests_concept": "states_of_matter"
+        },
+        {
+          "question": "Dry ice (solid CO₂) sits on a table and 'smokes' — the solid shrinks but no liquid puddle forms. What state change is this?",
+          "options": {
+            "A": "Melting — the solid is turning into liquid that evaporates instantly",
+            "B": "Decomposition — the CO₂ is breaking into carbon and oxygen",
+            "C": "Sublimation — the solid is converting directly into gas, skipping liquid",
+            "D": "Condensation — the cold surface is attracting gas from the air"
+          },
+          "correct_answer": "C",
+          "explanation": "Sublimation is the direct change from solid to gas without passing through liquid. Dry ice does this at normal atmospheric pressure. The visible 'smoke' is actually cold CO₂ gas condensing water vapor in the surrounding air.",
+          "tests_concept": "states_of_matter"
+        },
+        {
+          "question": "Steam and liquid water are both H₂O. What actually changes between the two states?",
+          "options": {
+            "A": "The chemical formula changes — steam has more oxygen",
+            "B": "The molecules break apart into individual atoms",
+            "C": "Nothing about the molecules — they just move faster and spread farther apart",
+            "D": "The hydrogen and oxygen switch positions inside the molecule"
+          },
+          "correct_answer": "C",
+          "explanation": "H₂O molecules are identical in ice, liquid water, and steam. The only difference is energy — more energy means faster movement and greater distance between molecules. State changes are physical, not chemical.",
+          "tests_concept": "states_of_matter"
+        }
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "matter_exists_p3",
+      "part_title": "Classifying Matter",
+      "purpose": "Pure substances vs mixtures, elements vs compounds",
+      "curriculum_concepts": ["pure_substances_vs_mixtures", "elements_vs_compounds"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Big Question",
+              "body": "Now that you know matter exists in three states, the next question is: what KIND of matter is it? Chemistry classifies all matter into a simple hierarchy."
+            },
+            {
+              "type": "section",
+              "title": "First Split: Pure or Mixed?",
+              "body": "A pure substance has a fixed, definite composition — every sample is identical. Pure water is always H₂O. Pure table salt is always NaCl. You can't separate a pure substance into simpler parts by physical means like filtering or evaporating."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "A mixture is two or more substances physically combined but not chemically bonded. Saltwater is a mixture — salt and water sharing the same glass but not chemically joined. You can separate them by boiling off the water."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Homogeneous Mixtures",
+                  "body": "Look uniform throughout — you can't see individual components. Saltwater, air, bronze. Also called solutions.",
+                  "examples": "Saltwater, air, bronze, coffee"
+                },
+                {
+                  "label": "Heterogeneous Mixtures",
+                  "body": "Have visible different parts you can distinguish. Trail mix, salad, sand with pebbles.",
+                  "examples": "Trail mix, pizza, cereal in milk"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Second Split: Element or Compound?",
+              "body": "If something IS a pure substance, is it an element or a compound?"
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Element",
+              "body": "A substance made of only one type of atom. Gold, oxygen, aluminum — each contains only one kind of atom. About 118 known elements exist, organized on the periodic table."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Compound",
+              "body": "A substance made of two or more different elements chemically bonded in a fixed ratio. Water (H₂O), salt (NaCl), sugar (C₁₂H₂₂O₁₁). Properties are completely different from the component elements."
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Mixture vs Compound",
+              "body": "In a mixture, substances keep their own properties and can be separated physically. In a compound, elements lose their individual properties and can only be separated by chemical reactions."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Kitchen Lab",
+              "body": "Let's classify matter using what's in your kitchen right now."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Tap Water → Mixture",
+                  "icon": "glass-water",
+                  "body": "Surprise — tap water is actually a mixture. It contains dissolved minerals, chlorine, and trace elements. Looks pure (homogeneous), but it's not just H₂O. Distilled water from a store is close to a pure substance."
+                },
+                {
+                  "label": "Table Salt → Compound",
+                  "icon": "salt-shaker",
+                  "body": "NaCl is a pure substance — sodium and chlorine chemically bonded in every crystal. You can't separate them by filtering or boiling — you'd need electricity (electrolysis) to break the chemical bonds."
+                },
+                {
+                  "label": "Italian Dressing → Heterogeneous Mixture",
+                  "icon": "bottle",
+                  "body": "See how the oil floats on the vinegar? Visible layers = heterogeneous. Shake it and it temporarily looks uniform, but separates again because the components aren't chemically bonded."
+                },
+                {
+                  "label": "Aluminum Foil → Element",
+                  "icon": "foil",
+                  "body": "Every atom is aluminum (Al). Can't be broken down into anything simpler by any chemical means."
+                },
+                {
+                  "label": "Sugar → Compound",
+                  "icon": "candy",
+                  "body": "C₁₂H₂₂O₁₁ — carbon, hydrogen, and oxygen chemically bonded. Doesn't look, taste, or behave like black carbon, invisible hydrogen, or breathable oxygen."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The whole classification in your kitchen: Aluminum foil → Element. Table salt → Compound. Tap water → Homogeneous mixture. Salad dressing → Heterogeneous mixture."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Classification Game",
+              "body": "All matter falls into a simple classification system, and once you see it, you can't unsee it. It's like learning to spot plot holes in movies."
+            },
+            {
+              "type": "section",
+              "title": "Question 1: One Thing or Faking It?",
+              "body": "If it's genuinely ONE thing — same composition everywhere, no separating with a coffee filter — it's a PURE SUBSTANCE. Water, salt, gold. Consistent. Reliable. The type-A personality of the matter world."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "If it's multiple things hanging out together without being chemically committed — that's a MIXTURE."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Homogeneous = Con Artists",
+                  "body": "They LOOK like one thing but they're secretly several. Saltwater looks like water. Air looks like nothing. Bronze looks like one metal. All mixtures in disguise.",
+                  "examples": "Saltwater, air, bronze"
+                },
+                {
+                  "label": "Heterogeneous = Not Even Trying",
+                  "body": "Trail mix — you can see the raisins. Pizza — clearly different toppings. No deception here.",
+                  "examples": "Trail mix, salad, pizza"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Question 2: Loner or Married?",
+              "body": "Pure substances split further."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Elements = Loners",
+                  "body": "Gold is just gold atoms. Oxygen is just oxygen pairs. Can't be broken down. 'I am who I am.'",
+                  "examples": "Gold, aluminum, helium"
+                },
+                {
+                  "label": "Compounds = Marriages",
+                  "body": "Chemically bonded, new identity, inseparable without a chemical divorce lawyer (electrolysis).",
+                  "examples": "Water (H₂O), salt (NaCl), sugar"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Sodium EXPLODES in water. Chlorine is TOXIC GAS. Together as NaCl? Goes great on fries. Compounds are the ultimate glow-up."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You dissolve sugar into hot tea. Is the sweet tea a pure substance or a mixture?",
+          "options": {
+            "A": "Pure substance — it looks uniform",
+            "B": "Mixture — sugar and water are physically combined but not chemically bonded",
+            "C": "Compound — the sugar and water chemically reacted",
+            "D": "Element — tea comes from a plant, so it's natural"
+          },
+          "correct_answer": "B",
+          "explanation": "Sweet tea is a homogeneous mixture (solution). It looks uniform, but the sugar and water are just physically mixed. You could boil off the water and recover the sugar — proving they never chemically bonded.",
+          "tests_concept": "pure_substances_vs_mixtures"
+        },
+        {
+          "question": "Sodium is explosive. Chlorine is a poisonous gas. But NaCl (table salt) is safe to eat. What does this tell you?",
+          "options": {
+            "A": "The dangerous properties cancel out through dilution",
+            "B": "Compounds have entirely new properties — chemical bonding creates a new substance",
+            "C": "Salt is a mixture that keeps the elements safely separated",
+            "D": "Cooking removes the dangerous parts"
+          },
+          "correct_answer": "B",
+          "explanation": "When elements form a compound, they create an entirely new substance with unique properties. NaCl is not 'sodium + chlorine side by side' — it's a new chemical entity with different behavior.",
+          "tests_concept": "elements_vs_compounds"
+        },
+        {
+          "question": "Which of these is an element?",
+          "options": {
+            "A": "Water (H₂O)",
+            "B": "Air",
+            "C": "A sheet of aluminum foil (Al)",
+            "D": "Table sugar (C₁₂H₂₂O₁₁)"
+          },
+          "correct_answer": "C",
+          "explanation": "Aluminum foil = only aluminum atoms = one type of atom = element. Water = compound. Air = mixture. Sugar = compound.",
+          "tests_concept": "elements_vs_compounds"
+        },
+        {
+          "question": "Sand and iron filings are mixed in a bowl. A magnet pulls out all the iron, leaving pure sand. What does this prove?",
+          "options": {
+            "A": "It was a compound that the magnet broke apart",
+            "B": "It was a mixture — components kept their properties and separated physically",
+            "C": "The magnet caused a chemical reaction",
+            "D": "It was a heterogeneous element"
+          },
+          "correct_answer": "B",
+          "explanation": "In a mixture, each component keeps its own properties. Iron kept its magnetism even when mixed with sand. Physical separation worked because no chemical bonds held them together.",
+          "tests_concept": "pure_substances_vs_mixtures"
+        }
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "matter_exists_p4",
+      "part_title": "The Big Picture",
+      "purpose": "Tie together, show classification tree, bridge to particles_idea",
+      "curriculum_concepts": ["states_of_matter", "pure_substances_vs_mixtures", "elements_vs_compounds"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Complete Map",
+              "body": "All matter in the universe fits into one classification tree."
+            },
+            {
+              "type": "visual",
+              "description": "Classification tree diagram: MATTER → Pure Substance (Element / Compound) + Mixture (Homogeneous / Heterogeneous)",
+              "placeholder_type": "classification_tree",
+              "tree": {
+                "root": "MATTER (has mass + takes up space)",
+                "branch_1": {
+                  "label": "PURE SUBSTANCE (fixed composition)",
+                  "children": [
+                    "ELEMENT — one type of atom (gold, oxygen, carbon)",
+                    "COMPOUND — two+ elements chemically bonded (water, salt, sugar)"
+                  ]
+                },
+                "branch_2": {
+                  "label": "MIXTURE (two+ substances physically combined)",
+                  "children": [
+                    "HOMOGENEOUS — uniform throughout (saltwater, air, bronze)",
+                    "HETEROGENEOUS — visible different parts (trail mix, salad, granite)"
+                  ]
+                }
+              }
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Any state — solid, liquid, or gas — can be an element, compound, or mixture. Ice is a solid compound. Mercury is a liquid element. Air is a gaseous mixture. State and classification are independent labels."
+            },
+            {
+              "type": "transition",
+              "body": "If everything is made of matter, and matter is made of elements, and elements are made of atoms — then understanding atoms is the key to everything. The next step: why does matter behave the way it does? What's happening at the particle level when ice melts, sugar dissolves, or gas fills a room?"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Turn — Find Each Type",
+              "body": "Before you move on, look around your room and find one example of each:"
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "items": [
+                {"label": "An element", "hints": "Copper wire in your charger, gold jewelry, aluminum foil, helium balloon"},
+                {"label": "A compound", "hints": "Water, salt, sugar, the plastic of a bag (polyethylene)"},
+                {"label": "A homogeneous mixture", "hints": "Air, soda, steel spoon (iron + carbon alloy)"},
+                {"label": "A heterogeneous mixture", "hints": "Cereal in milk, pizza, soil with rocks"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Pick any one object. What state is it in? If you heated it enough, what state would it become? Could you physically separate its components, or would you need a chemical reaction?"
+            },
+            {
+              "type": "transition",
+              "body": "You just analyzed matter like a chemist. Next up: WHY does matter behave the way it does? What's INSIDE it that makes solids rigid, liquids flow, and gases expand? The answer takes us to the particle level."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Family Tree of Stuff",
+              "body": "ALL matter fits on one family tree — and honestly it's simpler than most actual family trees."
+            },
+            {
+              "type": "visual",
+              "description": "Humorous classification tree with personality labels",
+              "placeholder_type": "classification_tree_funny",
+              "tree": {
+                "root": "MATTER",
+                "branch_1": {
+                  "label": "PURE SUBSTANCES (the committed types)",
+                  "children": [
+                    "ELEMENTS (loners — 'just me, one type of atom, deal with it')",
+                    "COMPOUNDS (married couples — new identity, chemically bonded)"
+                  ]
+                },
+                "branch_2": {
+                  "label": "MIXTURES (the roommate situation)",
+                  "children": [
+                    "HOMOGENEOUS (good roommates — so blended you can't tell apart)",
+                    "HETEROGENEOUS (bad roommates — clearly separate, not even trying)"
+                  ]
+                }
+              }
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "State and classification are different labels — like being both tall AND brunette. A solid can be an element (iron), compound (salt), or mixture (granite)."
+            },
+            {
+              "type": "transition",
+              "body": "Now here's the cliffhanger: if everything is matter and matter is made of atoms... what are atoms actually DOING in there? Why does ice hold its shape but water doesn't? That's next — and it's going to blow your mind. Or at least mildly impress you. I'll take either."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Bronze is a shiny, uniform solid made by melting copper and tin together. How would you classify it?",
+          "options": {
+            "A": "Compound — copper and tin are chemically bonded",
+            "B": "Homogeneous mixture — two metals blended uniformly but not chemically bonded in fixed ratios",
+            "C": "Element — it's a single metal",
+            "D": "Heterogeneous mixture — copper and tin are visible separately"
+          },
+          "correct_answer": "B",
+          "explanation": "Bronze is an alloy — a homogeneous mixture. Copper and tin atoms mix uniformly but aren't in fixed chemical ratios. Different batches can have different proportions, proving it's a mixture, not a compound.",
+          "tests_concept": "pure_substances_vs_mixtures"
+        },
+        {
+          "question": "You have a mysterious clear liquid. How could you test if it's pure or a homogeneous mixture?",
+          "options": {
+            "A": "Taste it — pure substances taste different from mixtures",
+            "B": "Look under a magnifying glass — mixtures always have visible particles",
+            "C": "Check its boiling point — pure substances boil at one exact temperature; mixtures boil over a range",
+            "D": "Weigh it — pure substances are heavier"
+          },
+          "correct_answer": "C",
+          "explanation": "Pure substances have sharp, exact boiling points. Mixtures boil over a temperature range because different components vaporize at different temperatures. This is one of the most reliable purity tests.",
+          "tests_concept": "pure_substances_vs_mixtures"
+        },
+        {
+          "question": "Classify: (1) Oxygen gas O₂, (2) Carbon dioxide CO₂, (3) Air",
+          "options": {
+            "A": "All three are compounds — they all have formulas",
+            "B": "(1) Element, (2) Compound, (3) Homogeneous mixture",
+            "C": "(1) Compound, (2) Compound, (3) Element",
+            "D": "(1) Element, (2) Element, (3) Compound"
+          },
+          "correct_answer": "B",
+          "explanation": "O₂ = only oxygen atoms = element. CO₂ = carbon + oxygen bonded = compound. Air = N₂, O₂, Ar, CO₂ physically blended = homogeneous mixture.",
+          "tests_concept": "elements_vs_compounds"
+        }
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 4,
+    "total_content_blocks": "~45 blocks across all tones",
+    "total_questions": 10,
+    "block_types_used": ["section", "callout", "list", "visual", "transition"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember"],
+    "list_styles_used": ["icon_list", "two_column", "comparison", "challenge"],
+    "curriculum_concepts_covered": ["states_of_matter", "pure_substances_vs_mixtures", "elements_vs_compounds"],
+    "bridges_to_next": "particles_idea"
+  }
+}

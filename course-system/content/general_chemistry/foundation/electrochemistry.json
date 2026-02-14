@@ -1,0 +1,152 @@
+{
+  "course": "General Chemistry",
+  "topic": "6_reactions_in_depth",
+  "subtopic": "6.3_electrochemistry",
+  "foundation_id": "electrochemistry",
+  "foundation_title": "Electrochemistry",
+  "foundation_tier": 2,
+  "prerequisites": ["oxidation_reduction"],
+  "curriculum_concepts_covered": [
+    "galvanic_cells",
+    "electrolysis",
+    "practical_electrochemistry"
+  ],
+  "total_parts": 4,
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "electrochemistry_p1",
+      "part_title": "Harnessing Electron Flow",
+      "purpose": "Hook — redox reactions can produce or consume electricity",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": null, "body": "In the last lesson, you learned that redox reactions transfer electrons. Electrochemistry asks a powerful question: what if we SEPARATE the oxidation and reduction, force the electrons to travel through a wire between them, and capture that electron flow as electricity?"},
+          {"type": "callout", "style": "key_idea", "body": "Electrochemistry is redox with wires. A galvanic (voltaic) cell uses a spontaneous redox reaction to PRODUCE electricity (batteries). An electrolytic cell uses electricity to FORCE a non-spontaneous redox reaction (electroplating, splitting water). Same principle, opposite directions."},
+          {"type": "section", "title": null, "body": "Every battery in your life — your phone, your car, your laptop — is a galvanic cell. Every electroplated piece of jewelry, every aluminum can, and every chlorine molecule in your pool water was made by electrolysis. Electrochemistry bridges chemistry and electrical engineering."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Make a Lemon Battery", "body": "Push a copper coin and a zinc-coated nail into a lemon, close together but not touching. Connect a small LED between them with wires. The LED may glow dimly. The lemon juice (acid) enables ion flow. Zinc is oxidized (loses electrons), copper facilitates reduction. Electrons flow through the wire — electricity from fruit."},
+          {"type": "callout", "style": "key_idea", "body": "The lemon battery is a real galvanic cell. The zinc nail is the anode (oxidation happens here). The copper coin is the cathode (reduction happens here). The lemon juice is the electrolyte (allows ions to flow internally). The wire is the external circuit (electrons flow here, powering the LED)."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": null, "body": "Redox reactions: electrons move between substances. Electrochemistry: 'What if we made the electrons take the LONG way around — through a wire — and made them do work on the way?' That's a battery. It's a toll road for electrons."},
+          {"type": "callout", "style": "fun_fact", "body": "Alessandro Volta built the first true battery in 1800 — stacked zinc and copper discs separated by saltwater-soaked cardboard. He literally piled metal discs on a table and created a device that would eventually power civilization. The unit 'volt' is named after him. His pile of metal changed the world."},
+          {"type": "section", "title": null, "body": "The reverse works too: shove electrons BACKWARDS through a redox reaction using an external power source, and you can force non-spontaneous reactions to happen. That's electrolysis. It's how we extract aluminum from ore, plate chrome onto car parts, and split water into hydrogen and oxygen."}
+        ]}
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "electrochemistry_p2",
+      "part_title": "Galvanic Cells — Redox Makes Electricity",
+      "purpose": "Core — anatomy of a galvanic cell, anode/cathode, electron flow, salt bridge",
+      "curriculum_concepts": ["galvanic_cells"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "Galvanic (Voltaic) Cell", "body": "A device that converts chemical energy from a spontaneous redox reaction into electrical energy. Two different metals are placed in separate solutions, connected by a wire (external circuit) and a salt bridge (internal ionic connection)."},
+          {"type": "list", "style": "icon_list", "title": "Anatomy of a Galvanic Cell", "items": [
+            {"label": "Anode (−) = Oxidation", "icon": "minus-circle", "body": "The metal that LOSES electrons. Oxidation occurs here. The anode slowly dissolves as metal atoms become ions. Memory: AN OX — ANode = OXidation."},
+            {"label": "Cathode (+) = Reduction", "icon": "plus-circle", "body": "The metal where ions GAIN electrons and deposit as solid metal. Reduction occurs here. The cathode may grow or gain a coating. Memory: RED CAT — REDuction at CAThode."},
+            {"label": "External Circuit (Wire)", "icon": "zap", "body": "Electrons flow from anode to cathode through the wire. This electron flow IS the electrical current that powers devices."},
+            {"label": "Salt Bridge", "icon": "link", "body": "A tube of salt solution connecting the two half-cells. Allows ions to migrate and balance charges. Without it, charge builds up and the reaction stops."},
+            {"label": "Electrolyte Solutions", "icon": "droplet", "body": "Each half-cell contains a solution of its metal's ions. The anode solution gains ions (as metal dissolves). The cathode solution loses ions (as metal deposits)."}
+          ]},
+          {"type": "section", "title": "Example: Zinc-Copper Cell", "body": "Anode: Zn → Zn²⁺ + 2e⁻ (zinc dissolves). Cathode: Cu²⁺ + 2e⁻ → Cu (copper deposits). Electrons flow from Zn to Cu through wire. Produces ~1.1 volts. This is essentially the Daniell cell — one of the first practical batteries."},
+          {"type": "callout", "style": "remember", "body": "AN OX, RED CAT. ANode = OXidation (−). Cathode = REDuction (+). Electrons always flow from anode to cathode in the external circuit."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Trace the Electron Path", "body": "Draw a Zn-Cu galvanic cell. Start at the zinc strip: Zn atoms lose 2 electrons → Zn²⁺ enters solution. Electrons travel through the wire (powering a lightbulb along the way) to the copper strip. Cu²⁺ ions from solution gain those electrons → Cu metal deposits on the strip. Salt bridge ions flow to keep both solutions electrically neutral."},
+          {"type": "callout", "style": "key_idea", "body": "The cell works because zinc is MORE reactive than copper — it 'wants' to lose electrons more. This difference in reactivity creates a voltage that pushes electrons through the circuit. More reactive metal = anode. Less reactive metal = cathode."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Battery Is a Reluctant Handshake", "body": "Zinc REALLY wants to give away electrons. Copper ions really want to receive them. A galvanic cell says: 'Fine, but the electrons have to walk through this wire and power my phone on the way.' It's a forced detour that extracts work from atomic-level eagerness."},
+          {"type": "callout", "style": "fun_fact", "body": "AN OX and RED CAT are the two most important memory aids in electrochemistry. ANode = OXidation. REDuction at CAThode. If you remember nothing else from this lesson, remember these. They'll save you on every exam."},
+          {"type": "section", "title": null, "body": "The salt bridge is the unsung hero. Without it, positive charge builds up at the anode (all those Zn²⁺ ions) and negative charge builds up at the cathode (all those electrons arriving). The reaction would stop in seconds. The salt bridge is basically the emotional support system keeping the cell functional."}
+        ]}
+      },
+      "questions": [
+        {"question": "In a galvanic cell, where does oxidation occur?", "options": {"A": "At the cathode", "B": "At the anode — AN OX (ANode = OXidation)", "C": "In the salt bridge", "D": "In the external wire"}, "correct_answer": "B", "explanation": "ANode = OXidation (AN OX). The anode is where the more reactive metal loses electrons. These electrons flow through the external circuit to the cathode, where reduction occurs (RED CAT).", "tests_concept": "galvanic_cells"},
+        {"question": "In a Zn-Cu galvanic cell, electrons flow through the wire from:", "options": {"A": "Copper to zinc", "B": "Zinc to copper — zinc is oxidized (loses electrons) at the anode, electrons flow to the copper cathode", "C": "Both directions simultaneously", "D": "Through the salt bridge, not the wire"}, "correct_answer": "B", "explanation": "Zinc (anode) is oxidized: Zn → Zn²⁺ + 2e⁻. The released electrons flow through the external wire to the copper (cathode), where Cu²⁺ + 2e⁻ → Cu. Electrons always flow anode → cathode externally.", "tests_concept": "galvanic_cells"}
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "electrochemistry_p3",
+      "part_title": "Electrolysis — Electricity Forces Reactions",
+      "purpose": "Teach electrolytic cells — non-spontaneous redox driven by external power",
+      "curriculum_concepts": ["electrolysis"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "Electrolysis", "body": "Using electrical energy to drive a NON-spontaneous redox reaction. An external power source (battery) forces electrons to flow in the reverse direction of a galvanic cell, making reactions happen that wouldn't occur naturally."},
+          {"type": "list", "style": "comparison", "items": [
+            {"label": "Galvanic Cell (Battery)", "body": "Spontaneous redox → produces electricity. Chemical energy → electrical energy. The reaction WANTS to happen.", "examples": "Batteries, fuel cells"},
+            {"label": "Electrolytic Cell", "body": "Non-spontaneous redox ← uses electricity. Electrical energy → chemical energy. The reaction is FORCED.", "examples": "Electroplating, water splitting, aluminum extraction"}
+          ]},
+          {"type": "section", "title": "Key Applications", "body": "Electrolysis has transformed industry and technology."},
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "Water Splitting", "icon": "droplet", "body": "2H₂O → 2H₂ + O₂. Water doesn't naturally decompose. But pass electricity through it with electrodes, and hydrogen gas bubbles at the cathode while oxygen bubbles at the anode. This is how 'green hydrogen' fuel is produced."},
+            {"label": "Aluminum Production", "icon": "box", "body": "Aluminum ore (Al₂O₃) is incredibly stable. Electrolysis is the ONLY practical way to extract pure aluminum. The process uses massive electrical current — aluminum smelting consumes ~3% of global electricity."},
+            {"label": "Electroplating", "icon": "layers", "body": "Coat a cheap metal with a thin layer of expensive metal. The object to be plated is the cathode. Metal ions from solution are reduced onto its surface. Chrome bumpers, gold-plated jewelry, zinc-coated steel — all electroplating."},
+            {"label": "Rechargeable Batteries", "icon": "battery-charging", "body": "Charging a battery IS electrolysis — you're forcing the redox reaction backward, restoring the original reactants. The charger provides the electrical energy needed to reverse the spontaneous discharge."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Galvanic: reaction produces electron flow (discharge). Electrolytic: electron flow forces reaction (charge). Rechargeable batteries switch between both — galvanic when discharging, electrolytic when charging."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Split Water at Home", "body": "Fill a glass with water and add a pinch of salt (to improve conductivity). Submerge two pencil graphite leads (electrodes), connected to a 9V battery. Within seconds, bubbles form at both electrodes — hydrogen at the negative terminal, oxygen at the positive. You're splitting water molecules with electricity."},
+          {"type": "callout", "style": "key_idea", "body": "Twice as much hydrogen bubbles as oxygen — because 2H₂O → 2H₂ + O₂. The 2:1 ratio is visible in the bubble production. You can literally SEE stoichiometry happening in real time."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Reverse the Battery", "body": "A galvanic cell: 'I'll turn chemistry into electricity for free!' An electrolytic cell: 'I'll turn electricity into chemistry — but it'll cost you.' Charging your phone is literally paying the electrical bill so electrons will go back where they came from."},
+          {"type": "callout", "style": "fun_fact", "body": "Before electrolysis was discovered, aluminum was more expensive than gold. Napoleon III served his most honored guests with aluminum utensils — lesser guests got gold. Once electrolytic extraction was invented (1886), aluminum went from precious metal to soda can material in a few decades. Technology changes value."},
+          {"type": "section", "title": null, "body": "Electroplating is essentially catfishing but for metals. A cheap zinc ring walks into an electrolytic bath and comes out looking like solid gold. The gold atoms are real — just a very thin layer deposited by electrolysis. Chemistry-assisted disguise."}
+        ]}
+      },
+      "questions": [
+        {"question": "How does electrolysis differ from a galvanic cell?", "options": {"A": "Electrolysis uses spontaneous reactions; galvanic uses forced reactions", "B": "Electrolysis uses external electricity to FORCE a non-spontaneous reaction; galvanic cells USE a spontaneous reaction to PRODUCE electricity", "C": "They're the same process with different names", "D": "Electrolysis only works with water"}, "correct_answer": "B", "explanation": "Galvanic: spontaneous redox → electricity out. Electrolytic: electricity in → forced redox. They're opposite energy flows. Rechargeable batteries operate as both — galvanic on discharge, electrolytic on charge.", "tests_concept": "electrolysis"},
+        {"question": "When you charge a rechargeable battery, what's happening electrochemically?", "options": {"A": "New chemicals are added to the battery", "B": "The battery switches from galvanic (spontaneous) to electrolytic (forced) — external electricity reverses the redox reaction", "C": "Electrons are stored inside the battery case", "D": "Nothing chemical — it's purely electrical"}, "correct_answer": "B", "explanation": "Charging = electrolysis. External power forces electrons backward through the cell, converting products back into reactants. The chemical energy is restored. Discharging reverses this (galvanic mode). It's redox cycling.", "tests_concept": "electrolysis + practical_electrochemistry"}
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "electrochemistry_p4",
+      "part_title": "Electrochemistry Powers Modern Life",
+      "purpose": "Applications + bridge to solutions",
+      "curriculum_concepts": ["practical_electrochemistry"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "Lithium-Ion Batteries", "icon": "smartphone", "body": "Li at anode oxidized → Li⁺ migrates to cathode → intercalates into CoO₂. Rechargeable, high energy density. Powers phones, laptops, EVs."},
+            {"label": "Fuel Cells", "icon": "zap", "body": "H₂ oxidized at anode, O₂ reduced at cathode → produces electricity + water. Used in spacecraft, hydrogen cars. Clean energy from redox."},
+            {"label": "Corrosion Prevention", "icon": "shield", "body": "Galvanizing (zinc coating on steel) works because zinc is oxidized preferentially, protecting the iron underneath. Sacrificial anode — zinc 'sacrifices' itself."},
+            {"label": "Chlorine Production", "icon": "droplet", "body": "Electrolysis of NaCl brine produces Cl₂ gas + NaOH. This single process supplies chlorine for water treatment worldwide."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Electrochemistry = controlled redox. Galvanic cells power our devices. Electrolytic cells produce our materials. Corrosion protection saves our infrastructure. Understanding electron flow is understanding modern civilization's energy backbone."},
+          {"type": "transition", "body": "Electrochemistry happens in SOLUTIONS — ions dissolved in liquids. The next lesson examines solutions themselves: how substances dissolve, concentration units, and the factors affecting solubility. Understanding solutions is essential for acids/bases, electrochemistry, and biological chemistry alike."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "list", "style": "challenge", "title": "Spot Electrochemistry Around You", "items": [
+            {"label": "Your phone", "hints": "Li-ion galvanic cell discharging right now. Charging tonight = electrolysis."},
+            {"label": "Galvanized fence", "hints": "Zinc coating = sacrificial anode protecting iron from oxidation."},
+            {"label": "Chrome faucet", "hints": "Chromium electroplated onto steel in an electrolytic bath."},
+            {"label": "Swimming pool", "hints": "Chlorine from electrolysis of NaCl sanitizes the water."}
+          ]},
+          {"type": "transition", "body": "All electrochemistry requires solutions — dissolved ions carrying charge. Let's understand solutions next."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "callout", "style": "mind_blow", "body": "Your phone battery cycles between galvanic (discharging = spontaneous redox produces electricity) and electrolytic (charging = forced reverse redox stores energy) thousands of times over its lifetime. Each cycle is a complete redox reaction running forward and backward. Your phone is a tiny chemical plant running 24/7."},
+          {"type": "transition", "body": "Electrochemistry works in solutions. But what IS a solution? How do things dissolve? Why does salt dissolve in water but not in oil? Solutions are next — and they tie together everything from acids to electrochemistry to biology."}
+        ]}
+      },
+      "questions": [
+        {"question": "A galvanized steel fence has a zinc coating. How does this prevent rust?", "options": {"A": "Zinc blocks water from reaching the iron", "B": "Zinc is more reactive than iron — it gets oxidized preferentially (sacrificial anode), protecting the iron from losing electrons", "C": "Zinc makes the fence lighter", "D": "Zinc is reduced, which prevents iron oxidation"}, "correct_answer": "B", "explanation": "Zinc is more reactive (more easily oxidized) than iron. Even if the coating is scratched, zinc loses electrons before iron does — the zinc 'sacrifices' itself. This is galvanic protection: zinc anode, iron cathode. Iron stays reduced (metallic) as long as zinc remains.", "tests_concept": "practical_electrochemistry"}
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 4, "total_questions": 5,
+    "curriculum_concepts_covered": ["galvanic_cells", "electrolysis", "practical_electrochemistry"],
+    "bridges_from": "oxidation_reduction", "bridges_to": "solutions"
+  }
+}

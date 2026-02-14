@@ -1,0 +1,1017 @@
+{
+  "course": "Organic Chemistry",
+  "topic": "1_foundations",
+  "subtopic": "1.1_carbon_special",
+  "foundation_id": "carbon_and_life",
+  "foundation_title": "The Chemistry of You — Why Carbon Is the Element of Life",
+  "foundation_tier": 1,
+  "prerequisites": [
+    "general_chemistry.covalent_bonding",
+    "general_chemistry.organic_intro"
+  ],
+  "curriculum_concepts_covered": [
+    "carbon_bonding",
+    "organic_vs_inorganic",
+    "carbon_chains_and_rings",
+    "carbon_bond_types",
+    "organic_in_daily_life",
+    "carbon_molecular_diversity"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 9 parts. This is the gateway to organic chemistry. The philosophy: organic chemistry is not abstract lab science — it is the chemistry of breakfast, medicine, emotion, memory, fragrance, love, and death. Every molecule that makes a human being human is organic. This foundation doesn't just teach WHAT organic chemistry is — it makes the student feel WHY it matters at the most personal level possible. Connects carbon's four bonds to the molecular architecture of everyday human experience.",
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "First impression defines the entire course. Students who feel organic chemistry is personally relevant persist. Students who see it as abstract memorization quit. This foundation must create an emotional and intellectual connection to the subject that carries through 12 topics of increasing difficulty.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "carbon_and_life_p1",
+      "part_title": "The Most Personal Science You'll Ever Study",
+      "purpose": "Emotional hook — organic chemistry is not abstract; it IS you, your body, your food, your medicine, your emotions",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "This morning, you woke up. Melatonin molecules — organic — broke down as cortisol molecules — organic — rose in your bloodstream. You smelled coffee. The aroma is a cocktail of over 800 organic molecules, each small enough to float into your nose and dock into receptor proteins — also organic — triggering electrical signals in neurons wrapped in myelin sheaths — organic — that your brain interpreted as 'coffee.'"
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "You ate breakfast. Carbohydrates — organic — were broken down by enzymes — organic proteins — into glucose — organic — which entered your cells and was burned for energy through a cascade of 10 organic reactions called glycolysis. The butter on your toast: triglycerides, long organic chains. The protein in your eggs: amino acid polymers, folded organic architecture. The vitamin C in your orange juice: ascorbic acid, a small organic molecule your body can't make on its own."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Before you left the house, you interacted with hundreds of organic molecules — and that was just breakfast. The soap you used: organic surfactants. Your clothes: organic polymers (cotton = cellulose, polyester = synthetic organic). The medicine you took: a carefully designed organic molecule that fits a specific receptor in your body like a key in a lock. Your perfume or cologne: a blend of organic molecules chosen because your nose finds them beautiful."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Organic chemistry is the study of carbon-based molecules. But here is what that MEANS: it is the chemistry of food, medicine, fragrance, emotion, memory, clothing, fuel, plastic, soap, skin, hair, DNA, love, pain, and life itself. There is no branch of science more intimately woven into daily human experience."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Right Now, in Your Body",
+              "body": "As you read this sentence, hemoglobin (an organic protein with an iron center) is carrying oxygen through your blood. Neurotransmitters — dopamine if you're curious, serotonin if you're calm, norepinephrine if you're alert — are firing across synapses in your brain. Every one of these molecules is organic. Your ability to READ these words depends on organic chemistry happening in real time inside you."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Touch your skin. The outermost layer (stratum corneum) is dead cells filled with keratin — an organic protein. The oils on your skin (sebum) are organic lipids. The DNA in the living cells below carries your entire genetic code as a sequence of organic bases — adenine, thymine, guanine, cytosine — paired through hydrogen bonds along a sugar-phosphate backbone. You are, quite literally, made of organic chemistry."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Most sciences study things outside you — stars, rocks, forces, fields. Organic chemistry studies what you ARE. The molecules that make your heart beat, your brain think, your eyes see color, your nose detect a rose — these are organic molecules. To study organic chemistry is to study the molecular architecture of human experience itself."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Organic chemistry has a terrifying reputation. 'The hardest course in college.' 'The course that kills pre-med dreams.' But here's the truth that nobody tells you: organic chemistry is actually the most RELATABLE science. You eat organic molecules. You wear them. You smell them. You ARE them. The 'hardest course' is really just the study of everything you already interact with — you just didn't know the molecular names yet."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Right now, your brain is processing this information using approximately 86 billion neurons, each communicating through organic neurotransmitter molecules released from vesicles made of organic phospholipid membranes. Your understanding of this sentence about organic chemistry IS organic chemistry. It's organic chemistry all the way down."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The word 'organic' in everyday language means 'natural, no pesticides.' In chemistry, organic means 'contains carbon.' These are very different definitions. Organic chemistry includes everything from the vanillin in your vanilla extract to the polyethylene in your plastic bags. Natural or synthetic — if it's built on carbon, it's organic chemistry's domain."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "carbon_and_life_p2",
+      "part_title": "Carbon — The Element That Makes Life Possible",
+      "purpose": "WHY carbon? Four bonds, catenation, versatility — explained through the lens of what these properties enable in daily life",
+      "curriculum_concepts": [
+        "carbon_bonding"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Carbon and Not Something Else?",
+              "body": "There are 118 elements. Life chose carbon as its backbone. Not silicon (which also makes 4 bonds). Not sulfur. Not phosphorus. Carbon. Why? Because carbon has a unique combination of properties that no other element matches."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Carbon's Four Superpowers",
+              "items": [
+                {
+                  "label": "1. Four Bonds (Tetravalent)",
+                  "icon": "grid",
+                  "body": "Carbon forms exactly 4 covalent bonds — more connection points than most elements. This means it can bond to 4 different atoms simultaneously: 4 hydrogens (methane), 2 oxygens (CO₂), or — crucially — other carbons AND functional atoms at the same time. Four bonds = maximum architectural flexibility."
+                },
+                {
+                  "label": "2. Catenation (Carbon Chains)",
+                  "icon": "link",
+                  "body": "Carbon bonds strongly to OTHER CARBONS. C—C bond energy: 348 kJ/mol (strong, stable). This enables CHAINS of virtually unlimited length — 2 carbons, 10, 100, 10,000+. DNA has millions of carbon atoms in one molecule. No other element forms stable chains this long. Silicon-silicon bonds are weaker and larger; silicon chains fall apart."
+                },
+                {
+                  "label": "3. Multiple Bond Types",
+                  "icon": "layers",
+                  "body": "Carbon forms single (C—C), double (C=C), and triple (C≡C) bonds — with itself AND with O, N, S. Each bond type creates different geometry, different reactivity, different properties. Single bonds rotate freely (flexible). Double bonds are rigid (create shape). This versatility means carbon can build both flexible chains and rigid frameworks."
+                },
+                {
+                  "label": "4. Bonds to Many Elements",
+                  "icon": "share-2",
+                  "body": "Carbon bonds well to H, O, N, S, P, and halogens (F, Cl, Br, I). Each combination creates different functional groups with different properties: —OH (alcohols), —COOH (acids), —NH₂ (amines), C=O (carbonyls). These functional groups are the 'personality traits' of organic molecules."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "These four properties together create more than 20 MILLION known organic compounds — and counting. All other elements combined produce only about 2 million inorganic compounds. Carbon alone accounts for over 90% of all known chemical substances. One element. Four bonds. Infinite diversity."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "See Carbon's Superpowers in Your Kitchen",
+              "body": "Open your pantry. Sugar (C₁₂H₂₂O₁₁): 12 carbons chained and ringed with oxygens and hydrogens — sweet because of its shape fitting your taste receptors. Olive oil (C₅₇H₁₀₄O₆): 57 carbons in long chains — liquid because double bonds create kinks that prevent packing. Vinegar (CH₃COOH): just 2 carbons, but the —COOH group makes it acidic enough to sting. Three substances. Three completely different properties. All built on the same element: carbon."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Now open your medicine cabinet. Aspirin (C₉H₈O₄): 9 carbons arranged in a specific ring + chain structure that blocks pain signals. Ibuprofen (C₁₃H₁₈O₂): 13 carbons — different arrangement, similar pain-blocking function but different side effects. Caffeine (C₈H₁₀N₄O₂): 8 carbons with 4 nitrogens — the nitrogen atoms make it interact with adenosine receptors in your brain, blocking sleepiness. Carbon's ability to incorporate N, O, S creates the functional diversity that medicine depends on."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Carbon's four superpowers enable: chain length (small gases to giant polymers), flexibility (single bond rotation in fats and proteins), rigidity (double bonds in drug structures and pigments), and functional diversity (—OH, —NH₂, —COOH groups that determine solubility, acidity, biological activity). One element → infinite molecular personality."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Silicon is often proposed as an alternative to carbon for alien life forms. It also makes 4 bonds! But silicon-silicon bonds are weaker, silicon is much larger (molecules would be bulkier), and silicon dioxide (SiO₂) is SAND — a solid. Carbon dioxide (CO₂) is a gas that dissolves in water and participates in metabolism. Silicon-based life would breathe out bricks. Evolution chose wisely."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The longest carbon chain ever synthesized in a lab is over 100 carbons long (polyethylene goes much further industrially — millions of carbons). DNA, which stores your genetic code, has a sugar-phosphate backbone where the sugars are organic (deoxyribose, C₅H₁₀O₄). The human genome contains about 3 billion base pairs, each attached to a carbon-based sugar. Your genetic identity is written in carbon."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Carbon is the social butterfly of elements. It bonds to hydrogen (hydrocarbons — fuels), oxygen (alcohols, acids, sugars), nitrogen (amines, amino acids, DNA bases), sulfur (amino acids cysteine and methionine), phosphorus (DNA backbone, ATP energy currency), and halogens (medications, refrigerants, solvents). No other element has this many meaningful friendships."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Carbon forms over 20 million compounds while all other elements combined form about 2 million. What property of carbon MOST explains this extraordinary diversity?",
+          "options": {
+            "A": "Carbon is the lightest element",
+            "B": "Carbon forms 4 bonds AND bonds strongly to itself (catenation) — enabling chains, rings, and branches of unlimited complexity",
+            "C": "Carbon is the most abundant element",
+            "D": "Carbon is the most electronegative element"
+          },
+          "correct_answer": "B",
+          "explanation": "Four bonds provide maximum connectivity. Strong C—C bonds enable long stable chains, rings, and branched structures. Combined with multiple bond types and bonding to O, N, S, P — the structural possibilities are essentially infinite.",
+          "tests_concept": "carbon_bonding"
+        },
+        {
+          "question": "Why can't silicon replace carbon as the backbone of life, even though silicon also forms 4 bonds?",
+          "options": {
+            "A": "Silicon doesn't exist on Earth",
+            "B": "Si—Si bonds are weaker and larger, silicon chains are unstable, and SiO₂ is a solid (sand) rather than a gas — making carbon far superior for the flexible, water-soluble chemistry life requires",
+            "C": "Silicon is toxic",
+            "D": "Silicon can't bond to hydrogen"
+          },
+          "correct_answer": "B",
+          "explanation": "Silicon's larger size weakens Si—Si bonds (less orbital overlap). SiO₂ (sand) is insoluble solid; CO₂ is soluble gas. Silicon compounds are less diverse and less compatible with water-based biochemistry.",
+          "tests_concept": "carbon_bonding"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "carbon_and_life_p3",
+      "part_title": "Chains, Rings, and the Architecture of Molecules",
+      "purpose": "Carbon's structural diversity — linear chains, branched chains, rings — and how each shape maps to real substances you know",
+      "curriculum_concepts": [
+        "carbon_chains_and_rings"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Three Ways Carbon Builds",
+              "body": "With 4 bonds and the ability to connect to itself indefinitely, carbon creates three fundamental structural types — and each maps directly to substances in your daily life."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Straight Chains",
+                  "icon": "minus",
+                  "body": "Carbons linked end to end: C—C—C—C—C... The longer the chain, the higher the boiling point (more London forces). Short chains (1-4 C): gases at room temperature — methane (natural gas), propane (grills), butane (lighters). Medium chains (5-17 C): liquids — pentane through heptadecane (gasoline, diesel). Long chains (18+ C): waxy solids — paraffin wax (candles), polyethylene (plastic bags). YOU ALREADY KNOW these molecules. You just didn't know they were carbon chains of different lengths."
+                },
+                {
+                  "label": "Branched Chains",
+                  "icon": "git-branch",
+                  "body": "A main chain with side branches. Branching CHANGES properties dramatically: straight-chain octane vs branched isooctane — same formula (C₈H₁₈), completely different combustion behavior. Isooctane is the '100' in octane rating. Your car engine's performance depends on branching patterns in fuel molecules."
+                },
+                {
+                  "label": "Rings",
+                  "icon": "circle",
+                  "body": "Carbon atoms form closed loops: 3-membered (cyclopropane — strained, reactive), 5-membered (cyclopentane — in steroids), 6-membered (cyclohexane — the most stable ring, foundation of cholesterol, sugars, steroids). The benzene ring (6 carbons with alternating double bonds) is the backbone of countless drugs, dyes, and fragrances. Aspirin has a benzene ring. So does vanilla. So does TNT."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Look at any object near you. If it's plastic: long carbon chains. If it's fabric: carbon rings or chains (cotton = sugar rings linked together; polyester = carbon chains with ester groups). If it's food: carbon chains (fats), carbon rings (sugars, cholesterol), or both (proteins). The physical properties you experience — hardness, flexibility, melting, smell — come from the LENGTH, BRANCHING, and RING structure of carbon molecules."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Chain length determines physical state (gas → liquid → solid). Branching determines packing (compact vs sprawling). Rings create rigidity and specific shapes (drug design depends on this). The architecture of carbon molecules IS the architecture of the material world around you."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Kitchen Is a Carbon Architecture Museum",
+              "body": "Cooking oil: long unbranched chains (16-18 carbons) with some double bonds. Liquid because the double bonds create KINKS that prevent tight packing. Butter: same length chains but SATURATED (no double bonds) — straight chains pack tightly → solid at room temperature. The difference between liquid oil and solid butter is literally whether the carbon chains are kinked or straight. You experience organic chemistry every time you cook."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Sugar: glucose is a 6-carbon ring. Sucrose (table sugar) is two rings linked together. Starch (in bread, potatoes) is THOUSANDS of glucose rings chained together. Cellulose (in paper, cotton) is the SAME glucose rings linked differently — a small change in how rings connect makes the difference between food you digest and paper you can't."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Starch and cellulose are BOTH polymers of glucose. Same building block. Different linkage. Your body has enzymes to break starch's linkage (α) but NOT cellulose's linkage (β). Cows can digest cellulose (grass) because bacteria in their stomachs have the right enzyme. You can eat bread but not paper — because of ONE bond orientation in a carbon ring. Organic architecture determines biology."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Carbon: The World's Greatest Architect",
+              "body": "Carbon builds everything from the simplest gas (methane, 1 carbon) to the most complex molecule known (titin, a muscle protein with 34,350 AMINO ACIDS chained together — its full chemical name has 189,819 letters and takes 3.5 hours to pronounce). The range of structures carbon can build is like an architect who designs everything from a doghouse to a space station."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Diamond and graphite are BOTH pure carbon — same element, zero other atoms. Diamond: each carbon bonded to 4 others in a 3D lattice (hardest natural material). Graphite: carbons in flat sheets that slide over each other (pencil lead, one of the softest). Same atom. Different architecture. Wildly different properties. Carbon doesn't just build molecular diversity — it IS material diversity."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The smell of rotten eggs: hydrogen sulfide (inorganic, not carbon-based). The smell of roses: geraniol (C₁₀H₁₈O — organic, 10-carbon chain with an —OH). The smell of vanilla: vanillin (C₈H₈O₃ — benzene ring with groups). The smell of bananas: isoamyl acetate (C₇H₁₄O₂ — branched chain ester). Most smells you've ever experienced are organic molecules small enough to fly into your nose. Your entire world of fragrance is organic chemistry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Cooking oil is liquid while butter is solid at room temperature. Both are long-chain carbon molecules. What structural difference explains this?",
+          "options": {
+            "A": "Oil has more atoms",
+            "B": "Oil has double bonds (C=C) that create kinks preventing tight packing — butter's saturated straight chains pack closely into a solid",
+            "C": "Butter has more carbon atoms",
+            "D": "Oil is less dense"
+          },
+          "correct_answer": "B",
+          "explanation": "Double bonds create rigid bends (cis kinks) in the carbon chain. These kinks prevent molecules from stacking tightly → weaker intermolecular forces → lower melting point → liquid. Saturated (no double bonds) chains are straight → pack tightly → solid.",
+          "tests_concept": "carbon_chains_and_rings"
+        },
+        {
+          "question": "Starch and cellulose are both made from glucose rings. Why can humans digest starch but not cellulose?",
+          "options": {
+            "A": "Cellulose has more glucose units",
+            "B": "The glucose rings are linked by different bond orientations (α in starch, β in cellulose) — human enzymes only break α linkages",
+            "C": "Cellulose is not organic",
+            "D": "Starch is sweeter"
+          },
+          "correct_answer": "B",
+          "explanation": "Same building block (glucose), different connection. α-linkage in starch is broken by amylase (human enzyme). β-linkage in cellulose requires cellulase (which humans lack; cows have bacteria that produce it). One bond orientation difference → food vs fiber.",
+          "tests_concept": "carbon_chains_and_rings"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "carbon_and_life_p4",
+      "part_title": "Single, Double, Triple — The Bonds That Shape Your World",
+      "purpose": "Bond types in organic chemistry connected to real substances — fats, vision, drugs, plastics",
+      "curriculum_concepts": [
+        "carbon_bond_types"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Bond Type = Molecular Personality",
+              "body": "Carbon forms three types of covalent bonds with itself, and each creates radically different molecular behavior. This isn't abstract — the type of bond in a molecule determines whether it's a flexible fat, a rigid drug, a reactive fuel, or the pigment that lets you see color."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Single Bonds (C—C): Flexible",
+                  "body": "Free rotation around the bond axis. Molecules with only single bonds can twist, fold, and change shape. Saturated fats: long chains of single bonds → flexible → can pack tightly → solid. Proteins fold into 3D shapes BECAUSE single bonds rotate. The flexibility of life depends on single bond rotation.",
+                  "examples": "Ethane, propane, fats, polyethylene"
+                },
+                {
+                  "label": "Double Bonds (C=C): Rigid + Reactive",
+                  "body": "NO rotation (pi bond prevents it). Creates a flat, rigid section. Unsaturated fats: double bonds create permanent kinks → can't pack → liquid oils. Ethylene (C₂H₄) is the ripening hormone for fruit. Retinal (in your eye): a double bond flips from cis to trans when light hits it — THIS IS HOW YOU SEE. Double bonds are also MORE REACTIVE than single bonds → addition reactions happen here.",
+                  "examples": "Ethene, vegetable oils, retinal, rubber"
+                },
+                {
+                  "label": "Triple Bonds (C≡C): Very Rigid + Very Reactive",
+                  "body": "Two pi bonds — completely rigid and linear. Very reactive (two pi bonds available for addition). Acetylene (C₂H₂): burns so hot it cuts steel (oxy-acetylene welding, 3,300°C). Used in synthesis as building blocks — acetylide ions can form new C—C bonds, building larger molecules.",
+                  "examples": "Acetylene, alkynes in drug synthesis"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "VISION: when a photon of light enters your eye and hits a retinal molecule, ONE double bond flips from 11-cis to all-trans configuration. This tiny geometric change triggers a nerve signal → your brain interprets it as sight. You are reading these words because a double bond in an organic molecule changes shape when light hits it. Organic chemistry is literally how you see."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Single bonds = flexibility (protein folding, fat packing). Double bonds = rigidity + reactivity (vision, drug design, oil properties). Triple bonds = extreme reactivity (synthesis, welding). The type of carbon bond determines the physical, chemical, and biological behavior of every organic molecule."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Feel the Bonds",
+              "body": "Take a piece of butter (saturated, all single bonds) and a teaspoon of olive oil (unsaturated, contains double bonds). At room temperature: butter is solid, oil is liquid. Warm the butter — it melts (the single-bond chains gain enough energy to overcome their tight packing). The oil was already liquid because its double-bond kinks prevented tight packing. You just felt the physical consequence of single vs double bonds."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Rubber bands stretch because they contain double bonds in a polymer chain. The double bonds create partial rigidity, but the single bonds between them flex. Stretch a rubber band — you're changing the conformations of single bonds while the double bonds maintain structural integrity. Release it — it snaps back to its preferred shape. The elasticity of rubber is the interplay of single and double bonds."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Single bonds are the yoga instructors of organic chemistry — flexible, adaptable, go with the flow. Double bonds are the bodybuilders — rigid, flat, powerful, don't bend. Triple bonds are the sprinters — linear, intense, react fast, burn hot. Every molecule's personality is determined by its mix of bond types."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Acetylene (HC≡CH) was used in miners' lamps for decades. Drip water on calcium carbide → acetylene gas → light. The triple bond stores so much energy that burning it produces temperatures over 3,300°C — hot enough to weld steel. Two carbon atoms and two hydrogens. One triple bond. Enough energy to cut metal."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Margarine was invented by hydrogenating vegetable oil — adding H₂ across the double bonds (C=C → C—C, using a metal catalyst). This converts liquid oil into solid fat. The food industry literally converted double bonds into single bonds to change a liquid into a solid. Unfortunately, partial hydrogenation creates trans fats, which are terrible for your heart. Chemistry giveth, and chemistry taketh away."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You can see because light causes a specific molecular change. What is it?",
+          "options": {
+            "A": "A single bond breaks in your lens",
+            "B": "A double bond in retinal flips from cis to trans configuration — this geometric change triggers a nerve signal your brain interprets as vision",
+            "C": "Proteins in your eye change color",
+            "D": "Light creates new carbon bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "11-cis-retinal absorbs a photon → the C=C double bond isomerizes to all-trans. This shape change activates rhodopsin protein → nerve signal → vision. One double bond flip = sight.",
+          "tests_concept": "carbon_bond_types"
+        },
+        {
+          "question": "Hydrogenation converts vegetable oil (liquid) into margarine (solid). What happens molecularly?",
+          "options": {
+            "A": "Carbon chains get longer",
+            "B": "H₂ adds across C=C double bonds, converting them to C—C single bonds — removing kinks, allowing straight chains to pack tightly into a solid",
+            "C": "Water is removed",
+            "D": "Rings form"
+          },
+          "correct_answer": "B",
+          "explanation": "Double bonds (kinked, prevent packing, liquid) → single bonds (straight, pack tightly, solid). Hydrogenation adds H atoms across C=C. Industrial chemistry directly manipulating bond type to change physical state.",
+          "tests_concept": "carbon_bond_types"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "carbon_and_life_p5",
+      "part_title": "Organic vs Inorganic — Drawing the Line",
+      "purpose": "What counts as 'organic' — the definition, the exceptions, and why the distinction matters",
+      "curriculum_concepts": [
+        "organic_vs_inorganic"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Definition",
+              "body": "An organic compound contains CARBON bonded to other atoms (usually hydrogen, and often oxygen, nitrogen, sulfur, or phosphorus) through COVALENT bonds. Most organic compounds contain C—H bonds. That's the line: carbon + hydrogen + covalent bonds = organic."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Organic vs Inorganic",
+              "body": "ORGANIC: Contains carbon (usually with hydrogen) in covalent bonds. Includes: CH₄ (methane), C₂H₅OH (ethanol), C₆H₁₂O₆ (glucose), DNA, proteins, fats, drugs, plastics. INORGANIC: Everything else — including some carbon compounds: CO₂ (carbon dioxide), CO (carbon monoxide), CaCO₃ (calcium carbonate), NaHCO₃ (sodium bicarbonate), CN⁻ (cyanide), diamond, graphite. These 'carbon exceptions' are classified as inorganic because they lack the C—H bonds and structural complexity of organic molecules."
+            },
+            {
+              "type": "section",
+              "title": "A Brief History of the Line",
+              "body": "Until 1828, scientists believed organic compounds could ONLY be made by living organisms — 'vital force' theory. Friedrich Wöhler shattered this by synthesizing urea (an organic compound found in urine) from ammonium cyanate (an inorganic salt) in the lab. No life needed. This proved organic compounds follow the same physical laws as everything else — they're just carbon-based."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "The old meaning of 'organic' — produced by life — was wrong about chemistry but captured a deep truth: carbon-based molecules ARE overwhelmingly the chemistry of life. Not because of vital force, but because carbon's bonding properties uniquely enable the structural complexity that life requires. The name 'organic' accidentally pointed to the right connection for the wrong reason."
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Common misconception: 'organic' in chemistry ≠ 'organic' at the grocery store. Organic food means grown without synthetic pesticides. Organic chemistry means carbon-based chemistry. Synthetic pesticides are ALSO organic compounds (carbon-based molecules designed in labs). The grocery term and the chemistry term are unrelated."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Organic or Inorganic?",
+              "items": [
+                {
+                  "label": "Table salt (NaCl)",
+                  "hints": "INORGANIC — ionic compound, no carbon."
+                },
+                {
+                  "label": "Ethanol (C₂H₅OH)",
+                  "hints": "ORGANIC — carbon + hydrogen + covalent bonds."
+                },
+                {
+                  "label": "Carbon dioxide (CO₂)",
+                  "hints": "INORGANIC — contains carbon but no C—H bonds, simple oxide."
+                },
+                {
+                  "label": "Aspirin (C₉H₈O₄)",
+                  "hints": "ORGANIC — carbon backbone with H, O, covalent bonds."
+                },
+                {
+                  "label": "Diamond (pure C)",
+                  "hints": "INORGANIC — pure carbon but no hydrogen, no molecular diversity."
+                },
+                {
+                  "label": "Acetic acid (CH₃COOH)",
+                  "hints": "ORGANIC — the acid in vinegar, C—H bonds, covalent."
+                },
+                {
+                  "label": "Baking soda (NaHCO₃)",
+                  "hints": "INORGANIC — ionic compound; the carbonate (CO₃²⁻) is an inorganic carbon species."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Rule of thumb: if it has C—H bonds and covalent structure → organic. If it's a simple carbon oxide, carbonate, cyanide, or pure carbon allotrope → inorganic. The exceptions are few and worth memorizing: CO, CO₂, carbonates, bicarbonates, cyanides, diamond, graphite."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Wöhler's synthesis of urea in 1828 is one of the most important experiments in chemistry history. He wrote to his mentor Berzelius: 'I can make urea without needing a kidney!' This single experiment killed vitalism — the idea that life has a mysterious force that chemistry can't replicate. Turns out, there's no magic. Just carbon."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The confusion between 'organic chemistry' and 'organic food' is the bane of every chemistry teacher's existence. 'Is organic food studied in organic chemistry?' Technically yes — glucose, vitamins, amino acids in organic food ARE organic molecules. But so are pesticides, plastics, and TNT. 'Organic' in chemistry is a much broader (and less marketable) category."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "CO₂ contains carbon but is classified as inorganic. Why?",
+          "options": {
+            "A": "CO₂ is toxic",
+            "B": "CO₂ lacks C—H bonds and the structural complexity characteristic of organic compounds — it's a simple carbon oxide",
+            "C": "CO₂ is a gas",
+            "D": "CO₂ doesn't contain oxygen"
+          },
+          "correct_answer": "B",
+          "explanation": "Organic compounds typically have C—H bonds and complex covalent structures. CO₂ is a simple oxide (O=C=O). Similarly, carbonates (CO₃²⁻), carbon monoxide (CO), and pure carbon allotropes (diamond, graphite) are classified as inorganic exceptions.",
+          "tests_concept": "organic_vs_inorganic"
+        },
+        {
+          "question": "Wöhler's 1828 synthesis of urea was revolutionary because:",
+          "options": {
+            "A": "Urea was expensive",
+            "B": "He made an organic compound (urea) from inorganic starting materials — disproving vitalism (the idea that only living organisms can create organic molecules)",
+            "C": "He discovered a new element",
+            "D": "He invented fertilizer"
+          },
+          "correct_answer": "B",
+          "explanation": "Vitalism held that organic compounds required a 'vital force' from living organisms. Wöhler synthesized urea (found in urine, clearly organic) from ammonium cyanate (inorganic). This proved organic compounds follow normal chemistry — no life force needed.",
+          "tests_concept": "organic_vs_inorganic"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "carbon_and_life_p6",
+      "part_title": "The Molecules of Your Morning — Organic Chemistry in Daily Life",
+      "purpose": "Deep dive into specific molecules you interact with daily — making organic chemistry viscerally real",
+      "curriculum_concepts": [
+        "organic_in_daily_life"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Morning, Molecule by Molecule",
+              "body": "Let's trace a typical morning and name every organic molecule you encounter — not as abstract formulas, but as the substances you already know."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Waking Up: Cortisol (C₂₁H₃₀O₅)",
+                  "icon": "sunrise",
+                  "body": "A steroid hormone — 4 fused carbon rings with functional groups. Your adrenal glands release it in the morning. It raises blood sugar, suppresses inflammation, and tells your body 'time to be awake.' The molecular alarm clock."
+                },
+                {
+                  "label": "Coffee: Caffeine (C₈H₁₀N₄O₂)",
+                  "icon": "coffee",
+                  "body": "A purine alkaloid — two fused rings containing nitrogen. It blocks adenosine receptors in your brain (adenosine = the 'sleepy' signal). By blocking sleepiness rather than creating alertness, caffeine is pharmacologically a BLOCKER, not a stimulant. 8 carbons, 4 nitrogens, and your morning clarity."
+                },
+                {
+                  "label": "Shower: Sodium Lauryl Sulfate",
+                  "icon": "droplet",
+                  "body": "Your shampoo's main surfactant: a 12-carbon chain with a sulfate head group. The carbon chain (nonpolar) grabs oil from your hair. The sulfate (polar) dissolves in water. It bridges oil and water — pulling grease off your scalp and down the drain. Soap chemistry IS organic chemistry."
+                },
+                {
+                  "label": "Toast: Maillard Reaction Products",
+                  "icon": "zap",
+                  "body": "When bread toasts, amino acids (organic) react with sugars (organic) to form hundreds of new organic molecules — collectively called Maillard products. These create the brown color AND the aroma. The smell of toast is hundreds of small organic molecules you've never heard of but recognize instantly."
+                },
+                {
+                  "label": "Getting Dressed: Polymers",
+                  "icon": "layers",
+                  "body": "Cotton: cellulose (glucose rings linked). Polyester: ethylene glycol + terephthalic acid polymerized (carbon chain + benzene ring). Nylon: diamine + diacid polymerized. Spandex: polyurethane (carbon chain with urethane groups). Every fabric is an organic polymer with properties engineered through molecular architecture."
+                },
+                {
+                  "label": "Driving: Octane (C₈H₁₈)",
+                  "icon": "truck",
+                  "body": "Gasoline is a mixture of hydrocarbons (5-12 carbons). Octane rating measures how smoothly the fuel burns. Isooctane (branched C₈H₁₈) = 100 rating. n-Heptane (straight C₇H₁₆) = 0 rating. Your engine's performance depends on the branching pattern of carbon chains."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "You haven't even left the house yet and you've interacted with steroid hormones, alkaloids, surfactants, Maillard products, polymers, and hydrocarbons. Organic chemistry isn't something that happens in a lab far away. It happens in your bloodstream, your shower, your kitchen, your closet, and your car. It IS your morning."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Smell Your Way Through Organic Chemistry",
+              "body": "Organic chemistry is the only science you can literally SMELL. Vanilla: vanillin (C₈H₈O₃ — benzene ring + aldehyde). Cinnamon: cinnamaldehyde (C₉H₈O — conjugated double bonds). Lemon: limonene (C₁₀H₁₆ — a ring with a double bond). Peppermint: menthol (C₁₀H₂₀O — cyclohexane ring with —OH). Each fragrance is an organic molecule small enough to become a gas, fly into your nose, and dock into olfactory receptors."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Your nose can detect approximately 1 TRILLION different scent combinations. Each 'scent' is a pattern of organic molecules activating specific combinations of ~400 olfactory receptor types. You have been doing organic chemistry analysis — identifying molecular signatures — since birth. Your nose is a molecular detector that organic chemists can only dream of replicating."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The Maillard reaction — responsible for the flavor of toast, grilled steak, roasted coffee, baked cookies, and fried everything — produces over 1,000 different organic molecules depending on temperature, time, and which amino acids and sugars are present. It's the most delicious chemical reaction in existence. Organic chemistry is literally the science of flavor."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Every perfume is an organic chemistry experiment. Top notes (first smell): small, volatile molecules — limonene, bergamot. Middle notes (main scent): medium molecules — geraniol, linalool. Base notes (lingering): large, heavy molecules — vanillin, musk. Perfumers design fragrance experiences by choosing organic molecules of different sizes. Size = volatility = when you smell it."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Caffeine blocks adenosine receptors in your brain. What does this mean pharmacologically?",
+          "options": {
+            "A": "Caffeine creates energy",
+            "B": "Caffeine blocks the 'sleepy' signal — it prevents adenosine (the drowsiness molecule) from binding to its receptors, so you feel more alert by suppressing tiredness rather than creating stimulation",
+            "C": "Caffeine destroys adenosine",
+            "D": "Caffeine is a nutrient"
+          },
+          "correct_answer": "B",
+          "explanation": "Caffeine's molecular shape fits adenosine receptors (lock and key). It occupies the receptor without activating it → adenosine can't bind → the 'tired' signal is blocked. Caffeine doesn't add energy — it masks tiredness. This is why the crash comes when caffeine wears off and accumulated adenosine floods the now-open receptors.",
+          "tests_concept": "organic_in_daily_life"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "carbon_and_life_p7",
+      "part_title": "The Diversity Explosion — Why 20 Million Compounds?",
+      "purpose": "Isomerism and structural diversity — same formula, different properties. Why organic chemistry has so many compounds.",
+      "curriculum_concepts": [
+        "carbon_molecular_diversity"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Same Atoms, Different Arrangement = Different Substance",
+              "body": "With just 4 carbon atoms and 10 hydrogens (C₄H₁₀), you can make TWO different molecules: n-butane (straight chain, boils at 0°C) and isobutane (branched, boils at −12°C). Same atoms. Different arrangement. Different substance. This is ISOMERISM — and it's the reason organic chemistry has millions of compounds."
+            },
+            {
+              "type": "section",
+              "title": "The Numbers Explode",
+              "body": "C₄H₁₀: 2 isomers. C₅H₁₂: 3 isomers. C₁₀H₂₂: 75 isomers. C₂₀H₄₂: 366,319 isomers. C₃₀H₆₂: over 4 BILLION possible isomers. Just by rearranging how 30 carbons connect. Add in double bonds, rings, heteroatoms (O, N, S) and functional groups — the possibilities become effectively infinite."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Ethanol (CH₃CH₂OH) and dimethyl ether (CH₃OCH₃) have the EXACT same molecular formula: C₂H₆O. Same atoms, same count. But ethanol is a liquid you drink in wine. Dimethyl ether is a gas used as an aerosol propellant. One gets you drunk. The other sprays deodorant. Same formula. Different arrangement. Different universe of properties."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Molecular formula alone DOESN'T determine a substance's properties. STRUCTURE does. This is the central dogma of organic chemistry: structure determines properties. How atoms are CONNECTED and ARRANGED in 3D space determines everything — boiling point, reactivity, biological activity, smell, taste, color, toxicity. The same atoms wired differently are completely different substances."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Same Formula, Different Molecules",
+              "items": [
+                {
+                  "label": "C₂H₆O: ethanol vs dimethyl ether",
+                  "hints": "Ethanol (CH₃CH₂OH): liquid, bp 78°C, dissolves in water, intoxicating. Dimethyl ether (CH₃OCH₃): gas, bp −24°C, poorly soluble, used as propellant. The —OH group in ethanol vs the —O— bridge in ether = completely different properties."
+                },
+                {
+                  "label": "C₃H₆O: acetone vs propanal vs allyl alcohol",
+                  "hints": "Acetone: nail polish remover. Propanal: pungent aldehyde. Allyl alcohol: toxic, used in chemical synthesis. Three compounds, one formula, three different functional groups, three different worlds."
+                },
+                {
+                  "label": "C₆H₁₂O₆: glucose vs fructose vs galactose",
+                  "hints": "All sugars. Glucose: blood sugar. Fructose: fruit sugar (sweeter). Galactose: dairy sugar. Same formula, different ring arrangements, different sweetness, different metabolism."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "This is WHY organic chemistry courses seem to have so much to learn — the number of possible molecules is essentially infinite. But the good news: they follow PATTERNS. Learn the patterns (functional groups, reaction types, nomenclature rules) and you can navigate millions of compounds with a handful of principles. Organic chemistry is not memorization. It's pattern recognition."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "C₃₀H₆₂ has over 4 billion isomers. That's more possible carbon arrangements for 30 carbons than there are people on Earth. And that's just ONE formula with only C and H. Add oxygen, nitrogen, sulfur, and you'd need more atoms than exist in the observable universe to write all possible organic molecules. Carbon's bonding possibilities are functionally infinite. The universe literally cannot contain all the molecules carbon COULD form."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Pharmaceutical companies search for new drugs in 'chemical space' — the set of all possible drug-like organic molecules. Estimates suggest drug-like chemical space contains 10⁶⁰ possible molecules. The number of atoms in the observable universe is about 10⁸⁰. So the ratio of possible drugs to atoms in the universe is 1 to 10²⁰. We've barely scratched the surface of what carbon can build."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual showing how the same molecular formula can produce wildly different substances — pick 2-3 examples where same-formula compounds have dramatically different everyday uses. Show structure → property → use. Best visual becomes the official 'structure determines properties' poster!",
+              "placeholder_type": "isomer_comparison_visual"
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Ethanol (drinking alcohol) and dimethyl ether (aerosol propellant) have the same formula C₂H₆O but completely different properties. Why?",
+          "options": {
+            "A": "They have different numbers of atoms",
+            "B": "They have different STRUCTURES — ethanol has an —OH group (enabling H-bonding, liquid, water-soluble) while dimethyl ether has an —O— bridge (no H-bonding, gas, hydrophobic)",
+            "C": "One is organic and the other isn't",
+            "D": "Temperature determines which one you get"
+          },
+          "correct_answer": "B",
+          "explanation": "Same formula, different connectivity. Ethanol's —OH enables hydrogen bonding → higher bp (78°C), water-soluble. Ether's —O— can't H-bond the same way → low bp (−24°C), gas. Structure determines properties — the central principle of organic chemistry.",
+          "tests_concept": "carbon_molecular_diversity"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "carbon_and_life_p8",
+      "part_title": "The Four Molecules of Life — Why Organic Chemistry IS Biochemistry",
+      "purpose": "Carbohydrates, lipids, proteins, nucleic acids — every molecule that makes you alive is organic",
+      "curriculum_concepts": [
+        "organic_in_daily_life",
+        "carbon_bonding"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Every Molecule That Makes You Alive",
+              "body": "Your body is approximately 60% water (inorganic) and 40% organic molecules. That 40% falls into four major categories — and understanding their carbon architecture is understanding what you're made of."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Carbohydrates: Energy and Structure",
+                  "icon": "battery",
+                  "body": "Sugars and their polymers. Glucose (C₆H₁₂O₆): your cells' primary fuel. Glycogen: glucose polymer stored in liver and muscles (energy reserve). Cellulose: glucose polymer in plant cell walls (structure). Carbon rings with —OH groups. The —OH groups make them water-soluble (polar) and sweet (shape fits taste receptors)."
+                },
+                {
+                  "label": "Lipids: Membranes and Energy Storage",
+                  "icon": "shield",
+                  "body": "Long carbon chains (fatty acids) often linked to glycerol. Phospholipids: two fatty acid chains + phosphate head → CELL MEMBRANES. Every cell in your body is bounded by an organic phospholipid bilayer. Triglycerides (body fat): three fatty acids → dense energy storage (9 kcal/g, more than double carbs). Steroids (cholesterol, hormones): 4 fused rings — testosterone, estrogen, cortisol."
+                },
+                {
+                  "label": "Proteins: Structure, Catalysis, Communication",
+                  "icon": "settings",
+                  "body": "Chains of amino acids (20 types, each an organic molecule with —NH₂ and —COOH). Your body has ~20,000 different proteins. Enzymes (catalysts), antibodies (defense), hemoglobin (oxygen transport), collagen (structure), keratin (hair/nails), receptor proteins (cell communication). Each protein's function depends on its 3D shape — which depends on its organic structure."
+                },
+                {
+                  "label": "Nucleic Acids: Information",
+                  "icon": "code",
+                  "body": "DNA and RNA: sugar-phosphate backbone + organic bases (A, T/U, G, C). Your DNA contains ~3 billion base pairs encoding ~20,000 genes. The genetic code is written in organic chemistry: hydrogen bonds between bases pair A with T (2 H-bonds) and G with C (3 H-bonds). Heredity, evolution, and identity are molecular phenomena. Your uniqueness is organic."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "You are made of approximately 7 × 10²⁷ atoms — almost all of them carbon, hydrogen, oxygen, and nitrogen arranged into organic molecules. Your thoughts are electrochemical signals carried by organic neurotransmitters. Your memories are encoded in organic synaptic proteins. Your emotions — love, fear, joy, sadness — have organic molecular correlates: oxytocin, adrenaline, serotonin, cortisol. To study organic chemistry is not to study something 'out there.' It is to study what you ARE, at the deepest material level."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Are an Organic Chemistry Experiment",
+              "body": "Right now: carbohydrates in your blood are being metabolized for energy (glucose → CO₂ + H₂O + ATP). Lipids in your cell membranes are maintaining the boundary of every cell. Proteins are catalyzing thousands of reactions per second. Nucleic acids in every nucleus carry the code that built you. All four classes. All organic. All happening simultaneously."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "The next time someone says organic chemistry is irrelevant to daily life, remember: organic chemistry is the chemistry of your DNA (who you are), your neurotransmitters (what you feel), your hormones (what you become), your food (what sustains you), your medicine (what heals you), and your memories (what you remember). There is no science more personal."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "If you extracted and stretched out all the DNA from every cell in your body, it would reach from Earth to the Sun and back approximately 600 times. That's about 180 billion kilometers of organic polymer. Carrying your genetic code. In molecules so small they fit inside a cell nucleus 6 micrometers across. Carbon's catenation superpow → the longest information storage system in the known universe."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Falling in love? Dopamine (C₈H₁₁NO₂) + norepinephrine (C₈H₁₁NO₃) + serotonin drop. New parent bonding? Oxytocin (C₄₃H₆₆N₁₂O₁₂S₂). Scared? Adrenaline (C₉H₁₃NO₃). Happy? Endorphins (organic peptides that bind opioid receptors). Every emotion you've ever felt has an organic molecular signature. Love is chemistry. Literally."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Cell membranes are made of:",
+          "options": {
+            "A": "Carbohydrates",
+            "B": "Phospholipids — organic molecules with two fatty acid chains (nonpolar) and a phosphate head (polar), forming a bilayer that separates the cell's interior from its environment",
+            "C": "Pure protein",
+            "D": "Inorganic minerals"
+          },
+          "correct_answer": "B",
+          "explanation": "Phospholipids have a dual nature: hydrophobic tails (long carbon chains) face inward, hydrophilic heads (phosphate) face outward toward water. This self-assembling bilayer is the boundary of every cell. Entirely organic.",
+          "tests_concept": "organic_in_daily_life"
+        }
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_id": "carbon_and_life_p9",
+      "part_title": "The Philosophy of Carbon — Why This Course Matters",
+      "purpose": "Philosophical capstone — organic chemistry as the study of molecular identity, transformation, and life's material basis",
+      "curriculum_concepts": [
+        "carbon_bonding",
+        "organic_vs_inorganic"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Of 118 elements, one — carbon — generates 90% of all known compounds. This one element builds the molecules that store genetic information, catalyze metabolic reactions, form cell boundaries, carry nerve signals, create fragrance, provide nutrition, enable vision, and produce consciousness. Carbon is not just AN element. It is THE element through which the universe became aware of itself."
+            },
+            {
+              "type": "section",
+              "title": "Structure Determines Properties — The Central Dogma",
+              "body": "If there is one principle that you carry through this entire organic chemistry course, let it be this: the three-dimensional arrangement of atoms determines everything. Same formula, different structure = different properties. Drug vs poison. Food vs fiber. Fuel vs plastic. Sight vs blindness. The molecular architecture IS the function."
+            },
+            {
+              "type": "section",
+              "title": "What You're Really Learning",
+              "body": "When you learn to name an alkane or draw a Lewis structure or predict a reaction mechanism, you're not memorizing abstract facts. You're learning to read the molecular language that writes your body, your food, your medicine, and your world. Organic chemistry is the literacy of the material world. Once you can read organic structures, you can understand why aspirin works, why plastic is flexible, why DNA stores information, and why your coffee smells the way it does."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "This course is going to challenge you. There are many molecules, many reactions, many mechanisms. But behind all of it is ONE story: carbon's four bonds create infinite structural diversity. Structure determines properties. Properties determine function. Function determines your daily experience of being alive. Every lesson in this course is a chapter in that story."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Consider: your body replaces most of its atoms every 7-10 years. The carbon atoms in your body right now are not the same ones that were there a decade ago. You are not a fixed collection of atoms — you are a PATTERN. A self-sustaining organic chemical pattern that persists while its material constantly cycles. Organic chemistry is not just the study of molecules. It is the study of the patterns that make life possible."
+            },
+            {
+              "type": "transition",
+              "body": "With this foundation — carbon's superpowers, the organic/inorganic distinction, structure determines properties, and the deeply personal nature of carbon chemistry — we're ready to learn HOW carbon achieves its structural diversity. Next: hybridization — how carbon reshapes its orbitals to create the tetrahedral, trigonal, and linear geometries that build every organic molecule in existence."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual essay titled 'The Chemistry of Me' — trace organic molecules through YOUR typical day, from waking to sleeping. Name at least 8 specific organic molecules and show how they connect to your personal experience. Most personal and scientifically accurate submission becomes the course's opening image!",
+              "placeholder_type": "chemistry_of_me_essay"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Organic Chemistry Manifesto",
+              "body": "You now know: carbon forms 4 bonds and chains/rings of unlimited length. Single bonds flex, double bonds hold rigid, triple bonds react fast. Organic molecules are carbon-based with C—H bonds (mostly). The same formula can produce wildly different substances. Your body runs on four classes of organic molecules. Every smell, taste, emotion, and thought has an organic molecular basis."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "This is not a course about memorizing structures. It is a course about understanding the molecular logic that underlies everything you eat, wear, smell, feel, and are. Welcome to organic chemistry — the most personal science."
+            },
+            {
+              "type": "transition",
+              "body": "Next: hybridization — carbon's orbital shapeshifting that creates the tetrahedral, planar, and linear geometries of organic molecules."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Nine parts. One element. The conclusion: carbon is the element that made the universe interesting. Without carbon, you get rocks, water, and gases. With carbon, you get DNA, chocolate, music, love, aspirin, silk, coffee, and consciousness. If that doesn't make organic chemistry worth studying, nothing will."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Carl Sagan said 'we are made of star stuff.' More precisely: we are made of ORGANIC star stuff — carbon atoms forged in stellar cores, expelled by supernovae, assembled into amino acids in interstellar clouds, concentrated on a watery planet, and organized by 4 billion years of evolution into self-replicating organic patterns that eventually learned to study themselves. You are carbon studying carbon. How's that for personal?"
+            },
+            {
+              "type": "transition",
+              "body": "Foundation laid. Carbon understood. The molecular world awaits. Next: hybridization — where carbon learns to shapeshift its orbitals to build every geometry organic chemistry requires."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "What is the central principle of organic chemistry?",
+          "options": {
+            "A": "Larger molecules are always more reactive",
+            "B": "Structure determines properties — the 3D arrangement of atoms determines all physical, chemical, and biological behavior",
+            "C": "Organic molecules are always natural",
+            "D": "Carbon is the heaviest element in organic molecules"
+          },
+          "correct_answer": "B",
+          "explanation": "Structure determines properties is the central dogma. Same formula, different structure = different substance. This principle explains why ethanol is drinkable but dimethyl ether is a gas, why cis-fats are liquid but trans-fats are solid, why one drug heals and its mirror image harms.",
+          "tests_concept": "carbon_bonding"
+        },
+        {
+          "question": "Your body replaces most atoms every 7-10 years. What does this imply about what 'you' really are?",
+          "options": {
+            "A": "You are an unchanging collection of specific atoms",
+            "B": "You are a self-sustaining organic chemical PATTERN — a specific molecular architecture that persists while the actual atoms constantly cycle through",
+            "C": "You are primarily inorganic",
+            "D": "Atoms don't change"
+          },
+          "correct_answer": "B",
+          "explanation": "You are not your atoms — those cycle continuously. You are the PATTERN: the specific organic molecular architecture (DNA encoding, protein folding, membrane structure, neural connectivity) that maintains itself through constant atomic turnover. Life is pattern, not material. Organic chemistry IS the study of those patterns.",
+          "tests_concept": "organic_vs_inorganic"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 13,
+    "block_types_used": [
+      "section",
+      "callout",
+      "list",
+      "visual",
+      "transition",
+      "creator_challenge"
+    ],
+    "callout_styles_used": [
+      "definition",
+      "key_idea",
+      "fun_fact",
+      "remember",
+      "mind_blow",
+      "philosophy",
+      "personal"
+    ],
+    "list_styles_used": [
+      "icon_list",
+      "two_column",
+      "comparison",
+      "challenge",
+      "numbered_steps"
+    ],
+    "curriculum_concepts_covered": [
+      "carbon_bonding",
+      "organic_vs_inorganic",
+      "carbon_chains_and_rings",
+      "carbon_bond_types",
+      "organic_in_daily_life",
+      "carbon_molecular_diversity"
+    ],
+    "bridges_from": "general_chemistry.covalent_bonding + general_chemistry.organic_intro",
+    "bridges_to": "hybridization (sp3, sp2, sp)",
+    "extended_treatment": true,
+    "new_callout_style": "personal — used for blocks that connect chemistry directly to the student's own body, senses, and daily experience"
+  }
+}

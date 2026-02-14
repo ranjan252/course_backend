@@ -1,0 +1,949 @@
+{
+  "course": "Physics",
+  "topic": "1_motion_and_forces",
+  "subtopic": "1.1_describing_motion",
+  "foundation_id": "physics_of_you",
+  "foundation_title": "The Physics of You — Every Move You Make Is a Physics Experiment",
+  "foundation_tier": 1,
+  "prerequisites": [],
+  "curriculum_concepts_covered": [
+    "what_is_physics",
+    "physics_in_daily_life",
+    "forces_in_your_body",
+    "motion_everywhere",
+    "energy_in_everything",
+    "physics_of_senses"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 9 parts. This is the gateway to the entire physics course. The philosophy: physics is not abstract equations — it is the operating system of your daily reality. Every step, every heartbeat, every sound, every color, every warm cup of coffee is physics. This foundation must make the student FEEL that physics is not 'out there' — it IS them, it IS their experience of being alive. The goal: by the end, students see physics in everything they do.",
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "First impression of a physics course determines whether students engage or retreat into equation-memorization survival mode. Students who understand that physics explains THEIR OWN daily experience become curious, persistent learners. Students who see it as abstract math on a chalkboard shut down. This foundation must create visceral, personal connection.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal, thought_experiment",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "physics_of_you_p1",
+      "part_title": "You've Been Doing Physics Your Entire Life",
+      "purpose": "Emotional hook — physics is not abstract; it IS every movement, sensation, and experience you've ever had",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "This morning you woke up and gravity — the same force that holds the Moon in orbit — held you in bed. When you stood up, your legs exerted a force on the floor. The floor pushed back with an exactly equal and opposite force (Newton's third law). That return force is what lifted you to standing. You've been using Newton's laws since you took your first step. You just didn't know their names."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "You walked to the bathroom. Each step: your foot pushed backward on the ground (action), the ground pushed you forward (reaction). Friction between your foot and the floor made this possible — without it, you'd slip and fall, just like on ice. You balanced your center of mass over your feet without thinking about it — an act of rotational equilibrium so complex that robotics engineers have spent decades trying to replicate it. Your body solves physics problems that computers still struggle with."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "You looked in the mirror. Light from the bathroom bulb — electromagnetic radiation — hit your face, bounced off your skin (reflection), entered the mirror, reflected again at exactly the same angle it arrived (law of reflection), traveled into your eyes, was focused by your cornea and lens (refraction) onto your retina, where photoreceptor cells converted photon energy into electrical signals that traveled at ~120 m/s along your optic nerve to your visual cortex. You 'saw' yourself. That process — from light bulb to conscious perception — involves electromagnetic waves, optics, quantum mechanics, and electrical signaling. One glance in the mirror = five branches of physics."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Physics is the study of matter, energy, and the forces between them. But here is what that MEANS: it is the study of why you don't float away, why the sky is blue, why your coffee cools down, why you can hear music, why your phone works, why the Sun shines, and why you exist at all. There is no experience you have ever had — not one — that doesn't involve physics."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Right Now, Where You're Sitting",
+              "body": "Feel the chair under you. That's the normal force — the chair's atoms pushing against your atoms through electromagnetic repulsion. You're not actually 'touching' the chair — the electrons in your body and the electrons in the chair repel each other. You float about 0.1 nanometers above everything you 'touch.' You have never truly touched anything in your life. What you feel as 'contact' is electromagnetic force."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Listen. Whatever you hear right now — traffic, music, wind, someone talking — is pressure waves in air. Something vibrated (a speaker cone, a vocal cord, an engine), pushed air molecules into compressions and rarefactions, and those pressure waves traveled to your ear at 343 meters per second. Your eardrum vibrated in exact synchrony with the source. Three tiny bones amplified the vibration. Fluid in your cochlea converted it to electrical signals. You 'heard' a sound. Acoustics, mechanics, fluid dynamics, and neuroscience — all in the time it takes to hear a single word."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Most people think of physics as something that happens in labs or textbooks. But physics is not something you study from the outside. You are INSIDE physics. You are a collection of atoms held together by electromagnetic forces, pulled toward Earth by gravity, heated by infrared radiation, cooled by evaporation, powered by chemical energy converted from food that got its energy from sunlight that traveled 150 million kilometers through empty space as electromagnetic waves produced by nuclear fusion in a star. You are a physics experiment. You always have been."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Physics has a reputation problem. 'Too many equations.' 'Too abstract.' 'Only for geniuses.' But here's the absurd truth: you have been DOING physics flawlessly since birth. You catch a ball (projectile motion + estimation of parabolic trajectories). You balance on one foot (torque + center of mass). You know instinctively that a heavy truck is harder to stop than a bicycle (momentum). You turn up the volume when a song is quiet (amplitude of sound waves). You are, and have always been, a physics expert. You just haven't had the vocabulary."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your brain processes physics constantly without telling you. When you catch a ball, your visual cortex tracks the projectile, your cerebellum calculates where it will be, and your motor cortex fires your arm muscles to meet it. You solve a differential equation in real time — something that takes a physics student 10 minutes with pencil and paper. Your brain is the world's most powerful physics computer, and it runs the calculations below your conscious awareness."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "By the way — the word 'physics' comes from the Greek 'physis,' meaning 'nature.' Physics literally means 'the study of nature.' It's the oldest, broadest, most fundamental science. Chemistry is applied physics (atoms and forces). Biology is applied chemistry (molecules and reactions). Psychology is applied biology (neurons and signals). Everything, eventually, is physics."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "physics_of_you_p2",
+      "part_title": "Forces — The Invisible Hands That Shape Everything",
+      "purpose": "Introduce the four fundamental forces through everyday experience — gravity, electromagnetism, strong, weak",
+      "curriculum_concepts": [
+        "forces_in_your_body"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Four Forces Run the Universe",
+              "body": "Everything that happens in the universe — every motion, every interaction, every change — is caused by just four fundamental forces. Four. That's it. From galaxies colliding to neurons firing to nuclei holding together, four forces explain ALL of it."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "The Four Fundamental Forces",
+              "items": [
+                {
+                  "label": "1. Gravity",
+                  "icon": "globe",
+                  "body": "The weakest force — but it acts over infinite distance and only attracts. It shapes galaxies, holds planets in orbit, creates tides, and keeps your feet on the ground. Every mass attracts every other mass. Right now, the Sun, the Moon, Jupiter, and the person next to you are all gravitationally pulling on you. (The person's pull is just immeasurably small.)"
+                },
+                {
+                  "label": "2. Electromagnetism",
+                  "icon": "zap",
+                  "body": "The force between charged particles — and the force behind almost everything you experience daily. Light, electricity, magnetism, chemistry, touch, friction, tension, normal force, the structure of atoms, the rigidity of solids, nerve signals, muscle contractions — ALL electromagnetic. When you push a door, electromagnetic repulsion between your atoms and the door's atoms transfers force. Electromagnetism is the physics of everyday life."
+                },
+                {
+                  "label": "3. Strong Nuclear Force",
+                  "icon": "shield",
+                  "body": "The strongest force in nature — but it only operates within atomic nuclei (~10⁻¹⁵ m range). It glues protons and neutrons together despite the electromagnetic repulsion between positive protons. Without it, every nucleus heavier than hydrogen would fly apart instantly. No strong force = no atoms = no chemistry = no you."
+                },
+                {
+                  "label": "4. Weak Nuclear Force",
+                  "icon": "refresh-cw",
+                  "body": "Responsible for radioactive decay and the nuclear reactions that power the Sun. It's the reason the Sun shines — weak force converts protons into neutrons during fusion. Without the weak force, the Sun wouldn't fuse hydrogen, wouldn't shine, and life on Earth wouldn't exist. It also enables carbon dating, medical PET scans, and smoke detectors."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Four forces. That's the complete list. Every phenomenon you have ever experienced — walking, seeing, hearing, eating, breathing, thinking, loving — can be traced to one or more of these four forces. The entire complexity of the universe emerges from four interactions. Physics is, at its deepest level, the study of these four forces and how matter responds to them."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Feel the Forces on Your Body Right Now",
+              "body": "Gravity: pulling every atom of your body toward Earth's center. You weigh what you weigh because F = mg — your mass times gravitational acceleration. On the Moon (g = 1.6 m/s²), you'd weigh 1/6 as much. Same mass, different weight. Weight is a FORCE. Mass is a PROPERTY."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Electromagnetic force: the chair pushing up on you (normal force = electromagnetic repulsion between atoms). The friction keeping your shoes from sliding. The tension in your clothing fibers. The electrical signals in your nerves as you read this. The light hitting your retina. The chemical bonds holding your molecules together. Virtually everything you experience moment to moment is the electromagnetic force in disguise."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Every beat of your heart is physics. Your cardiac muscle cells fire because of electrical signals (electromagnetic). Blood flows through arteries under pressure (fluid mechanics). Your lungs expand because of pressure differences (thermodynamics). Oxygen binds to hemoglobin because of electromagnetic attraction between molecules. You are a living, breathing physics laboratory operating 24/7."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Gravity is the weakest fundamental force — weaker than electromagnetism by a factor of 10³⁶ (that's 1 followed by 36 zeros). How weak? A small refrigerator magnet, using electromagnetic force, can hold a paper clip against the gravitational pull of the ENTIRE EARTH. A magnet the size of a coin beats a planet the size of Earth. Gravity only seems strong because Earth is very, very massive."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "If you removed all the empty space from every atom in every human on Earth and packed the remaining matter together, all 8 billion people would fit into a space the size of a sugar cube. The strong nuclear force is what keeps all that matter compressed in atomic nuclei. Your body is 99.9999999% empty space. The chair is 99.9999999% empty space. The reason you don't fall through the chair is electromagnetic repulsion between the 0.0000001% that IS matter."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The weak nuclear force has the worst name in physics. It's not 'weak' compared to anything you've experienced — it's only 'weak' compared to the strong force and electromagnetism. It's still 10²⁵ times stronger than gravity. The hierarchy goes: strong > electromagnetic > weak > gravity. Gravity is the bottom of the totem pole, and it runs the entire large-scale structure of the universe. Imagine what the strong force could do if it had infinite range."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Which force is responsible for most everyday physical experiences — friction, touch, light, chemistry, electrical signals, and the structure of matter?",
+          "options": {
+            "A": "Gravity",
+            "B": "The electromagnetic force — it governs interactions between charged particles, which is the basis of atomic structure, chemical bonds, light, friction, normal force, tension, and electrical signals",
+            "C": "The strong nuclear force",
+            "D": "The weak nuclear force"
+          },
+          "correct_answer": "B",
+          "explanation": "Electromagnetism is the 'everyday force.' Gravity is noticeable because Earth is massive, but almost all contact forces (friction, tension, normal force, spring forces) and all chemistry, light, and electricity are electromagnetic in nature.",
+          "tests_concept": "forces_in_your_body"
+        },
+        {
+          "question": "A tiny refrigerator magnet can hold a paper clip against the pull of the entire Earth. What does this demonstrate?",
+          "options": {
+            "A": "Magnets are heavy",
+            "B": "The electromagnetic force is enormously stronger than gravity — a small magnet's electromagnetic force on a paper clip exceeds Earth's entire gravitational force on it",
+            "C": "Gravity doesn't work on metal",
+            "D": "Paper clips are weightless"
+          },
+          "correct_answer": "B",
+          "explanation": "Electromagnetic force is ~10³⁶ times stronger than gravity. The magnet's EM force on the small number of atoms in a paper clip exceeds the gravitational force exerted by 6 × 10²⁴ kg of Earth. Gravity only dominates at astronomical scales because it's always attractive and adds up.",
+          "tests_concept": "forces_in_your_body"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "physics_of_you_p3",
+      "part_title": "Motion — You've Never Been Still",
+      "purpose": "Motion is everywhere — from your cells to the galaxy. Nothing in the universe is truly stationary.",
+      "curriculum_concepts": [
+        "motion_everywhere"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Nothing Is Still",
+              "body": "Right now, sitting 'still,' you are moving in at least six ways simultaneously. And you can't stop any of them."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Earth's Rotation",
+                  "icon": "rotate-cw",
+                  "body": "You're spinning with Earth at roughly 1,600 km/h (at the equator). Every 24 hours, you complete one full rotation. You don't feel it because you, the air, and everything around you share this motion."
+                },
+                {
+                  "label": "Earth's Orbit",
+                  "icon": "circle",
+                  "body": "Earth orbits the Sun at 107,000 km/h (30 km/s). In the time it took to read this sentence, you traveled about 300 kilometers through space."
+                },
+                {
+                  "label": "Solar System's Motion",
+                  "icon": "arrow-up-right",
+                  "body": "The Sun orbits the Milky Way's center at 828,000 km/h. The entire solar system is hurtling through the galaxy."
+                },
+                {
+                  "label": "Milky Way's Motion",
+                  "icon": "arrow-right",
+                  "body": "Our galaxy moves toward the Andromeda galaxy at 400,000 km/h. And both are being pulled toward the 'Great Attractor' — a mysterious mass concentration."
+                },
+                {
+                  "label": "Your Atoms",
+                  "icon": "activity",
+                  "body": "Every atom in your body vibrates with thermal energy. At body temperature (37°C), your atoms vibrate at roughly 10¹³ times per second. Even 'solid' you is a blur of atomic motion."
+                },
+                {
+                  "label": "Your Blood",
+                  "icon": "heart",
+                  "body": "Blood flows through your aorta at ~1.5 m/s. Your heart pumps ~7,500 liters per day. Every red blood cell completes a full circuit through your body in about 20 seconds."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Adding up Earth's rotation, orbit, the solar system's galactic orbit, and the Milky Way's cosmic motion, you are traveling through space at approximately 2.1 MILLION km/h right now. 'Sitting still' is a fiction. You are a passenger on a spinning rock orbiting a nuclear furnace spiraling through a galaxy hurtling through an expanding universe. Motion isn't something that occasionally happens to you. It IS you."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "All motion is RELATIVE. There is no 'absolute rest.' When you say you're 'not moving,' you mean relative to the ground. But the ground IS moving. Motion only has meaning when you specify 'relative to what.' This insight — that there is no special 'at rest' frame — is the starting point of Einstein's relativity."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Feel the Motion",
+              "body": "Close your eyes in a car moving at constant speed on a smooth highway. Can you tell you're moving? No — because there's no acceleration. Now the car brakes. Immediately you feel pushed forward. What you're feeling is NOT a force pushing you forward — it's your body's inertia wanting to keep moving while the car decelerates. Newton's first law, in your seatbelt."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "Imagine you're in a windowless room on a perfectly smooth train. No vibrations, no sounds. Can you tell if the train is moving at 100 km/h or stopped? Einstein said NO — there is no experiment you can perform to distinguish constant velocity from rest. This is the principle of relativity. Physics works the same whether you're 'moving' or 'still.' (Because those words only mean something relative to something else.)"
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "The next time someone tells you to 'stop moving,' inform them that you are currently traveling at 2.1 million km/h through the cosmos and there is absolutely nothing anyone can do about it. You haven't been 'still' for a single instant of your life. Stillness is an illusion created by sharing motion with your surroundings."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "A passenger in a car traveling at highway speed relative to Earth is ALSO traveling at 107,000 km/h relative to the Sun. But a police officer can only ticket you for the velocity relative to the road. Physics is relative, but speed limits are not."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You're sitting 'still' reading this. How fast are you actually moving through space?",
+          "options": {
+            "A": "0 km/h — you're not moving",
+            "B": "About 1,600 km/h (Earth's rotation only)",
+            "C": "Approximately 2.1 million km/h — combining Earth's rotation, orbit, the solar system's galactic orbit, and the galaxy's cosmic motion",
+            "D": "The speed of light"
+          },
+          "correct_answer": "C",
+          "explanation": "Motion is always relative. Relative to Earth's surface, you're still. But Earth rotates (1,600 km/h), orbits the Sun (107,000 km/h), and the whole solar system moves through the galaxy and the galaxy moves through space. Combined: ~2.1 million km/h. 'Still' is a frame-of-reference choice, not an absolute truth.",
+          "tests_concept": "motion_everywhere"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "physics_of_you_p4",
+      "part_title": "Energy — The Universe's One Currency",
+      "purpose": "Energy is in everything — your food, your muscles, your phone, the Sun. Conservation of energy is the most important law in physics.",
+      "curriculum_concepts": [
+        "energy_in_everything"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Everything Is Energy",
+              "body": "Energy cannot be created or destroyed — only converted from one form to another. This single law (conservation of energy) governs everything from your breakfast to the death of stars. It is arguably the most important principle in all of science."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Energy Transformations in Your Life — Right Now",
+              "items": [
+                {
+                  "label": "Your Body",
+                  "icon": "user",
+                  "body": "Chemical energy (food) → kinetic energy (movement) + thermal energy (body heat) + electrical energy (nerve signals) + chemical energy (new molecules). Your body is an energy conversion machine running at about 80 watts at rest — the same power as a bright light bulb."
+                },
+                {
+                  "label": "Your Phone",
+                  "icon": "smartphone",
+                  "body": "Chemical energy (lithium-ion battery) → electrical energy → light energy (screen) + sound energy (speakers) + thermal energy (phone gets warm) + electromagnetic energy (WiFi/cellular signals). Every app you open is an energy transformation."
+                },
+                {
+                  "label": "The Sun",
+                  "icon": "sun",
+                  "body": "Nuclear energy (hydrogen fusion) → electromagnetic energy (light and heat) → travels 150 million km → hits Earth → drives photosynthesis (light energy → chemical energy in plants) → you eat the plants or the animals that ate the plants → your muscles move. The energy in your morning run came from nuclear fusion 93 million miles away."
+                },
+                {
+                  "label": "Your Car",
+                  "icon": "truck",
+                  "body": "Chemical energy (gasoline) → thermal energy (combustion) → kinetic energy (motion) + thermal energy (waste heat) + sound energy (engine noise). About 25% of gasoline's energy becomes motion. The rest is waste heat. That's thermodynamics."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "The energy in your body right now has been on an incredible journey. It started as nuclear energy in the Sun's core → became electromagnetic radiation → traveled 8 minutes through space → was absorbed by a plant (photosynthesis) → became chemical energy in glucose → was eaten by you (or by an animal you ate) → became ATP in your cells → is powering your muscles and brain right now as you read this. Your energy has been on a 93-million-mile journey from a nuclear furnace to your neurons. Physics traces the path."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Energy is NEVER 'used up.' When people say 'I used energy,' they mean 'I converted energy from a useful form to a less useful form.' Gasoline's chemical energy doesn't disappear — it becomes heat, motion, and sound. Your muscles' chemical energy becomes motion and heat. The total energy of the universe has been constant since the Big Bang. Every joule that exists has always existed and will always exist — just in different forms."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Trace the Energy",
+              "body": "Clap your hands. Where did that energy come from? Your muscles contracted (chemical energy → kinetic energy). Your hands collided, creating a pressure wave in the air (kinetic → sound energy) and warming your palms slightly (kinetic → thermal energy). The chemical energy came from ATP in your muscle cells. The ATP came from glucose. The glucose came from food. The food came from plants (or animals that ate plants). The plants got energy from sunlight. The sunlight came from nuclear fusion. One clap → a chain of energy transformations leading back to the nuclear core of a star."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your body generates about 80 watts at rest. In a classroom of 30 students, that's 2,400 watts — enough to power 24 hundred-watt light bulbs. Humans are literally warm-blooded power plants. Movie theaters get hot because they're packed with 200+ human space heaters each outputting ~100 watts."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The total energy of the universe is believed to be approximately ZERO. Positive energy (mass, radiation, kinetic) is balanced by negative gravitational potential energy. The universe may be the ultimate free lunch — everything from nothing, as long as the total energy balance stays at zero. Physics: where the accountants of the cosmos discovered the universe might have been built on a zero-energy budget."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "When you eat lunch and then go for a run, trace the energy transformation chain back to its original source.",
+          "options": {
+            "A": "Your body creates energy from food",
+            "B": "Nuclear fusion in the Sun → electromagnetic radiation → photosynthesis in plants → chemical energy in food → chemical energy in ATP → kinetic energy in muscles + thermal energy (body heat). The energy was CONVERTED at each step, never created.",
+            "C": "Chemical energy is the original source",
+            "D": "Energy appears spontaneously in your muscles"
+          },
+          "correct_answer": "B",
+          "explanation": "Energy conservation means energy is never created — only transformed. Your lunch energy traces back to sunlight, which traces back to nuclear fusion. Every energy transaction in your body is a conversion, not a creation. The total energy remains constant throughout the chain.",
+          "tests_concept": "energy_in_everything"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "physics_of_you_p5",
+      "part_title": "Your Senses Are Physics Instruments",
+      "purpose": "Vision = optics + EM waves. Hearing = acoustics. Touch = mechanics + EM force. Taste & smell = molecular physics.",
+      "curriculum_concepts": [
+        "physics_of_senses"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Are a Walking Physics Laboratory",
+              "body": "Your five senses are physics instruments. Each one detects a different physical phenomenon and converts it into electrical signals your brain can process. Understanding your senses IS understanding physics."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Vision: Electromagnetic Wave Detector",
+                  "icon": "eye",
+                  "body": "Your eyes detect electromagnetic radiation between 380-700 nm wavelength. Cone cells detect color (red, green, blue receptors — your retina has 6 million). Rod cells detect intensity in low light (120 million). Lens focuses by changing shape (accommodation). Pupil adjusts aperture (like a camera). A single photon can trigger a rod cell. Your eye is sensitive to individual quantum events."
+                },
+                {
+                  "label": "Hearing: Pressure Wave Analyzer",
+                  "icon": "headphones",
+                  "body": "Your ear detects pressure waves between 20-20,000 Hz. The cochlea performs a REAL-TIME Fourier transform — decomposing complex waves into individual frequencies. Different locations along the cochlea respond to different frequencies. You can distinguish sounds just 3 dB apart and locate sound sources to within 1 degree using the time difference between ears (~0.6 milliseconds)."
+                },
+                {
+                  "label": "Touch: Force & Thermal Sensor Array",
+                  "icon": "hand",
+                  "body": "Your skin has 4 types of mechanoreceptors (pressure, vibration, texture, stretch) plus thermoreceptors (warm and cold). Fingertips can detect bumps just 0.01 mm high. You sense temperature CHANGE, not absolute temperature — that's why a 20°C room feels warm coming from outside in winter but cool coming from a hot shower."
+                },
+                {
+                  "label": "Taste & Smell: Molecular Detectors",
+                  "icon": "wind",
+                  "body": "Smell: ~400 receptor types detect airborne molecules by SHAPE — a molecule docks into a receptor like a key in a lock. Your nose can distinguish 1 trillion scent combinations. Taste: 5 receptor types (sweet, sour, salty, bitter, umami) detect dissolved molecules. Both senses are molecular recognition systems — quantum-level physics of molecular shape and charge."
+                },
+                {
+                  "label": "Balance: Accelerometer & Gyroscope",
+                  "icon": "compass",
+                  "body": "Your vestibular system in each inner ear has 3 semicircular canals (detect rotation in 3 axes — a biological gyroscope) and 2 otolith organs (detect linear acceleration and gravity — a biological accelerometer). The same sensor suite that stabilizes your phone's screen is in your head, but evolved millions of years earlier."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Your body contains the biological equivalent of: a camera (eye), a microphone with real-time spectrum analyzer (ear), a force-sensitive touchscreen (skin), a chemical mass spectrometer (nose/tongue), a 3-axis accelerometer and gyroscope (vestibular system), and a thermometer array (thermoreceptors). Every one of these instruments operates on physics principles. Your experience of being alive IS physics, translated into consciousness."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Test Your Physics Instruments",
+              "body": "Close one eye. Your depth perception gets worse — because stereo vision uses PARALLAX (the slight angle difference between two viewpoints) to calculate distance. Surveyors use the same principle with instruments. Your brain does it automatically with two cameras separated by about 6 cm."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Snap your fingers near one ear, then the other. You can locate the sound because your brain detects the ~0.6 millisecond time difference between the sound reaching each ear. This is the same principle as sonar — triangulating position from multiple receivers."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your eye can detect a single photon — the smallest possible unit of light. That means your eye is, in a very real sense, a quantum detector. It operates at the absolute physical limit of light sensitivity. Engineers spent decades building photodetectors that approach what your eye does naturally."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The reason your inner ear has THREE semicircular canals at right angles to each other: it's a 3D rotation sensor. One canal per axis (x, y, z). The exact same principle used in smartphone gyroscopes, drone stabilizers, and spacecraft navigation. Your body had inertial navigation 400 million years before humans invented it."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Your ear performs a 'Fourier transform' on incoming sound. What does this mean?",
+          "options": {
+            "A": "It makes sound louder",
+            "B": "The cochlea decomposes complex sound waves into individual frequencies — different locations respond to different frequencies, allowing you to hear multiple pitches simultaneously from a single pressure wave",
+            "C": "It converts sound to light",
+            "D": "It filters out all noise"
+          },
+          "correct_answer": "B",
+          "explanation": "A complex sound wave (like an orchestra) contains many frequencies mixed together. The cochlea separates these mechanically — high frequencies near the base, low near the apex — so your brain receives frequency-by-frequency information from a single mixed wave. This is the biological equivalent of a spectrum analyzer.",
+          "tests_concept": "physics_of_senses"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "physics_of_you_p6",
+      "part_title": "Physics of Your Morning — A Guided Tour",
+      "purpose": "Walk through a morning routine naming every physics phenomenon — making it viscerally real",
+      "curriculum_concepts": [
+        "physics_in_daily_life"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Morning, Law by Law",
+              "body": "Let's trace a typical morning and name every physics principle you encounter — not as abstract concepts, but as the phenomena you already experience."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Alarm Goes Off: Sound Waves + Electronics",
+                  "icon": "bell",
+                  "body": "Your phone's speaker vibrates a tiny membrane (electromagnetism: current → magnetic field → force on coil → membrane moves). The membrane pushes air into compressions and rarefactions (longitudinal waves, ~1000-4000 Hz). The waves travel at 343 m/s, enter your ear canal, vibrate your eardrum, and you wake up."
+                },
+                {
+                  "label": "Standing Up: Mechanics + Biology",
+                  "icon": "arrow-up",
+                  "body": "Your muscles contract (chemical → mechanical energy). Your legs push against the bed/floor (Newton's 3rd law). The floor pushes back (normal force). Your vestibular system detects the change in orientation (accelerometer + gyroscope). Your brain adjusts muscle tension to keep your center of mass over your feet (rotational equilibrium). Standing up is an engineering marvel."
+                },
+                {
+                  "label": "Hot Shower: Thermodynamics",
+                  "icon": "droplet",
+                  "body": "Water heated by a gas flame (combustion → thermal → heat transfer to water) or electric element (electrical → thermal). Hot water feels good because thermoreceptors detect heat flowing INTO your skin. Steam rises because hot air is less dense than cold (buoyancy + convection). Fog on the mirror: water vapor condenses on the cooler glass surface (phase transition)."
+                },
+                {
+                  "label": "Microwave Breakfast: Electromagnetic Radiation",
+                  "icon": "radio",
+                  "body": "Microwaves (EM waves, ~2.45 GHz) are tuned to the resonant frequency of water molecules. They cause water molecules to rotate rapidly → friction between molecules → thermal energy → food heats up. The plate doesn't heat (no water in ceramic). The turntable rotates because microwave intensity varies spatially — rotation ensures even heating."
+                },
+                {
+                  "label": "Driving: Mechanics + Thermodynamics + Electromagnetism",
+                  "icon": "truck",
+                  "body": "Engine: chemical → thermal → mechanical (pistons) → rotational (crankshaft) → translational (wheels push road via friction, road pushes car forward — Newton's 3rd). Braking: kinetic → thermal (brake pads heat up). Steering: friction between tires and road provides centripetal force for turning. GPS: satellites use special relativity corrections to give accurate position."
+                },
+                {
+                  "label": "Music in the Car: Wave Physics",
+                  "icon": "music",
+                  "body": "Digital file → electrical signals → electromagnet in speaker moves a cone → pressure waves in air → your ear converts them back to electrical signals → brain interprets as music. Equalizer adjusts amplitude of different frequency ranges. Bass boost = amplifying low-frequency waves. Treble = high-frequency waves."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "You haven't even arrived at work or school yet, and you've experienced: acoustics, electromagnetism, mechanics (Newton's three laws, friction, normal force, centripetal force), thermodynamics (heat transfer, phase changes, combustion), fluid dynamics, wave physics, electromagnetic radiation, and special relativity (GPS). Physics isn't a class you go to. It's the class you LIVE."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "For one morning, try to notice every physics phenomenon as it happens. The warmth of your blanket (thermal insulation). The click of a light switch (circuit completing). The rainbow in a soap bubble (thin-film interference). The fact that your cereal floats (buoyancy). Once you start seeing physics, you can't unsee it. Your morning becomes an endless series of demonstrations."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your GPS depends on both special AND general relativity. Satellites move fast (special relativity: their clocks slow down by ~7 μs/day). They're also higher in Earth's gravitational field (general relativity: their clocks speed up by ~45 μs/day). Net effect: satellite clocks run ~38 μs/day fast. Without relativistic corrections, GPS would drift 10 km per day. You use Einstein's equations every time you navigate anywhere."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The most underappreciated physics in your morning: friction. Without friction, you couldn't walk (feet would slide), hold your toothbrush (it would slip), turn a doorknob (hand would spin around it), sit in a chair (you'd slide off), or drive (tires would spin uselessly). Friction is the unsung hero of daily life. Engineers who design ice rinks and bowling alleys REDUCE friction. Engineers who design brake pads and rock-climbing shoes INCREASE it. It's all about controlling the same force."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A microwave oven heats food but not the ceramic plate. Why?",
+          "options": {
+            "A": "The plate is too heavy",
+            "B": "Microwaves are tuned to the resonant frequency of WATER molecules — they make water molecules rotate and generate heat through molecular friction. Ceramic has no water, so it doesn't absorb microwave energy directly.",
+            "C": "The plate reflects microwaves",
+            "D": "Ceramic is a better conductor"
+          },
+          "correct_answer": "B",
+          "explanation": "Microwave ovens emit EM radiation at ~2.45 GHz, which is absorbed by water molecules (resonant absorption). The water molecules rotate rapidly, creating thermal energy through intermolecular friction. Materials without water (ceramic, glass) don't absorb these frequencies efficiently, so they stay cool (they may warm slightly from contact with hot food).",
+          "tests_concept": "physics_in_daily_life"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "physics_of_you_p7",
+      "part_title": "Physics Made Every Technology You Use",
+      "purpose": "Smartphones, internet, medicine, transportation — all physics applications. Physics is not academic — it built your world.",
+      "curriculum_concepts": [
+        "physics_in_daily_life"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Phone Is a Physics Encyclopedia",
+              "body": "A smartphone contains more applied physics than any object in human history. Every feature relies on a different branch of physics — and most required Nobel Prize-level discoveries to create."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Touchscreen: Electrostatics",
+                  "icon": "smartphone",
+                  "body": "Capacitive touchscreens detect the change in electric field when your conductive finger approaches. Your body is a conductor (salty water). The screen measures capacitance changes at a grid of points. That's why gloves don't work — fabric is an insulator."
+                },
+                {
+                  "label": "Display: Quantum Mechanics + Optics",
+                  "icon": "monitor",
+                  "body": "OLED screens: organic molecules emit photons when electrons drop energy levels (quantum transitions). LCD screens: liquid crystals rotate polarized light under electric fields. Both technologies require deep understanding of quantum mechanics and electromagnetic theory."
+                },
+                {
+                  "label": "WiFi & Cellular: Electromagnetic Waves",
+                  "icon": "wifi",
+                  "body": "Your phone sends and receives radio waves (EM radiation, ~2.4/5 GHz for WiFi, various bands for cellular). Information encoded as patterns of wave amplitude/frequency/phase. Maxwell's equations — written in the 1860s — predicted the radio waves that now carry your TikTok videos."
+                },
+                {
+                  "label": "GPS: Special + General Relativity",
+                  "icon": "map-pin",
+                  "body": "24+ satellites broadcast time signals. Your phone measures the time delay → calculates distance → triangulates position. Requires relativistic corrections (clocks in orbit tick differently). Without Einstein's 1905 and 1915 theories, GPS wouldn't work."
+                },
+                {
+                  "label": "Camera: Optics + Semiconductor Physics",
+                  "icon": "camera",
+                  "body": "Lens focuses light (refraction). Image sensor: millions of photodiodes convert photons to electrical signals (photoelectric effect — Einstein's 1905 Nobel Prize work). Image stabilization: accelerometers detect hand shake, shift lens to compensate."
+                },
+                {
+                  "label": "Battery: Electrochemistry + Thermodynamics",
+                  "icon": "battery",
+                  "body": "Lithium ions flow between electrodes, converting chemical potential energy to electrical energy. Governed by thermodynamics (Gibbs free energy determines voltage) and quantum mechanics (electrode materials engineered at atomic level)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Your smartphone required discoveries from: Newton (optics, mechanics), Maxwell (electromagnetism), Planck (quantum theory), Einstein (photoelectric effect, relativity), Bohr (atomic model), Heisenberg (quantum mechanics), Shockley (transistor), and thousands of engineers applying these principles. Every time you unlock your phone, you're using the accumulated physics knowledge of 400 years of scientific revolution. In your pocket."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Beyond your phone: MRI machines use nuclear magnetic resonance (spinning protons in a magnetic field) to image your organs without surgery. Lasers (stimulated emission — quantum mechanics) are in bar code scanners, eye surgery, fiber optic internet, and Blu-ray players. Solar panels use the photoelectric effect. X-rays use high-energy electromagnetic radiation. Every medical, communication, and energy technology you rely on was born from physics research."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "When Maxwell published his equations in 1865, predicting electromagnetic waves, there was zero practical application. 'What good is it?' someone asked. 'What good is a newborn baby?' Michael Faraday reportedly replied. 150 years later, Maxwell's 'useless' equations underpin every wireless device on Earth — smartphones, WiFi, GPS, satellite TV, radio, radar, and the entire internet backbone of fiber optics. Pure physics → civilization-changing technology. It just takes a while."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Why don't regular gloves work on a smartphone touchscreen?",
+          "options": {
+            "A": "Gloves are too thick",
+            "B": "Capacitive touchscreens detect changes in electric field caused by your conductive finger (your body is conductive due to salty water). Insulating glove fabric doesn't change the screen's capacitance.",
+            "C": "Screens need body heat",
+            "D": "Gloves block light from the screen"
+          },
+          "correct_answer": "B",
+          "explanation": "Capacitive touchscreens work via electrostatics: your conductive finger changes the local electric field, which is detected at grid points. Insulating materials (fabric, rubber) don't conduct charge and don't affect the screen's capacitance. Special touchscreen gloves have conductive fibers woven into the fingertips.",
+          "tests_concept": "physics_in_daily_life"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "physics_of_you_p8",
+      "part_title": "The Big Questions Physics Answers",
+      "purpose": "Physics answers the deepest questions: Why does time flow? Why is the sky blue? What are we made of? Why does the universe exist?",
+      "curriculum_concepts": [
+        "what_is_physics"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Questions You've Always Had — Physics Has Answers",
+              "body": "Physics doesn't just explain HOW things work. It answers the deepest WHY questions you can ask about reality."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Why is the sky blue?",
+                  "icon": "cloud",
+                  "body": "Sunlight contains all colors. Air molecules scatter shorter wavelengths (blue/violet) more than longer ones (red). Blue light scatters in all directions → you see blue everywhere you look up. At sunset, light travels through MORE atmosphere → blue is scattered AWAY → only red/orange reaches you directly. Same principle, different path length."
+                },
+                {
+                  "label": "Why does time seem to flow forward?",
+                  "icon": "clock",
+                  "body": "The second law of thermodynamics: entropy (disorder) always increases. Eggs break but don't unbreak. Coffee cools but doesn't spontaneously heat up. The past had lower entropy than the present. The 'arrow of time' is the direction of increasing entropy. Physics doesn't say time CAN'T go backward — just that it's astronomically unlikely."
+                },
+                {
+                  "label": "What are we made of?",
+                  "icon": "atom",
+                  "body": "Quarks and electrons, held together by fundamental forces. But 99.9999999% of your body is empty space. The 'solid' feeling is electromagnetic repulsion between electron clouds. Your mass comes mostly not from the mass of your quarks — but from the ENERGY of the strong force binding them (E=mc²). You are literally made of energy."
+                },
+                {
+                  "label": "Where did everything come from?",
+                  "icon": "star",
+                  "body": "The Big Bang created hydrogen and helium. Stars fused these into heavier elements. Supernovae scattered them through space. Gravity pulled them into new stars and planets. Chemistry made molecules. Biology made life. You are the universe assembling itself into something that can ask where it came from."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Physics is the only science that asks — and attempts to answer — the question 'Why does the universe exist?' Other sciences study WHAT exists (biology: life; chemistry: molecules; geology: rocks). Physics studies WHY anything exists at all — why there is something rather than nothing, why the laws are what they are, why the constants have the values they do. It is the deepest human inquiry into the nature of reality."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "Think about this: every atom of hydrogen in your body — in every water molecule — has existed since the first 3 minutes after the Big Bang. Every atom of carbon, oxygen, nitrogen, and iron was forged inside a star and released when that star exploded. The atoms in your left hand may have come from a different star than the atoms in your right hand. You are a mosaic of stellar debris, assembled by 4.5 billion years of Earth's history into something that can contemplate its own origin."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Physicists estimate there are roughly 7 × 10²⁷ atoms in the human body (7 octillion). About 60% are hydrogen (from the Big Bang), 26% oxygen, 11% carbon, and the rest is a mix of nitrogen, calcium, phosphorus, and trace elements — all from dead stars. The calcium in your bones? Forged in a dying red giant. The iron in your blood? Created in a supernova. You are, atom by atom, stellar archaeology."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The next time someone asks 'When will I ever use physics in real life?' — you're using it right now. Your eyes (optics), your ears (acoustics), your sense of balance (mechanics), your body temperature (thermodynamics), your phone (electromagnetism + quantum mechanics + relativity), and the fact that you exist at all (nuclear physics + cosmology). The question isn't when you'll use physics. The question is when you're NOT using it. Answer: never."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "The sky is blue because of:",
+          "options": {
+            "A": "The ocean reflects into the sky",
+            "B": "Air molecules scatter shorter wavelengths (blue) more than longer ones (red) — called Rayleigh scattering. Blue light reaches your eyes from all directions across the sky.",
+            "C": "Space is blue",
+            "D": "Clouds are blue"
+          },
+          "correct_answer": "B",
+          "explanation": "Rayleigh scattering: intensity ∝ 1/λ⁴. Blue light (short wavelength) scatters ~10x more than red (long wavelength). During the day, scattered blue reaches you from all directions → blue sky. At sunset, light travels through more atmosphere → blue fully scattered away → only red/orange reaches you → red sunset.",
+          "tests_concept": "what_is_physics"
+        }
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_id": "physics_of_you_p9",
+      "part_title": "Welcome to Physics — The Operating System of Reality",
+      "purpose": "Philosophical capstone — physics as the deepest understanding of what you are and what reality is",
+      "curriculum_concepts": [
+        "what_is_physics",
+        "physics_in_daily_life"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Physics is the study of why the universe works the way it does. Not just how — WHY. Why does gravity pull? Why does light travel at exactly 299,792,458 m/s? Why do four forces produce the staggering complexity of reality? These are the deepest questions humans can ask, and physics is the tool we built to answer them."
+            },
+            {
+              "type": "section",
+              "title": "What You're Really Learning",
+              "body": "When you learn F=ma or v=fλ or E=mc², you're not memorizing equations for an exam. You're learning the LANGUAGE that reality is written in. Galileo said 'The book of nature is written in the language of mathematics.' Physics is the Rosetta Stone — it translates the mathematical structure of reality into human understanding."
+            },
+            {
+              "type": "section",
+              "title": "The Map of This Course",
+              "body": "We'll explore: HOW THINGS MOVE (mechanics — forces, energy, momentum), HOW WAVES CARRY INFORMATION (sound and light — everything you hear and see), HOW ELECTRICITY POWERS YOUR WORLD (circuits, magnetism, electromagnetism — from neurons to power grids), HOW HEAT FLOWS (thermodynamics — from cooking to entropy to the arrow of time), and HOW THE UNIVERSE WORKS AT ITS DEEPEST LEVEL (relativity, quantum mechanics, nuclear physics, cosmology). Every topic connects to your daily experience. Every equation describes something you've already felt."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "This course will challenge you — there are equations, graphs, and problem-solving. But behind every equation is a STORY. F=ma is the story of why pushing a shopping cart is easier than pushing a truck. v=fλ is the story of why bass drums sound deep and piccolo flutes sound high. E=mc² is the story of why the Sun shines and why you exist. Every formula is a compressed story about reality. Learn the story, and the formula becomes unforgettable."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The atoms in your body are 13.8 billion years old. The forces holding them together have existed since the first microsecond of the universe. The light entering your eyes was emitted by electrons jumping energy levels — quantum events. The thoughts you're having right now are electrochemical signals propagating at 120 m/s through neurons that operate on the same electrical principles as the device you're reading this on. You are not a student who STUDIES physics. You are physics, studying itself."
+            },
+            {
+              "type": "transition",
+              "body": "With this foundation — forces, motion, energy, senses, daily life, technology, and the big questions — we're ready to start with the most fundamental branch: how things move. Next: describing motion — position, velocity, and acceleration — the vocabulary your body already knows but your mind is about to master."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual essay titled 'The Physics of My Day' — trace physics principles through YOUR typical day, from waking to sleeping. Name at least 10 specific physics phenomena and show which branch of physics each belongs to. Most creative and scientifically accurate submission becomes the course's opening image!",
+              "placeholder_type": "physics_of_my_day_essay"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Physics Manifesto",
+              "body": "You now know: four fundamental forces run everything. Motion is relative — you're never truly still. Energy is never created or destroyed, only transformed. Your senses are physics instruments. Every technology you use exists because someone understood physics deeply enough to engineer it. The atoms in your body are stardust. The equations you'll learn describe things you've experienced every day of your life."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "This is not a course about memorizing formulas. It is a course about understanding the operating system of reality — the rules that govern every movement, every force, every wave, every charge, every atom, every star, every moment of your existence. Welcome to physics — the most fundamental science."
+            },
+            {
+              "type": "transition",
+              "body": "Next: describing motion — position, velocity, and acceleration. The precise language for something you've been doing since your first breath."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Nine parts. One message: physics is not 'out there.' It IS you. It IS your coffee cooling, your phone connecting, your heart beating, your music playing, your eyes seeing. If chemistry is the study of what you're made of, physics is the study of why what you're made of WORKS. It's the operating system running on chemistry's hardware."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Richard Feynman said: 'Physics is like sex: sure, it may give some practical results, but that's not why we do it.' The real reason to study physics is that the universe is astonishing, and physics is the most precise, most powerful, most beautiful way humans have ever found to understand it. And unlike every other way of understanding reality, physics WORKS — its predictions match observations to 12 decimal places. No other human endeavor comes close."
+            },
+            {
+              "type": "transition",
+              "body": "Foundation laid. Reality introduced. The equations await. Next: describing motion — where we give precise names to things your body has known since you learned to walk."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "What is the central approach of this physics course?",
+          "options": {
+            "A": "Memorizing equations and formulas",
+            "B": "Understanding that every physics principle describes something you already experience — forces you feel, waves you hear, energy you use, light you see — and learning the precise language and mathematics that describe these experiences",
+            "C": "Physics is only for scientists and engineers",
+            "D": "Physics is only about things that happen in space"
+          },
+          "correct_answer": "B",
+          "explanation": "Every physics equation describes a real experience: F=ma explains why heavy things are hard to accelerate, v=fλ explains pitch and color, conservation of energy explains why your car needs fuel. Physics is the science of YOUR experience, described in precise mathematical language.",
+          "tests_concept": "what_is_physics"
+        },
+        {
+          "question": "You are 'made of stardust.' What does this mean physically?",
+          "options": {
+            "A": "Stars are made of the same chemicals as humans",
+            "B": "Every atom heavier than hydrogen in your body — the carbon, oxygen, nitrogen, calcium, iron — was forged by nuclear fusion inside stars and scattered when those stars exploded as supernovae. You are literally assembled from stellar debris.",
+            "C": "Humans evolved from stars",
+            "D": "Stars and humans share the same DNA"
+          },
+          "correct_answer": "B",
+          "explanation": "Nuclear fusion in stellar cores creates elements up to iron. Elements heavier than iron are created during supernovae. These elements are ejected into space, form clouds, condense into planets, and become part of living things. The iron in your blood, calcium in your bones, carbon in your DNA — all from dead stars.",
+          "tests_concept": "what_is_physics"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 11,
+    "block_types_used": [
+      "section",
+      "callout",
+      "list",
+      "visual",
+      "transition",
+      "creator_challenge"
+    ],
+    "callout_styles_used": [
+      "definition",
+      "key_idea",
+      "fun_fact",
+      "remember",
+      "mind_blow",
+      "philosophy",
+      "personal",
+      "thought_experiment"
+    ],
+    "list_styles_used": [
+      "icon_list",
+      "comparison",
+      "challenge"
+    ],
+    "curriculum_concepts_covered": [
+      "what_is_physics",
+      "physics_in_daily_life",
+      "forces_in_your_body",
+      "motion_everywhere",
+      "energy_in_everything",
+      "physics_of_senses"
+    ],
+    "bridges_from": "none (first course)",
+    "bridges_to": "1.1_describing_motion (position, velocity, acceleration)",
+    "extended_treatment": true,
+    "new_callout_style": "thought_experiment — used for blocks that invite students to imagine scenarios that reveal physics principles through mental experiments"
+  }
+}

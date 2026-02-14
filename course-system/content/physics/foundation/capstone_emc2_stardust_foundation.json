@@ -1,0 +1,1030 @@
+{
+  "course": "Physics",
+  "topic": "9_modern_physics_and_10_nuclear_cosmology",
+  "subtopic": "full_topic_extended",
+  "foundation_id": "emc2_stardust_capstone",
+  "foundation_title": "E = mc²: From Atoms to the Cosmos — You Are Stardust, and Physics Can Prove It",
+  "foundation_tier": 6,
+  "prerequisites": [
+    "physics.physics_of_you",
+    "physics.newtons_laws_in_your_body",
+    "physics.energy_universes_currency",
+    "physics.sound_physics_of_music",
+    "physics.light_how_you_see_everything",
+    "physics.electricity_invisible_force"
+  ],
+  "curriculum_concepts_covered": [
+    "speed_of_light",
+    "time_dilation_length_contraction",
+    "mass_energy_equivalence",
+    "quantization",
+    "uncertainty_principle",
+    "nuclear_forces",
+    "radioactive_decay",
+    "fission",
+    "fusion",
+    "big_bang",
+    "stellar_lifecycle"
+  ],
+  "coverage_notes": "CAPSTONE EXTENDED TREATMENT — 8 parts. This is the grand finale of the physics curriculum. It weaves together everything students have learned — force, energy, waves, light, electromagnetism — and reveals that the universe itself is a physics experiment on the grandest possible scale. Every atom in your body was forged inside a star. The iron in your blood, the calcium in your bones, the oxygen you breathe — all created by nuclear fusion in stellar cores that exploded billions of years ago. This foundation tells the most epic story physics has: from the Big Bang to you, reading this sentence, made of atoms that have been on a 13.8-billion-year journey. The emotional payload is enormous and fully earned by the physics.",
+  "total_parts": 8,
+  "extended_treatment": true,
+  "extended_reason": "This capstone merges two full curriculum topics (Modern Physics + Nuclear Physics & Cosmology) into one coherent narrative because they form a single story: relativity reveals the relationship between mass and energy, quantum mechanics reveals how atoms work, nuclear physics reveals how elements are built, and cosmology reveals where it all came from. Separating them would break the narrative arc. The 8-part treatment allows the story to breathe: from 'what is c?' to 'you are stardust' is the most powerful journey in all of science education.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal, thought_experiment, misconception_alert",
+    "prediction_cycle": "Interactive predict-observe-reconcile cycle",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "capstone_p1",
+      "part_title": "The Speed of Light — The Universe's Speed Limit Is Woven Into Spacetime",
+      "purpose": "Establish c as the absolute cosmic speed limit. Not just fast — fundamentally unreachable by anything with mass. Light speed is the same for ALL observers (the postulate that breaks everything). Looking at stars = looking back in time.",
+      "pedagogical_notes": "Students accept 'speed of light is fast' but don't grasp that it's an absolute limit built into the geometry of spacetime. The key revelation: c is the same for all observers regardless of their motion. This single fact breaks Newtonian intuition about combining speeds and leads to time dilation, length contraction, and E=mc². Start with the observable (looking back in time) and build to the counterintuitive (speed is the same for everyone).",
+      "curriculum_concepts": [
+        "speed_of_light"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Fastest Anything Can Go, Period",
+              "body": "Light travels at c = 299,792,458 m/s in vacuum. That's fast enough to circle Earth 7.5 times in one second. But c isn't just 'really fast' — it's a fundamental speed limit built into the fabric of spacetime. Nothing with mass can reach c. Nothing can exceed it. This isn't a technological limitation we might overcome — it's as absolute as 2 + 2 = 4. The speed of light isn't a property of light; it's a property of SPACETIME ITSELF."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "When you look at the night sky, you're looking BACK IN TIME. The Sun is 8 light-minutes away — you see it as it was 8 minutes ago. The nearest star (Proxima Centauri) is 4.24 light-years away — you see it as it was in early 2022. The Andromeda galaxy is 2.5 million light-years away — the light entering your eyes left when early humans first used stone tools. The most distant galaxies visible by telescope emitted their light over 13 billion years ago — before Earth, the Sun, or our solar system existed. Every star is a time machine. The deeper you look into space, the farther back in time you see."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Einstein's Key Insight (1905)",
+              "body": "The speed of light is the SAME for ALL observers, regardless of their motion. If you're standing still and I fly past you at 90% of light speed, we BOTH measure the same light beam at exactly c = 3 × 10⁸ m/s. This violates everyday intuition: if I throw a ball at 50 km/h from a car moving at 100 km/h, you'd measure the ball at 150 km/h. But light doesn't add speeds. Light is ALWAYS c, for everyone, always. This single fact — confirmed by every experiment ever performed — demands that time and space themselves must be flexible."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_speed_limit",
+              "title": "Prediction Cycle: Can You Go Faster Than Light?",
+              "predict": {
+                "scenario": "A spaceship accelerates to 90% of light speed (0.9c). The pilot fires the engines harder.",
+                "question": "PREDICT: Can the ship keep accelerating past c? What prevents it?",
+                "common_prediction": "'With enough energy, you should be able to exceed c. It's just an engineering challenge.'"
+              },
+              "observe": {
+                "what_actually_happens": "As the ship approaches c, something strange occurs: the ship's effective mass (relativistic mass / inertia) increases. The faster it goes, the harder it becomes to accelerate. At 0.9c, the ship has 2.3× its rest mass. At 0.99c: 7.1×. At 0.999c: 22.4×. At 0.9999c: 70.7×. Reaching c would require the ship to have INFINITE mass — requiring INFINITE energy to accelerate. Since infinite energy doesn't exist, c is unreachable. The universe doesn't stop you with a wall — it makes you infinitely heavy as you approach the limit.",
+                "evidence": "Particle accelerators (like the LHC at CERN) routinely accelerate protons to 99.9999991% of c. Getting that last 0.0000009% closer to c requires roughly the same energy as going from 0 to 99%. Each tiny increment closer to c costs exponentially more energy. No particle with mass has ever been observed at or above c — not in any accelerator, any cosmic ray, any astronomical observation."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "Newtonian physics says F = ma: constant force → constant acceleration → speed increases without limit. Relativistic physics corrects this: as v → c, the effective inertia increases without bound. The same force produces less and less acceleration. The limit isn't a barrier you hit — it's an asymptote you approach but never reach.",
+                "correct_model": "c is the cosmic speed limit for anything with mass. It's not a technological limitation but a geometric property of spacetime. Approaching c requires ever-increasing energy. Reaching c requires infinite energy. Exceeding c is not just hard — it's mathematically impossible within our universe's structure."
+              }
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Why does the universe HAVE a speed limit? Because space and time are not separate — they're woven into a single fabric called SPACETIME. The speed of light is the conversion factor between space and time, just as the number 1,000 converts kilometers to meters. It's built into the geometry. In a sense, everything is always moving through spacetime at c — but that motion is divided between space and time. Sitting still, all your 'speed' goes through time (time passes normally). Moving fast through space, some of your 'speed' is diverted from time — so time passes SLOWER for you. At c, all motion goes through space and none through time — which is why photons don't experience time. This is the origin of time dilation."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light-Speed Delays in Your Life",
+              "body": "The Moon is 1.3 light-seconds away. When Apollo astronauts talked to Houston, there was a 1.3-second delay each way (2.6 seconds round trip). Mars is 3-22 light-minutes away depending on orbit. Mars rover commands take up to 22 minutes to arrive — no real-time control possible. A signal to the Voyager 1 spacecraft (farthest human-made object) takes about 22 HOURS to arrive. If aliens on a planet 65 million light-years away pointed a telescope at Earth right now, they'd see dinosaurs. Light-speed delay isn't a trivia fact — it defines the fundamental limits of communication and exploration across cosmic distances."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "When you see a sunset, you're seeing the Sun where it was 8 minutes ago. The actual Sun is already below the horizon — you're watching a ghost image. When a star explodes as a supernova 1,000 light-years away, we won't know for 1,000 years. The star could already be dead. Several of the 'stars' you see in the night sky might have already died — their light is still traveling to us. In a very real sense, the night sky is a museum of the past, with each exhibit at a different age depending on its distance."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "In 2011, the OPERA experiment at CERN appeared to measure neutrinos traveling FASTER than light. Headlines went wild. Physicists were skeptical. After months of investigation, the cause was found: a loose fiber optic cable created a timing error of 73 nanoseconds. The 'faster than light' result was a loose plug. The speed limit of the universe was not broken by a particle physics experiment — it was temporarily questioned by faulty IT maintenance. The universe's laws survived a cable management problem."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "If you could somehow travel at c (you can't, because you have mass, but hypothetically): from YOUR perspective, the trip would be instantaneous regardless of distance. At c, time stops for you. You could 'travel' to the Andromeda galaxy (2.5 million light-years) in zero personal time. But 2.5 million years would pass on Earth. Everyone you knew would be 2.5 million years dead when you arrived. The speed of light doesn't just limit how fast you can go — it creates a fundamental trade-off between distance traveled and time lost."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A spaceship traveling at 0.9c shines a flashlight forward. What speed does an outside observer measure for that light?",
+          "options": {
+            "A": "1.9c — the ship's speed plus light speed",
+            "B": "Exactly c = 3 × 10⁸ m/s. Light speed is the same for ALL observers regardless of the source's motion. Speeds don't add the way Newtonian physics predicts near c. This is Einstein's core postulate.",
+            "C": "0.1c — the difference between c and 0.9c",
+            "D": "Slightly more than c"
+          },
+          "correct_answer": "B",
+          "explanation": "The speed of light is invariant — the same for all observers. This breaks Newtonian speed addition and demands that time and space be flexible.",
+          "tests_concept": "speed_of_light",
+          "detects_misconception": "Light speed is relative / speeds add normally near c"
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "part_id": "capstone_p2",
+      "part_title": "Time Dilation and Length Contraction — Time Is Not What You Think It Is",
+      "purpose": "Time slows for moving objects (time dilation). Space compresses (length contraction). GPS requires relativistic corrections. Real, measured, verified — not theoretical.",
+      "curriculum_concepts": [
+        "time_dilation_length_contraction"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "If Light Speed Is Fixed, Time Must Be Flexible",
+              "body": "Einstein's postulate (c is the same for all observers) has an inescapable consequence: time passes at DIFFERENT RATES for observers moving at different speeds. A clock moving relative to you ticks SLOWER than your clock. This isn't a mechanical failure or an illusion — time itself passes more slowly for the moving clock. The effect is negligible at everyday speeds but becomes dramatic near c."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Time Dilation",
+              "body": "A clock moving at speed v relative to you ticks slower by a factor of γ = 1/√(1 − v²/c²). At 0.1c (10% light speed): γ = 1.005 (0.5% slower — barely noticeable). At 0.5c: γ = 1.15 (15% slower). At 0.9c: γ = 2.29 (clock ticks at less than half speed). At 0.99c: γ = 7.09 (clock ticks 7× slower). At 0.999c: γ = 22.4. As v → c, γ → ∞ (time stops). This is real. It has been measured. It matters."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "This Is NOT Theoretical — It's Measured Daily",
+              "body": "GPS satellites orbit at ~14,000 km/h. Their clocks tick ~7 microseconds slower per day due to their speed (special relativity, time dilation). But they also tick ~45 microseconds FASTER per day because they're higher in Earth's gravitational field (general relativity — gravity also dilates time). Net effect: GPS clocks gain ~38 microseconds per day relative to ground clocks. Without relativistic correction, GPS positions would drift by ~10 km per day. Your phone's map works because engineers account for Einstein's predictions. Relativity isn't abstract — it's in your pocket."
+            },
+            {
+              "type": "section",
+              "title": "Length Contraction — Space Shrinks Too",
+              "body": "If time dilates, space must contract. An object moving at speed v relative to you is shortened along its direction of motion by the same factor γ. At 0.9c: an object is 44% of its rest length. At 0.99c: 14%. At 0.999c: 4.5%. You wouldn't see this with your eyes (light travel effects complicate visual appearance), but it's physically real. The distance between stars is shorter for a fast-moving spaceship than for a stationary observer."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Cosmic ray muons prove time dilation. Muons are subatomic particles created when cosmic rays hit the upper atmosphere (~15 km up). Muons decay in ~2.2 microseconds. At near light speed, they should travel only ~660 meters before decaying — nowhere near the 15 km to Earth's surface. Yet we detect them at ground level in abundance. Why? Time dilation. At 0.998c (typical muon speed), γ ≈ 15.8 — the muon's internal clock ticks 15.8× slower from our perspective. Its 2.2 μs lifetime becomes ~35 μs in our frame, enough time to travel the full 15 km. Time dilation isn't a thought experiment — it's raining down on you right now."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Twin Paradox — Real and Verified",
+              "body": "Astronaut Scott Kelly spent 340 days on the International Space Station (moving at ~27,600 km/h). His identical twin brother Mark stayed on Earth. When Scott returned, he had aged about 5 milliseconds LESS than Mark. The effect is tiny at ISS speed, but it's real and measurable with atomic clocks. At higher speeds, the effect grows: a twin traveling at 0.9c for 10 years (ship time) would return to find their Earth-bound twin had aged 23 years. Same people, different elapsed time, because time itself flowed at different rates."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "Imagine traveling to Proxima Centauri (4.24 light-years away) at 0.99c. From Earth's perspective: the trip takes ~4.28 years. From YOUR perspective (on the ship): time dilation with γ = 7.09 means you experience only ~0.6 years (about 7 months). And length contraction means the distance appears to be only ~0.6 light-years. You age 7 months. Earth ages 4.28 years. Both experiences are equally real. Neither is wrong. Time and space are relative to the observer. This is what 'relativity' means."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "In 1971, physicists Hafele and Keating put atomic clocks on commercial airliners that flew around the world (eastward and westward). When compared to clocks that stayed at the US Naval Observatory, the flying clocks showed time differences of tens to hundreds of nanoseconds — exactly matching Einstein's predictions for both special relativity (speed) and general relativity (altitude). Time dilation was confirmed with commercial airline tickets and carry-on atomic clocks. The experiment cost about $8,000, including airfare. Relativity was verified on a budget."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Science fiction often shows 'warp drives' exceeding light speed. While nothing with mass can reach c in normal space, physicists have proposed theoretical frameworks (like the Alcubierre drive) that might compress space in front of a ship and expand it behind — moving the SPACE rather than the ship through space. The ship stays locally stationary while spacetime itself flows. The catch: current calculations require 'exotic matter' with negative energy density, which may not exist. The universe's speed limit might have a loophole — but the loophole requires physics we don't have. Yet."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "GPS satellites must correct for time dilation. Without correction, how far would GPS positions drift per day?",
+          "options": {
+            "A": "A few centimeters",
+            "B": "About 10 KILOMETERS per day. GPS clocks gain ~38 microseconds/day due to combined special and general relativistic effects. Without correction, position errors accumulate to ~10 km/day. Relativity isn't abstract — it's engineering.",
+            "C": "No drift — time dilation is only theoretical",
+            "D": "About 1 meter"
+          },
+          "correct_answer": "B",
+          "explanation": "GPS requires relativistic corrections: ~7 μs/day from speed (special relativity) + ~45 μs/day from gravity (general relativity) = ~38 μs/day net gain. Uncorrected: ~10 km/day error. Your phone map is a daily relativity experiment.",
+          "tests_concept": "time_dilation_length_contraction",
+          "detects_misconception": "Time dilation is only theoretical / too small to matter"
+        },
+        {
+          "question": "Muons created in the upper atmosphere (15 km up) decay in ~2.2 microseconds but reach Earth's surface. How?",
+          "options": {
+            "A": "They travel faster than light",
+            "B": "TIME DILATION — at ~0.998c, their internal clock ticks ~15.8× slower from our perspective. Their 2.2 μs lifetime stretches to ~35 μs in our frame, enough to travel 15 km. Muons reaching the ground is direct physical proof of time dilation.",
+            "C": "The atmosphere is thinner than 15 km",
+            "D": "Muons don't actually decay"
+          },
+          "correct_answer": "B",
+          "explanation": "At 0.998c, γ ≈ 15.8 → muon lifetime from our frame: 2.2 × 15.8 ≈ 35 μs → distance ≈ 0.998c × 35 μs ≈ 10.5 km. Enough to reach the surface. Muon detection is direct, everyday evidence for time dilation.",
+          "tests_concept": "time_dilation_length_contraction",
+          "detects_misconception": "Time dilation is only theoretical / not observable"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "capstone_p3",
+      "part_title": "E = mc² — The Most Famous Equation in History, and What It Actually Means",
+      "purpose": "Mass-energy equivalence. Mass IS concentrated energy. c² is enormous → tiny mass = vast energy. Nuclear energy. The Sun. This is where the entire curriculum converges: energy (foundation 2) + light speed (this foundation) = the deepest relationship in physics.",
+      "curriculum_concepts": [
+        "mass_energy_equivalence"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Equation That Changed Everything",
+              "body": "E = mc². Energy equals mass times the speed of light squared. Five symbols that reveal the deepest secret of the universe: mass and energy are THE SAME THING. Mass is concentrated energy. Energy is released mass. They're interconvertible, related by c² — the largest conversion factor in physics: 9 × 10¹⁶ (ninety quadrillion). This means a tiny amount of mass contains an enormous amount of energy."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Mass-Energy Equivalence",
+              "body": "E = mc² means that mass IS a form of energy, and energy has mass. A 1 kg object at rest contains E = 1 × (3×10⁸)² = 9 × 10¹⁶ joules of energy — equivalent to the energy released by 21 MEGATONS of TNT. A single kilogram. The entire annual electricity consumption of the United States (~4 × 10¹⁹ joules) could be supplied by converting about 440 kg of mass entirely to energy. The reason this vast energy is normally inaccessible: it's locked in the nuclear binding forces holding atomic nuclei together."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_emc2_practical",
+              "title": "Prediction Cycle: Is E=mc² Only About Bombs?",
+              "predict": {
+                "scenario": "E = mc² is often associated with nuclear weapons.",
+                "question": "PREDICT: Is E=mc² relevant to your daily life, or only to extreme situations like nuclear explosions?",
+                "common_prediction": "'It's only about atomic bombs and nuclear reactors. It doesn't affect ordinary life.'"
+              },
+              "observe": {
+                "what_actually_happens": "E = mc² is happening CONSTANTLY in nature and in your life. The Sun converts 4 million tons of mass to energy every second via nuclear fusion — that's what heats Earth and powers photosynthesis, which feeds the entire biosphere. Every chemical reaction involves a mass change (too tiny to measure, but real). PET scans use positron-electron annihilation: when matter meets antimatter, mass converts entirely to energy (photons) — this happens inside your body during a PET scan. Nuclear power plants use E = mc²: the mass of fission products is slightly less than the original uranium — the 'missing' mass became the energy that heats water to generate electricity.",
+                "evidence": "The Sun's mass decreases by 4 million tons per second. This mass doesn't disappear — it becomes the energy (light and heat) that crosses 150 million km to warm Earth. In 4.5 billion years, the Sun has lost roughly the mass of Saturn in converted energy. Every ray of sunshine is mass-energy equivalence in action."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "E = mc² seems exotic because the conversion factor c² is so large that ordinary processes convert negligibly tiny masses. A chemical fire converting 1 kg of wood to heat involves a mass change of ~10⁻¹⁰ kg — completely unmeasurable. But nuclear processes convert measurable fractions of mass: fission converts ~0.1% of fuel mass to energy; fusion converts ~0.7%. The Sun runs on 0.7% mass conversion and has been doing so for 4.5 billion years.",
+                "correct_model": "E = mc² is universal — it applies to every energy transformation. Mass and energy are ALWAYS interconvertible. Chemical reactions: negligible mass change. Nuclear reactions: measurable mass change. Matter-antimatter annihilation: complete mass-to-energy conversion. The equation doesn't only apply to extreme situations; it underlies ALL energy transformations. We just usually can't detect the mass change because c² is so enormous."
+              }
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Here's how E = mc² connects to everything you've learned: ENERGY (foundation 2) told you energy is conserved — never created, never destroyed. E = mc² reveals that mass is INCLUDED in the energy budget. When the Sun shines, it's not violating conservation of energy — it's converting mass (a form of energy) to light (another form). Energy conservation is even more universal than you thought: it includes mass. The total mass-energy of a closed system is constant. Mass can become light. Light can become mass (pair production). The universe's accounting is perfect — mass and energy are just different entries in the same ledger."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Mass-Energy in Numbers That Hit Home",
+              "body": "1 kg of uranium in a fission reactor releases about 8 × 10¹³ joules — the energy equivalent of 3 million kg of coal. A single uranium fuel pellet (the size of a pencil eraser, ~7 grams) produces as much energy as 1 ton of coal, 480 liters of oil, or 480 cubic meters of natural gas. This isn't because uranium is a better 'fuel' in the chemical sense — it's because nuclear reactions convert a small fraction of MASS to energy, and c² makes that fraction devastatingly powerful."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "PET scans (Positron Emission Tomography) use E = mc² inside your body. A radioactive tracer (injected into your bloodstream) emits positrons (antimatter electrons). Each positron immediately encounters an electron in your tissue → they annihilate, converting their combined mass ENTIRELY into two gamma ray photons (E = mc² in action). Detectors surrounding your body track these gamma rays to create 3D images of your organs. Every PET scan involves millions of matter-antimatter annihilations inside you. You are the site of mass-to-energy conversion. Einstein's equation is personal."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Einstein published E = mc² in a three-page paper in 1905 — his 'miracle year' where he also explained the photoelectric effect (winning him the Nobel Prize), proved atoms exist (Brownian motion), and introduced special relativity. He was 26 and working as a patent clerk in Bern, Switzerland, because no university would hire him. The most consequential physics since Newton was produced by a patent clerk in his spare time. The universe has a sense of humor about credentials."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "If you could convert 1 kg of matter ENTIRELY to energy (via matter-antimatter annihilation): E = 1 × (3×10⁸)² = 9 × 10¹⁶ joules. That's equivalent to about 21 megatons of TNT — roughly 1,400 Hiroshima bombs. From 1 kilogram. The Tsar Bomba (largest nuclear weapon ever detonated, 50 megatons) converted about 2.4 kg of mass to energy. A 2.4 kg bag of sugar, fully converted, equals the most powerful weapon humans have ever created. The energy is always there, locked in mass. Nuclear physics is just the key."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "The Sun loses 4 million tons of mass every second. Where does this mass go?",
+          "options": {
+            "A": "It evaporates into space as particles",
+            "B": "It converts to ENERGY via E = mc². Nuclear fusion in the Sun's core converts hydrogen to helium, and the product has slightly less mass. The 'missing' mass becomes the light and heat energy that reaches Earth. Sunshine is converted mass.",
+            "C": "It's pulled into the Sun's center by gravity",
+            "D": "The Sun is actually growing, not losing mass"
+          },
+          "correct_answer": "B",
+          "explanation": "E = mc²: the mass difference between fusion reactants and products becomes energy (photons). The Sun converts ~0.7% of hydrogen mass to energy. 4 million tons/second → the energy output that powers the entire solar system.",
+          "tests_concept": "mass_energy_equivalence",
+          "detects_misconception": "E=mc² only applies to bombs / the Sun 'burns' fuel chemically"
+        },
+        {
+          "question": "A uranium fuel pellet (7 grams) produces as much energy as 1 ton of coal. Why the enormous difference?",
+          "options": {
+            "A": "Uranium burns hotter than coal",
+            "B": "Nuclear fission converts a small fraction of the uranium's MASS to energy (E = mc²). Coal burning is a chemical reaction that rearranges electron bonds but converts essentially zero mass. The c² factor (9 × 10¹⁶) makes nuclear mass conversion millions of times more energetic than chemical reactions.",
+            "C": "Uranium contains more atoms",
+            "D": "Coal is mostly water"
+          },
+          "correct_answer": "B",
+          "explanation": "Chemical reactions: rearrange electrons, negligible mass change. Nuclear reactions: restructure nuclei, measurable mass change. c² amplifies even tiny mass changes into enormous energy. Nuclear ≈ 10⁶ × chemical per unit mass.",
+          "tests_concept": "mass_energy_equivalence",
+          "detects_misconception": "Nuclear and chemical energy differ by degree rather than fundamental mechanism"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "capstone_p4",
+      "part_title": "Quantum Mechanics — Reality Is Stranger Than You Can Imagine",
+      "purpose": "Energy is quantized (comes in packets). Electrons exist in probability clouds, not orbits. The uncertainty principle isn't about measurement limits — it's about reality itself. Gateway to understanding atoms and nuclear physics.",
+      "curriculum_concepts": [
+        "quantization",
+        "uncertainty_principle"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Universe Has Minimum Amounts",
+              "body": "In the everyday world, quantities seem continuous — you can have any amount of energy, any position, any speed. But at the atomic scale, the universe is GRANULAR. Energy comes in discrete packets (quanta). Electrons occupy specific energy levels, not arbitrary ones. Light is emitted in individual photons (E = hf). You can't have half a photon or a quarter of an energy level. The quantum world has minimum amounts, like a staircase has discrete steps — you can't stand between steps."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Quantization",
+              "body": "In atoms, electrons can only occupy specific, discrete energy levels. To move between levels, an electron must absorb or emit a photon with EXACTLY the right energy: E_photon = E_upper − E_lower = hf. This is why neon signs glow orange-red (neon's specific energy gaps produce specific wavelengths), sodium streetlights are yellow, and every element has a unique spectral 'fingerprint.' The discrete colors you see in gas discharge tubes are direct evidence that energy is quantized."
+            },
+            {
+              "type": "section",
+              "title": "The Uncertainty Principle — Not About Bad Instruments",
+              "body": "Heisenberg's uncertainty principle: you cannot simultaneously know BOTH the exact position AND the exact momentum of a particle. Δx · Δp ≥ ℏ/2. This is NOT because our instruments are imprecise. It's because particles don't HAVE definite position and momentum simultaneously. An electron isn't a tiny ball orbiting the nucleus in a neat path — it exists as a PROBABILITY CLOUD (wave function) spread over a region. Where exactly is it? The question doesn't have a definite answer until you measure — and measuring one property disturbs the other."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Quantum tunneling: a particle can pass through a barrier it classically doesn't have enough energy to overcome. The particle's wave function extends slightly through the barrier, giving it a small probability of appearing on the other side. This isn't theoretical — the Sun DEPENDS on it. For hydrogen nuclei (protons) to fuse, they must overcome their electric repulsion. At the Sun's core temperature (15 million °C), protons don't have enough classical energy to get close enough. But quantum tunneling gives them a tiny probability of 'tunneling' through the repulsion barrier. The Sun fuses ~10³⁸ protons per second, and each fusion relies on tunneling. Without quantum mechanics, the Sun wouldn't shine. You wouldn't exist."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Quantum mechanics connects to the wave-particle duality you learned in the Light foundation. Photons, electrons, and all quantum objects are described by wave functions — mathematical entities that encode PROBABILITIES. The double-slit experiment, the uncertainty principle, and quantized energy levels are all consequences of the wave function description. The universe at its most fundamental level doesn't operate on certainty — it operates on probability. This isn't a gap in our knowledge. It appears to be a fundamental feature of reality."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Quantum Mechanics Powers Your Technology",
+              "body": "Transistors (the building blocks of every computer chip) work because of quantum mechanics — electron behavior in semiconductor band gaps. Your phone has ~15 billion transistors, each exploiting quantum energy levels. LEDs: electrons drop between quantized energy levels, emitting photons at specific wavelengths (color). Lasers: stimulated emission produces coherent light — all photons at the same quantum energy level. Flash memory: data stored as electrons in quantum wells, programmed via quantum tunneling. MRI: nuclear magnetic resonance (quantum spin states). Every piece of modern technology rests on quantum foundations."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "The color of everything around you is quantum mechanics. When light hits an object, electrons in the material's atoms absorb photons that match their energy level transitions and let others reflect. The specific energy levels — determined by quantum mechanics — dictate which wavelengths are absorbed and which are reflected. The blue of the sky, the green of leaves, the red of blood — all emerge from quantum energy level structures in the relevant atoms and molecules. Color, which seems so immediate and simple, is quantum mechanics made visible."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Erwin Schrödinger's famous thought experiment: a cat in a sealed box is simultaneously alive AND dead until someone opens the box and observes it. This was meant as a CRITICISM of quantum mechanics — Schrödinger thought it was absurd that quantum superposition could apply to macroscopic objects. But quantum mechanics replied: yes, it can. Superposition has been demonstrated with molecules of over 800 atoms. The reason cats don't exist in superposition is 'decoherence' — interaction with the environment collapses quantum states almost instantly for large objects. Schrödinger's cat was right in principle. The cat just decoheres too fast to notice."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Richard Feynman, who contributed enormously to quantum electrodynamics, summed up quantum mechanics: 'I think I can safely say that nobody understands quantum mechanics.' This from one of the greatest physicists of the 20th century. The mathematics works flawlessly — quantum mechanics has never made a wrong prediction. But what the mathematics MEANS about reality remains debated. The theory predicts every experiment perfectly while leaving fundamental questions about the nature of reality unanswered. It works without being understood. This is perhaps the most honest thing that can be said about any physics theory."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Why do neon signs glow a specific color rather than white?",
+          "options": {
+            "A": "The glass is colored",
+            "B": "Neon's electrons can only occupy SPECIFIC energy levels. When excited electrons drop between levels, they emit photons at specific frequencies (E = hf). Neon's energy level spacing produces photons in the orange-red range. Each element has unique energy levels → unique spectral colors. Quantized energy → specific colors.",
+            "C": "Electricity is orange-colored",
+            "D": "Neon gas filters white light to orange"
+          },
+          "correct_answer": "B",
+          "explanation": "Quantization: electrons in atoms have discrete energy levels. Transitions between levels emit photons at specific frequencies. Each element's unique level structure produces a unique spectral fingerprint.",
+          "tests_concept": "quantization",
+          "detects_misconception": "Energy is continuous / gas color comes from filtering"
+        },
+        {
+          "question": "The Heisenberg uncertainty principle says we can't know a particle's exact position and momentum simultaneously. Is this because our instruments aren't precise enough?",
+          "options": {
+            "A": "Yes — better technology will eventually overcome this",
+            "B": "NO — the particle doesn't HAVE definite position and momentum simultaneously. This isn't an instrument limitation — it's a fundamental property of nature. Particles exist as probability distributions (wave functions), not as tiny balls with precise trajectories.",
+            "C": "It only applies to very small particles",
+            "D": "It's a mathematical rule, not physical reality"
+          },
+          "correct_answer": "B",
+          "explanation": "The uncertainty principle is ontological (about reality), not epistemological (about knowledge). Quantum objects are described by wave functions that inherently don't have simultaneous definite position and momentum. Better instruments cannot overcome a fundamental feature of nature.",
+          "tests_concept": "uncertainty_principle",
+          "detects_misconception": "Uncertainty is about measurement precision, not fundamental reality"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "capstone_p5",
+      "part_title": "The Nucleus — The Strong Force Holding Everything Together",
+      "purpose": "Nuclear structure. The strong nuclear force (100× electromagnetic). Why most atoms are stable. Radioactive decay types. Half-life. Radiation in daily life.",
+      "curriculum_concepts": [
+        "nuclear_forces",
+        "radioactive_decay"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "What Holds the Nucleus Together? A Force You've Never Felt",
+              "body": "Here's a puzzle: the nucleus of an atom contains protons, which are all positively charged. Like charges repel — the electromagnetic force is pushing every proton apart. So why doesn't every nucleus explode? Because there's a STRONGER force: the strong nuclear force, roughly 100× stronger than the electromagnetic force at nuclear distances. It's the most powerful force in nature, but it has an extremely short range — only about 10⁻¹⁵ meters (the size of a nucleus). Beyond that range, it drops to zero. You've never felt it because it only operates inside atomic nuclei."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Nuclear stability is a balance: the strong force binds protons and neutrons together, while the electromagnetic force pushes protons apart. Neutrons help — they add strong-force 'glue' without adding electromagnetic repulsion. Small nuclei are stable with equal protons and neutrons. Large nuclei need MORE neutrons than protons to stay stable (extra glue to compensate for more proton repulsion). Above element 83 (bismuth), no combination of protons and neutrons is permanently stable — all heavier elements are radioactive, slowly decaying as the electromagnetic repulsion gradually wins."
+            },
+            {
+              "type": "section",
+              "title": "Radioactive Decay — Unstable Nuclei Seeking Stability",
+              "body": "Radioactive decay is the process by which an unstable nucleus transforms to reach a more stable configuration. Three main types: ALPHA decay (nucleus ejects 2 protons + 2 neutrons as a helium-4 nucleus — heavy, slow, stopped by paper or skin). BETA decay (a neutron converts to a proton + electron + antineutrino, or vice versa — lighter, faster, stopped by aluminum or clothing). GAMMA decay (nucleus drops to a lower energy state by emitting a high-energy photon — massless, very penetrating, stopped by thick lead or concrete)."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Half-Life",
+              "body": "The half-life is the time for HALF of a radioactive sample to decay. After one half-life: 50% remains. After two: 25%. After three: 12.5%. After ten: ~0.1%. Half-lives range from fractions of a second (fleeting nuclear species) to billions of years (uranium-238: 4.5 billion years — roughly Earth's age). Carbon-14: 5,730 years → used to date archaeological artifacts up to ~50,000 years old. Half-life is a STATISTICAL property — you can't predict WHEN a specific atom will decay, only the probability."
+            },
+            {
+              "type": "callout",
+              "style": "misconception_alert",
+              "title": "Radiation Is Not Always Dangerous",
+              "body": "You are exposed to radiation every day. Cosmic rays from space. Radon gas from the ground. Potassium-40 in bananas and your own body. Carbon-14 in every organic molecule. Background radiation: ~3 mSv/year for the average person. A chest X-ray: ~0.1 mSv. A cross-country flight: ~0.04 mSv (higher altitude = more cosmic rays). A banana: ~0.0001 mSv. Your body contains enough potassium-40 to register on a sensitive Geiger counter. Radiation is natural, ubiquitous, and at normal background levels, harmless. It's HIGH doses that damage DNA and cells."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Radioactivity You Use",
+              "body": "Smoke detectors: contain americium-241 (alpha emitter). Alpha particles ionize air between two plates, allowing a small current. Smoke particles absorb the alpha particles, reducing the current, triggering the alarm. Medical imaging: radioactive tracers (like technetium-99m, half-life 6 hours) are injected and detected with gamma cameras to image organs and detect cancer. Carbon-14 dating: living organisms contain carbon-14 (from cosmic rays + nitrogen). When they die, C-14 decays (half-life 5,730 years). Measuring remaining C-14 reveals when the organism died. Archaeology runs on nuclear physics."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Your body is radioactive. You contain about 16 mg of potassium-40, which undergoes ~4,400 beta decays per second inside you. You also contain carbon-14 (~3,000 decays per second). In total, about 7,000-8,000 radioactive decays occur in your body every second. This has been true for every human who has ever lived. This background self-irradiation is far too low to cause harm — your DNA repair mechanisms handle it easily. You are a low-level radioactive source, and always have been."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Bananas contain potassium-40, a naturally radioactive isotope. The 'banana equivalent dose' (BED) is a unit physicists use to communicate radiation levels to the public. One banana ≈ 0.1 μSv. A chest X-ray ≈ 100 bananas. A CT scan ≈ 70,000 bananas. Living near a nuclear power plant for a year ≈ less than 1 banana. You would need to eat about 10 million bananas in a short period for the radiation to be dangerous (and the potassium overdose would kill you long before the radiation did). The banana is physics' favorite unit of radiation communication."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Marie Curie discovered radium and polonium, pioneered the study of radioactivity (a word SHE coined), and won Nobel Prizes in both physics (1903) and chemistry (1911) — the first person to win in two sciences and still one of only two. Her laboratory notebooks from the 1890s are still radioactive and stored in lead-lined boxes. Visitors must sign a liability waiver and wear protective clothing to handle them. Marie Curie's century-old notes will remain dangerous for another 1,500+ years. The half-life of dedication."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "What prevents the positively charged protons in a nucleus from flying apart?",
+          "options": {
+            "A": "Electrons hold them in place",
+            "B": "The STRONG NUCLEAR FORCE — roughly 100× stronger than electromagnetic repulsion, but with extremely short range (~10⁻¹⁵ m). Neutrons help by adding strong-force binding without electromagnetic repulsion. Above bismuth (element 83), no nucleus is permanently stable.",
+            "C": "Gravity holds the nucleus together",
+            "D": "Protons don't actually repel each other"
+          },
+          "correct_answer": "B",
+          "explanation": "The strong force overcomes electromagnetic repulsion at nuclear distances. It's the strongest force in nature but only operates within ~10⁻¹⁵ m. Neutrons provide 'glue' without adding repulsion.",
+          "tests_concept": "nuclear_forces",
+          "detects_misconception": "Electrons hold the nucleus together / gravity binds nuclei"
+        },
+        {
+          "question": "After 3 half-lives, how much of a radioactive sample remains?",
+          "options": {
+            "A": "None — it's all decayed",
+            "B": "12.5% — each half-life reduces the remaining sample by half. 1st: 100% → 50%. 2nd: 50% → 25%. 3rd: 25% → 12.5%. After 10 half-lives: ~0.1%. The sample never reaches exactly zero — it asymptotically approaches zero.",
+            "C": "33% — one-third gone each time",
+            "D": "75%"
+          },
+          "correct_answer": "B",
+          "explanation": "Half-life: half remaining decays each period. 3 half-lives: (1/2)³ = 1/8 = 12.5% remaining. This exponential decay is statistical — individual atoms decay randomly, but large samples follow this precise pattern.",
+          "tests_concept": "radioactive_decay",
+          "detects_misconception": "Half-life means all gone after 2 half-lives / linear decay"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "capstone_p6",
+      "part_title": "Fission and Fusion — Splitting and Combining Atoms to Release E = mc²",
+      "purpose": "Fission: splitting heavy nuclei. Fusion: combining light nuclei. Both release energy by moving toward iron-56 (the most stable nucleus). Nuclear power. The Sun. The binding energy curve as the master key.",
+      "curriculum_concepts": [
+        "fission",
+        "fusion"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Binding Energy Curve — The Master Key to Nuclear Energy",
+              "body": "Every nucleus has a binding energy — the energy needed to pull it completely apart into individual protons and neutrons. IRON-56 has the highest binding energy per nucleon — it's the MOST tightly bound, most stable nucleus. Elements lighter than iron can release energy by COMBINING (fusion — moving toward iron from below). Elements heavier than iron can release energy by SPLITTING (fission — moving toward iron from above). Both processes move toward the iron peak — the valley of stability."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Nuclear Fission — Splitting Heavy Atoms",
+                  "body": "A heavy nucleus (uranium-235, plutonium-239) absorbs a neutron and splits into two mid-sized nuclei plus 2-3 free neutrons plus energy. The products are more tightly bound than the original → the 'excess' binding energy is released as kinetic energy of the fragments. The free neutrons can trigger more fissions → CHAIN REACTION. Controlled: nuclear power plant. Uncontrolled: nuclear weapon.",
+                  "examples": "Nuclear power plants (~10% of world electricity), nuclear submarines, nuclear weapons, medical isotope production"
+                },
+                {
+                  "label": "Nuclear Fusion — Combining Light Atoms",
+                  "body": "Light nuclei (hydrogen isotopes) combine to form heavier nuclei (helium). The product is more tightly bound → mass difference released as energy (E = mc²). Fusion releases ~4× more energy per unit mass than fission. The challenge: nuclei must be pushed EXTREMELY close together to overcome electromagnetic repulsion — requiring temperatures of 100+ million °C (hotter than the Sun's core). The Sun achieves this through gravity compressing its core. On Earth, achieving sustained fusion remains one of humanity's greatest engineering challenges.",
+                  "examples": "The Sun and all stars, hydrogen bombs, experimental fusion reactors (ITER, NIF)"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The Sun is NOT 'burning.' Burning is a chemical reaction (rearranging electrons). The Sun is fusing hydrogen into helium — a NUCLEAR reaction (rearranging nuclei). The Sun's core: 15 million °C, 250 billion atmospheres of pressure. At these conditions, hydrogen nuclei (protons) overcome their electromagnetic repulsion (with help from quantum tunneling) and fuse into helium. Four protons become one helium-4 nucleus — but the helium has 0.7% less mass than the four protons. That 'missing' mass becomes energy: E = mc². The Sun converts 600 million tons of hydrogen to 596 million tons of helium every second. The missing 4 million tons = the sunshine heating Earth."
+            },
+            {
+              "type": "callout",
+              "style": "misconception_alert",
+              "title": "Nuclear Power Plants CANNOT Explode Like Nuclear Bombs",
+              "body": "A nuclear reactor uses ~3-5% enriched uranium (fissile U-235 mixed with non-fissile U-238). A nuclear bomb requires >80% enrichment. A reactor literally cannot produce a nuclear explosion — the fuel isn't concentrated enough for an uncontrolled chain reaction. Reactor accidents (Chernobyl, Fukushima) involve meltdowns (excessive heat from decay products) and steam/hydrogen explosions, not nuclear detonations. The physics is fundamentally different. A reactor meltdown is extremely dangerous, but it's a thermal/chemical event, not a nuclear explosion."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Nuclear Energy: The Numbers",
+              "body": "Fission: 1 kg of uranium-235 releases ~8.2 × 10¹³ joules. 1 kg of coal releases ~2.4 × 10⁷ joules. Ratio: nuclear is ~3.4 MILLION times more energy-dense than coal. A single nuclear fuel pellet (7g): energy of 1 ton of coal. A nuclear power plant can run for 18-24 months between refuelings. A coal plant needs multiple trainloads of coal per DAY. Fusion (if achieved): 1 kg of deuterium (from 50 liters of seawater) could produce as much energy as 10,000 tons of coal. The fuel for fusion is effectively unlimited — there's enough deuterium in the oceans to power civilization for billions of years."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "If all US electricity came from nuclear fission (currently ~19% does), the total annual nuclear waste would fit in a space about the size of a football field, 3 meters deep. The total annual waste from coal (which provides ~20% of US electricity) includes ~100 million tons of ash and ~1.8 billion tons of CO₂. Nuclear waste is intensely radioactive but small in volume. Coal waste is less radioactive per gram but enormous in volume and contributes to climate change. Energy policy involves real trade-offs — understanding the physics helps navigate them."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "ITER (International Thermonuclear Experimental Reactor), under construction in southern France, aims to demonstrate sustained fusion power. It will heat hydrogen isotopes to 150 million °C — 10× hotter than the Sun's core — inside a magnetic confinement vessel (tokamak). The Sun achieves fusion at 'only' 15 million °C because its immense gravity provides the pressure. Without that gravity, Earth-based reactors need higher temperatures to compensate. We must create conditions hotter than the center of a star, contained by magnetic fields, sustained for minutes to hours. Controlled fusion has been '30 years away' for about 60 years. But the physics is sound — the engineering is catching up."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Every element heavier than iron was created in ONE of two events: supernova explosions or neutron star mergers. The gold in jewelry, the platinum in catalytic converters, the uranium in nuclear fuel — all forged in cataclysmic stellar events. In 2017, gravitational wave detectors and telescopes simultaneously observed a neutron star merger (GW170817) and confirmed: it produced heavy elements including gold. The gold in a wedding ring was created by colliding neutron stars — the most violent events in the universe, short of the Big Bang. Your jewelry is forged in cosmic catastrophe."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "The Sun produces energy by ___.",
+          "options": {
+            "A": "Burning hydrogen (chemical combustion)",
+            "B": "Nuclear FUSION — fusing hydrogen into helium. Four protons combine to form helium-4, which has 0.7% less mass. The missing mass becomes energy (E = mc²). The Sun converts 600 million tons of hydrogen to helium per second. This is a NUCLEAR process, not chemical burning.",
+            "C": "Fission — splitting heavy elements",
+            "D": "Radioactive decay of its core"
+          },
+          "correct_answer": "B",
+          "explanation": "The Sun fuses hydrogen → helium. Mass difference → energy via E = mc². Chemical burning would exhaust the Sun in ~5,000 years. Nuclear fusion powers it for ~10 billion years.",
+          "tests_concept": "fusion",
+          "detects_misconception": "The Sun burns / the Sun uses fission"
+        },
+        {
+          "question": "Can a nuclear power plant explode like a nuclear bomb?",
+          "options": {
+            "A": "Yes — they use the same physics",
+            "B": "NO — reactor fuel is ~3-5% enriched. Bombs require >80%. A reactor physically CANNOT sustain the runaway chain reaction needed for a nuclear explosion. Reactor accidents (meltdowns) are thermal events, not nuclear detonations. The physics prevents it.",
+            "C": "Only if the control rods fail",
+            "D": "Only old reactor designs could"
+          },
+          "correct_answer": "B",
+          "explanation": "Enrichment level prevents nuclear detonation in reactors. Reactor accidents are dangerous (meltdowns, steam explosions) but are fundamentally different from nuclear weapon physics.",
+          "tests_concept": "fission",
+          "detects_misconception": "Nuclear plants can explode like bombs"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "capstone_p7",
+      "part_title": "The Story of the Universe — From the Big Bang to You",
+      "purpose": "The Big Bang. Evidence (CMB, expansion, nucleosynthesis). Stellar lifecycle. Nucleosynthesis — elements forged in stars. The carbon in your DNA was made in a star that exploded. The most epic story in science, told through physics.",
+      "curriculum_concepts": [
+        "big_bang",
+        "stellar_lifecycle"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Universe Has a Birthday",
+              "body": "13.8 billion years ago, the universe began in an unimaginably hot, dense state and has been expanding ever since. This is the Big Bang — not an explosion IN space, but an expansion OF space itself. Every point in the universe was the center. There was no 'outside.' Space itself stretched, carrying matter with it. As the universe expanded, it cooled — and physics determined what could form at each temperature: particles, atoms, stars, galaxies, planets, and eventually, you."
+            },
+            {
+              "type": "callout",
+              "style": "misconception_alert",
+              "title": "The Big Bang Was NOT an Explosion",
+              "body": "The Big Bang was not a bomb going off in empty space. There was no space 'outside' to explode into. Space itself expanded — and is STILL expanding. The galaxies aren't moving through space away from a center. Space between galaxies is stretching, carrying them apart. The universe has no center and no edge. Every point in the universe can equally claim to be 'the center' because the expansion is happening everywhere simultaneously."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Universe's Timeline",
+              "items": [
+                {
+                  "label": "t = 0: The Big Bang",
+                  "body": "Unimaginably hot and dense. All four fundamental forces may have been unified. Physics as we know it begins."
+                },
+                {
+                  "label": "t = 10⁻⁶ s: Quarks → Protons & Neutrons",
+                  "body": "The universe cools enough for quarks to bind into protons and neutrons via the strong force."
+                },
+                {
+                  "label": "t = 3 minutes: Big Bang Nucleosynthesis",
+                  "body": "Protons and neutrons fuse into the lightest nuclei: hydrogen (~75%), helium (~25%), trace lithium. Every hydrogen atom in your body has existed since this moment."
+                },
+                {
+                  "label": "t = 380,000 years: Atoms Form",
+                  "body": "The universe cools to ~3,000°C. Electrons bind to nuclei → first neutral atoms. The universe becomes transparent to light. The light released at this moment is the Cosmic Microwave Background (CMB) — still visible today, stretched to microwave wavelengths by expansion."
+                },
+                {
+                  "label": "t = ~200 million years: First Stars",
+                  "body": "Gravity pulls hydrogen and helium clouds together. First stars ignite: nuclear fusion begins creating heavier elements (carbon, oxygen, nitrogen, silicon, iron) in stellar cores."
+                },
+                {
+                  "label": "t = ~9.2 billion years: Our Solar System Forms",
+                  "body": "A cloud of gas and dust (enriched by previous stellar generations' deaths) collapses. The Sun ignites. Leftover material forms planets, including Earth (4.56 billion years ago)."
+                },
+                {
+                  "label": "t = ~13.8 billion years: You",
+                  "body": "You sit here, made of atoms forged in stellar furnaces, reading about the physics that describes the process that made you. The universe is contemplating its own origin through your eyes."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Evidence for the Big Bang",
+              "body": "Three pillars: (1) Expansion — Hubble discovered nearly all galaxies are redshifted (Doppler effect from the Sound foundation), moving away. More distant → faster recession. Space is expanding. (2) CMB — The cosmic microwave background is the afterglow of the hot early universe, detectable in every direction at 2.725 K (−270.4°C). It matches the predicted spectrum of a cooling, expanding universe with astonishing precision. (3) Nucleosynthesis — The predicted ratio of hydrogen to helium (~75:25 by mass) from Big Bang fusion matches observations. Three independent lines of evidence, all pointing to the same origin."
+            },
+            {
+              "type": "section",
+              "title": "Stellar Lifecycle — Where YOUR Atoms Were Made",
+              "body": "Stars fuse hydrogen → helium in their cores (main sequence). When hydrogen runs out, massive stars fuse helium → carbon → oxygen → neon → silicon → iron in successive shells. Iron is the end — fusing iron ABSORBS energy rather than releasing it (iron is at the peak of the binding energy curve). The core collapses. The star explodes as a SUPERNOVA — blasting the heavy elements it created into interstellar space. These elements become part of gas clouds that collapse to form new stars and planets. The Sun is a THIRD-generation star, formed from material enriched by at least two previous stellar lifecycles."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The iron in your blood was forged in the core of a massive star that lived and died billions of years before the Sun formed. The calcium in your bones was created in the final moments of a supernova explosion. The oxygen you breathe was fused from carbon in a stellar core millions of times hotter than Earth's surface. The gold in any jewelry you own was created in a neutron star collision — the most violent event short of the Big Bang. Every atom in your body (except hydrogen) was manufactured inside a star. You are, literally and provably, STARDUST."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Cosmic Microwave Background — You Can Detect It",
+              "body": "The CMB fills the entire universe. It's in this room right now — microwave photons from 380,000 years after the Big Bang passing through you at this moment. Old analog TVs displayed it: about 1% of the static between channels was CMB photons. COBE, WMAP, and Planck satellites have mapped the CMB's tiny temperature variations across the sky — these fluctuations (±0.001%) are the seeds of all cosmic structure: galaxies, galaxy clusters, and the cosmic web of matter that includes the Milky Way, the Sun, Earth, and you."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Carl Sagan said: 'We are a way for the cosmos to know itself.' Physics makes this literal. The hydrogen in your body is 13.8 billion years old — forged in the Big Bang. The carbon, oxygen, nitrogen, calcium, and iron were forged in stellar cores. The atoms assembled into molecules, into cells, into organs, into a brain — which is now using energy from a fusion reactor (the Sun) to contemplate its own origins via patterns of electrical signals (neurons) transmitted by electromagnetic forces. The universe created physics, and physics created a being that can understand physics. You are the universe, understanding itself."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The CMB was discovered accidentally in 1965 by Arno Penzias and Robert Wilson, who were trying to eliminate mysterious antenna noise at Bell Labs. They cleaned pigeon droppings off the antenna, checked every cable, and still couldn't eliminate a persistent background signal at 2.725 K coming equally from all directions. Theorists at Princeton were simultaneously predicting exactly this signal as the Big Bang's afterglow. Penzias and Wilson won the Nobel Prize for finding what they thought was a broken antenna. The origin of the universe was discovered because two engineers were annoyed by stubborn noise."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The Sun is a medium-sized star with about 5 billion years of hydrogen fuel remaining. When it exhausts its hydrogen, it will expand into a red giant (engulfing Mercury, Venus, and possibly Earth), then shed its outer layers and collapse to a white dwarf — a stellar corpse about the size of Earth but the mass of the Sun, cooling over trillions of years. The Sun will NOT become a black hole — that requires a star at least ~25× the Sun's mass. The Sun will die quietly, a fading ember. Our star's death, in about 5 billion years, will be peaceful by cosmic standards. Plenty of time to finish your physics homework."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Where did the iron in your blood come from?",
+          "options": {
+            "A": "It formed when Earth was created",
+            "B": "It was forged in the CORE OF A MASSIVE STAR that lived and died before our Sun formed. Stars fuse lighter elements up to iron. The star then exploded as a supernova, scattering these elements into space. They became part of the gas cloud that formed our solar system. The iron in your blood is older than the Sun.",
+            "C": "Iron has always existed since the Big Bang",
+            "D": "It's formed by chemical reactions in soil"
+          },
+          "correct_answer": "B",
+          "explanation": "Stellar nucleosynthesis: stars fuse hydrogen → helium → carbon → oxygen → ... → iron. Supernovae scatter these elements into space. New solar systems form from enriched debris. Your body contains atoms from multiple dead stars.",
+          "tests_concept": "stellar_lifecycle",
+          "detects_misconception": "Heavy elements have always existed / formed on Earth"
+        },
+        {
+          "question": "The Big Bang was ___.",
+          "options": {
+            "A": "An explosion at a point in empty space",
+            "B": "The expansion of SPACE ITSELF — not an explosion in space but the stretching of spacetime everywhere simultaneously. There is no center and no edge. Galaxies aren't moving through space away from a point; space between them is expanding.",
+            "C": "A collision between two universes",
+            "D": "A theory with no evidence"
+          },
+          "correct_answer": "B",
+          "explanation": "The Big Bang was the expansion of space itself. Evidence: cosmic expansion (redshift), CMB (afterglow), nucleosynthesis ratios (hydrogen/helium match). Three independent lines of evidence converging on one origin.",
+          "tests_concept": "big_bang",
+          "detects_misconception": "The Big Bang was an explosion at a point / happened in pre-existing space"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "capstone_p8",
+      "part_title": "Everything Connected — The Complete Story of Physics in You",
+      "purpose": "Grand synthesis. Connect every foundation. Show that the student IS the physics they've learned. The curriculum's emotional and intellectual climax. Misconception checkpoint covering the entire capstone.",
+      "curriculum_concepts": [
+        "mass_energy_equivalence",
+        "stellar_lifecycle",
+        "big_bang"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Are Physics",
+              "body": "Every foundation you've studied is operating inside you right now, simultaneously. Newton's Laws: your muscles generate forces, your bones provide structure, friction keeps you from sliding. Energy: your body converts chemical energy (food) to mechanical, thermal, and electrical energy — conserving energy perfectly in every transaction. Sound: your vocal cords create longitudinal waves, your ears decode them. Light: photons enter your eyes, your cone cells respond to specific wavelengths, your brain constructs color and form. Electricity: billions of neurons fire electrical signals to process these very words. And the atoms doing all of this? Every one was forged in the heart of a dying star."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "The Complete Physics of You — Every Foundation in One Body",
+              "items": [
+                {
+                  "label": "Gateway: Physics of You",
+                  "icon": "user",
+                  "body": "Your body is the laboratory. Every physics concept manifests in your daily experience."
+                },
+                {
+                  "label": "Newton's Laws",
+                  "icon": "arrow-right",
+                  "body": "Force, mass, acceleration. Your muscles apply forces. Inertia resists changes. Action-reaction in every step."
+                },
+                {
+                  "label": "Energy",
+                  "icon": "battery-charging",
+                  "body": "Energy is conserved. Your body is an energy conversion machine: chemical → thermal + mechanical + electrical. The books always balance."
+                },
+                {
+                  "label": "Sound",
+                  "icon": "volume-2",
+                  "body": "Longitudinal pressure waves in air. Your voice, your music, every conversation — vibrating molecules carrying energy and meaning."
+                },
+                {
+                  "label": "Light",
+                  "icon": "sun",
+                  "body": "Electromagnetic waves. RGB color. Reflection, refraction, diffraction. Your visual experience is a neural interpretation of photon wavelengths."
+                },
+                {
+                  "label": "Electricity",
+                  "icon": "zap",
+                  "body": "Your nervous system runs on electrical signals. Your civilization runs on electromagnetic induction. Maxwell's equations govern both."
+                },
+                {
+                  "label": "E = mc² / Cosmos",
+                  "icon": "stars",
+                  "body": "The atoms in your body were fused in stellar cores. The Sun powers your biosphere via mass-energy conversion. You are stardust contemplating the stars that made you."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Physics is not a collection of separate topics. It's ONE story: the universe began hot and dense, expanded and cooled, formed atoms, stars, and galaxies, created elements in stellar furnaces, assembled them into planets and life, and eventually produced a brain capable of understanding the entire process. You are not a student of physics. You are physics, studying itself. Every equation describes something happening inside you or because of you. The universe spent 13.8 billion years creating a being who could look up at the stars and understand where they came from. That being is you."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Four Fundamental Forces — The Complete Set",
+              "body": "Everything in the universe is governed by four forces: (1) GRAVITY — the weakest, but infinite range, always attractive. Holds planets, stars, galaxies together. (2) ELECTROMAGNETISM — 10³⁹× stronger than gravity. Governs atoms, molecules, light, chemistry, biology, electronics. (3) STRONG NUCLEAR FORCE — 100× stronger than EM, but only at nuclear distances. Holds nuclei together. Powers the Sun via fusion. (4) WEAK NUCLEAR FORCE — responsible for certain radioactive decays, essential for stellar nucleosynthesis. These four forces explain every physical phenomenon ever observed. Everything."
+            },
+            {
+              "type": "transition",
+              "body": "This isn't an ending. It's a beginning. You now have the conceptual framework to understand any physics you encounter — from quantum computing to gravitational waves, from climate physics to medical imaging. The universe is an open book. You've just learned to read the language it's written in."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Atoms' Journey — A 13.8 Billion Year Biography",
+              "body": "The hydrogen in your body: created 3 minutes after the Big Bang (13.8 billion years old). Drifted in primordial gas clouds for millions of years. Collapsed into a first-generation star. Fused into heavier elements. Blasted into space when that star died. Became part of a gas cloud that collapsed again. Some hydrogen remained unfused. Incorporated into the solar nebula 4.6 billion years ago. Became part of Earth's water. Cycled through oceans, rain, organisms, and eventually you. The hydrogen atom in a water molecule in your blood has been on a 13.8-billion-year journey to be here right now."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Write 'The Physics Autobiography of Me': trace physics through YOUR life. Start from the Big Bang (your hydrogen). Move through stellar nucleosynthesis (your carbon, oxygen, iron). Solar system formation. Biological evolution. Your conception (molecular physics). Your first breath (gas laws, pressure). Your first sound (waves). Your first sight (photons). Your first step (Newton's laws). Connect as many physics concepts as you can to YOUR personal story. The most creative and scientifically accurate Physics Autobiography becomes the class masterpiece.",
+              "placeholder_type": "physics_autobiography"
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "You are 93% stardust by mass. About 65% of your body is oxygen (fused in massive stellar cores). 18% is carbon (fused from helium at 100 million °C). 10% is hydrogen (Big Bang, 13.8 billion years old). 3% is nitrogen (stellar fusion). 1.5% is calcium (supernovae). 1% is phosphorus (supernovae). The remaining ~1.5% includes iron (stellar cores), sodium, potassium, sulfur — all from stellar nucleosynthesis. Only your hydrogen is primordial. Everything else was MANUFACTURED inside a star. You are, chemically, a stellar product. Walking stardust."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The physics you've learned describes phenomena spanning 60+ orders of magnitude in size (from quarks at 10⁻¹⁸ m to the observable universe at 10⁴⁶ m) and 40+ orders of magnitude in time (from nuclear reactions at 10⁻²³ seconds to the age of the universe at 10¹⁷ seconds). You've studied the fastest thing (light: 3 × 10⁸ m/s), the slowest thing in your circuits (electron drift: 10⁻⁴ m/s), the strongest force (strong nuclear: holds nuclei together), and the weakest (gravity: holds galaxies together). From the Planck scale to the cosmic horizon, you've taken the tour. Welcome to the universe. It's been waiting 13.8 billion years for you to understand it."
+            }
+          ]
+        },
+        "misconception_checkpoint": {
+          "title": "Capstone Misconception Self-Diagnostic — The Big Picture",
+          "instructions": "This final checkpoint covers the entire capstone. Answer honestly — these are the ideas that separate 'I've heard of modern physics' from 'I understand our universe.'",
+          "diagnostic_scenarios": [
+            {
+              "scenario_id": "cap_diag_1",
+              "scenario": "A spaceship approaches light speed.",
+              "question": "Can it keep accelerating past c with enough fuel?",
+              "gut_check_answer": "NO — as speed approaches c, effective inertia increases without bound. Reaching c requires infinite energy. c is the cosmic speed limit — not a technology barrier, but a geometric property of spacetime. Nothing with mass can reach it.",
+              "aristotelian_trap": "If you said yes, you're applying Newtonian physics (constant force = constant acceleration) where it breaks down.",
+              "why_it_matters": "The cosmic speed limit underlies all of special relativity, including time dilation, length contraction, and E = mc²."
+            },
+            {
+              "scenario_id": "cap_diag_2",
+              "scenario": "A GPS satellite's clock gains 38 microseconds per day relative to ground clocks.",
+              "question": "Is this a real physical effect or a clock malfunction?",
+              "gut_check_answer": "REAL — time dilation from both special relativity (speed: 7 μs/day slower) and general relativity (gravity: 45 μs/day faster). Net: 38 μs/day faster. Without correction: ~10 km/day GPS error. Relativity is engineering, not theory.",
+              "aristotelian_trap": "If you said malfunction, you think time dilation is hypothetical. It's measured daily.",
+              "why_it_matters": "Relativity affects real technology. Time is flexible. This is verified physics."
+            },
+            {
+              "scenario_id": "cap_diag_3",
+              "scenario": "The Sun shines.",
+              "question": "Is it burning fuel or converting mass to energy?",
+              "gut_check_answer": "Converting mass to energy via nuclear fusion. Hydrogen fuses to helium; the helium has 0.7% less mass. The missing mass becomes energy (E = mc²). The Sun converts 4 million tons of mass to energy per second. It's NOT burning — burning is chemical; this is nuclear.",
+              "aristotelian_trap": "If you said burning, you're applying chemical thinking to a nuclear process.",
+              "why_it_matters": "The distinction between chemical and nuclear energy is a factor of millions. Understanding the Sun means understanding E = mc²."
+            },
+            {
+              "scenario_id": "cap_diag_4",
+              "scenario": "The iron in your blood.",
+              "question": "Where was it made?",
+              "gut_check_answer": "In the core of a massive star that exploded as a supernova BEFORE our Sun formed. Stars fuse elements up to iron. The supernova scattered these elements into space. They became part of the gas cloud that formed our solar system. Your blood iron is older than the Sun.",
+              "aristotelian_trap": "If you said 'on Earth' or 'in the Big Bang,' you're missing stellar nucleosynthesis — the process that created most of the periodic table.",
+              "why_it_matters": "You are literally made of stardust. This isn't poetry — it's nuclear physics."
+            },
+            {
+              "scenario_id": "cap_diag_5",
+              "scenario": "The Big Bang occurred 13.8 billion years ago.",
+              "question": "Was it an explosion at a point in empty space?",
+              "gut_check_answer": "NO — it was the expansion of space itself. There was no pre-existing space to explode into. There is no center and no edge. Space between all points is stretching. Galaxies move apart not through space but because space itself expands.",
+              "aristotelian_trap": "If you imagined an explosion at a point, you're placing the Big Bang inside a pre-existing universe. Space itself began.",
+              "why_it_matters": "Understanding the expanding universe requires understanding that space is not a fixed stage — it's a dynamic entity that stretches."
+            }
+          ],
+          "scoring_guide": {
+            "5_correct": "You've internalized the modern physics worldview. You understand that time is flexible, mass is energy, atoms are stellar products, and the universe began as an expansion of spacetime. You can now engage with any physics topic from a position of genuine understanding.",
+            "3_to_4_correct": "Strong grasp with one or two remaining classical-era intuitions. The gaps are natural — these concepts took humanity's greatest minds centuries to discover. Review the specific prediction cycle.",
+            "1_to_2_correct": "Several modern physics concepts haven't yet replaced classical intuitions. Focus on: c is absolute, time dilates, E = mc² is universal, you are stardust, the Big Bang was not an explosion.",
+            "0_correct": "These concepts are genuinely counterintuitive — that's why they were discovered so late in physics history. Start with the one that surprises you most and work outward."
+          },
+          "reassurance": "Modern physics misconceptions are different from Newtonian ones. Newtonian misconceptions come from everyday experience (things stop when you stop pushing). Modern physics misconceptions come from having NO everyday experience with these phenomena (you never travel near c, you never observe time dilation directly, you never witness nuclear fusion). The fix isn't correcting wrong experience — it's building new intuition from scratch, guided by evidence. The evidence is overwhelming. Trust it, even when it contradicts common sense. That's what physics IS: the universe's actual behavior, whether or not it matches your expectations."
+        }
+      },
+      "questions": [
+        {
+          "question": "Physics describes phenomena across how many orders of magnitude?",
+          "options": {
+            "A": "About 10",
+            "B": "Over 60 orders of magnitude in size (from quarks at 10⁻¹⁸ m to the observable universe at 10⁴⁶ m) and 40+ in time. The four fundamental forces govern everything across this entire range.",
+            "C": "About 100, but only theoretically",
+            "D": "It's impossible to say"
+          },
+          "correct_answer": "B",
+          "explanation": "Physics spans the smallest (subatomic) to the largest (cosmic) scales. Four forces explain every observed phenomenon across this immense range.",
+          "tests_concept": "big_bang",
+          "detects_misconception": "Physics applies only to familiar scales"
+        },
+        {
+          "question": "What percentage of your body's mass was made inside stars (not the Big Bang)?",
+          "options": {
+            "A": "Less than 1%",
+            "B": "About 93% — your oxygen (65%), carbon (18%), nitrogen (3%), calcium (1.5%), iron and other elements were all fused inside stellar cores. Only hydrogen (~10%) is primordial (Big Bang). You are ~93% stardust by mass.",
+            "C": "About 50%",
+            "D": "100% — all atoms were made in stars"
+          },
+          "correct_answer": "B",
+          "explanation": "Hydrogen: Big Bang (3 minutes old, ~10% of your mass). Everything else: stellar nucleosynthesis (multiple generations of stars over billions of years, ~90% of your mass). You are overwhelmingly stardust.",
+          "tests_concept": "stellar_lifecycle",
+          "detects_misconception": "All elements from Big Bang / most atoms formed on Earth"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 8,
+    "total_questions": 17,
+    "total_prediction_cycles": 3,
+    "total_diagnostic_scenarios": 5,
+    "block_types_used": [
+      "section",
+      "callout",
+      "list",
+      "prediction_cycle",
+      "transition",
+      "creator_challenge"
+    ],
+    "callout_styles_used": [
+      "definition",
+      "key_idea",
+      "fun_fact",
+      "mind_blow",
+      "philosophy",
+      "personal",
+      "thought_experiment",
+      "misconception_alert"
+    ],
+    "list_styles_used": [
+      "icon_list",
+      "comparison",
+      "numbered_steps"
+    ],
+    "curriculum_concepts_covered": [
+      "speed_of_light",
+      "time_dilation_length_contraction",
+      "mass_energy_equivalence",
+      "quantization",
+      "uncertainty_principle",
+      "nuclear_forces",
+      "radioactive_decay",
+      "fission",
+      "fusion",
+      "big_bang",
+      "stellar_lifecycle"
+    ],
+    "key_misconceptions_targeted": [
+      "Speed of light is relative / can be exceeded",
+      "Time dilation is only theoretical",
+      "E=mc² only applies to bombs",
+      "The Sun burns fuel chemically",
+      "Energy is continuous (not quantized)",
+      "Uncertainty principle is about instrument precision",
+      "All radiation is deadly",
+      "Half-life means all gone after 2 half-lives",
+      "Nuclear plants can explode like bombs",
+      "The Big Bang was an explosion at a point",
+      "The universe expands into something",
+      "Heavy elements have always existed"
+    ],
+    "bridges_from": "ALL previous foundations (this is the capstone)",
+    "bridges_to": "Advanced physics: general relativity, quantum field theory, particle physics, string theory, quantum computing",
+    "extended_treatment": true,
+    "has_misconception_checkpoint": true,
+    "is_capstone": true,
+    "new_pedagogical_element": "Narrative arc — the entire 8-part foundation tells a single story from the Big Bang to the student, making physics feel like a personal biography rather than a textbook sequence"
+  }
+}

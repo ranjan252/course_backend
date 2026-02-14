@@ -1,0 +1,20 @@
+{
+  "id": "vl_001",
+  "concept": "atomic_structure",
+  "level": "L0_L1",
+  "teacher": "tyler_dewitt",
+  "style": "warm",
+  "video_url": "https://youtu.be/h6LPAwAmnCQ",
+  "start_sec": 0,
+  "end_sec": 480,
+  "questions": [
+    {
+      "q_id": "AS_L01_TD_Q1",
+      "text": "What are the three main parts of an atom?",
+      "choices": ["Protons, neutrons, electrons", "Protons, neutrons, photons", "Atoms, molecules, elements", "Nucleus, shell, bond"],
+      "correct_index": 0,
+      "misconceptions": [null, "MC_PHOTON_ELECTRON_CONFUSION", "MC_ATOM_MOLECULE_CONFUSION", "MC_STRUCTURE_VS_PROPERTY"]
+    }
+  ],
+  "active": true
+}

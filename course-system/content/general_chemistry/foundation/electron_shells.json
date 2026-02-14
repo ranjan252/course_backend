@@ -1,0 +1,855 @@
+{
+  "course": "General Chemistry",
+  "topic": "2_electron_structure",
+  "subtopic": "2.1_electron_shells + 2.2_electron_configuration",
+  "foundation_id": "electron_shells",
+  "foundation_title": "Electron Shells",
+  "foundation_tier": 1,
+  "prerequisites": ["atomic_structure"],
+  "curriculum_concepts_covered": [
+    "energy_levels",
+    "electron_capacity",
+    "filling_order",
+    "writing_configs",
+    "orbital_notation",
+    "aufbau_hund_pauli"
+  ],
+  "coverage_notes": "Largest curriculum mapping — 6 concepts across 2 subtopics. Part 2 covers shells and capacity (conceptual). Part 3 covers filling order and stability. Part 4 extends into formal electron configuration notation and the three filling rules (Aufbau, Hund, Pauli). This is the deepest foundation reading.",
+  "total_parts": 5,
+
+  "rendering_guide": {
+    "section": "Headed paragraph block with spacing above/below",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text, lighter font weight"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — why do neon signs glow?)",
+    "step_2": "READ Part 2 (core — shells, energy levels, capacity)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "WATCH video for energy_levels + electron_capacity",
+    "step_5": "READ Part 3 (filling order + stability — why full shells matter)",
+    "step_6": "QUIZ Part 3",
+    "step_7": "WATCH video for filling_order",
+    "step_8": "READ Part 4 (writing electron configurations — the formal notation)",
+    "step_9": "QUIZ Part 4",
+    "step_10": "WATCH video for writing_configs + orbital_notation + aufbau_hund_pauli",
+    "step_11": "READ Part 5 (big picture + bridge to valence_electrons and periodic_table_basic)",
+    "step_12": "FINAL QUIZ (cumulative)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "electron_shells_p1",
+      "part_title": "Why Do Neon Signs Glow?",
+      "purpose": "Hook — electrons in shells explain light, color, and reactivity",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Walk past any city street at night and you'll see neon signs glowing in red, blue, green, and purple. That glow isn't from a light bulb or an LED. It's coming from individual atoms — specifically, from their electrons."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "When electricity hits a neon atom, its electrons jump to higher energy positions. When they fall back down, they release that energy as a burst of colored light. Different atoms produce different colors because their electrons are arranged differently."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "This tells us something profound: electrons aren't just randomly floating around the nucleus. They're organized into specific positions — specific energy levels. Understanding this arrangement is the single most important idea in chemistry, because it determines everything: why elements react, why metals conduct, why some substances are colorful and others are transparent."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Picture a Neon Sign",
+              "body": "Think of the last neon sign you saw — maybe a restaurant logo, an 'OPEN' sign, or the glow of a city skyline. That red-orange light? It's coming from neon atoms inside a glass tube."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Here's what's happening inside: electricity slams into neon atoms, kicking their electrons up to higher positions around the nucleus. But electrons don't want to stay in those high-energy positions. They immediately fall back down — and as they drop, they release energy as a flash of light."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Every color in that sign is an electron falling back home. Different gases glow different colors — neon gives red-orange, argon gives blue-violet, mercury vapor gives ultraviolet. You've been watching quantum mechanics with your own eyes every time you pass a glowing sign."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The fact that each gas produces a specific color proves electrons aren't randomly placed — they sit at specific energy levels, and the gaps between those levels determine the light produced."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Neon signs: beautiful, atmospheric, and powered by atomic anxiety."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Here's what's actually happening inside that pretty red tube: electricity zaps neon atoms. Their electrons PANIC, jump to a higher energy level. Then they immediately regret it, fall back down, and SCREAM a photon of light on the way. That scream is the glow you see. Every neon sign is billions of electrons having tiny existential crises per second."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Different atoms have different electron arrangements, so their electrons scream in different colors. Neon = red-orange scream. Argon = blue-violet scream. Hydrogen = pink scream. The night skyline of any city is basically a choir of distressed electrons."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "But this tells us something important: electrons aren't just randomly orbiting. They have assigned energy levels — specific distances from the nucleus they're supposed to be at. This arrangement is the key to understanding ALL of chemistry. Let's learn the seating chart."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "electron_shells_p2",
+      "part_title": "Electron Shells and Energy Levels",
+      "purpose": "Core teaching — shells as energy levels, capacity rules, how they fill",
+      "curriculum_concepts": ["energy_levels", "electron_capacity"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Electrons Have Assigned Seating",
+              "body": "Electrons don't just orbit the nucleus at any random distance. They organize into specific layers called electron shells (or energy levels), like invisible rings at set distances from the nucleus. Each shell has a number and a maximum capacity."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Shell 1 (closest to nucleus)",
+                  "icon": "circle-1",
+                  "body": "Lowest energy. Holds a maximum of 2 electrons. Fills first because it's the most stable position — closest to the positive nucleus."
+                },
+                {
+                  "label": "Shell 2",
+                  "icon": "circle-2",
+                  "body": "Higher energy. Holds a maximum of 8 electrons. Fills after Shell 1 is full."
+                },
+                {
+                  "label": "Shell 3",
+                  "icon": "circle-3",
+                  "body": "Even higher energy. Holds up to 18 electrons total, but in introductory chemistry we often work with the first 8. Fills after Shell 2."
+                },
+                {
+                  "label": "Shell 4 and beyond",
+                  "icon": "circle-4",
+                  "body": "Progressively higher energy and higher capacity. Shell 4 holds up to 32. In practice, we focus on Shells 1-3 for most fundamental chemistry."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "The Capacity Formula",
+              "body": "Maximum electrons per shell = 2n², where n is the shell number. Shell 1: 2(1²) = 2. Shell 2: 2(2²) = 8. Shell 3: 2(3²) = 18. Shell 4: 2(4²) = 32."
+            },
+            {
+              "type": "section",
+              "title": "Why Closer = More Stable",
+              "body": "Think of the nucleus as a strong magnet and electrons as metal balls. The closer a ball is to the magnet, the harder it is to pull away — that's lower energy, more stable. The outer shells are farther from the nucleus, meaning those electrons are held less tightly and are easier to remove or share. This will become critical when we study bonding."
+            },
+            {
+              "type": "visual",
+              "description": "Concentric ring diagram showing shells 1-4 around a nucleus, with capacity numbers labeled: Shell 1 (2e⁻), Shell 2 (8e⁻), Shell 3 (18e⁻), Shell 4 (32e⁻). Arrows showing increasing energy outward.",
+              "placeholder_type": "electron_shells_diagram"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Build It With Rings",
+              "body": "Imagine you're building a model atom with rings and beads. Place a marble in the center — that's the nucleus. Now place a small ring close around it — Shell 1. Thread on 2 beads maximum. The ring is full."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Place a larger ring farther out — Shell 2. This one fits 8 beads. Then a third ring — Shell 3 — fits up to 18 beads, though we often stop at 8 for simplicity."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Now try to force a 3rd bead onto Shell 1. It won't fit — the shell is full. That extra electron HAS to go to Shell 2. This is how electron arrangement works: fill the closest shell first, and when it's full, move to the next one out."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Let's trace a real element. Sodium has 11 electrons. Shell 1 takes the first 2. Shell 2 takes the next 8. That leaves 1 electron alone in Shell 3. Sodium's arrangement: 2-8-1. That lonely outer electron is the most important thing about sodium — it's why sodium is so reactive."
+            },
+            {
+              "type": "section",
+              "title": "Feel the Energy Difference",
+              "body": "Hold your phone close to your face — that's an inner shell electron, held tight by the nucleus's pull. Now hold your phone at arm's length — that's an outer shell electron, barely held on. Which would be easier for someone to grab out of your hand? The one at arm's length. That's exactly why outer electrons are the ones involved in chemistry — they're the easiest to remove, share, or attract."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Seating Chart of the Atom",
+              "body": "Electron shells are basically assigned seating for electrons, and the atom is a VERY strict venue. No freelancing. No standing room. No exceptions."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Shell 1: VIP Section",
+                  "icon": "star",
+                  "body": "Right next to the nucleus. Only 2 seats. First to fill. Most stable. These electrons are basically the atoms's inner circle — close, comfortable, not going anywhere."
+                },
+                {
+                  "label": "Shell 2: General Admission",
+                  "icon": "ticket",
+                  "body": "8 seats. Farther from the nucleus. Less tightly held. Still pretty stable when full."
+                },
+                {
+                  "label": "Shell 3: The Nosebleed Section",
+                  "icon": "binoculars",
+                  "body": "Up to 18 seats (we often use 8 for now). Way out from the nucleus. Electrons here are barely held on. These are the first to leave, share, or cause drama."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "The Capacity Cheat Code",
+              "body": "2n² — where n is the shell number. Shell 1: 2 seats. Shell 2: 8 seats. Shell 3: 18 seats. Shell 4: 32 seats. Math has never been this useful in chemistry."
+            },
+            {
+              "type": "section",
+              "title": "Why It Matters",
+              "body": "Closer to the nucleus = more tightly held = more stable. Farther from nucleus = loosely held = ready for action. It's like living next to your parents (stable, not going anywhere) vs living across the country (free, independent, making questionable decisions). Outer electrons make questionable decisions. That's chemistry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Oxygen has 8 electrons. How are they arranged in shells?",
+          "options": {
+            "A": "8 electrons all in Shell 1",
+            "B": "4 in Shell 1, 4 in Shell 2",
+            "C": "2 in Shell 1, 6 in Shell 2",
+            "D": "2 in Shell 1, 2 in Shell 2, 4 in Shell 3"
+          },
+          "correct_answer": "C",
+          "explanation": "Shell 1 fills first with its maximum of 2 electrons. The remaining 6 go into Shell 2 (which can hold up to 8). Oxygen's shell arrangement is 2-6.",
+          "tests_concept": "energy_levels + electron_capacity"
+        },
+        {
+          "question": "Shell 3 can hold up to 18 electrons. Using the formula 2n², what is n for Shell 3?",
+          "options": {
+            "A": "n = 2 → 2(4) = 8",
+            "B": "n = 3 → 2(9) = 18",
+            "C": "n = 9 → 2(81) = 162",
+            "D": "n = 18 → the shell number equals the capacity"
+          },
+          "correct_answer": "B",
+          "explanation": "n is the shell number. For Shell 3: n = 3. Capacity = 2 × 3² = 2 × 9 = 18 electrons maximum. The formula works for any shell: Shell 1 = 2, Shell 2 = 8, Shell 3 = 18, Shell 4 = 32.",
+          "tests_concept": "electron_capacity"
+        },
+        {
+          "question": "Why do electrons fill Shell 1 before Shell 2?",
+          "options": {
+            "A": "Shell 1 is bigger so it fills first",
+            "B": "It's random — electrons go to any shell",
+            "C": "Shell 1 is closest to the nucleus and lowest energy — electrons naturally go to the most stable position first",
+            "D": "Protons push electrons into Shell 1 first"
+          },
+          "correct_answer": "C",
+          "explanation": "Electrons seek the lowest energy state, like a ball rolling to the bottom of a hill. Shell 1 is closest to the positive nucleus, making it the lowest energy and most stable position. Electrons only move to Shell 2 after Shell 1 is completely full.",
+          "tests_concept": "energy_levels"
+        }
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "electron_shells_p3",
+      "part_title": "Full Shells and Stability",
+      "purpose": "Teach why full outer shells matter — noble gas stability, reactivity patterns",
+      "curriculum_concepts": ["filling_order"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Golden Rule of Chemistry",
+              "body": "Here's the single most important pattern in chemistry: atoms with full outer shells are stable and unreactive. Atoms with incomplete outer shells are unstable and reactive."
+            },
+            {
+              "type": "section",
+              "title": "Noble Gases: The Proof",
+              "body": "Look at the noble gases — helium, neon, argon. They almost never react with anything. Why?"
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Helium: 2 electrons → Shell 1 full (2/2)",
+                  "icon": "check-circle",
+                  "body": "Shell 1 maxes at 2. Helium has exactly 2. Full shell. Completely stable. Doesn't bond with anything."
+                },
+                {
+                  "label": "Neon: 10 electrons → 2-8 (both shells full)",
+                  "icon": "check-circle",
+                  "body": "Shell 1: 2 (full). Shell 2: 8 (full). Every shell at capacity. Neon is chemically inert — it refuses to react."
+                },
+                {
+                  "label": "Argon: 18 electrons → 2-8-8 (outer shell full)",
+                  "icon": "check-circle",
+                  "body": "Shell 1: 2 (full). Shell 2: 8 (full). Shell 3: 8 (considered full for basic purposes). Completely stable."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Octet Rule",
+              "body": "Most atoms 'want' 8 electrons in their outer shell (or 2 for Shell 1). This full-shell configuration is so stable that atoms will give away, take, or share electrons to achieve it. This drive is the reason all chemical bonding exists."
+            },
+            {
+              "type": "section",
+              "title": "Reactive Atoms: Almost Full or Almost Empty",
+              "body": "Now compare sodium (2-8-1) and chlorine (2-8-7). Sodium has ONE electron in its outer shell — it's desperate to lose it so Shell 2 becomes its full outer shell. Chlorine has SEVEN of the 8 spots filled — it's desperate to gain one more. Put them together and sodium hands its electron to chlorine. Both achieve full outer shells. The result? Table salt (NaCl)."
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Full outer shell = stable = unreactive (noble gases). One or two electrons short or extra = unstable = highly reactive (sodium, chlorine, potassium, fluorine)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "See Stability vs Reactivity",
+              "body": "Think of filling a parking lot. A completely full lot is stable — no one is driving around looking for a spot. An almost-empty lot is fine too — plenty of space, no stress. But a lot with ONE spot left? Cars are circling aggressively, fighting for that last spot. That's chlorine — 7 of 8 spots filled, aggressively seeking that one final electron."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Now think of a lot where one car is parked alone in a massive empty section. That car is easy to tow — barely anyone would notice. That's sodium's lone outer electron — sitting alone in Shell 3, barely held, easy to remove."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Sodium (2-8-1): gives away 1 electron → becomes 2-8 → full outer shell → stable. Chlorine (2-8-7): gains 1 electron → becomes 2-8-8 → full outer shell → stable. Both achieve the noble gas configuration. This is why NaCl forms."
+            },
+            {
+              "type": "section",
+              "title": "Real World: Why Neon Fills Bulbs",
+              "body": "Incandescent light bulbs often contain argon gas inside. Why? Because argon's full outer shell (2-8-8) means it won't react with the white-hot metal filament. If you filled the bulb with oxygen instead, the filament would burn up instantly. The full shell = chemical bodyguard."
+            },
+            {
+              "type": "section",
+              "title": "Real World: Why Sodium Explodes",
+              "body": "Search for a video of sodium dropped in water. The violent explosion happens because sodium's lone outer electron transfers to water molecules so rapidly that the energy release is explosive. Sodium is so eager to achieve a full outer shell that it literally self-destructs to get there."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The One Rule That Explains Everything",
+              "body": "Ready for the secret of chemistry? Here it is: atoms want full outer shells. That's it. That's the whole subject. Everything else — bonding, reactions, explosions, medicine — is just atoms trying to fill their outer shell by any means necessary."
+            },
+            {
+              "type": "section",
+              "title": "Noble Gases: Peak Contentment",
+              "body": "Helium (2 electrons, Shell 1 full), neon (2-8, both shells full), argon (2-8-8, outer shell full). These atoms are the monks of the periodic table. Completely at peace. No desire to bond. No reactivity. They just exist. If atoms had dating profiles, noble gases would say 'not looking for anything right now.'"
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "title": "The Octet Rule",
+              "body": "Most atoms want 8 electrons in their outer shell. This desire is so strong that atoms will EXPLODE (sodium in water), CORRODE (iron rusting), or form DEADLY GAS PARTNERSHIPS (chlorine) just to achieve it. Chemistry is just atoms with full-shell anxiety."
+            },
+            {
+              "type": "section",
+              "title": "The Desperate Cases",
+              "body": "Sodium (2-8-1) has one electron sitting alone in Shell 3 like the last person at a party. It will give that electron to literally anyone who wants it. Drop it in water and it explodes trying to donate. Chlorine (2-8-7) has one empty seat and will FIGHT for an electron. Put sodium and chlorine together and it's a match made in chemistry heaven — one gives, one takes, both achieve full shells, and we get table salt. Romance, atomic style."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Neon (2-8) almost never reacts. Sodium (2-8-1) explodes in water. Both are in Period 3 of the periodic table. Why the dramatic difference?",
+          "options": {
+            "A": "Neon is a gas and sodium is a metal — gases are always unreactive",
+            "B": "Neon has full outer shells and is stable; sodium has one lonely outer electron making it desperately reactive",
+            "C": "Sodium is heavier so it has more energy to react",
+            "D": "Neon has more protons which makes it stronger"
+          },
+          "correct_answer": "B",
+          "explanation": "Neon's outer shell is perfectly full (8/8) — no driving force to gain or lose electrons. Sodium has just 1 electron in Shell 3, which it can easily lose to achieve a full outer shell (2-8). This intense drive makes sodium extremely reactive.",
+          "tests_concept": "filling_order — full shells create stability"
+        },
+        {
+          "question": "Fluorine has 9 electrons (2-7). Predict: is fluorine highly reactive, moderately reactive, or unreactive?",
+          "options": {
+            "A": "Unreactive — 9 is close to 10 (neon) so it's almost stable",
+            "B": "Moderately reactive — it has a mid-range electron count",
+            "C": "Highly reactive — its outer shell has 7 of 8 spots filled, so it aggressively seeks one more electron",
+            "D": "It depends on what it's reacting with"
+          },
+          "correct_answer": "C",
+          "explanation": "Fluorine is one electron short of a full outer shell. This makes it the most electronegative element — it will rip an electron from almost anything. Fluorine is so reactive that it attacks glass, steel, and even some noble gases under extreme conditions.",
+          "tests_concept": "filling_order — incomplete shells drive reactivity"
+        },
+        {
+          "question": "Argon (2-8-8) is used inside light bulbs to protect the hot filament. Why argon specifically?",
+          "options": {
+            "A": "Argon makes the filament glow brighter",
+            "B": "Argon is the cheapest gas available",
+            "C": "Argon's full outer shell makes it completely unreactive — it won't burn the hot metal filament",
+            "D": "Argon absorbs heat and keeps the bulb cool"
+          },
+          "correct_answer": "C",
+          "explanation": "Argon's outer shell is full (8 electrons), making it inert. It won't react with the filament even at 2,500°C. Oxygen would oxidize (burn) the filament instantly. Full outer shell = chemical inertness = perfect protective gas.",
+          "tests_concept": "filling_order — full shell = non-reactivity"
+        }
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "electron_shells_p4",
+      "part_title": "Writing Electron Configurations",
+      "purpose": "Formal notation — 1s² 2s² 2p⁶ etc., subshells (s/p/d/f), Aufbau principle, Hund's rule, Pauli exclusion",
+      "curriculum_concepts": ["writing_configs", "orbital_notation", "aufbau_hund_pauli"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Beyond Simple Shells",
+              "body": "So far we've described electrons in shells: 2-8-8 for argon, 2-8-1 for sodium. That's great for understanding the big picture, but chemists need a more precise system. Each shell is divided into subshells, and each subshell is divided into orbitals."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Subshells: s, p, d, f",
+              "body": "Each shell contains subshells labeled s, p, d, and f. Shell 1 has only s. Shell 2 has s and p. Shell 3 has s, p, and d. Shell 4 has s, p, d, and f. Each subshell type holds a specific number of electrons."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "s subshell", "definition": "1 orbital → holds 2 electrons max"},
+                {"term": "p subshell", "definition": "3 orbitals → holds 6 electrons max"},
+                {"term": "d subshell", "definition": "5 orbitals → holds 10 electrons max"},
+                {"term": "f subshell", "definition": "7 orbitals → holds 14 electrons max"}
+              ]
+            },
+            {
+              "type": "section",
+              "title": "How to Write an Electron Configuration",
+              "body": "The electron configuration lists every subshell in the order it fills, with the number of electrons in each as a superscript. For example, carbon has 6 electrons: 1s² 2s² 2p². This reads: '2 electrons in the 1s subshell, 2 in the 2s, and 2 in the 2p.'"
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Example Configurations",
+              "items": [
+                {
+                  "label": "Hydrogen (1 electron)",
+                  "body": "1s¹"
+                },
+                {
+                  "label": "Helium (2 electrons)",
+                  "body": "1s²"
+                },
+                {
+                  "label": "Carbon (6 electrons)",
+                  "body": "1s² 2s² 2p²"
+                },
+                {
+                  "label": "Neon (10 electrons)",
+                  "body": "1s² 2s² 2p⁶ — every subshell in Shells 1-2 completely full"
+                },
+                {
+                  "label": "Sodium (11 electrons)",
+                  "body": "1s² 2s² 2p⁶ 3s¹ — one electron starts Shell 3"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Three Filling Rules",
+              "body": "Three rules govern how electrons fill orbitals. These are the 'traffic laws' of electron configuration."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Aufbau Principle (Building Up)",
+                  "icon": "arrow-up",
+                  "body": "Electrons fill the lowest-energy subshell first, then move up. The filling order is: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p. Note: 4s fills before 3d because 4s is slightly lower in energy."
+                },
+                {
+                  "label": "Pauli Exclusion Principle",
+                  "icon": "ban",
+                  "body": "Each orbital holds a maximum of 2 electrons, and they must spin in opposite directions (one 'up,' one 'down'). No two electrons in an atom can be identical in every way."
+                },
+                {
+                  "label": "Hund's Rule (The Bus Seat Rule)",
+                  "icon": "users",
+                  "body": "When filling orbitals of equal energy (like the three 2p orbitals), electrons spread out one per orbital first before pairing up. Think of it like passengers on a bus — everyone takes their own seat before anyone doubles up."
+                }
+              ]
+            },
+            {
+              "type": "visual",
+              "description": "Aufbau filling order diagram showing subshells as boxes arranged by energy level, with arrows showing the order: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p. Include the diagonal arrow mnemonic.",
+              "placeholder_type": "aufbau_filling_diagram"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Build Carbon Step by Step",
+              "body": "Let's fill in carbon's 6 electrons using all three rules. Grab a piece of paper if you want to follow along."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Filling Carbon (6 electrons)",
+              "items": [
+                {
+                  "label": "Start at 1s (lowest energy)",
+                  "body": "Put 2 electrons in (that's the max for any s orbital — Pauli). → 1s²  |  4 electrons remaining."
+                },
+                {
+                  "label": "Next: 2s",
+                  "body": "Put 2 electrons in. → 1s² 2s²  |  2 electrons remaining."
+                },
+                {
+                  "label": "Next: 2p (has 3 orbitals)",
+                  "body": "Hund's Rule: spread out first before pairing. Put 1 electron in the first 2p orbital, 1 in the second. Leave the third empty for now. → 1s² 2s² 2p²"
+                },
+                {
+                  "label": "Result",
+                  "body": "Carbon: 1s² 2s² 2p². Two unpaired electrons in 2p — which is why carbon forms 4 bonds (it can share those 2 unpaired plus promote electrons for 4 total)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Now try it yourself: nitrogen has 7 electrons. Fill 1s² 2s² — that uses 4. The remaining 3 go into 2p, one per orbital (Hund's Rule). Nitrogen: 1s² 2s² 2p³. Three unpaired electrons — which is why nitrogen forms 3 bonds."
+            },
+            {
+              "type": "section",
+              "title": "The Bus Seat Analogy for Hund's Rule",
+              "body": "Imagine three empty seats on a bus (the three 2p orbitals). The first person sits alone. Second person takes a different empty seat — not next to the first. Third person takes the last empty seat. Only when all seats have one person does anyone double up. Electrons behave exactly the same way — they prefer their own orbital before sharing."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Extended Universe of Electron Seating",
+              "body": "Remember shells 1, 2, 3? Turns out each shell has VIP sections inside it called subshells. It's like learning your stadium has sections, rows, AND specific seat numbers."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "s subshell", "definition": "2 seats. Like a love seat. Cozy."},
+                {"term": "p subshell", "definition": "6 seats (3 pairs). A nice couch."},
+                {"term": "d subshell", "definition": "10 seats. A minivan."},
+                {"term": "f subshell", "definition": "14 seats. A party bus."}
+              ]
+            },
+            {
+              "type": "section",
+              "title": "The Three Rules (a.k.a. Electron Traffic Laws)",
+              "body": "Electrons follow three non-negotiable rules. Break them and physics sends you to jail."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Aufbau Principle: Fill Cheap Seats First",
+                  "icon": "arrow-up",
+                  "body": "Electrons go to the lowest-energy (cheapest) subshell first. 1s fills before 2s, 2s before 2p, etc. Nobody buys courtside when nosebleeds are available."
+                },
+                {
+                  "label": "Pauli Exclusion: No Clones Allowed",
+                  "icon": "ban",
+                  "body": "Maximum 2 electrons per orbital, and they must spin opposite directions. It's the 'no two identical electrons' rule. The universe hates duplicates."
+                },
+                {
+                  "label": "Hund's Rule: The Bus Rule",
+                  "icon": "users",
+                  "body": "When there are equally-priced empty seats (like the three 2p orbitals), everyone sits alone first. Nobody doubles up until every seat has one person. Electrons are basically introverts on public transit."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Carbon's configuration is 1s² 2s² 2p². Sodium is 1s² 2s² 2p⁶ 3s¹. You're now reading the actual language chemists use. It looks like a cat walked on a keyboard, but once you see the pattern, it's elegant. Kind of."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "What is the electron configuration of nitrogen (7 electrons)?",
+          "options": {
+            "A": "1s² 2s² 2p³",
+            "B": "1s² 2s² 2p⁵",
+            "C": "1s² 2p⁵",
+            "D": "1s² 2s³ 2p²"
+          },
+          "correct_answer": "A",
+          "explanation": "Fill lowest energy first (Aufbau): 1s² (2 used), 2s² (4 used), 2p³ (7 used — all 7 placed). Hund's Rule: the 3 electrons in 2p each occupy their own orbital before pairing, giving three unpaired electrons.",
+          "tests_concept": "writing_configs"
+        },
+        {
+          "question": "Carbon has the configuration 1s² 2s² 2p². How are the two 2p electrons arranged according to Hund's Rule?",
+          "options": {
+            "A": "Both in the same 2p orbital, spinning opposite directions",
+            "B": "Each in a separate 2p orbital, both spinning the same direction",
+            "C": "One in 2p and one back in 2s",
+            "D": "Randomly placed in any available orbital"
+          },
+          "correct_answer": "B",
+          "explanation": "Hund's Rule: electrons occupy equal-energy orbitals singly before pairing. The three 2p orbitals are equal energy. The 2 electrons each go to their own orbital (with parallel spins). The third 2p orbital stays empty.",
+          "tests_concept": "aufbau_hund_pauli"
+        },
+        {
+          "question": "The filling order goes 1s → 2s → 2p → 3s → 3p → 4s → 3d. Why does 4s fill BEFORE 3d?",
+          "options": {
+            "A": "4s is physically closer to the nucleus than 3d",
+            "B": "4s has lower energy than 3d despite being in a higher shell number",
+            "C": "3d doesn't exist — it starts at 4d",
+            "D": "It's random — either could fill first"
+          },
+          "correct_answer": "B",
+          "explanation": "Energy depends on both the shell number AND the subshell type. The 4s subshell happens to be slightly lower in energy than 3d due to electron-electron interactions. Aufbau Principle: always fill the lowest energy first, regardless of shell number.",
+          "tests_concept": "aufbau_hund_pauli"
+        }
+      ]
+    },
+
+    {
+      "part_number": 5,
+      "part_id": "electron_shells_p5",
+      "part_title": "The Big Picture: Shells Predict Everything",
+      "purpose": "Tie it together — shell config predicts reactivity, link to periodic table and valence electrons",
+      "curriculum_concepts": ["energy_levels", "electron_capacity", "filling_order", "writing_configs"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Electron Arrangement = Chemical Destiny",
+              "body": "Everything we've learned in this lesson feeds into one powerful conclusion: if you know an atom's electron arrangement, you can predict its chemical behavior."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Full outer shell → Unreactive",
+                  "icon": "shield",
+                  "body": "Noble gases (He, Ne, Ar). They don't bond. They don't react. They're chemically invisible."
+                },
+                {
+                  "label": "1-2 outer electrons → Reactive metal",
+                  "icon": "flame",
+                  "body": "Sodium (2-8-1), magnesium (2-8-2). They give away outer electrons easily. Often explosive or highly reactive."
+                },
+                {
+                  "label": "6-7 outer electrons → Reactive nonmetal",
+                  "icon": "magnet",
+                  "body": "Oxygen (2-6), fluorine (2-7), chlorine (2-8-7). They aggressively attract electrons to fill their outer shell."
+                },
+                {
+                  "label": "4 outer electrons → Versatile bonder",
+                  "icon": "network",
+                  "body": "Carbon (2-4). Can go either way — share, give, or take. This versatility is why carbon is the backbone of life."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Preview",
+              "body": "The outer shell electrons — called valence electrons — are the ONLY ones that matter for bonding and reactions. The inner shells are just spectators. Understanding valence electrons is the next step."
+            },
+            {
+              "type": "section",
+              "title": "Connecting to the Periodic Table",
+              "body": "Here's the beautiful shortcut: the periodic table is ORGANIZED by electron configuration. Elements in the same column have the same number of outer electrons. That's why they behave similarly. The table isn't random — it's a map of electron arrangements."
+            },
+            {
+              "type": "transition",
+              "body": "We've gone inside the atom: protons and neutrons in the nucleus, electrons in shells and subshells, filling according to three rules. The next two lessons zoom in on the payoff: valence electrons (the outer-shell electrons that do all the chemistry) and the periodic table (the map that organizes it all). Electron shells are the foundation — everything from here builds on what you just learned."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Predict Before You Look It Up",
+              "body": "Try predicting reactivity from shell arrangements before reading the answer."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Reactivity Predictions",
+              "items": [
+                {
+                  "label": "Potassium: 2-8-8-1",
+                  "hints": "One electron in the outermost shell — very reactive metal. Even more reactive than sodium because that outer electron is farther from the nucleus (Shell 4 vs Shell 3)."
+                },
+                {
+                  "label": "Sulfur: 2-8-6",
+                  "hints": "6 outer electrons, needs 2 more for a full shell. Reactive nonmetal — will grab electrons from metals."
+                },
+                {
+                  "label": "Krypton: 2-8-18-8",
+                  "hints": "Full outer shell (8). Noble gas. Unreactive. Used in some specialty light bulbs."
+                },
+                {
+                  "label": "Calcium: 2-8-8-2",
+                  "hints": "2 outer electrons — reactive metal. Gives away both electrons. Found in your bones as calcium compounds."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "You just predicted chemical behavior from electron count alone. This is exactly what chemists do — the periodic table is simply a visual tool that makes this prediction instant."
+            },
+            {
+              "type": "transition",
+              "body": "Next we focus on just the outer electrons — valence electrons — and see how the periodic table organizes them into a pattern you can read at a glance."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Cheat Sheet to All of Chemistry",
+              "body": "Here's the summary that would've saved you an entire semester if someone told you this on day one."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Full outer shell = Switzerland",
+                  "icon": "shield",
+                  "body": "Neutral, peaceful, not getting involved. Noble gases. They watch other elements react and say 'couldn't be me.'"
+                },
+                {
+                  "label": "1-2 outer electrons = That friend who gives too much",
+                  "icon": "heart",
+                  "body": "Metals like sodium and potassium. Will give away electrons to ANYONE. Often self-destructively. Literally explode to donate."
+                },
+                {
+                  "label": "6-7 outer electrons = The electron thief",
+                  "icon": "target",
+                  "body": "Fluorine, chlorine, oxygen. One or two electrons short of happiness. Will aggressively take yours."
+                },
+                {
+                  "label": "4 outer electrons = The social butterfly",
+                  "icon": "globe",
+                  "body": "Carbon. Can bond with basically anything. The reason life exists. Chemistry's most popular element."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The periodic table is literally just a seating chart organized by electron configuration. Same column = same number of outer electrons = same personality. Mendeleev figured this out in 1869 WITHOUT knowing about electrons. The man predicted the future using patterns alone. Legend."
+            },
+            {
+              "type": "transition",
+              "body": "Next up: valence electrons — the outer-shell electrons that actually DO things. Everything else is just bodyguards for the nucleus. And after that, the periodic table — the ultimate cheat code that tells you everything about an element just from its position on the chart."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Potassium (2-8-8-1) is more reactive than sodium (2-8-1), even though both have 1 outer electron. Why?",
+          "options": {
+            "A": "Potassium has more protons pulling the electron in",
+            "B": "Potassium's outer electron is in Shell 4, farther from the nucleus with more shielding, making it easier to remove",
+            "C": "Potassium has more neutrons making it unstable",
+            "D": "Sodium's outer electron is in a different subshell type"
+          },
+          "correct_answer": "B",
+          "explanation": "Potassium's lone outer electron is in Shell 4 — farther from the nucleus, with 3 inner shells shielding it from the nuclear pull. This makes it even easier to remove than sodium's Shell 3 electron. Greater distance = weaker hold = higher reactivity.",
+          "tests_concept": "energy_levels — distance affects reactivity"
+        },
+        {
+          "question": "The electron configuration for chlorine is 1s² 2s² 2p⁶ 3s² 3p⁵. How many electrons are in chlorine's outermost shell?",
+          "options": {
+            "A": "5 — just count the 3p electrons",
+            "B": "7 — add the 3s² and 3p⁵ electrons (both are in Shell 3)",
+            "C": "17 — total electron count",
+            "D": "2 — only count the last subshell entered"
+          },
+          "correct_answer": "B",
+          "explanation": "The outermost shell is Shell 3. It contains both 3s² and 3p⁵ subshells. Total outer electrons = 2 + 5 = 7. This is why chlorine is one electron short of a full octet and extremely reactive.",
+          "tests_concept": "writing_configs — reading outer shell from configuration"
+        }
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 5,
+    "total_questions": 11,
+    "block_types_used": ["section", "callout", "list", "visual", "transition"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember", "mind_blow"],
+    "list_styles_used": ["icon_list", "two_column", "comparison", "challenge", "numbered_steps"],
+    "curriculum_concepts_covered": ["energy_levels", "electron_capacity", "filling_order", "writing_configs", "orbital_notation", "aufbau_hund_pauli"],
+    "bridges_from": "atomic_structure",
+    "bridges_to": "valence_electrons + periodic_table_basic"
+  }
+}

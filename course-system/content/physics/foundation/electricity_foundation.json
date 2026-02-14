@@ -1,0 +1,970 @@
+{
+  "course": "Physics",
+  "topic": "7_electricity",
+  "subtopic": "full_topic_extended",
+  "foundation_id": "electricity_invisible_force",
+  "foundation_title": "Electricity: The Invisible Force Running Your World — From Lightning to Your Heartbeat",
+  "foundation_tier": 5,
+  "prerequisites": [
+    "physics.physics_of_you",
+    "physics.newtons_laws_in_your_body",
+    "physics.energy_universes_currency",
+    "physics.light_how_you_see_everything"
+  ],
+  "curriculum_concepts_covered": [
+    "electric_charge",
+    "coulombs_law",
+    "current_voltage_resistance",
+    "ohms_law",
+    "series_parallel",
+    "electrical_power_energy",
+    "magnetic_fields",
+    "electromagnetism",
+    "electromagnetic_induction"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 7 parts. Electricity is the most practically consequential topic in the curriculum: every device, every light, every screen, every signal in modern life runs on it. Students use electricity constantly but have almost no understanding of what current, voltage, or resistance actually mean. The central misconceptions — 'current gets used up in a circuit' and 'voltage IS current' — are as persistent and harmful as the Aristotelian force misconception. The water-pipe analogy is introduced as scaffolding, then explicitly corrected for its limitations. The foundation culminates in the unification of electricity and magnetism — one of the great intellectual achievements of physics.",
+  "total_parts": 7,
+  "extended_treatment": true,
+  "extended_reason": "Electricity connects to energy (electrical power), waves (electromagnetic radiation), light (photons from accelerating charges), modern technology (every electronic device), biology (nervous system, heartbeat), and modern physics (quantum electrodynamics). The circuit misconceptions are extremely persistent — research shows that even after instruction, most students believe current is 'used up' by circuit elements. This requires the same systematic misconception-confrontation approach used for Newton's first law and energy conservation.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal, thought_experiment, misconception_alert",
+    "prediction_cycle": "Interactive predict-observe-reconcile cycle",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "elec_p1",
+      "part_title": "Electric Charge — The Property That Runs the Universe",
+      "purpose": "Establish charge as a fundamental property. Positive/negative. Attraction/repulsion. Charge is never created — only transferred. Connect to everyday static electricity.",
+      "pedagogical_notes": "Students think rubbing creates charge. It doesn't — it TRANSFERS electrons from one surface to another. The total charge before and after rubbing is exactly zero (conservation of charge). This parallels energy conservation: charge, like energy, is never created or destroyed, only moved around.",
+      "curriculum_concepts": [
+        "electric_charge",
+        "coulombs_law"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Everything You Touch, Sit On, and See Is Held Together by Electric Force",
+              "body": "The chair you're sitting on doesn't collapse because electric forces between atoms in the chair's material resist compression. Your feet don't fall through the floor because electrons in your shoes repel electrons in the floor. The screen you're reading emits light because electrons in the display are being manipulated by electric fields. Every chemical bond holding every molecule in your body together is an electric force between charged particles. Gravity gets all the fame, but the electromagnetic force builds the world you actually experience."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Electric Charge",
+              "body": "Electric charge is a fundamental property of matter, like mass. It comes in two types: POSITIVE (carried by protons) and NEGATIVE (carried by electrons). Like charges REPEL. Opposite charges ATTRACT. The unit is the coulomb (C). One electron carries −1.6 × 10⁻¹⁹ C. One proton carries +1.6 × 10⁻¹⁹ C. Most matter is electrically NEUTRAL: equal numbers of protons and electrons, so net charge = 0. 'Charging' an object means making the electron count different from the proton count."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_charge_rubbing",
+              "title": "Prediction Cycle: Does Rubbing CREATE Charge?",
+              "predict": {
+                "scenario": "You rub a balloon on your hair. The balloon becomes negatively charged and sticks to the wall. Your hair stands up.",
+                "question": "PREDICT: Where did the balloon's charge come from? Did rubbing create it?",
+                "common_prediction": "'Rubbing creates static electricity' or 'friction generates charge.'"
+              },
+              "observe": {
+                "what_actually_happens": "Rubbing TRANSFERS electrons from your hair to the balloon. Your hair LOSES electrons → becomes positively charged (net positive because protons now outnumber electrons). The balloon GAINS electrons → becomes negatively charged. The total charge of (hair + balloon) is still ZERO — exactly the same as before rubbing. No charge was created. Electrons moved.",
+                "evidence": "Conservation of charge: the total electric charge of a closed system never changes. This is as absolute as conservation of energy. Every electron the balloon gained, your hair lost. You can verify: the balloon attracts your hair (opposite charges attract). The total charge of you + balloon is still zero."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "'Static electricity' language implies charge is created. It's not — it's separated. Rubbing provides the mechanical energy to pull electrons from one material's atoms and deposit them on the other. Different materials hold electrons with different strength (triboelectric series). The material that holds electrons more tightly 'wins' them in the rubbing contest.",
+                "correct_model": "Charge is CONSERVED — never created, never destroyed, only transferred. Rubbing transfers electrons between materials. The object gaining electrons becomes negative. The object losing electrons becomes positive. Net charge of the system: unchanged. Conservation of charge is as fundamental as conservation of energy."
+              }
+            },
+            {
+              "type": "section",
+              "title": "Coulomb's Law — The Electric Force Between Charges",
+              "body": "Two charged objects exert a force on each other: F = kq₁q₂/r². This looks identical to Newton's gravitational law (F = Gm₁m₂/r²) but with crucial differences. Both are inverse-square laws (double the distance → quarter the force). But the electric force has two signs (attractive OR repulsive, depending on charge signs), while gravity is always attractive. And the electric force is incomprehensibly stronger."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The electric force between an electron and a proton in a hydrogen atom is 10³⁹ times stronger than their gravitational attraction. That's a 1 followed by 39 zeros. Why doesn't the electric force dominate the universe? Because positive and negative charges almost perfectly cancel. Matter is nearly perfectly neutral. Gravity seems strong because it has only one sign — it always adds up. Electric forces seem weak in everyday life because positive and negative charges cancel almost perfectly. But at the atomic and molecular scale, the electric force IS the dominant force. It builds atoms, molecules, materials, and life."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Static Electricity Is Everywhere",
+              "body": "The shock you feel touching a doorknob after walking on carpet: electrons transferred from carpet to your shoes, accumulating on your body. When you touch metal (a conductor), the excess electrons rush from your body to the metal in a tiny spark — about 3,000 volts, but extremely low current (microamps) and brief (microseconds), so it stings but doesn't harm you. Lightning is the same physics scaled up enormously: charge separates in storm clouds (exact mechanism still debated), builds to millions of volts, then discharges as a massive spark through the air — 30,000 amps, 30,000°C, lasting milliseconds."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Your nervous system runs on electricity. Neurons maintain a voltage difference across their membrane (about −70 millivolts inside relative to outside) by pumping ions (charged atoms). When a neuron fires, ion channels open, the voltage rapidly reverses (to +40 mV), and this voltage spike (action potential) propagates along the neuron at 1-100 m/s. Every thought, sensation, muscle command, and memory is an electrical signal. Your brain's total electrical power consumption: ~20 watts. You are running the most sophisticated information processing system in the known universe on less power than a dim light bulb."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "If you could somehow remove ALL the electrons from your body (leaving only protons), you'd have a net positive charge of about 3.2 billion coulombs. The electric force between you and another de-electroned person standing 1 meter away would be about 10²⁸ newtons — enough to lift the entire Earth. The electric force is so staggeringly powerful that even the tiny charge imbalances from rubbing a balloon produce visible, tangible effects. Matter is nearly perfectly neutral, and even so, the feeble remaining electric effects produce lightning, static cling, and every chemical bond in existence."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Benjamin Franklin's famous kite experiment (1752) was spectacularly dangerous. He flew a kite in a thunderstorm to demonstrate that lightning is electrical. The kite string (wet = conductive) carried charge down to a key at the bottom, producing sparks. Franklin survived. Georg Wilhelm Richmann, a physicist who attempted a similar experiment in Russia that same year, was killed instantly by a direct lightning strike through his apparatus. Lightning safety is not a joke — a single bolt carries about 1 billion joules and 30,000 amps. Franklin was lucky. Richmann was not. The physics worked exactly the same in both cases."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The electric eel can discharge up to 860 volts at 1 amp — about 7× the voltage of a US wall outlet. It has specialized cells (electrocytes) stacked in series like batteries — about 6,000 of them. Each cell produces ~0.15V; stacked together: 860V. The eel uses this for hunting (stunning prey), self-defense, and navigation (weak electric fields detect objects in murky water). An electric eel is a biological battery-powered weapons system, engineered by evolution using the same physics as your phone charger."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The word 'electron' comes from the Greek 'elektron,' meaning amber. Ancient Greeks discovered that rubbing amber with fur attracted small objects (static charge). The entire field of electricity — from Franklin's kite to your smartphone — traces its name back to ancient people rubbing tree resin on animal fur and being surprised by the result. A 2,600-year-old observation about amber became the foundation of a $5 trillion global electronics industry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You rub a balloon on your hair. The balloon becomes negatively charged. Was charge created?",
+          "options": {
+            "A": "Yes — friction created new charge",
+            "B": "NO — electrons TRANSFERRED from hair to balloon. Hair became positive (lost electrons), balloon became negative (gained electrons). Total charge of hair + balloon = zero, same as before. Charge is conserved — never created, only moved.",
+            "C": "The balloon absorbed charge from the air",
+            "D": "Protons moved from the balloon to the hair"
+          },
+          "correct_answer": "B",
+          "explanation": "Conservation of charge: charge cannot be created or destroyed. Rubbing transfers electrons between materials. The net charge of the system is unchanged.",
+          "tests_concept": "electric_charge",
+          "detects_misconception": "Rubbing creates charge"
+        },
+        {
+          "question": "The electric force and gravitational force both follow inverse-square laws. How do they compare in strength?",
+          "options": {
+            "A": "About equal",
+            "B": "Gravity is stronger — it holds planets in orbit",
+            "C": "The electric force between an electron and proton is 10³⁹ times stronger than gravity between them. Electric forces seem weak because positive and negative charges cancel. Gravity seems strong because it only adds up (always attractive).",
+            "D": "It depends on the situation"
+          },
+          "correct_answer": "C",
+          "explanation": "Electric force: 10³⁹ × stronger than gravity at atomic scales. But charge cancellation makes matter nearly neutral, hiding the electric force at large scales. Gravity has one sign (attractive) → accumulates with mass → dominates at cosmic scales.",
+          "tests_concept": "coulombs_law",
+          "detects_misconception": "Gravity and electric force are comparable in strength"
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "part_id": "elec_p2",
+      "part_title": "Current, Voltage, Resistance — The Three Words That Run Your World",
+      "purpose": "Define the big three precisely. Water analogy as scaffolding (then correct it). Destroy 'current gets used up.' Distinguish voltage from current. Establish that electrons move slowly.",
+      "pedagogical_notes": "The 'current gets used up' misconception is the Aristotelian force misconception of electricity. Students believe a light bulb 'uses up' current, so less current flows out than in. This is deeply wrong and must be confronted with the same predict-observe-reconcile approach. The water analogy helps initially but breaks down — it must be explicitly corrected.",
+      "curriculum_concepts": [
+        "current_voltage_resistance",
+        "ohms_law"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Three Quantities Control Every Electrical Device You Own",
+              "body": "Every electrical device — from a flashlight to a supercomputer — is governed by three quantities: CURRENT (how much charge flows), VOLTAGE (how much energy per charge is available to push it), and RESISTANCE (how much the material opposes the flow). Understand these three and their relationship, and you understand every circuit."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Current (I)",
+              "body": "Electric current is the rate of flow of electric charge past a point. I = Q/t (charge per time). Units: amperes (A) = coulombs per second. In a wire, electrons carry the charge. A current of 1 amp means about 6.24 × 10¹⁸ electrons pass a point every second. Current is the SAME at every point in a series circuit — what flows in MUST flow out. A light bulb does NOT use up current."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Voltage (V)",
+              "body": "Voltage (potential difference) is the energy per unit charge available to push charge through a circuit. Units: volts (V) = joules per coulomb. A 9V battery gives each coulomb of charge 9 joules of energy. Voltage is the 'push' — the energy SOURCE that drives current through resistance. No voltage difference = no current flow, just as no pressure difference = no water flow."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Resistance (R)",
+              "body": "Resistance is a material's opposition to current flow. Units: ohms (Ω). Conductors (metals) have low resistance — electrons flow easily. Insulators (rubber, plastic, glass) have extremely high resistance — electrons barely flow. Resistance depends on material, length (longer = more resistance), cross-section (wider = less resistance), and temperature."
+            },
+            {
+              "type": "callout",
+              "style": "misconception_alert",
+              "title": "PREDICTION — Answer Before Reading",
+              "body": "A battery connects to a light bulb via two wires. Current flows from the battery, through the wire, through the bulb (which lights up), and back to the battery. Question: Is the current flowing INTO the bulb the same as the current flowing OUT? Or does the bulb 'use up' some of the current? Write down your answer."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_current_used_up",
+              "title": "Prediction Cycle: Does the Bulb 'Use Up' Current?",
+              "predict": {
+                "scenario": "A battery drives current through a wire to a light bulb and back. The bulb glows brightly.",
+                "question": "Is the current flowing INTO the bulb equal to the current flowing OUT of the bulb?",
+                "common_prediction": "'The bulb uses some current to produce light, so less current flows out than in.' This is the most common and most dangerous misconception in electricity."
+              },
+              "observe": {
+                "what_actually_happens": "The current is EXACTLY THE SAME entering and leaving the bulb. Measure it with an ammeter on each side — identical readings. Not approximately the same. EXACTLY the same. Every electron that enters the bulb exits the bulb. The bulb uses ZERO current. What the bulb uses is ENERGY. Electrons enter with high energy (high voltage) and exit with low energy (low voltage). The bulb converts electrical energy to light and heat. The electrons themselves are not consumed — they just lose energy passing through.",
+                "evidence": "Conservation of charge: charge cannot be created or destroyed. If less current left the bulb than entered, where would the missing electrons go? They can't disappear. They can't accumulate indefinitely (the bulb would build up massive charge). Current in = current out, always, in every circuit element."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "The everyday language is misleading: 'the bulb uses electricity.' More precisely: the bulb converts electrical ENERGY to light and heat. It doesn't consume electrons. The water analogy helps: water flows through a water wheel. The water wheel extracts ENERGY from the flowing water (slowing it down / reducing its pressure). But the same amount of water exits the wheel as enters. The water isn't consumed — its energy is.",
+                "correct_model": "Current (electron flow) is the SAME everywhere in a series circuit. Voltage (energy per electron) DROPS across each element. The battery gives electrons energy (high voltage). The bulb takes energy FROM electrons (voltage drop). Electrons recirculate continuously. ENERGY is transferred from battery → bulb → light + heat. CURRENT is conserved throughout."
+              }
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_electron_speed",
+              "title": "Prediction Cycle: How Fast Do Electrons Move?",
+              "predict": {
+                "scenario": "You flip a light switch and the light turns on instantly.",
+                "question": "PREDICT: How fast are the electrons in the wire moving?",
+                "common_prediction": "'At or near the speed of light — the light turns on instantly when you flip the switch.'"
+              },
+              "observe": {
+                "what_actually_happens": "Electrons in a typical household wire drift at about 0.1 mm/s — one-tenth of a millimeter per second. That's slower than a snail. MUCH slower. At this rate, an electron would take about 5 hours to travel 1 meter. So why does the light turn on instantly? Because the ELECTRIC FIELD propagates at near light speed. When you flip the switch, the electric field change travels through the wire at ~2/3 the speed of light, pushing ALL electrons simultaneously — like pushing one end of a tube filled with marbles. The marble at the far end moves almost instantly, but no single marble traveled the length of the tube.",
+                "evidence": "Drift velocity: v_d = I/(nAe), where n is the electron density (~10²⁸/m³ in copper), A is wire cross-section, e is electron charge. For typical household current: v_d ≈ 0.1 mm/s. The electrical signal travels at ~2 × 10⁸ m/s; the electrons themselves barely move."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "Confusing the speed of the SIGNAL with the speed of the CARRIERS. The electrical energy propagates as an electromagnetic field at near-light speed. The electrons carrying the current drift incredibly slowly. It's like a wave in a crowd: the pattern moves fast, but each person barely moves. Or a tube of balls: push one end and the ball at the other end pops out almost instantly, but no ball traveled the length of the tube.",
+                "correct_model": "Signal speed: ~2 × 10⁸ m/s (electromagnetic field). Electron drift speed: ~0.1 mm/s. The light turns on instantly because the electric field reaches the bulb at near light speed, not because electrons race from the switch to the bulb."
+              }
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Ohm's Law",
+              "body": "V = IR. Voltage = Current × Resistance. The voltage across a resistor equals the current through it times its resistance. This is the most used equation in electrical engineering. Rearranged: I = V/R (more voltage or less resistance → more current). R = V/I (resistance = voltage divided by current). A 120V outlet driving current through a 60Ω light bulb: I = 120/60 = 2 amps."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Water Analogy — Useful, Then Dangerous",
+              "body": "VOLTAGE is like water pressure — it's the 'push' that drives flow. CURRENT is like flow rate (liters per second) — how much passes per unit time. RESISTANCE is like a narrow pipe — it restricts flow. A battery is like a pump raising water to a height (giving it potential energy). A resistor is like a narrow section of pipe (restricting flow, converting kinetic energy to heat). This analogy works for basic concepts but BREAKS DOWN: water is visible, electrons aren't; water can leak, current can't leave a circuit; water compresses, charge doesn't; there's no negative water."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Electrical safety depends on understanding voltage and current. The voltage of a static shock: ~3,000V but microamps of current → stings, no damage. A wall outlet: 120V (US) with amps available → deadly if current passes through your heart. What kills is CURRENT through the body (about 100-200 milliamps through the heart can be fatal). Voltage determines how much current a source CAN push through you: I = V/R. Wet skin: R ≈ 1,000Ω → 120V/1,000Ω = 120 mA → potentially lethal. Dry skin: R ≈ 100,000Ω → 120V/100,000 = 1.2 mA → painful tingle. This is why 'don't touch electrical things with wet hands' isn't paranoia — it's Ohm's law applied to your survival."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "Your phone charger says '5V, 2A.' The 5V means it provides 5 joules of energy per coulomb of charge. The 2A means it can deliver up to 2 coulombs per second. Power = V × I = 5 × 2 = 10 watts. Your phone battery (typically ~15 Wh) stores about 54,000 joules. At 10 watts input: 54,000/10 = 5,400 seconds ≈ 90 minutes to charge from empty. Fast chargers use higher voltage (9V, 12V, or 20V) to deliver more power: 20V × 3A = 60W → charges 6× faster. The numbers on your charger are voltage, current, and (implicitly) power — the three quantities you just learned."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "The ampere is named after André-Marie Ampère, the volt after Alessandro Volta, and the ohm after Georg Ohm. Ohm published his law (V = IR) in 1827 and was initially mocked and rejected by the scientific establishment. He lost his university position. It took 15 years for his work to be recognized. He was eventually vindicated and honored, but only after a miserable decade of professional exile. The moral: if the entire electrical engineering profession uses your equation daily, history remembers you — even if your contemporaries didn't."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "A bolt of lightning: ~300 million volts, ~30,000 amps, lasting ~0.2 seconds. Energy: about 1 billion joules (1 GJ). That sounds enormous, but at US electricity prices (~$0.12/kWh), one lightning bolt contains about $33 worth of electricity. The problem: it's delivered in 0.2 seconds at 300 million volts. No existing technology can capture and store that energy burst. Lightning is cheap but uncontrollably violent — the world's most dramatic and least practical power source."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Thomas Edison championed Direct Current (DC). Nikola Tesla championed Alternating Current (AC). They waged the 'War of Currents' in the 1880s-90s. Edison electrocuted animals publicly to demonstrate AC's 'danger.' Tesla lit up the 1893 World's Fair with AC to demonstrate its superiority for long-distance transmission. Tesla won — AC powers the grid because it can be easily transformed to high voltage for efficient transmission (P_loss = I²R; high V means low I for same power, meaning less heat loss in wires). Your wall outlets deliver AC at 60 Hz (US) or 50 Hz (most of the world). Your devices internally convert it to DC. Both men were right about different things, but Tesla's system won the infrastructure war."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Current flows through a light bulb. Is the current leaving the bulb less than the current entering?",
+          "options": {
+            "A": "Yes — the bulb uses up some current to produce light",
+            "B": "The current is EXACTLY THE SAME entering and exiting. The bulb converts electrical ENERGY (voltage drops) to light and heat. Electrons are not consumed — they lose energy passing through. Current is conserved; energy is converted.",
+            "C": "More current leaves because the bulb adds energy",
+            "D": "It depends on the bulb's brightness"
+          },
+          "correct_answer": "B",
+          "explanation": "Current = charge flow rate. Conservation of charge: charge in = charge out, always. The bulb extracts ENERGY from the current (voltage drop), not the current itself. Every electron entering exits.",
+          "tests_concept": "current_voltage_resistance",
+          "detects_misconception": "Current gets used up by circuit elements"
+        },
+        {
+          "question": "You flip a switch and a light across the room turns on instantly. Are electrons racing from the switch to the bulb at near light speed?",
+          "options": {
+            "A": "Yes — electrons must travel fast to turn on the light instantly",
+            "B": "NO — electrons drift at ~0.1 mm/s (slower than a snail). The ELECTRIC FIELD propagates at near light speed, pushing all electrons in the wire simultaneously. It's like pushing one end of a tube of marbles — the far marble moves instantly, but no marble traveled the tube's length.",
+            "C": "Electrons travel at exactly the speed of light",
+            "D": "Only the first few electrons are fast; the rest are slow"
+          },
+          "correct_answer": "B",
+          "explanation": "Signal speed ≈ 2 × 10⁸ m/s (electromagnetic field). Electron drift speed ≈ 0.1 mm/s. The light turns on fast because the field reaches the bulb at near light speed, not because electrons travel fast.",
+          "tests_concept": "current_voltage_resistance",
+          "detects_misconception": "Electrons move at light speed in circuits"
+        },
+        {
+          "question": "A 120V outlet drives current through a 60Ω resistance. What current flows?",
+          "options": {
+            "A": "7,200 A (V × R)",
+            "B": "I = V/R = 120/60 = 2 amperes. Ohm's law: voltage drives current through resistance. More voltage or less resistance → more current.",
+            "C": "0.5 A (R/V)",
+            "D": "120 A (V/1)"
+          },
+          "correct_answer": "B",
+          "explanation": "Ohm's law: V = IR → I = V/R = 120V/60Ω = 2A. This is the most used equation in electrical engineering.",
+          "tests_concept": "ohms_law",
+          "detects_misconception": "Confusing V=IR rearrangements"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "elec_p3",
+      "part_title": "Circuits — Series, Parallel, and Why Your House Doesn't Go Dark When You Unplug the Toaster",
+      "purpose": "Series vs parallel circuits. Current and voltage behavior in each. Why homes use parallel wiring. Circuit breakers and safety.",
+      "curriculum_concepts": [
+        "series_parallel"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Two Ways to Connect Things: One Path or Many",
+              "body": "Every circuit is built from two fundamental connection types. SERIES: components connected end-to-end, forming ONE path for current. PARALLEL: components connected side-by-side, forming MULTIPLE paths for current. These two patterns have completely different behaviors for current, voltage, and what happens when one component fails."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Series Circuit — One Path, Shared Current",
+                  "body": "All components share the SAME current (I is identical through each). Voltage DIVIDES among components (V_total = V₁ + V₂ + ...). Total resistance ADDS (R_total = R₁ + R₂ + ...). If ONE component breaks, the ENTIRE circuit stops (the single path is broken). Think: old Christmas lights — one bulb out, all dark.",
+                  "examples": "Old Christmas lights, battery cells stacked in a flashlight, simple switches in a circuit"
+                },
+                {
+                  "label": "Parallel Circuit — Many Paths, Shared Voltage",
+                  "body": "All components share the SAME voltage (V is identical across each). Current DIVIDES among paths (I_total = I₁ + I₂ + ...). Total resistance DECREASES (1/R_total = 1/R₁ + 1/R₂ + ...). If one component breaks, others continue — each path is independent. Think: your house wiring — one light off doesn't kill the others.",
+                  "examples": "Home wiring, modern Christmas lights, USB hubs, most practical circuits"
+                }
+              ]
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_parallel_resistance",
+              "title": "Prediction Cycle: Does Adding More Paths Increase or Decrease Total Resistance?",
+              "predict": {
+                "scenario": "A battery is connected to one resistor. You add a SECOND resistor in PARALLEL (alongside the first).",
+                "question": "PREDICT: Does the total resistance of the circuit increase, decrease, or stay the same?",
+                "common_prediction": "'Increase — more resistors means more resistance.'"
+              },
+              "observe": {
+                "what_actually_happens": "DECREASES. Adding a parallel path gives current an additional route. More paths = easier total flow = less total resistance. It's like opening a second lane on a highway: each lane still has its own 'resistance' to traffic, but total traffic flow increases because there are more routes. Two 100Ω resistors in parallel: 1/R_total = 1/100 + 1/100 = 2/100 → R_total = 50Ω. HALF the resistance of one resistor alone.",
+                "evidence": "In your house: every appliance you plug in adds a parallel path. More appliances → lower total resistance → more total current from the outlet. This is why circuit breakers exist: if you plug in too many devices (too many parallel paths), total current exceeds the safe limit, the breaker trips, and the circuit opens to prevent overheating."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "Intuition says 'more stuff = more resistance.' That's true for SERIES (adding resistance in the path). For PARALLEL, you're adding alternative paths, not obstacles. Each new parallel path siphons current, reducing total resistance. The key: series adds obstacles to ONE path; parallel adds entirely NEW paths.",
+                "correct_model": "Series: R_total = R₁ + R₂ (resistances ADD — more obstacles in one path). Parallel: 1/R_total = 1/R₁ + 1/R₂ (resistances combine reciprocally — more paths available). Parallel total resistance is always LESS than the smallest individual resistance."
+              }
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Your house uses parallel wiring because: (1) each device gets the full 120V (devices are designed for specific voltage), (2) devices operate independently (turning off the kitchen light doesn't affect the living room), (3) adding/removing devices doesn't affect others' performance. The circuit breaker protects against the downside of parallel: too many parallel paths draw too much total current, which heats the wires dangerously. The breaker is a safety valve — it breaks the circuit when current exceeds the wire's safe capacity."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Circuits in Your House Right Now",
+              "body": "Your house has multiple parallel circuits, each on its own circuit breaker (typically 15A or 20A). The kitchen might be on one 20A breaker, bedrooms on 15A breakers, the dryer on a 30A 240V circuit. Every outlet on a circuit is in parallel. When you plug in a microwave (1,200W), toaster (1,000W), and coffee maker (900W) on the same circuit: total power = 3,100W. Current = P/V = 3,100/120 = 25.8A. On a 20A breaker: TRIP. The breaker opens, everything goes off. Not because 'too much electricity' (vague), but because I = P/V exceeded the breaker's rated current. You overloaded the parallel circuit."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Modern Christmas lights use parallel wiring with a clever addition: a shunt (bypass wire) in each bulb socket. When a bulb burns out, the shunt activates, maintaining the circuit. The failed bulb goes dark but all others stay lit. Old series Christmas lights had no shunt — one failure broke the single path and all bulbs went dark, requiring you to test each bulb individually. The switch from series to parallel (with shunts) eliminated the most frustrating holiday tradition in engineering history."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "The phrase 'short circuit' means an unintended low-resistance path that bypasses the intended load. If a wire accidentally connects the two terminals of a battery without passing through any resistance: I = V/R, and with R ≈ 0, current → enormous. The wire heats instantly (P = I²R, even tiny R produces massive heat at enormous I). This is how electrical fires start: short circuits produce currents far beyond what the wiring can handle, heating insulation until it ignites. Fuses and breakers exist to interrupt the circuit before this happens. A short circuit is an accidental parallel path with zero resistance — the one case where adding a parallel path is catastrophic."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your heart has its own electrical system — the sinoatrial (SA) node generates electrical impulses about 70 times per minute, triggering the coordinated muscle contractions that pump blood. An electrocardiogram (ECG/EKG) measures these electrical signals through your skin. A defibrillator works by delivering a massive electrical shock (200-360 joules in a few milliseconds) that briefly stops ALL cardiac electrical activity, allowing the SA node to restart with a normal rhythm. It's the electrical equivalent of turning the heart off and on again. The IT approach to cardiac arrest."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You add a second resistor in PARALLEL with the first. What happens to total resistance?",
+          "options": {
+            "A": "Increases — more resistors means more resistance",
+            "B": "DECREASES — a parallel resistor adds a new current path. More paths = easier total flow = lower total resistance. Two 100Ω in parallel = 50Ω total. This is why plugging in more devices to the same circuit increases total current.",
+            "C": "Stays the same",
+            "D": "Doubles"
+          },
+          "correct_answer": "B",
+          "explanation": "Parallel: adding paths decreases total resistance. Series: adding obstacles increases total resistance. Parallel resistance is always less than the smallest individual resistance.",
+          "tests_concept": "series_parallel",
+          "detects_misconception": "More resistors always means more resistance"
+        },
+        {
+          "question": "Why does your house use parallel wiring rather than series?",
+          "options": {
+            "A": "Parallel is cheaper to install",
+            "B": "Parallel gives each device the full voltage (120V), lets devices operate independently, and allows adding/removing devices without affecting others. Series would mean one device off = everything off, and voltage would divide among devices.",
+            "C": "Series wiring doesn't work with AC current",
+            "D": "Building codes require it but either would work equally well"
+          },
+          "correct_answer": "B",
+          "explanation": "Parallel: same voltage across all, independent operation, devices don't affect each other. Series: one failure kills all, voltage divides, devices affect each other. Practical life requires parallel.",
+          "tests_concept": "series_parallel",
+          "detects_misconception": "Series and parallel are equally practical for home wiring"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "elec_p4",
+      "part_title": "Electrical Power and Energy — Reading Your Electric Bill Like a Physicist",
+      "purpose": "P = IV = I²R = V²/R. Energy vs power. kWh on electric bills. Why power lines use high voltage. Practical electrical energy literacy.",
+      "curriculum_concepts": [
+        "electrical_power_energy"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Power = Rate of Energy Transfer",
+              "body": "Electrical power is the rate at which electrical energy is converted to other forms (light, heat, motion, sound). P = IV — power equals current times voltage. Units: watts. A 100W light bulb converts 100 joules of electrical energy to light and heat every second. A 1,500W space heater: 1,500 joules per second. Your entire house might use 5,000W at peak."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Electrical Power",
+              "body": "P = IV = I²R = V²/R. All equivalent (substituting Ohm's law). P = IV: power is current × voltage. P = I²R: power dissipated in a resistance depends on current SQUARED — double the current, quadruple the heat (important for wire safety). P = V²/R: power drawn from a source at fixed voltage — lower resistance draws MORE power (higher current)."
+            },
+            {
+              "type": "section",
+              "title": "Your Electric Bill: kWh Explained",
+              "body": "Your electric bill charges by the kilowatt-hour (kWh). 1 kWh = 1,000 watts used for 1 hour = 3,600,000 joules = 3.6 MJ. A 100W bulb running for 10 hours: 100W × 10h = 1,000 Wh = 1 kWh ≈ $0.12 (US average). A 1,500W space heater for 8 hours: 12 kWh ≈ $1.44/day ≈ $43/month. Your electric bill is energy (power × time), not power alone."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Why Power Lines Use High Voltage",
+              "body": "Power plants transmit electricity at 100,000-765,000 volts. Why? Power loss in transmission lines = I²R (heat in the wires). For a given power delivery (P = IV), using higher voltage means lower current (I = P/V). Lower current → I² drops dramatically → much less heat loss. Doubling the voltage halves the current and cuts transmission losses to ONE QUARTER. Power companies step voltage UP for transmission (with transformers) and step it DOWN near your home (to 120V/240V). High-voltage transmission is why you can receive electricity from a power plant hundreds of kilometers away with acceptable losses."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Energy Audit: Your Devices",
+              "body": "Phone charger: 10W × 2h/day = 20 Wh = 0.02 kWh/day ≈ $0.88/year. Laptop: 65W × 8h = 520 Wh = 0.52 kWh/day ≈ $22.78/year. Refrigerator: ~150W average × 24h = 3.6 kWh/day ≈ $157.68/year. Air conditioning: ~3,000W × 8h = 24 kWh/day ≈ $1,051/year. Electric dryer: ~5,000W × 1h × 3 times/week = 15 kWh/week ≈ $93.60/year. The biggest electricity costs are heating and cooling — high power for many hours. Your phone charger costs essentially nothing."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "LED bulbs vs incandescent: a 60W incandescent converts about 5% to light and 95% to heat. A 10W LED produces the SAME light and converts about 40% to light. Same brightness, 1/6 the power, 1/6 the cost. If you run 20 bulbs for 5 hours/day: incandescent (60W × 20 × 5h = 6 kWh/day ≈ $263/year) vs LED (10W × 20 × 5h = 1 kWh/day ≈ $44/year). Savings: $219/year from understanding P = IV and choosing efficient energy conversion. Physics saves money."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "A bolt of lightning delivers about 1 GJ of energy in 0.2 seconds. That's about 5 GW of power — roughly equal to the output of five large nuclear power plants. For one-fifth of a second. If you could somehow capture and store one lightning bolt per minute, you could power about 50,000 US homes. But since lightning strikes the average point on Earth only once every several centuries, and lasts milliseconds, and comes at 300 million volts, harvesting lightning remains firmly in the 'sounds cool, completely impractical' category."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Conduct an 'Energy Audit' of your room or home: identify 5-10 electrical devices, find their power rating (usually on a label in watts), estimate daily usage hours, calculate daily kWh and annual cost (at $0.12/kWh). Which device costs the most? Which costs the least? What's the total? Most thorough audit with cost-saving recommendations wins the Efficiency Expert Award!",
+              "placeholder_type": "energy_audit"
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A 1,500W heater runs for 8 hours. How many kWh of energy does it use, and what does it cost at $0.12/kWh?",
+          "options": {
+            "A": "12,000 kWh, $1,440",
+            "B": "12 kWh, $1.44. (1,500W × 8h = 12,000 Wh = 12 kWh. At $0.12/kWh: 12 × $0.12 = $1.44.)",
+            "C": "1.5 kWh, $0.18",
+            "D": "187.5 kWh, $22.50"
+          },
+          "correct_answer": "B",
+          "explanation": "Energy = Power × Time. 1,500W × 8h = 12,000 Wh = 12 kWh. Cost = 12 × $0.12 = $1.44. kWh is energy (power × time), not power alone.",
+          "tests_concept": "electrical_power_energy",
+          "detects_misconception": "Confusing watts (power) with kilowatt-hours (energy)"
+        },
+        {
+          "question": "Why do power companies transmit electricity at very high voltage (hundreds of thousands of volts)?",
+          "options": {
+            "A": "Higher voltage is safer",
+            "B": "To reduce power loss in transmission. P_loss = I²R. For the same power delivered (P = IV), higher V means lower I. Lower I means much less I²R heat loss in the wires. Doubling voltage cuts losses to 1/4.",
+            "C": "Devices work better at high voltage",
+            "D": "It's cheaper to make high-voltage generators"
+          },
+          "correct_answer": "B",
+          "explanation": "P_loss = I²R is the key. Same power at higher V → lower I → I² drops dramatically → much less heat loss. This is why transformers (which step voltage up/down) enabled long-distance power transmission.",
+          "tests_concept": "electrical_power_energy",
+          "detects_misconception": "High voltage transmission is arbitrary rather than physics-based"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "elec_p5",
+      "part_title": "Magnetism — The Force That Points Your Compass and Runs Your Motor",
+      "purpose": "Magnetic fields. Earth as a magnet. Why not all metals are magnetic. Magnetic poles always come in pairs (no monopoles).",
+      "curriculum_concepts": [
+        "magnetic_fields"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Magnetism: Electricity's Secret Twin",
+              "body": "Every magnet you've ever played with — every fridge magnet, every compass needle, every MRI machine — works because of a force that is intimately connected to electricity. Magnetism isn't a separate force from electricity. They are TWO ASPECTS of the same fundamental force: electromagnetism. A moving charge creates a magnetic field. A changing magnetic field creates an electric field. They are inseparable."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Magnetic Field",
+              "body": "A magnetic field is the region around a magnet (or moving charge) where magnetic forces act. Field lines emerge from the NORTH pole, curve through space, and enter the SOUTH pole. Magnetic fields are measured in Tesla (T). Earth's magnetic field: ~50 μT (millionths of a Tesla). A fridge magnet: ~5 mT. An MRI machine: 1.5-3 T. The strongest lab magnets: ~45 T."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Magnetic Poles Always Come in Pairs",
+              "body": "Every magnet has a North pole and a South pole. If you cut a magnet in half, you don't get a separate North and South — you get TWO smaller magnets, each with both poles. No one has ever found a magnetic monopole (a single North or South pole by itself). This is fundamentally different from electric charge, where positive and negative charges CAN exist separately. Why magnetic monopoles don't exist is one of the open questions in physics — some theories predict they should exist, but none has ever been observed."
+            },
+            {
+              "type": "section",
+              "title": "Why Only Some Materials Are Magnetic",
+              "body": "Every electron has a tiny magnetic field (from its spin and orbital motion). In most materials, these tiny magnetic fields point in random directions and cancel out — net magnetism = zero. In ferromagnetic materials (iron, nickel, cobalt, and their alloys), neighboring atoms' magnetic fields spontaneously align in small regions called DOMAINS. In an unmagnetized piece of iron, domains point randomly (net = zero). In a magnet, domains are aligned → strong net magnetic field. You magnetize iron by aligning its domains (with a strong external magnetic field). You demagnetize it by randomizing them again (heating, hammering, or applying alternating fields)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Earth: The Giant Magnet Beneath Your Feet",
+              "body": "Earth has a magnetic field generated by convection currents of liquid iron in the outer core (the geodynamo). This field extends thousands of kilometers into space (the magnetosphere), deflecting the solar wind — a stream of charged particles from the Sun that would otherwise strip away our atmosphere. Without Earth's magnetic field, the solar wind would have eroded our atmosphere billions of years ago, making Earth as barren as Mars (which lost its magnetic field ~4 billion years ago). Compasses work because Earth's field aligns the magnetized needle. Navigation by compass has been used for over 1,000 years — applied magnetism that enabled global exploration."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "MRI (Magnetic Resonance Imaging) uses a 1.5-3 Tesla magnet — about 30,000-60,000 times stronger than Earth's field. This field aligns hydrogen atoms' nuclear magnetic moments in your body. Radio pulses knock them out of alignment; as they realign, they emit radio signals that vary by tissue type. A computer constructs detailed images of your organs, brain, joints — all from magnetic response of hydrogen atoms in water molecules. MRI uses magnetism + radio waves + computing to see inside you without radiation or surgery. It's arguably the most sophisticated everyday application of electromagnetism."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Earth's magnetic field has REVERSED hundreds of times in geological history — North becomes South and vice versa. The last reversal was about 780,000 years ago (the Brunhes-Matuyama reversal). We know this from magnetized minerals in ancient lava flows: as lava cools, its iron minerals lock in the current field direction. Ocean floor stripes of alternating magnetic polarity, spreading from mid-ocean ridges, were key evidence for plate tectonics. The Earth's magnetic field reversals, recorded in rock, proved that continents move. Magnetism explained geology."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Some animals can sense magnetic fields. Migratory birds have magnetoreception — possibly using iron-containing cells in their beaks or a quantum mechanical process involving cryptochrome molecules in their eyes. Sea turtles navigate thousands of kilometers using Earth's magnetic field. Bacteria (magnetotactic bacteria) contain chains of iron crystals that orient them along field lines. These organisms have been doing applied magnetism for millions of years. Your phone's compass app uses a Hall effect sensor to detect Earth's field. Nature's compass predates yours by hundreds of millions of years."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You cut a bar magnet in half. What do you get?",
+          "options": {
+            "A": "A separate North pole and South pole",
+            "B": "TWO smaller magnets, each with its own North AND South pole. Magnetic poles always come in pairs — no magnetic monopole has ever been observed. Cut again → four magnets, each with both poles. You cannot isolate a single pole.",
+            "C": "Two non-magnetic pieces",
+            "D": "One magnetic piece and one non-magnetic piece"
+          },
+          "correct_answer": "B",
+          "explanation": "Magnetic poles always come in pairs. Cutting a magnet in half creates two complete magnets. This is fundamentally different from electric charge, where + and − can exist separately.",
+          "tests_concept": "magnetic_fields",
+          "detects_misconception": "You can isolate a magnetic monopole by cutting a magnet"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "elec_p6",
+      "part_title": "Electromagnetism and Induction — Electricity Makes Magnetism, Magnetism Makes Electricity",
+      "purpose": "The unification. Moving charges create magnetic fields. Changing magnetic fields create electric fields. Electromagnets. Motors. Generators. Electromagnetic induction powers civilization.",
+      "curriculum_concepts": [
+        "electromagnetism",
+        "electromagnetic_induction"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Most Consequential Discovery in Physics History",
+              "body": "In 1820, Hans Christian Ørsted noticed that an electric current deflected a nearby compass needle. Moving charges create magnetic fields. In 1831, Michael Faraday discovered the reverse: a changing magnetic field creates an electric current. These two discoveries — electricity creates magnetism, magnetism creates electricity — unified two forces into one: ELECTROMAGNETISM. This unification powers virtually all of modern civilization."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Electromagnet",
+              "body": "A current-carrying wire creates a magnetic field around it. Wrap the wire into a coil → the fields combine, creating a stronger, concentrated magnetic field through the coil's center. Add an iron core → the core's magnetic domains align with the field, amplifying it enormously. This is an electromagnet: a magnet you can turn on (current on) and off (current off), and whose strength you can control (more current = stronger field). Every electric motor, hard drive, MRI machine, junkyard crane, and speaker uses electromagnets."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Electromagnetic Induction (Faraday's Law)",
+              "body": "A CHANGING magnetic field through a wire loop induces a voltage (and thus a current, if the loop is closed). The key word is CHANGING — a static magnetic field does nothing. The field must be increasing, decreasing, or moving relative to the loop. This is Faraday's law, and it's how virtually ALL electricity is generated: spin a magnet near a coil (or spin a coil near a magnet) → the changing field induces current → electricity."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Electric Motor — Electricity → Motion",
+                  "body": "Current flows through a coil inside a magnetic field. The magnetic force on the current-carrying wire pushes the coil, making it rotate. Electrical energy → kinetic energy. Every fan, washing machine, elevator, electric car, and power tool uses this. Motors convert electrical energy to mechanical rotation using the force between current and magnetic field.",
+                  "examples": "Fans, drills, washing machines, electric cars, hard drives, toy cars"
+                },
+                {
+                  "label": "Generator — Motion → Electricity",
+                  "body": "A coil rotates inside a magnetic field (or a magnet rotates inside a coil). The changing magnetic field through the coil induces a voltage → current flows. Kinetic energy → electrical energy. A generator is literally a motor running BACKWARDS. Every power plant (coal, gas, nuclear, hydro, wind) uses generators: turbines spin a magnet inside coils → induced current → electricity for the grid.",
+                  "examples": "Power plants, wind turbines, hydroelectric dams, bicycle dynamos, car alternators"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "A motor converts electricity to rotation. A generator converts rotation to electricity. They are the SAME DEVICE run in opposite directions. An electric car uses motors to drive the wheels (electrical → kinetic). When braking, the same motors become generators: the spinning wheels drive the motor backwards, inducing current that charges the battery (kinetic → electrical). This is regenerative braking — energy recycling via the reversibility of electromagnetism. The motor and generator are twins, and every electric vehicle exploits both roles of the same device."
+            },
+            {
+              "type": "section",
+              "title": "Induction Powers Your Daily Life",
+              "body": "Wireless phone charging: a coil in the charging pad carries alternating current → creates a changing magnetic field → this field passes through a coil in your phone → induces a current → charges the battery. No wires touch. Energy transfers through empty space via a changing magnetic field. Electric guitar pickups: a permanent magnet wrapped in a coil sits under the steel string. When the string vibrates, the moving steel disturbs the magnetic field → the changing field induces a current in the coil → this current (a tiny electrical signal) is amplified and played through a speaker. The sound of an electric guitar is electromagnetic induction made audible."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Where Your Electricity Actually Comes From",
+              "body": "Every power plant (except solar photovoltaics) uses electromagnetic induction. Coal/gas: burn fuel → heat water → steam spins turbine → turbine spins magnet in coil → electricity. Nuclear: fission heats water → same from there. Hydroelectric: falling water spins turbine → same. Wind: wind spins blades → same. The method of spinning differs. The final step — electromagnetic induction — is always the same: a changing magnetic field through a coil induces current. Faraday's 1831 discovery literally powers the modern world."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Transformers change voltage using induction: alternating current in one coil creates a changing magnetic field → this field passes through a second coil → induces a voltage in the second coil. The ratio of turns in the two coils determines the voltage ratio. Step-up transformers (more turns in secondary) increase voltage for transmission. Step-down transformers (fewer turns in secondary) decrease voltage for home use. Every device with a power adapter (laptop charger, phone charger) contains a transformer converting wall voltage to the device's required voltage. Transformers work ONLY with alternating current (AC) — this is ultimately why Tesla's AC won the current wars over Edison's DC."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Michael Faraday, who discovered electromagnetic induction, had almost no formal education — he was a bookbinder's apprentice who became fascinated by science. When the British Chancellor of the Exchequer asked him what use his discovery of induction might be, Faraday reportedly replied: 'One day, sir, you may tax it.' He was spectacularly right. Electromagnetic induction generates virtually ALL commercial electricity worldwide. The global electricity market is worth over $2 trillion annually. Faraday's 'useless' discovery became the foundation of the largest industry in human history."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "James Clerk Maxwell — who unified electricity and magnetism mathematically — wrote his equations in 1865. They predicted electromagnetic waves traveling at the speed of light. Heinrich Hertz confirmed these waves experimentally in 1887. Guglielmo Marconi used them for wireless telegraphy in 1901. By the 2020s, the electromagnetic waves Maxwell predicted carry every WiFi signal, cell phone call, TV broadcast, radio station, GPS signal, Bluetooth connection, and satellite communication on Earth. Maxwell's four equations, written with pen and paper in Victorian England, describe the physics behind trillions of dollars of modern technology."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "How does a generator produce electricity?",
+          "options": {
+            "A": "Chemical reactions inside the generator",
+            "B": "A coil rotates in a magnetic field (or a magnet rotates in a coil). The CHANGING magnetic field through the coil induces a voltage → current flows. Kinetic energy converts to electrical energy. This is electromagnetic induction — the reverse of a motor.",
+            "C": "Static electricity builds up from friction",
+            "D": "The generator stores electricity like a battery"
+          },
+          "correct_answer": "B",
+          "explanation": "Faraday's law: a changing magnetic field induces voltage in a coil. Generators spin magnets or coils to create continuously changing fields → continuous current. Every power plant (coal, nuclear, hydro, wind) uses this.",
+          "tests_concept": "electromagnetic_induction",
+          "detects_misconception": "Generators create or store electricity (vs converting kinetic → electrical via induction)"
+        },
+        {
+          "question": "A static (unchanging) magnet is held near a wire coil. Is a current induced?",
+          "options": {
+            "A": "Yes — any magnet near a coil creates current",
+            "B": "NO — electromagnetic induction requires a CHANGING magnetic field. A static magnet creates a static field, which induces nothing. The magnet must MOVE (or the coil must move, or the field must change) for induction to occur.",
+            "C": "Only if the magnet is very strong",
+            "D": "Only if the coil has many turns"
+          },
+          "correct_answer": "B",
+          "explanation": "Faraday's law: induced voltage ∝ rate of CHANGE of magnetic flux. No change = no induction. A static magnet near a coil creates a field but no induced current. Move the magnet → field changes → current induced.",
+          "tests_concept": "electromagnetic_induction",
+          "detects_misconception": "Any magnet near a coil creates current (confusing static field with changing field)"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "elec_p7",
+      "part_title": "Electricity Unified — Maxwell's Masterpiece and the World It Built",
+      "purpose": "Synthesize all electricity and magnetism. Maxwell's unification. Connect to EM waves (light!). The electromagnetic force as one of the four fundamental forces. Misconception checkpoint.",
+      "curriculum_concepts": [
+        "electromagnetism",
+        "electromagnetic_induction",
+        "current_voltage_resistance"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "One Force, Infinite Applications",
+              "body": "Everything you've learned in this foundation — charge, current, voltage, resistance, circuits, power, magnetism, induction — is ONE force: electromagnetism. Electric and magnetic fields are two aspects of a single phenomenon. A charge at rest creates an electric field. A charge in motion also creates a magnetic field. A changing magnetic field creates an electric field (induction). A changing electric field creates a magnetic field (Maxwell's addition). These coupled, oscillating fields propagate through space as electromagnetic WAVES — and that's what light is."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The connection comes full circle: Electricity (this foundation) and Light (previous foundation) are the SAME FORCE. Light is an electromagnetic wave — oscillating electric and magnetic fields, self-sustaining, traveling at c. Your light bulb uses electric current to heat a filament → the hot filament's accelerating charges emit electromagnetic waves → those waves are the light you see. Electricity CREATES light. Light IS electromagnetic. Maxwell unified electricity, magnetism, and light into one theory in 1865. It remains one of the most elegant unifications in physics history."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Everything Connected",
+              "items": [
+                {
+                  "label": "Charge",
+                  "icon": "zap",
+                  "body": "The fundamental property. Conserved absolutely. Two types. Attraction/repulsion. The basis of all electrical phenomena and all chemistry."
+                },
+                {
+                  "label": "Current, Voltage, Resistance",
+                  "icon": "battery",
+                  "body": "Current = charge flow rate (conserved in circuits). Voltage = energy per charge (the push). Resistance = opposition to flow. V = IR."
+                },
+                {
+                  "label": "Circuits",
+                  "icon": "git-branch",
+                  "body": "Series: one path, shared current, voltage divides. Parallel: many paths, shared voltage, current divides. Your house: parallel. Your flashlight: series."
+                },
+                {
+                  "label": "Power",
+                  "icon": "gauge",
+                  "body": "P = IV = I²R = V²/R. Energy rate. kWh on your bill. High-voltage transmission reduces losses via I²R."
+                },
+                {
+                  "label": "Magnetism",
+                  "icon": "compass",
+                  "body": "Created by moving charges. Poles always paired. Domains in ferromagnets. Earth's field protects atmosphere. MRI sees inside you."
+                },
+                {
+                  "label": "Electromagnetism",
+                  "icon": "rotate-ccw",
+                  "body": "Current → magnetic field (electromagnets, motors). Changing field → induced current (generators, transformers). Motor and generator: same device, opposite direction."
+                },
+                {
+                  "label": "EM Waves = Light",
+                  "icon": "sun",
+                  "body": "Oscillating E and B fields propagate at c. The unification of electricity, magnetism, and optics. Maxwell's crowning achievement."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Electromagnetism is one of the four fundamental forces of nature (alongside gravity, the strong nuclear force, and the weak nuclear force). It governs ALL interactions between charged particles — which means it governs ALL of chemistry, ALL of biology, ALL of materials science, ALL of electronics, and ALL of optics. The device you're reading this on exists because of electromagnetism: the chemistry of its materials, the circuits in its processor, the light from its screen, the radio waves carrying its data. Electromagnetism doesn't just run your world — it IS your world, at the atomic and molecular level."
+            },
+            {
+              "type": "transition",
+              "body": "From the electromagnetic force to the nuclear forces — the final frontier is the physics of the atom itself: nuclear physics, radioactivity, E=mc², and the story of the universe from the Big Bang to now."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Electromagnetic Chain in One Text Message",
+              "body": "You type a text. Your finger presses a screen (electric fields in capacitive touch sensor detect your finger's charge). The processor manipulates electrical signals (current through billions of transistors). The radio transmitter converts the electrical signal to an electromagnetic wave (oscillating current in antenna → EM wave). The wave travels at light speed to a cell tower. The tower relays it (via EM waves or fiber optics using trapped light). Your friend's phone receives the EM wave (antenna converts EM wave back to electrical current). The processor decodes the signal. The screen emits photons (electrical → electromagnetic) that enter your friend's eyes. One text message: electrical → electromagnetic → electrical → electromagnetic. Electromagnetism from start to finish."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Maxwell's equations — four compact equations that describe all of electricity, magnetism, and light — are considered by many physicists to be the most beautiful and consequential equations in science. They fit on a t-shirt. They predicted electromagnetic waves before anyone detected them. They revealed that light is electromagnetic. They enabled radio, television, radar, WiFi, cell phones, lasers, and the internet. Richard Feynman said that from the perspective of future historians, the most significant event of the 19th century would be Maxwell's equations — 'more important than the American Civil War.' Four equations changed civilization."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create an 'Electromagnetic Scavenger Hunt': find and document 10 objects in your home that use electromagnetism (any combination of electric circuits, magnets, motors, generators, induction, EM waves). For each: identify the specific electromagnetic principle at work. Bonus: find objects that use MULTIPLE principles simultaneously. Most complete electromagnetic inventory wins!",
+              "placeholder_type": "em_scavenger_hunt"
+            }
+          ]
+        },
+        "misconception_checkpoint": {
+          "title": "Electricity & Magnetism Misconception Self-Diagnostic",
+          "instructions": "Answer these 5 scenarios with your gut reaction. Be honest.",
+          "diagnostic_scenarios": [
+            {
+              "scenario_id": "elec_diag_1",
+              "scenario": "Current flows through a light bulb.",
+              "question": "Does the bulb 'use up' some of the current?",
+              "gut_check_answer": "NO — current in = current out, always. The bulb converts electrical ENERGY (voltage drops across it) to light and heat. Electrons are not consumed. Current is conserved; energy is converted.",
+              "aristotelian_trap": "If you said yes, you hold the single most common and harmful misconception in circuit physics.",
+              "why_it_matters": "This is the 'Aristotelian force misconception' of electricity. It prevents understanding of every circuit concept that follows."
+            },
+            {
+              "scenario_id": "elec_diag_2",
+              "scenario": "You flip a light switch. The light turns on instantly.",
+              "question": "Are electrons traveling from the switch to the bulb at near light speed?",
+              "gut_check_answer": "NO — electrons drift at ~0.1 mm/s. The ELECTRIC FIELD propagates at near light speed, pushing all electrons simultaneously. Signal is fast; carriers are slow.",
+              "aristotelian_trap": "If you said yes, you're confusing signal speed with carrier speed.",
+              "why_it_matters": "Understanding signal vs carrier propagation is essential for circuits, communications, and information transfer."
+            },
+            {
+              "scenario_id": "elec_diag_3",
+              "scenario": "You add a second device in parallel to your kitchen outlet.",
+              "question": "Does total resistance increase or decrease?",
+              "gut_check_answer": "DECREASES — a new parallel path makes total flow easier. This is why more parallel devices draw more total current, and why overloaded parallel circuits trip breakers.",
+              "aristotelian_trap": "If you said increase, you're thinking 'more stuff = more resistance' (true for series, false for parallel).",
+              "why_it_matters": "This determines circuit behavior, safety, and why breakers exist."
+            },
+            {
+              "scenario_id": "elec_diag_4",
+              "scenario": "A generator produces electricity.",
+              "question": "Where does the electrical energy come from?",
+              "gut_check_answer": "From KINETIC energy — the spinning magnet/coil converts mechanical energy to electrical energy via electromagnetic induction. A generator doesn't create energy; it transforms kinetic → electrical. The kinetic energy came from steam, water, wind, etc.",
+              "aristotelian_trap": "If you said 'the generator creates electricity from nothing,' you're violating conservation of energy.",
+              "why_it_matters": "Every power source is an energy CONVERTER, not creator. This connects electricity to conservation of energy."
+            },
+            {
+              "scenario_id": "elec_diag_5",
+              "scenario": "You hold a strong permanent magnet next to a wire coil. Nothing happens.",
+              "question": "Why isn't current being induced?",
+              "gut_check_answer": "Because induction requires a CHANGING magnetic field. A static magnet creates a static field — no change, no induced voltage. MOVE the magnet and current appears instantly.",
+              "aristotelian_trap": "If you expected static magnets to induce current, you're confusing static fields with changing fields — the key distinction in Faraday's law.",
+              "why_it_matters": "The word CHANGING is the entire content of Faraday's law. Static fields do nothing. Change is everything."
+            }
+          ],
+          "scoring_guide": {
+            "5_correct": "Electromagnetic thinking is installed. You understand conservation in circuits, the signal/carrier distinction, and the electricity-magnetism unification.",
+            "3_to_4_correct": "Strong foundation with a few misconceptions remaining. Re-read the prediction cycle for the concept you missed.",
+            "1_to_2_correct": "Several circuit misconceptions are active. Start with 'current is conserved' — this is the single most important concept. Everything else builds on it.",
+            "0_correct": "Common starting point — circuit misconceptions are extremely persistent. Begin with the water analogy (current = flow, voltage = pressure, resistance = narrow pipe) and build from there, remembering where the analogy breaks down."
+          },
+          "reassurance": "Circuit misconceptions are among the most persistent in all of physics education — research shows that even physics undergraduates frequently believe current is 'used up' by circuit elements. If you hold this misconception, you're in large company. The fix: think of current like water in a closed loop — what flows in must flow out. Energy is extracted (voltage drops); the flow itself is conserved."
+        }
+      },
+      "questions": [
+        {
+          "question": "Electricity and magnetism are _____.",
+          "options": {
+            "A": "Two completely separate forces",
+            "B": "TWO ASPECTS OF ONE FORCE — electromagnetism. Moving charges create magnetic fields. Changing magnetic fields create electric fields. Maxwell unified them, showing they are inseparable. Light itself is an electromagnetic wave — oscillating E and B fields propagating at c.",
+            "C": "Similar but unrelated",
+            "D": "The same thing — there's no difference"
+          },
+          "correct_answer": "B",
+          "explanation": "Electromagnetism: one force, two manifestations. Current → magnetic field. Changing magnetic field → induced current. Coupled oscillating fields → electromagnetic waves → light. Maxwell's unification: one of physics' greatest achievements.",
+          "tests_concept": "electromagnetism",
+          "detects_misconception": "Electricity and magnetism are separate forces"
+        },
+        {
+          "question": "How does wireless phone charging work?",
+          "options": {
+            "A": "Electricity passes through the air",
+            "B": "Electromagnetic induction — alternating current in the charging pad coil creates a CHANGING magnetic field. This field passes through a coil in your phone, inducing a current that charges the battery. Energy transfers through space via changing magnetic fields. No wires needed.",
+            "C": "Static electricity transfers from pad to phone",
+            "D": "Radio waves carry the energy"
+          },
+          "correct_answer": "B",
+          "explanation": "Faraday's law in your pocket: changing magnetic field (from AC in pad coil) → induced current (in phone coil) → charges battery. Same physics as a generator or transformer, miniaturized.",
+          "tests_concept": "electromagnetic_induction",
+          "detects_misconception": "Wireless charging uses static or radio transmission"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 7,
+    "total_questions": 16,
+    "total_prediction_cycles": 4,
+    "total_diagnostic_scenarios": 5,
+    "block_types_used": [
+      "section",
+      "callout",
+      "list",
+      "prediction_cycle",
+      "transition",
+      "creator_challenge"
+    ],
+    "callout_styles_used": [
+      "definition",
+      "key_idea",
+      "fun_fact",
+      "mind_blow",
+      "philosophy",
+      "personal",
+      "thought_experiment",
+      "misconception_alert"
+    ],
+    "list_styles_used": [
+      "icon_list",
+      "comparison"
+    ],
+    "curriculum_concepts_covered": [
+      "electric_charge",
+      "coulombs_law",
+      "current_voltage_resistance",
+      "ohms_law",
+      "series_parallel",
+      "electrical_power_energy",
+      "magnetic_fields",
+      "electromagnetism",
+      "electromagnetic_induction"
+    ],
+    "key_misconceptions_targeted": [
+      "Rubbing creates charge (vs transfers electrons)",
+      "Current gets used up in circuit elements",
+      "Voltage IS current (confusing the two)",
+      "Electrons move at light speed in wires",
+      "More parallel resistors = more resistance",
+      "All metals are magnetic",
+      "Electricity and magnetism are separate forces",
+      "Static magnets induce current (vs changing fields)",
+      "Generators create energy from nothing",
+      "Watts = energy (confusing power and energy)"
+    ],
+    "bridges_from": "light_how_you_see_everything (EM waves, electromagnetic spectrum)",
+    "bridges_to": "nuclear_physics_and_cosmology (nuclear forces, E=mc², the universe's story)",
+    "extended_treatment": true,
+    "has_misconception_checkpoint": true,
+    "new_pedagogical_element": "Circuit conservation parallel — framing 'current is conserved' as the electrical analog of 'energy is conserved' and 'force doesn't cause motion' — the third of three great misconception-busting moments in the curriculum"
+  }
+}

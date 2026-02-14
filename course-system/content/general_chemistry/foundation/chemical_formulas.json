@@ -1,0 +1,706 @@
+{
+  "course": "General Chemistry",
+  "topic": "5_chemical_language",
+  "subtopic": "5.1_formulas_and_naming",
+  "foundation_id": "chemical_formulas",
+  "foundation_title": "Chemical Formulas and Naming",
+  "foundation_tier": 2,
+  "prerequisites": ["ionic_bonding", "covalent_bonding"],
+  "curriculum_concepts_covered": [
+    "writing_chemical_formulas",
+    "naming_compounds",
+    "polyatomic_ions"
+  ],
+  "coverage_notes": "Covers writing formulas from ion charges, naming ionic compounds (including transition metals with Roman numerals), naming covalent compounds (prefixes), and common polyatomic ions. Essential literacy for all subsequent chemistry.",
+  "total_parts": 5,
+
+  "rendering_guide": {
+    "section": "Headed paragraph block with spacing above/below",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text, lighter font weight"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — chemical formulas are a language)",
+    "step_2": "READ Part 2 (writing ionic formulas from charges)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "READ Part 3 (naming ionic and covalent compounds)",
+    "step_5": "QUIZ Part 3",
+    "step_6": "READ Part 4 (polyatomic ions — grouped atoms with charges)",
+    "step_7": "QUIZ Part 4",
+    "step_8": "READ Part 5 (big picture + bridge to chemical_reactions)",
+    "step_9": "FINAL QUIZ (cumulative)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "chemical_formulas_p1",
+      "part_title": "Chemistry Has a Language",
+      "purpose": "Hook — formulas and names are chemistry's alphabet and vocabulary",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "When a chemist writes H₂O, every other chemist on Earth knows exactly what it means — two hydrogen atoms bonded to one oxygen atom. No ambiguity. No translation needed. Chemical formulas are a universal language, and learning to read and write them is like learning the alphabet of chemistry."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Chemical formulas tell you WHAT atoms are in a compound and HOW MANY of each. Chemical names tell you what the compound is in words. Both follow strict rules so that every compound has exactly one correct formula and one correct name."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The good news: the rules are systematic. Once you learn the patterns for ionic and covalent naming, you can name any compound you encounter and write any formula from a name. No memorization of individual compounds needed — just patterns."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Already Know Some",
+              "body": "H₂O = water. CO₂ = carbon dioxide. NaCl = sodium chloride (table salt). O₂ = oxygen gas. You've been reading chemical formulas without realizing it. Now you'll learn the system behind them."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Reading a formula: the element symbol tells you WHICH element. The subscript (small number) tells you HOW MANY. H₂O: 2 hydrogens, 1 oxygen (no subscript = 1). C₆H₁₂O₆ (glucose): 6 carbons, 12 hydrogens, 6 oxygens."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Notice: the subscripts in ionic formulas always produce a neutral compound (total positive = total negative). The subscripts in covalent formulas reflect how many atoms each central atom bonds to. Both follow from valence electron counts. The formulas aren't arbitrary — they're electron math."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Chemical formulas are like addresses for compounds. H₂O doesn't live at 'two hydrogens, one oxygen' by coincidence — that IS its identity. Every compound has a unique formula, just like every house has a unique address."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The naming system has been standardized internationally since 1919 by IUPAC (International Union of Pure and Applied Chemistry). It's like the postal service of chemistry — agreed-upon rules so a chemist in Tokyo and a chemist in Brazil can read each other's work without confusion."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "There are two naming systems: one for ionic compounds (metal + nonmetal) and one for covalent compounds (nonmetal + nonmetal). Different rules, different vibes. Let's learn both."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "chemical_formulas_p2",
+      "part_title": "Writing Ionic Formulas",
+      "purpose": "Core teaching — using ion charges to write correct ionic formulas",
+      "curriculum_concepts": ["writing_chemical_formulas"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Charge-Balance Rule",
+              "body": "Every ionic compound is electrically neutral — total positive charge equals total negative charge. To write a formula, you balance the charges of the cation and anion."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Criss-Cross Method",
+              "items": [
+                {
+                  "label": "Step 1: Write the ion charges",
+                  "body": "Identify the cation charge (metal) and anion charge (nonmetal). Use the periodic table: Group 1 = +1, Group 2 = +2, Group 13 = +3. Group 15 = −3, Group 16 = −2, Group 17 = −1."
+                },
+                {
+                  "label": "Step 2: Criss-cross the numbers",
+                  "body": "Take the NUMBER from each charge and make it the SUBSCRIPT of the OTHER ion. Ca²⁺ and Cl⁻ → the 2 from calcium becomes chlorine's subscript, the 1 from chlorine becomes calcium's subscript → CaCl₂."
+                },
+                {
+                  "label": "Step 3: Simplify if needed",
+                  "body": "If both subscripts share a common factor, reduce. Mg²⁺ and O²⁻ → criss-cross gives Mg₂O₂ → simplify to MgO."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Practice Examples",
+              "body": "Let's work through several to build the pattern."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Na⁺ + Cl⁻", "definition": "Criss-cross: Na₁Cl₁ → NaCl"},
+                {"term": "Mg²⁺ + Cl⁻", "definition": "Criss-cross: Mg₁Cl₂ → MgCl₂"},
+                {"term": "Al³⁺ + O²⁻", "definition": "Criss-cross: Al₂O₃ (already simplest)"},
+                {"term": "Ca²⁺ + PO₄³⁻", "definition": "Criss-cross: Ca₃(PO₄)₂ — parentheses around polyatomic ion"},
+                {"term": "Fe³⁺ + O²⁻", "definition": "Criss-cross: Fe₂O₃ (iron(III) oxide — rust!)"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Parentheses Rule",
+              "body": "When you need MORE THAN ONE polyatomic ion, put it in parentheses with the subscript outside. Ca₃(PO₄)₂ means 3 calcium ions and 2 phosphate groups. Never break apart a polyatomic ion."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Verify: Charges Must Cancel",
+              "body": "Always check: total positive = total negative. Al₂O₃: (2 × +3) = +6. (3 × −2) = −6. Net charge = 0. ✓ If they don't cancel, the formula is wrong."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Work These Out With Paper",
+              "body": "Write the ion charges, criss-cross, simplify, then verify the charges cancel."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "items": [
+                {
+                  "label": "Potassium + Bromine → ?",
+                  "hints": "K⁺ + Br⁻ → criss-cross → KBr. Check: +1 + (−1) = 0 ✓"
+                },
+                {
+                  "label": "Barium + Chlorine → ?",
+                  "hints": "Ba²⁺ + Cl⁻ → criss-cross → BaCl₂. Check: +2 + 2(−1) = 0 ✓"
+                },
+                {
+                  "label": "Aluminum + Sulfur → ?",
+                  "hints": "Al³⁺ + S²⁻ → criss-cross → Al₂S₃. Check: 2(+3) + 3(−2) = +6 − 6 = 0 ✓"
+                },
+                {
+                  "label": "Sodium + Sulfate → ?",
+                  "hints": "Na⁺ + SO₄²⁻ → criss-cross → Na₂SO₄. Check: 2(+1) + (−2) = 0 ✓"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The criss-cross method works because it automatically balances charges. The charge magnitude of one ion becomes the subscript of the other — guaranteeing equal total charge on both sides. It's mathematical elegance disguised as a simple trick."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Criss-Cross Trick",
+              "body": "Writing ionic formulas has a cheat code: the criss-cross method. Take the charge number from each ion and swap them as subscripts. That's it. It works every time."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Al³⁺ + O²⁻. Take the 3 from aluminum → give it to oxygen. Take the 2 from oxygen → give it to aluminum. Al₂O₃. Done. Rust. You just wrote the formula for rust using a trick a 5-year-old could learn."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The criss-cross works because of basic algebra. If you need the total positive to equal total negative: (subscript_a × charge_a) + (subscript_b × charge_b) = 0. Setting each subscript to the OTHER ion's charge magnitude automatically satisfies this equation. It's not a trick — it's math wearing a disguise."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Parentheses rule: if you need more than one polyatomic ion, wrap it in parentheses. Ca₃(PO₄)₂ — the ₂ means 'two whole phosphate groups.' Writing Ca₃PO₄₂ would be wrong and confusing. Parentheses are the difference between 'two phosphate groups' and 'four oxygen atoms and two... what?' Punctuation matters in chemistry too."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Write the formula for the ionic compound formed by calcium (Ca²⁺) and nitrogen (N³⁻).",
+          "options": {
+            "A": "CaN",
+            "B": "Ca₂N₃",
+            "C": "Ca₃N₂",
+            "D": "CaN₃"
+          },
+          "correct_answer": "C",
+          "explanation": "Criss-cross: the 3 from N³⁻ becomes Ca's subscript, the 2 from Ca²⁺ becomes N's subscript → Ca₃N₂. Verify: 3(+2) + 2(−3) = +6 − 6 = 0 ✓",
+          "tests_concept": "writing_chemical_formulas"
+        },
+        {
+          "question": "Iron(III) and oxygen form Fe₂O₃. How do you verify this formula is correct?",
+          "options": {
+            "A": "Count total atoms: 2 + 3 = 5, which is odd, so it's correct",
+            "B": "Check that total positive charge equals total negative charge: 2(+3) = +6, 3(−2) = −6, net = 0",
+            "C": "Fe always has a subscript of 2 in any compound",
+            "D": "The formula matches the periodic table row numbers"
+          },
+          "correct_answer": "B",
+          "explanation": "Every ionic formula must be electrically neutral. Fe₂O₃: 2 iron(III) ions = 2 × (+3) = +6. 3 oxide ions = 3 × (−2) = −6. Total: +6 + (−6) = 0. Charges balance. Formula confirmed.",
+          "tests_concept": "writing_chemical_formulas"
+        }
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "chemical_formulas_p3",
+      "part_title": "Naming Compounds",
+      "purpose": "Teach naming conventions for both ionic and covalent compounds",
+      "curriculum_concepts": ["naming_compounds"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Two Systems, Two Compound Types",
+              "body": "Ionic and covalent compounds have different naming rules. The first thing to determine is: is it ionic (metal + nonmetal) or covalent (nonmetal + nonmetal)?"
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Naming Ionic Compounds",
+              "body": "Rule: [metal name] + [nonmetal root + '-ide']. NaCl = sodium chloride. MgO = magnesium oxide. CaF₂ = calcium fluoride. The metal name stays as-is. The nonmetal drops its ending and adds -ide."
+            },
+            {
+              "type": "section",
+              "title": "Transition Metals: The Roman Numeral System",
+              "body": "Transition metals can form multiple charge states. Iron can be Fe²⁺ or Fe³⁺. Copper can be Cu⁺ or Cu²⁺. To specify which, use Roman numerals in parentheses after the metal name."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "FeCl₂", "definition": "Iron(II) chloride — Fe is +2 (since 2 Cl⁻ need +2 to balance)"},
+                {"term": "FeCl₃", "definition": "Iron(III) chloride — Fe is +3 (since 3 Cl⁻ need +3)"},
+                {"term": "CuO", "definition": "Copper(II) oxide — Cu is +2 (O²⁻ needs +2)"},
+                {"term": "Cu₂O", "definition": "Copper(I) oxide — each Cu is +1 (2 × +1 balances O²⁻)"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Naming Covalent Compounds",
+              "body": "Rule: [prefix + first element] + [prefix + second element root + '-ide']. Use Greek prefixes: mono- (1), di- (2), tri- (3), tetra- (4), penta- (5), hexa- (6). Exception: never use 'mono-' on the FIRST element."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "CO", "definition": "Carbon monoxide (not monocarbon monoxide)"},
+                {"term": "CO₂", "definition": "Carbon dioxide"},
+                {"term": "N₂O₅", "definition": "Dinitrogen pentoxide"},
+                {"term": "PCl₃", "definition": "Phosphorus trichloride"},
+                {"term": "SF₆", "definition": "Sulfur hexafluoride"},
+                {"term": "P₄O₁₀", "definition": "Tetraphosphorus decoxide"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Ionic vs Covalent Naming at a Glance",
+              "body": "Ionic: NO prefixes. Use Roman numerals for variable-charge metals. Covalent: USE prefixes (di-, tri-, tetra-...) to indicate atom counts. No Roman numerals. First step: identify the compound type from the elements involved."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Name These (Cover Answers First)",
+              "body": "For each formula, decide: ionic or covalent? Then apply the correct naming rules."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "items": [
+                {
+                  "label": "MgBr₂",
+                  "hints": "Mg (metal) + Br (nonmetal) = ionic. Mg is always +2 (Group 2, no Roman numeral needed). Answer: magnesium bromide."
+                },
+                {
+                  "label": "N₂O₄",
+                  "hints": "N + O = both nonmetals = covalent. Use prefixes. Answer: dinitrogen tetroxide."
+                },
+                {
+                  "label": "CuCl₂",
+                  "hints": "Cu (metal) + Cl (nonmetal) = ionic. Cu is a transition metal — figure out its charge. 2 Cl⁻ = −2, so Cu = +2. Answer: copper(II) chloride."
+                },
+                {
+                  "label": "CCl₄",
+                  "hints": "C + Cl = both nonmetals = covalent. Answer: carbon tetrachloride."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The naming system is algorithmic: identify compound type → apply the correct rule set → generate the name. It works in reverse too: from a name, you can always write the formula. Name ↔ formula is a two-way street."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Two Rule Books",
+              "body": "Chemistry couldn't just have ONE naming system. No. It has two. Because ionic and covalent compounds are different enough to need different rules. But at least the rules are consistent."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Ionic Naming: Formal and Direct",
+                  "body": "Metal name + nonmetal-ide. NaCl = sodium chloride. CaO = calcium oxide. Elegant. Simple. No prefixes needed because charges dictate the ratio. If the metal has multiple possible charges (looking at you, iron), slap a Roman numeral on it: iron(III) chloride.",
+                  "examples": "MgCl₂ = magnesium chloride, FeCl₃ = iron(III) chloride"
+                },
+                {
+                  "label": "Covalent Naming: Prefix Party",
+                  "body": "Greek prefixes everywhere. Mono, di, tri, tetra, penta, hexa. CO₂ = carbon dioxide. N₂O₅ = dinitrogen pentoxide. You need prefixes because two nonmetals can combine in MANY ratios (CO and CO₂ are very different). The prefix IS the number.",
+                  "examples": "SF₆ = sulfur hexafluoride, PCl₅ = phosphorus pentachloride"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The prefix 'mono-' is dropped from the FIRST element because it sounds awkward. 'Monocarbon dioxide' sounds ridiculous. 'Carbon dioxide' sounds clean. But you DO keep 'mono-' on the second element: carbon MONOxide (CO). English aesthetics trumping logic since 1919."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Pro tip for Roman numerals: the Roman numeral IS the charge. Iron(III) = Fe³⁺. Copper(II) = Cu²⁺. The numeral isn't the subscript — it's the CHARGE. Then you use the charge to figure out the formula. Iron(III) chloride → Fe³⁺ + Cl⁻ → criss-cross → FeCl₃."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "What is the correct name for CuO, given that Cu is a transition metal?",
+          "options": {
+            "A": "Copper oxide",
+            "B": "Copper(I) oxide",
+            "C": "Copper(II) oxide — Cu must be +2 to balance O²⁻",
+            "D": "Copper dioxide"
+          },
+          "correct_answer": "C",
+          "explanation": "Cu is a transition metal (variable charges), so it needs a Roman numeral. O²⁻ has charge −2. For CuO to be neutral: Cu must be +2. Name: copper(II) oxide. 'Copper oxide' without a numeral is incomplete; 'copper dioxide' uses covalent prefixes, wrong for ionic.",
+          "tests_concept": "naming_compounds"
+        },
+        {
+          "question": "N₂O₃ is a covalent compound. What is its correct name?",
+          "options": {
+            "A": "Nitrogen trioxide",
+            "B": "Nitrogen oxide",
+            "C": "Dinitrogen trioxide",
+            "D": "Nitrogen(III) oxide"
+          },
+          "correct_answer": "C",
+          "explanation": "Covalent naming uses prefixes for both elements: N₂ = dinitrogen, O₃ = trioxide. Answer: dinitrogen trioxide. Roman numerals (option D) are for ionic compounds only. 'Nitrogen trioxide' (option A) is missing the 'di-' prefix for the two nitrogens.",
+          "tests_concept": "naming_compounds"
+        }
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "chemical_formulas_p4",
+      "part_title": "Polyatomic Ions — Teams of Atoms With a Charge",
+      "purpose": "Teach polyatomic ions as bonded groups that carry a charge and act as a unit",
+      "curriculum_concepts": ["polyatomic_ions"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Ions Can Be Groups",
+              "body": "So far, our ions have been single atoms: Na⁺, Cl⁻, Mg²⁺. But many ions are GROUPS of covalently bonded atoms that carry a net charge. These are polyatomic ions — 'many-atom ions.'"
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Polyatomic Ion",
+              "body": "A group of two or more atoms covalently bonded together that carries a net electrical charge. The group acts as a single unit in ionic compounds. Example: SO₄²⁻ (sulfate) is one sulfur bonded to four oxygens, with an overall −2 charge."
+            },
+            {
+              "type": "section",
+              "title": "The Must-Know Polyatomic Ions",
+              "body": "You'll encounter these repeatedly throughout chemistry. Learning the most common ones now saves enormous time later."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "OH⁻", "definition": "Hydroxide — in every base (NaOH, KOH)"},
+                {"term": "NO₃⁻", "definition": "Nitrate — in fertilizers (KNO₃)"},
+                {"term": "CO₃²⁻", "definition": "Carbonate — in limestone, baking soda base"},
+                {"term": "HCO₃⁻", "definition": "Bicarbonate — baking soda (NaHCO₃)"},
+                {"term": "SO₄²⁻", "definition": "Sulfate — in Epsom salts (MgSO₄)"},
+                {"term": "PO₄³⁻", "definition": "Phosphate — in bones, DNA backbone"},
+                {"term": "NH₄⁺", "definition": "Ammonium — the only common POSITIVE polyatomic ion"},
+                {"term": "ClO₃⁻", "definition": "Chlorate — in fireworks and matches"}
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Writing Formulas With Polyatomic Ions",
+              "body": "Treat the polyatomic ion as a single unit. Use the criss-cross method as before, but if you need more than one polyatomic ion, wrap it in parentheses."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Na⁺ + OH⁻", "definition": "NaOH (1:1, no parentheses needed)"},
+                {"term": "Ca²⁺ + OH⁻", "definition": "Ca(OH)₂ (need 2 hydroxides, parentheses required)"},
+                {"term": "Al³⁺ + SO₄²⁻", "definition": "Al₂(SO₄)₃ (criss-cross: 2 aluminums, 3 sulfates)"},
+                {"term": "NH₄⁺ + Cl⁻", "definition": "NH₄Cl (ammonium is the cation this time)"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Naming With Polyatomic Ions",
+              "body": "Polyatomic ions keep their own names — don't modify them. NaOH = sodium hydroxide (not 'sodium oxygen hydride'). Ca(NO₃)₂ = calcium nitrate. Al₂(SO₄)₃ = aluminum sulfate. Just: [cation name] + [polyatomic ion name]."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Spot Polyatomic Ions in Products",
+              "body": "Check the ingredients on products around you. You'll find polyatomic ions everywhere."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "items": [
+                {
+                  "label": "Baking soda",
+                  "hints": "NaHCO₃ — sodium bicarbonate. Contains Na⁺ and HCO₃⁻ (bicarbonate ion)."
+                },
+                {
+                  "label": "Tums/antacids",
+                  "hints": "CaCO₃ — calcium carbonate. Contains Ca²⁺ and CO₃²⁻ (carbonate ion)."
+                },
+                {
+                  "label": "Fertilizer",
+                  "hints": "Often contains KNO₃ (potassium nitrate) or (NH₄)₂SO₄ (ammonium sulfate). Packed with polyatomic ions."
+                },
+                {
+                  "label": "Drain cleaner",
+                  "hints": "Often NaOH — sodium hydroxide (lye). Contains Na⁺ and OH⁻ (hydroxide ion)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Polyatomic ions are hybrid entities — internally covalent (atoms sharing electrons), but externally ionic (the whole group has a charge and participates in ionic compounds). They bridge both bonding worlds."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Ion Teams",
+              "body": "You know how individual players form teams? Polyatomic ions are exactly that. A group of atoms that bonded together covalently, picked up a charge, and now operate as a single unit in ionic compounds."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "SO₄²⁻ (Sulfate): Team 'Strong Acid Vibes'",
+                  "icon": "shield",
+                  "body": "1 sulfur + 4 oxygens, overall charge −2. Shows up in Epsom salts, battery acid (H₂SO₄), and gypsum. One of the most common polyatomic ions in existence."
+                },
+                {
+                  "label": "NH₄⁺ (Ammonium): The Rebel",
+                  "icon": "star",
+                  "body": "The ONLY common positive polyatomic ion. 1 nitrogen + 4 hydrogens, charge +1. Acts like a metal ion despite containing no metal. Chemistry's undercover agent."
+                },
+                {
+                  "label": "OH⁻ (Hydroxide): Team 'Base'",
+                  "icon": "droplet",
+                  "body": "1 oxygen + 1 hydrogen, charge −1. Present in every base. NaOH, KOH, Ca(OH)₂. If it ends in hydroxide, it's a base. No exceptions."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The parentheses rule exists to prevent chaos. Ca(OH)₂ means 2 hydroxide groups (each OH⁻ intact). Without parentheses, CaOH₂ would imply 1 oxygen and 2 hydrogens, which is meaningless. Parentheses in chemistry formulas aren't optional — they're structural. Treat them like seatbelts: always use them when needed."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Calcium (Ca²⁺) bonds with phosphate (PO₄³⁻). Write the correct formula.",
+          "options": {
+            "A": "CaPO₄",
+            "B": "Ca₂(PO₄)₃",
+            "C": "Ca₃(PO₄)₂",
+            "D": "Ca₃PO₄₂"
+          },
+          "correct_answer": "C",
+          "explanation": "Criss-cross: the 3 from PO₄³⁻ becomes calcium's subscript (Ca₃), the 2 from Ca²⁺ becomes phosphate's subscript (PO₄)₂. Parentheses required since we need 2 phosphate groups. Verify: 3(+2) + 2(−3) = +6 − 6 = 0 ✓",
+          "tests_concept": "polyatomic_ions + writing_chemical_formulas"
+        },
+        {
+          "question": "What is the name of Al₂(SO₄)₃?",
+          "options": {
+            "A": "Aluminum sulfide",
+            "B": "Aluminum sulfate",
+            "C": "Aluminum(III) sulfate oxide",
+            "D": "Dialuminum trisulfate"
+          },
+          "correct_answer": "B",
+          "explanation": "Ionic naming: cation name + polyatomic ion name. Aluminum + sulfate = aluminum sulfate. No Roman numeral needed (Al is always +3). No prefixes (this is ionic, not covalent). The polyatomic ion keeps its name intact.",
+          "tests_concept": "polyatomic_ions + naming_compounds"
+        },
+        {
+          "question": "NH₄⁺ (ammonium) is unusual because it's a positive polyatomic ion. In NH₄Cl, which is the cation and which is the anion?",
+          "options": {
+            "A": "N is the cation, H₄Cl is the anion",
+            "B": "NH₄⁺ is the cation, Cl⁻ is the anion",
+            "C": "Cl is the cation, NH₄ is the anion",
+            "D": "There are no ions — this is covalent"
+          },
+          "correct_answer": "B",
+          "explanation": "NH₄⁺ (ammonium) is the cation — a positive polyatomic ion acting like a metal. Cl⁻ (chloride) is the anion. The compound is ionic: ammonium chloride. NH₄⁺ is treated as a single unit, just like Na⁺ would be.",
+          "tests_concept": "polyatomic_ions"
+        }
+      ]
+    },
+
+    {
+      "part_number": 5,
+      "part_id": "chemical_formulas_p5",
+      "part_title": "Speaking Chemistry Fluently",
+      "purpose": "Consolidate naming/formula skills, bridge to chemical_reactions",
+      "curriculum_concepts": ["writing_chemical_formulas", "naming_compounds", "polyatomic_ions"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Complete Naming Algorithm",
+              "body": "You now have a complete system for naming any compound and writing any formula."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "items": [
+                {
+                  "label": "Identify: Ionic or Covalent?",
+                  "body": "Contains a metal (or NH₄⁺)? → Ionic. All nonmetals? → Covalent."
+                },
+                {
+                  "label": "If Ionic: Metal name + nonmetal-ide (or polyatomic name)",
+                  "body": "Add Roman numeral for transition metals. Write formula using criss-cross. Parentheses for multiple polyatomic ions."
+                },
+                {
+                  "label": "If Covalent: Prefix + first element + prefix + second element-ide",
+                  "body": "Use Greek prefixes (mono, di, tri...). Drop mono- from first element. Write formula using the prefixes as subscripts."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "This naming system is the LANGUAGE of chemistry. Every equation you write, every reaction you describe, every lab report you complete uses these names and formulas. Mastering this now makes everything else easier."
+            },
+            {
+              "type": "transition",
+              "body": "You can now name compounds and write formulas. The next step: chemical reactions — equations that describe what happens when bonds break and new bonds form. You'll learn to read equations like sentences, balance them like math, and classify reactions by type. Chemical reactions are where static formulas come alive."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Final Speed Round: Name ↔ Formula",
+              "items": [
+                {"label": "Mg₃N₂ → ?", "hints": "Ionic (Mg = metal). Magnesium nitride."},
+                {"label": "Diboron hexahydride → ?", "hints": "Covalent (prefixes = covalent). B₂H₆."},
+                {"label": "Fe₂(SO₄)₃ → ?", "hints": "Ionic with polyatomic ion. Iron(III) sulfate (Fe is +3: 3 sulfates at −2 each = −6, so 2 Fe = +6 → each Fe = +3)."},
+                {"label": "Calcium hydroxide → ?", "hints": "Ca²⁺ + OH⁻ → Ca(OH)₂."}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "If you can do these four examples, you can name and write the formula for any compound in introductory chemistry. The system is complete."
+            },
+            {
+              "type": "transition",
+              "body": "Formulas describe compounds at rest. Chemical reactions describe compounds in motion — transforming into new substances. That's next."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Now Speak Chemistry",
+              "body": "If someone says 'dinitrogen monoxide,' you know it's N₂O (laughing gas). If someone writes Ca₃(PO₄)₂, you know it's calcium phosphate (your bones). You're bilingual: English and Chemistry."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "DHMO (dihydrogen monoxide) is a famous internet hoax where people petition to 'ban' this 'dangerous chemical' — it's just water (H₂O). The covalent naming system makes everything sound scary. Sodium chloride sounds like a chemical weapon. It's table salt. Never trust a name without checking the formula."
+            },
+            {
+              "type": "transition",
+              "body": "We've learned the vocabulary (element names), the grammar (formulas and naming), and the structure (bonding). Now it's time to write full SENTENCES: chemical equations. When bonds break and reform, atoms rearrange, and entirely new substances appear. That's a chemical reaction. And learning to write and balance reaction equations is where chemistry gets truly powerful."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "An unknown compound has the formula Cr₂O₃. Chromium is a transition metal. What is the correct name?",
+          "options": {
+            "A": "Chromium oxide",
+            "B": "Chromium(III) oxide — each Cr is +3 (total +6 balances 3 O²⁻ at −6)",
+            "C": "Dichromium trioxide",
+            "D": "Chromium(II) oxide"
+          },
+          "correct_answer": "B",
+          "explanation": "Ionic compound (metal + nonmetal). Cr is a transition metal → needs Roman numeral. 3 × O²⁻ = −6. For 2 Cr to balance: 2x = +6, x = +3. Name: chromium(III) oxide. Option C uses covalent prefixes (wrong for ionic). Option D has wrong charge.",
+          "tests_concept": "naming_compounds + writing_chemical_formulas"
+        }
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 5,
+    "total_questions": 8,
+    "block_types_used": ["section", "callout", "list", "visual", "transition"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember"],
+    "list_styles_used": ["icon_list", "two_column", "comparison", "challenge", "numbered_steps"],
+    "curriculum_concepts_covered": ["writing_chemical_formulas", "naming_compounds", "polyatomic_ions"],
+    "bridges_from": "ionic_bonding + covalent_bonding",
+    "bridges_to": "chemical_reactions"
+  }
+}

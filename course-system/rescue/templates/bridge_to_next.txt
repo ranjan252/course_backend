@@ -1,0 +1,9 @@
+Student mastered {completed_concept} and is moving to {next_concept}.
+
+Your job:
+1. Briefly celebrate what they learned (1 sentence).
+2. Show how {completed_concept} CONNECTS to {next_concept}.
+3. Use an analogy: "{completed_concept} was like learning X. Now {next_concept} is like Y."
+4. Set up curiosity for the next video.
+
+Keep it to 2 exchanges max. Be {persona_tone}.

@@ -1,0 +1,146 @@
+{
+  "course": "General Chemistry",
+  "topic": "7_mixtures_and_states",
+  "subtopic": "7.1_solutions",
+  "foundation_id": "solutions",
+  "foundation_title": "Solutions",
+  "foundation_tier": 2,
+  "prerequisites": ["ionic_bonding", "covalent_bonding", "mole_concept"],
+  "curriculum_concepts_covered": [
+    "solubility",
+    "concentration_molarity",
+    "factors_affecting_dissolution"
+  ],
+  "total_parts": 4,
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "solutions_p1",
+      "part_title": "The Chemistry of Mixing",
+      "purpose": "Hook — solutions are everywhere, defined by solute + solvent",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": null, "body": "Stir sugar into coffee — it vanishes. The sugar didn't disappear; it dissolved. The molecules separated and dispersed uniformly among the water molecules. What you created is a solution: a homogeneous mixture where one substance (solute) is dissolved in another (solvent)."},
+          {"type": "callout", "style": "key_idea", "body": "A solution is a homogeneous mixture — uniform throughout. The solute is the substance dissolved (usually the lesser amount). The solvent does the dissolving (usually the greater amount). In saltwater: salt is the solute, water is the solvent. Most chemistry happens in solution."},
+          {"type": "section", "title": null, "body": "Solutions aren't limited to solids in liquids. Air is a gas-in-gas solution. Soda is a gas-in-liquid solution (CO₂ in water). Brass is a solid-in-solid solution (zinc in copper). Solutions are the most common form of matter you interact with daily."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Solutions You're Touching Right Now", "body": "The air you breathe is a solution (N₂ + O₂ + trace gases). If you're drinking anything, it's likely a solution. Your blood is a complex aqueous solution carrying dissolved gases, salts, proteins, and glucose. Your body IS a solution system."},
+          {"type": "callout", "style": "key_idea", "body": "Water is called the 'universal solvent' — it dissolves more substances than any other liquid. Its polarity (from the bent O—H bonds) lets it surround and separate both positive and negative ions. This is why water is essential for life: biochemistry requires dissolved reactants."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": null, "body": "Solutions are the most underappreciated form of matter. Nobody gets excited about saltwater. But your blood, your coffee, the ocean, the atmosphere, and every cell in your body are all solutions. The chemistry of life is the chemistry of things dissolved in water."},
+          {"type": "callout", "style": "fun_fact", "body": "The ocean is a solution containing about 3.5% dissolved salts — mostly NaCl, but also MgCl₂, Na₂SO₄, CaCl₃, and KCl. There are approximately 20 million tons of gold dissolved in the ocean. Unfortunately, it's so dilute (~13 parts per trillion) that extracting it costs more than the gold is worth. The ocean is technically a gold solution. A very stingy one."}
+        ]}
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "solutions_p2",
+      "part_title": "How Things Dissolve",
+      "purpose": "Core — like dissolves like, ionic vs molecular dissolution, factors affecting solubility",
+      "curriculum_concepts": ["solubility", "factors_affecting_dissolution"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "Like Dissolves Like", "body": "Polar solvents dissolve polar/ionic solutes. Nonpolar solvents dissolve nonpolar solutes. Water (polar) dissolves salt (ionic) and sugar (polar). Oil (nonpolar) dissolves grease (nonpolar). Water and oil don't mix because polar and nonpolar don't attract each other."},
+          {"type": "section", "title": "How Ionic Compounds Dissolve", "body": "When NaCl is placed in water, the polar water molecules surround the ions. The δ⁻ oxygen end of water faces Na⁺; the δ⁺ hydrogen end faces Cl⁻. These attractions pull ions off the crystal lattice and into solution. This process is called hydration (or solvation in non-water solvents)."},
+          {"type": "section", "title": "How Molecular Compounds Dissolve", "body": "Sugar (C₁₂H₂₂O₁₁) dissolves in water because sugar molecules have many —OH groups that hydrogen-bond with water. The water molecules surround and separate individual sugar molecules. No ions formed — just dispersed molecules."},
+          {"type": "list", "style": "icon_list", "title": "Factors Affecting Solubility", "items": [
+            {"label": "Temperature", "icon": "thermometer", "body": "For SOLIDS: higher temperature usually increases solubility (more kinetic energy breaks solute-solute bonds). For GASES: higher temperature DECREASES solubility (gas molecules escape faster). This is why hot soda goes flat."},
+            {"label": "Pressure", "icon": "arrow-down", "body": "Affects GASES only. Higher pressure = more gas dissolved (Henry's Law). A sealed soda bottle is pressurized to keep CO₂ dissolved. Open it → pressure drops → CO₂ escapes → fizz."},
+            {"label": "Polarity Match", "icon": "link", "body": "Like dissolves like. Polar solute + polar solvent = dissolves. Nonpolar + nonpolar = dissolves. Polar + nonpolar = doesn't dissolve (oil and water)."},
+            {"label": "Surface Area & Stirring", "icon": "refresh", "body": "Crushing a solute increases surface area → dissolves faster. Stirring brings fresh solvent to the solute surface → dissolves faster. These affect RATE, not total solubility."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Saturated solution: maximum solute dissolved at that temperature — any more remains undissolved. Unsaturated: could dissolve more. Supersaturated: contains MORE than the normal maximum (unstable — adding a seed crystal triggers instant crystallization)."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "list", "style": "challenge", "title": "Predict: Dissolves or Not?", "items": [
+            {"label": "Salt in water", "hints": "Ionic + polar → YES. Water hydrates Na⁺ and Cl⁻ ions."},
+            {"label": "Oil in water", "hints": "Nonpolar + polar → NO. No attractive forces between them."},
+            {"label": "Sugar in water", "hints": "Polar + polar → YES. Sugar's OH groups hydrogen-bond with water."},
+            {"label": "Grease in gasoline", "hints": "Nonpolar + nonpolar → YES. Like dissolves like. This is why gasoline removes grease."},
+            {"label": "Salt in oil", "hints": "Ionic + nonpolar → NO. Oil can't hydrate ions."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "'Like dissolves like' is the single most useful rule in solution chemistry. If you know the polarity of the solute and solvent, you can predict solubility. Polar/ionic → water. Nonpolar → organic solvents (hexane, oil, gasoline)."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Water Is an Ion Kidnapper", "body": "When NaCl meets water, the polar water molecules literally rip the crystal apart. They surround each Na⁺ with their negative oxygen ends and each Cl⁻ with their positive hydrogen ends. The ions are pulled off the lattice and surrounded — hydrated. Water doesn't ask. Water takes."},
+          {"type": "callout", "style": "fun_fact", "body": "Hot soda goes flat because gas solubility DECREASES with temperature. CO₂ escapes faster in warm soda. This is also why warm oceans hold less dissolved oxygen than cold oceans — and why fish in warm water are more stressed. Climate change is literally making the ocean lose its breath."},
+          {"type": "section", "title": null, "body": "Supersaturated solutions are the drama queens of chemistry. They hold more solute than they should. They're unstable. Drop a single tiny crystal in and BOOM — instant massive crystallization. YouTube 'sodium acetate supersaturation' for the most satisfying chemistry video you'll ever watch."}
+        ]}
+      },
+      "questions": [
+        {"question": "Why does salt dissolve in water but not in oil?", "options": {"A": "Salt is too heavy for oil", "B": "Water is polar and can hydrate ions; oil is nonpolar and cannot — like dissolves like", "C": "Oil is thicker than water", "D": "Salt only dissolves in liquids below a certain density"}, "correct_answer": "B", "explanation": "NaCl is ionic (charged). Water is polar — its partial charges attract and surround ions (hydration). Oil is nonpolar — no partial charges to attract ions. Like dissolves like: ionic/polar solutes need polar solvents.", "tests_concept": "solubility"},
+        {"question": "Why does opening a soda bottle cause fizzing?", "options": {"A": "The sugar in soda reacts with air", "B": "Pressure decreases when opened — CO₂ gas solubility drops, so dissolved CO₂ escapes as bubbles", "C": "Oxygen from air enters and reacts", "D": "Temperature change causes fizzing"}, "correct_answer": "B", "explanation": "Henry's Law: gas solubility increases with pressure. Sealed soda is pressurized to keep CO₂ dissolved. Open → pressure drops → CO₂ exceeds new (lower) solubility limit → bubbles out. Temperature isn't changing — pressure is.", "tests_concept": "factors_affecting_dissolution"}
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "solutions_p3",
+      "part_title": "Concentration — How Much Is Dissolved",
+      "purpose": "Teach molarity (M = mol/L) as the standard concentration unit, dilution",
+      "curriculum_concepts": ["concentration_molarity"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Measuring Solution Strength", "body": "Saying 'salty water' isn't precise enough for chemistry. We need exact numbers. Concentration tells you exactly how much solute is dissolved in how much solution."},
+          {"type": "callout", "style": "definition", "title": "Molarity (M)", "body": "Molarity = moles of solute ÷ liters of solution. Units: mol/L or simply M. A 1.0 M NaCl solution contains 1.0 mole of NaCl per liter of solution. Molarity is the standard concentration unit in chemistry."},
+          {"type": "list", "style": "numbered_steps", "title": "Example: Making 1.0 L of 0.50 M NaCl", "items": [
+            {"label": "Calculate moles needed", "body": "M = mol/L → mol = M × L = 0.50 × 1.0 = 0.50 mol NaCl"},
+            {"label": "Convert to grams", "body": "0.50 mol × 58.44 g/mol = 29.22 g NaCl"},
+            {"label": "Dissolve and dilute", "body": "Dissolve 29.22 g NaCl in water, then add water until total volume = 1.0 L. NOT 'add to 1.0 L of water' — the total solution volume must be 1.0 L."}
+          ]},
+          {"type": "callout", "style": "key_idea", "title": "Dilution: M₁V₁ = M₂V₂", "body": "Diluting a solution: add more solvent. The moles of solute don't change — they're just spread through more volume. M₁V₁ = M₂V₂. If you dilute 100 mL of 2.0 M HCl to 500 mL: 2.0 × 100 = M₂ × 500 → M₂ = 0.40 M."},
+          {"type": "callout", "style": "remember", "body": "Molarity connects to moles, which connects to balanced equations. In solution stoichiometry: moles = M × V(in liters). This replaces 'grams ÷ molar mass' as your entry point when working with solutions."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "What's the molarity of 2.0 mol KOH in 500 mL?", "hints": "M = mol/L = 2.0 / 0.500 = 4.0 M"},
+            {"label": "How many grams of NaOH for 250 mL of 0.10 M solution?", "hints": "mol = 0.10 × 0.250 = 0.025 mol. Grams = 0.025 × 40.0 = 1.0 g NaOH."},
+            {"label": "Dilute 50 mL of 6.0 M HCl to 1.0 M. Final volume?", "hints": "M₁V₁ = M₂V₂. 6.0 × 50 = 1.0 × V₂. V₂ = 300 mL."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "M₁V₁ = M₂V₂ works because moles are conserved during dilution. You're not adding or removing solute — just adding solvent. Moles before = moles after."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Molarity: Moles Per Liter", "body": "Molarity is beautifully simple: how many moles of stuff per liter of solution. 1 M = 1 mole per liter. 0.5 M = half a mole per liter. That's it. The entire concept fits in one equation: M = mol/L."},
+          {"type": "callout", "style": "fun_fact", "body": "Blood glucose 'normal range' is about 70-100 mg/dL, which is roughly 0.004-0.006 M (4-6 millimolar). Seawater is about 0.6 M NaCl. Your tears are about 0.9% NaCl (~0.15 M) — isotonic with your cells. Molarity governs your biology."},
+          {"type": "section", "title": null, "body": "Safety tip for dilution: ALWAYS add acid to water, never water to acid. Adding water to concentrated acid causes localized boiling and spattering — the first splash of water hits dense acid, heats explosively, and sprays. 'Do as you oughta, add acid to water.' Chemistry survival rhyme."}
+        ]}
+      },
+      "questions": [
+        {"question": "You dissolve 0.50 mol of glucose in water to make 250 mL of solution. What's the molarity?", "options": {"A": "0.50 M", "B": "2.0 M — M = 0.50 mol ÷ 0.250 L = 2.0", "C": "125 M", "D": "0.002 M"}, "correct_answer": "B", "explanation": "M = mol/L = 0.50 / 0.250 = 2.0 M. Always convert mL to L first (250 mL = 0.250 L). Molarity is moles per LITER, not per mL.", "tests_concept": "concentration_molarity"},
+        {"question": "You have 100 mL of 3.0 M NaOH. How much water must you add to get 1.0 M?", "options": {"A": "100 mL", "B": "200 mL — M₁V₁ = M₂V₂: 3.0 × 100 = 1.0 × V₂, V₂ = 300 mL, so add 200 mL", "C": "300 mL", "D": "33 mL"}, "correct_answer": "B", "explanation": "M₁V₁ = M₂V₂: 3.0(100) = 1.0(V₂), V₂ = 300 mL total. You have 100 mL, so add 300 − 100 = 200 mL of water.", "tests_concept": "concentration_molarity"}
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "solutions_p4",
+      "part_title": "Solutions Connect Everything",
+      "purpose": "Tie solutions to previous topics, bridge to gas_laws",
+      "curriculum_concepts": ["solubility", "concentration_molarity"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Solutions in Context", "body": "Solutions tie together nearly every topic we've covered. Ionic compounds dissolve by hydration (bonding). Acids and bases operate in solution (pH). Electrochemistry requires dissolved ions (electrolytes). Stoichiometry in solution uses molarity instead of grams. Understanding solutions is understanding how chemistry actually works in practice."},
+          {"type": "callout", "style": "key_idea", "body": "Three key solution calculations: (1) Molarity: M = mol/L. (2) Dilution: M₁V₁ = M₂V₂. (3) Solution stoichiometry: moles = M × V, then use mole ratios from balanced equations. These three formulas handle virtually all solution problems."},
+          {"type": "transition", "body": "We've covered liquids and solutions. Next: gases — the third state of matter. Gas behavior follows elegant mathematical laws that connect pressure, volume, temperature, and amount. These gas laws launched the industrial revolution and still govern everything from weather to rocket propulsion."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "callout", "style": "key_idea", "body": "Solution stoichiometry example: How many mL of 0.50 M NaOH neutralizes 25 mL of 1.0 M HCl? HCl + NaOH → NaCl + H₂O (1:1 ratio). Moles HCl = 1.0 × 0.025 = 0.025 mol. Need 0.025 mol NaOH. V = mol/M = 0.025/0.50 = 0.050 L = 50 mL. Solutions + stoichiometry = lab-ready calculations."},
+          {"type": "transition", "body": "Solutions behave predictably in liquid phase. Gases have their own set of predictable laws — and they're beautifully mathematical. Gas laws are next."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "callout", "style": "fun_fact", "body": "Chemists have a saying: 'If you can't dissolve it, you can't react it.' Most reactions happen in solution because dissolved molecules move freely and collide frequently. Solid-state reactions are possible but painfully slow. Solutions are where chemistry gets its speed."},
+          {"type": "transition", "body": "From dissolved things to floating things: gas laws. How does a balloon expand when heated? Why does a scuba diver get the bends? Why does bread rise? The mathematical beauty of PV = nRT awaits."}
+        ]}
+      },
+      "questions": []
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 4, "total_questions": 4,
+    "curriculum_concepts_covered": ["solubility", "concentration_molarity", "factors_affecting_dissolution"],
+    "bridges_from": "ionic_bonding + covalent_bonding + mole_concept",
+    "bridges_to": "gas_laws"
+  }
+}

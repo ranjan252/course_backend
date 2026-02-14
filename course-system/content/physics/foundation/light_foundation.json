@@ -1,0 +1,954 @@
+{
+  "course": "Physics",
+  "topic": "6_light_and_optics",
+  "subtopic": "full_topic_extended",
+  "foundation_id": "light_how_you_see_everything",
+  "foundation_title": "Light: How You See Everything — The Electromagnetic Wave That Built Civilization",
+  "foundation_tier": 4,
+  "prerequisites": [
+    "physics.physics_of_you",
+    "physics.newtons_laws_in_your_body",
+    "physics.energy_universes_currency",
+    "physics.sound_physics_of_music"
+  ],
+  "curriculum_concepts_covered": [
+    "electromagnetic_spectrum",
+    "color_and_wavelength",
+    "wave_particle_duality",
+    "law_of_reflection",
+    "mirrors",
+    "refraction",
+    "lenses",
+    "dispersion"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 6 parts. Light is where wave physics becomes personal: every image, every color, every face you've ever seen is light physics delivered to your retina. This foundation bridges from mechanical waves (sound) to electromagnetic waves (light), showing that the same wave principles — frequency, wavelength, interference, reflection, refraction — apply to a fundamentally different kind of wave: one that needs NO medium. The climax is wave-particle duality: light behaves as both wave and particle, which is not a compromise but a genuine mystery at the heart of quantum mechanics.",
+  "total_parts": 6,
+  "extended_treatment": true,
+  "extended_reason": "Light connects to virtually every other physics topic (energy, waves, electricity, magnetism, relativity, quantum mechanics) and to virtually every technology students use (screens, cameras, fiber optics, lasers, solar panels, medical imaging). The misconceptions here — objects have inherent color, light is only visible, mirrors reverse left-right, prisms create color — are ubiquitous and require systematic correction. Wave-particle duality serves as the gateway to quantum thinking.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal, thought_experiment, misconception_alert",
+    "prediction_cycle": "Interactive predict-observe-reconcile cycle",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "light_p1",
+      "part_title": "The Electromagnetic Spectrum — You're Only Seeing 0.0035% of Reality",
+      "purpose": "Reveal visible light as a tiny slice of the electromagnetic spectrum. WiFi, X-rays, microwaves, radio — all the same phenomenon at different frequencies. Destroy the misconception that only visible light exists.",
+      "pedagogical_notes": "Students think 'light' means 'visible light.' The revelation that radio, microwaves, infrared, UV, X-rays, and gamma rays are ALL light — the same fundamental phenomenon at different frequencies — is one of the most mind-expanding moments in physics education. The connection to sound is direct: just as frequency determines pitch for sound, frequency determines 'color' for EM waves (with visible color being a tiny subset).",
+      "curriculum_concepts": [
+        "electromagnetic_spectrum"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light Is Not What You Think It Is",
+              "body": "When you hear 'light,' you think of what your eyes see — sunshine, lamp glow, screen brightness. But visible light is only a minuscule fraction of a vast phenomenon. Light — more precisely, electromagnetic radiation — spans a spectrum from radio waves with wavelengths of kilometers to gamma rays with wavelengths smaller than atomic nuclei. Visible light sits in a tiny band from about 400 to 700 nanometers. Everything else — radio, microwave, infrared, ultraviolet, X-ray, gamma — is the SAME phenomenon. Same physics. Same speed. Different frequency."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The electromagnetic spectrum spans over 20 orders of magnitude in frequency. Your eyes detect ONE octave of it (a factor of ~1.75 in frequency, from 430 THz red to 750 THz violet). That's like having ears that can hear only one octave on a piano that has 70 octaves. WiFi passing through your walls, the warmth from a fireplace, the X-ray of your broken arm, the UV causing your sunburn, the microwave heating your food, the radio signal in your car — these are ALL electromagnetic waves. All traveling at 300,000 km/s. All obeying v = fλ. You are completely surrounded by 'light' you cannot see."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Electromagnetic Wave",
+              "body": "An electromagnetic (EM) wave is a self-propagating oscillation of electric and magnetic fields, traveling at c = 3 × 10⁸ m/s in vacuum. Unlike sound, EM waves need NO medium — they propagate through empty space. This is how sunlight crosses 150 million km of vacuum to reach Earth. The wave is TRANSVERSE: the electric field oscillates perpendicular to the direction of travel, and the magnetic field oscillates perpendicular to both."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "The Full Electromagnetic Spectrum",
+              "items": [
+                {
+                  "label": "Radio Waves",
+                  "icon": "radio",
+                  "body": "Wavelength: meters to kilometers. Frequency: kHz to GHz. Uses: AM/FM radio, television broadcast. Your car antenna picks up EM waves that have been modulated to carry audio information. Radio waves pass through walls easily."
+                },
+                {
+                  "label": "Microwaves",
+                  "icon": "zap",
+                  "body": "Wavelength: mm to cm. Frequency: GHz. Uses: microwave ovens (tuned to excite water molecules at ~2.45 GHz), WiFi (2.4 GHz and 5 GHz), Bluetooth, cell phones, radar. Your WiFi router is a light source — it emits EM radiation. You just can't see it."
+                },
+                {
+                  "label": "Infrared (IR)",
+                  "icon": "flame",
+                  "body": "Wavelength: 700 nm to 1 mm. The 'heat' you feel from a fire is infrared radiation. Your TV remote uses IR. Thermal cameras detect IR emitted by warm objects. Everything above absolute zero emits infrared — including you (your body glows at ~10 μm wavelength)."
+                },
+                {
+                  "label": "Visible Light",
+                  "icon": "eye",
+                  "body": "Wavelength: 400-700 nm. The ONLY part of the EM spectrum your eyes detect. Red (~700 nm) to violet (~400 nm). This narrow band exists because Earth's atmosphere is transparent to these wavelengths, and evolution optimized our eyes for what's available."
+                },
+                {
+                  "label": "Ultraviolet (UV)",
+                  "icon": "sun",
+                  "body": "Wavelength: 10-400 nm. Causes sunburn, vitamin D production, and skin cancer. Most UV from the Sun is blocked by the ozone layer. Black lights emit UV — fluorescent materials absorb UV and re-emit visible light (that's why white shirts glow)."
+                },
+                {
+                  "label": "X-rays",
+                  "icon": "scan",
+                  "body": "Wavelength: 0.01-10 nm. Penetrate soft tissue but absorbed by bone/metal. Medical imaging, airport security, crystal structure analysis. Discovered accidentally by Wilhelm Röntgen in 1895 — he called them 'X' because they were unknown."
+                },
+                {
+                  "label": "Gamma Rays",
+                  "icon": "alert-triangle",
+                  "body": "Wavelength: < 0.01 nm. Highest frequency, highest energy. Produced by nuclear reactions and radioactive decay. Used in cancer treatment (radiotherapy) and sterilization. Cosmic gamma ray bursts are the most energetic events in the universe."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "ALL electromagnetic waves travel at the same speed in vacuum: c = 3 × 10⁸ m/s (about 300,000 km/s). Using v = fλ: higher frequency = shorter wavelength. Lower frequency = longer wavelength. The speed is always c. Radio waves, visible light, and gamma rays all cross space at exactly the same speed — they differ ONLY in frequency. The spectrum is a single, continuous phenomenon. The 'boundaries' between radio, microwave, IR, visible, UV, X-ray, gamma are human labels for convenience. Nature doesn't draw lines."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_light_speed_color",
+              "title": "Prediction Cycle: Does Red Light Travel Slower Than Blue Light?",
+              "predict": {
+                "scenario": "A red light beam (700 nm, lower frequency) and a blue light beam (450 nm, higher frequency) race across a vacuum.",
+                "question": "PREDICT: Which arrives at a target 1 km away first?",
+                "common_prediction": "'Blue light has more energy and higher frequency, so it must travel faster.'"
+              },
+              "observe": {
+                "what_actually_happens": "BOTH arrive at exactly the same time. In vacuum, ALL electromagnetic waves travel at c = 3 × 10⁸ m/s regardless of frequency. Red light: f = 4.3 × 10¹⁴ Hz, λ = 700 nm. Blue light: f = 6.7 × 10¹⁴ Hz, λ = 450 nm. Different frequency and wavelength, but fλ = c for both. Same speed.",
+                "evidence": "When a distant star explodes (supernova), we see all colors arrive simultaneously. If different colors traveled at different speeds, a white flash at the supernova would arrive as a rainbow — red first (or blue first) — spreading out over the travel time. We observe white flashes, confirming all colors travel at the same speed through space."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "Same mistake as the sound version: confusing frequency with speed. In any given medium, ALL EM frequencies travel at the same speed. Higher frequency means shorter wavelength (higher energy per photon), not faster propagation. This is the universal wave principle: speed depends on the medium, not the wave properties.",
+                "correct_model": "In vacuum: all EM waves → c = 3 × 10⁸ m/s. In a medium (glass, water): EM waves slow down, and DIFFERENT frequencies slow by SLIGHTLY different amounts — this is called DISPERSION and is how prisms separate white light into a rainbow. But in vacuum: all colors, all frequencies, same speed. Always."
+              }
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Invisible EM Radiation Around You Right Now",
+              "body": "Your body is currently emitting infrared radiation at about 100 watts — you are a 100W infrared lamp. Your phone is emitting and receiving microwave radiation (cell signal, WiFi, Bluetooth). Radio waves from dozens of stations pass through your body. A thermal camera would see you glowing brightly in the dark — your body's IR emission is as real as visible light, just invisible to your eyes. If you could see all EM frequencies, the world would be blindingly bright with overlapping radio, microwave, IR, visible, and UV radiation from every direction."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Your microwave oven works at 2.45 GHz — the resonant frequency of water molecules. The EM waves cause water molecules to rotate rapidly, converting electromagnetic energy to thermal energy (heat). That's why microwaves heat food (which contains water) but not ceramic plates (which don't). It's resonance — the same principle that shatters wine glasses with sound. Your microwave is doing to water molecules what the opera singer does to the glass: driving them at their natural frequency for maximum energy absorption."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "Evolution shaped your eyes for the exact EM frequencies that the Sun emits most strongly AND that Earth's atmosphere transmits efficiently. The Sun's peak emission is in the visible range. The atmosphere is transparent to visible wavelengths (and radio). If the Sun emitted mostly infrared, evolution would have given us infrared eyes. If we lived near a blue-white star, our visible range would shift toward UV. The 'visible spectrum' isn't special in physics — it's special in biology. It's the window evolution opened because it was the most useful light source available."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "James Clerk Maxwell unified electricity and magnetism in 1865, predicting electromagnetic waves mathematically. He calculated their speed from electrical and magnetic constants alone and got 3 × 10⁸ m/s — exactly the measured speed of light. His reaction (paraphrased): 'This velocity is so close to the speed of light that it seems we can hardly avoid the conclusion that light itself is an electromagnetic disturbance.' He didn't discover light was electromagnetic from an experiment — he derived it from pure mathematics. The equations TOLD him light was an EM wave before anyone proved it. Maxwell's equations are considered by many physicists to be the most beautiful and consequential equations in all of physics."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Some animals see beyond the human visible spectrum. Bees see ultraviolet — many flowers have UV patterns invisible to us that guide bees to nectar (like runway lights at an airport). Pit vipers see infrared with heat-sensing pits, detecting warm-blooded prey in total darkness. Mantis shrimp have 16 types of color receptors (humans have 3) and can see UV and polarized light. A mantis shrimp's visual experience of a sunset would be incomprehensibly richer than yours — they see EM frequencies you literally cannot imagine, because your brain has no hardware to process them."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "A common misconception: 'radio waves are sound waves.' They're not. Radio waves are electromagnetic — they travel at the speed of light through vacuum. Sound waves are mechanical pressure waves traveling at 343 m/s through air. Your car radio receives EM waves (at the speed of light) and converts them into sound waves (at the speed of sound) through the speakers. The radio wave carrying the signal and the sound wave entering your ear are fundamentally different phenomena. One is oscillating electromagnetic fields; the other is oscillating air pressure."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "WiFi, visible light, and X-rays are all what?",
+          "options": {
+            "A": "Different phenomena that happen to be similar",
+            "B": "ALL electromagnetic waves — the same fundamental phenomenon at different frequencies. They all travel at c = 3 × 10⁸ m/s in vacuum. WiFi: ~5 GHz. Visible: ~5 × 10¹⁴ Hz. X-rays: ~10¹⁸ Hz. Same physics, different frequency.",
+            "C": "Sound waves at different pitches",
+            "D": "Only visible light is truly electromagnetic"
+          },
+          "correct_answer": "B",
+          "explanation": "The entire EM spectrum is one phenomenon. Radio, microwave, IR, visible, UV, X-ray, gamma — all are oscillating electric and magnetic fields traveling at c. They differ only in frequency/wavelength.",
+          "tests_concept": "electromagnetic_spectrum",
+          "detects_misconception": "Only visible light is electromagnetic / radio waves are sound"
+        },
+        {
+          "question": "Do red and blue light travel at different speeds in vacuum?",
+          "options": {
+            "A": "Yes — blue is faster because it has more energy",
+            "B": "NO — in vacuum, ALL EM frequencies travel at exactly c = 3 × 10⁸ m/s. Red has lower frequency and longer wavelength. Blue has higher frequency and shorter wavelength. But f × λ = c for both.",
+            "C": "Red is faster because it has longer wavelength",
+            "D": "It depends on the light source"
+          },
+          "correct_answer": "B",
+          "explanation": "Same principle as sound: wave speed depends on the medium, not frequency. In vacuum, all EM waves travel at c. A distant supernova's white flash arrives as white — not as a rainbow — confirming all colors travel together.",
+          "tests_concept": "electromagnetic_spectrum",
+          "detects_misconception": "Different colors of light travel at different speeds"
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "part_id": "light_p2",
+      "part_title": "Color — The Illusion Your Brain Builds From Wavelengths",
+      "purpose": "Color is not in objects — it's in the light they reflect and how your brain interprets it. Absorption/reflection model of color. RGB screens. Why the sky is blue and sunsets are red.",
+      "curriculum_concepts": [
+        "color_and_wavelength"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "misconception_alert",
+              "title": "PREDICTION — Answer Before Reading",
+              "body": "Question: An apple sits on a table. Is the apple red? (a) Yes — the apple IS red. That's its color. (b) The apple reflects red wavelengths and absorbs all others. 'Red' is the light reaching your eyes, not a property of the apple itself. Write down your answer."
+            },
+            {
+              "type": "section",
+              "title": "Objects Don't HAVE Color. They REFLECT It.",
+              "body": "A 'red' apple absorbs every wavelength of visible light EXCEPT red (~700 nm). The red light bounces off the apple's surface and enters your eye. Your cone cells detect the ~700 nm wavelength, and your brain constructs the sensation of 'red.' The apple isn't red — it's everything-except-red. The red is in the reflected light, not in the object. Under green light (no red wavelengths available), the same apple appears nearly black — because there's no red light to reflect."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "How We See Color",
+              "body": "White light (sunlight) contains ALL visible wavelengths mixed together. When white light hits an object, the object's molecular structure ABSORBS certain wavelengths and REFLECTS others. The reflected wavelengths enter your eye, where three types of cone cells (sensitive to red, green, or blue ranges) respond. Your brain combines the three cone signals to construct the experience of color. Color is a PERCEPTION created by your brain, not a physical property of the object."
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_color_filter",
+              "title": "Prediction Cycle: Color Under Colored Light",
+              "predict": {
+                "scenario": "A white piece of paper and a red apple are in a room. You turn off all lights and turn on a pure GREEN light (only 550 nm wavelengths).",
+                "question": "PREDICT: What color does the white paper appear? What color does the red apple appear?",
+                "common_prediction": "'The paper looks green and the apple looks red, because the apple IS red.'"
+              },
+              "observe": {
+                "what_actually_happens": "White paper: reflects all wavelengths → under green light, it reflects green → appears GREEN. Red apple: reflects only red wavelengths, absorbs green → under green light, there's no red to reflect, and it absorbs the green → appears nearly BLACK. The apple's 'redness' disappears entirely because 'red' was never in the apple — it was in the light the apple could reflect.",
+                "evidence": "In photography, color gels over lights demonstrate this dramatically. A red car in pure blue stage lighting looks nearly black. A blue dress in pure red light looks black. Forensic investigators use different colored lights to reveal evidence — blood appears dark under certain wavelengths, invisible stains fluoresce under UV. Color is always a product of light source + surface absorption + eye response."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "The idea that objects 'have' color is deeply intuitive but physically wrong. Objects have ABSORPTION SPECTRA — they absorb certain wavelengths and reflect others. What you see depends on what wavelengths are AVAILABLE (the light source) and what the object REFLECTS. Change the available light, and the 'color' of the object changes completely.",
+                "correct_model": "Perceived color = available wavelengths (light source) × object's reflectance spectrum (which wavelengths bounce off) × your eye's response (3 cone types). Change any of these three factors, and the perceived color changes. 'The apple is red' is shorthand for 'under white light, the apple reflects predominantly 700 nm wavelengths, which my brain interprets as red.'"
+              }
+            },
+            {
+              "type": "section",
+              "title": "Your Screen — Building Every Color From Three",
+              "body": "Your phone screen uses only THREE wavelengths — red, green, and blue (RGB) — to create every color you see. Each pixel contains a red, green, and blue sub-pixel whose brightness can be independently controlled. Yellow on screen? Red + Green sub-pixels at full brightness, blue off. Cyan? Green + Blue. White? All three at full brightness. Black? All three off. Your screen never emits yellow light — your brain CREATES the experience of yellow when red and green receptors are stimulated simultaneously. Color is a neural construction, not a physical reality."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "There is no 'pink' wavelength. Look at the EM spectrum: it goes from red (700 nm) through orange, yellow, green, blue, to violet (400 nm). Pink/magenta doesn't appear anywhere — there's no single wavelength that looks pink. Pink is what your brain invents when it receives red AND blue but NOT green. It's a non-spectral color — a perception that exists ONLY in your brain, with no corresponding single wavelength in physics. Pink is a neurological construct, not a physical reality. So is brown, which is essentially dark orange that your brain relabels based on context and brightness."
+            },
+            {
+              "type": "section",
+              "title": "Why the Sky Is Blue and Sunsets Are Red",
+              "body": "Sunlight enters the atmosphere as white light (all wavelengths). Air molecules scatter short wavelengths (blue/violet) much more than long wavelengths (red/orange) — this is Rayleigh scattering, proportional to 1/λ⁴. Blue light scatters in all directions, filling the sky with blue light from every angle. At sunset, sunlight travels through much more atmosphere (longer path at low angle). By the time it reaches you, nearly all the blue has been scattered away — only the long-wavelength reds and oranges survive the journey straight to your eyes. Same sunlight. Same atmosphere. Different path length. Different colors reach you."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Eyes — RGB Receivers With a Brain-Powered Color Engine",
+              "body": "Your retina has ~6 million cone cells in three types: S-cones (short wavelength, peak ~420 nm, 'blue'), M-cones (medium, peak ~530 nm, 'green'), and L-cones (long, peak ~560 nm, 'red'). Each type responds to a RANGE of wavelengths, not a single color. Your brain takes the three cone signals and constructs a color experience by comparing their relative responses. You don't detect color — your brain COMPUTES color from three broad, overlapping sensor channels. This is why RGB screens work: they stimulate the same three channels as real colors would."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "About 8% of males and 0.5% of females have color vision deficiency (often called 'color blindness'). The most common form: one cone type responds to slightly shifted wavelengths, reducing the ability to distinguish red from green. These individuals aren't missing colors — their brain still constructs color experiences, just from a differently-tuned sensor set. Some women (tetrachromats) have FOUR cone types and may perceive colors that normal trichromats cannot distinguish. Color experience is deeply personal — your 'red' and my 'red' may be genuinely different neural experiences, and we'd never know."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "If the Sun emitted only green light (monochromatic), the entire world would appear in shades of green and black. Green objects would appear bright green. All other colors would appear black (nothing to reflect). Shadows would be pure black. There would be no rainbows, no sunsets, no color variety at all. The rich color world you experience exists ONLY because the Sun emits a broad spectrum of wavelengths. Color diversity is a gift of the Sun's white-light emission plus the molecular variety of materials on Earth."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Black is NOT a color of light — it's the ABSENCE of light. When an object absorbs ALL visible wavelengths and reflects nothing, your eye receives no light, and your brain interprets this as 'black.' A truly black object is one that absorbs everything. Vantablack (developed in 2014) absorbs 99.965% of visible light — it looks like a hole in reality. Objects coated in it lose all visible shape and texture, appearing as flat, depthless voids. White is the opposite: all wavelengths reflected equally. Black and white aren't colors — they're 'all' and 'none.'"
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The sky on Mars is butterscotch/pinkish-red by day and blue at sunset — the OPPOSITE of Earth. Why? Mars's atmosphere is thin and filled with fine iron-oxide dust particles. These particles scatter RED light more than blue (opposite of Rayleigh scattering, which favors short wavelengths with small molecules). So Mars's daytime sky glows reddish, and at sunset, the blue light that wasn't scattered during the day now becomes visible as a blue glow around the Sun. Same physics — different particle sizes — opposite colors. The color of a sky tells you about the atmosphere's composition."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Flamingos are born white/gray. They turn pink because they eat shrimp and algae containing carotenoid pigments, which are deposited in their feathers. A flamingo in a zoo that doesn't eat carotenoids turns white. The 'pinkness' of a flamingo is literally eaten — it's a dietary pigment that changes which wavelengths the feathers reflect. If a flamingo ate only blue-pigmented food, it would turn blue. A flamingo's color is its diet made visible through selective reflection physics."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A red apple is placed under pure green light. What color does it appear?",
+          "options": {
+            "A": "Red — the apple is inherently red",
+            "B": "Nearly BLACK — the apple only reflects red wavelengths. Under green light (no red available), there's nothing for the apple to reflect. It absorbs the green and appears dark.",
+            "C": "Yellow — red and green make yellow",
+            "D": "Green — it reflects whatever light hits it"
+          },
+          "correct_answer": "B",
+          "explanation": "Objects don't 'have' color. They reflect certain wavelengths. Under green light, a 'red' apple has no red wavelengths to reflect and absorbs the green → appears nearly black. Color = light source × reflectance × eye response.",
+          "tests_concept": "color_and_wavelength",
+          "detects_misconception": "Objects have inherent color independent of illumination"
+        },
+        {
+          "question": "Why is the sky blue?",
+          "options": {
+            "A": "The atmosphere is made of blue gas",
+            "B": "Rayleigh scattering: air molecules scatter short wavelengths (blue/violet) much more than long wavelengths (red). Blue light is scattered in all directions across the sky, reaching your eyes from every angle. The Sun's direct light loses its blue, which is why sunlight at sunrise/sunset appears red — only long wavelengths survive the longer atmospheric path.",
+            "C": "The sky reflects the blue ocean",
+            "D": "Ozone gives the sky its blue color"
+          },
+          "correct_answer": "B",
+          "explanation": "Rayleigh scattering (∝ 1/λ⁴): blue light scatters ~10× more than red per molecule. Scattered blue fills the sky from all directions. At sunset, longer path → more blue removed → red/orange survive to your eyes directly.",
+          "tests_concept": "color_and_wavelength",
+          "detects_misconception": "Sky color is caused by reflection or atmospheric composition"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "light_p3",
+      "part_title": "Reflection — Bouncing Light and the Mirror That Lies to You",
+      "purpose": "Law of reflection. Specular vs diffuse. Flat mirrors, curved mirrors. How you see yourself (and why mirrors don't reverse left-right).",
+      "curriculum_concepts": [
+        "law_of_reflection",
+        "mirrors"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Everything You See Is Reflected Light",
+              "body": "You see objects because light bounces off them and enters your eyes. The Moon shines because it reflects sunlight. You see this text because light from your screen (or reflected off paper) enters your eyes. The only things that generate their own light are light SOURCES (the Sun, light bulbs, screens, fire). Everything else is visible because of reflection. Understanding reflection means understanding how you see."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Law of Reflection",
+              "body": "When light hits a surface, the angle of incidence (incoming ray measured from the NORMAL — the line perpendicular to the surface) equals the angle of reflection (outgoing ray measured from the normal). θᵢ = θᵣ. Always. This law governs every reflection: mirrors, pools of water, polished metal, even the reflection in someone's eyes."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Specular Reflection — Smooth Surfaces",
+                  "body": "On a smooth surface (mirror, still water, polished metal), parallel incoming rays reflect as parallel outgoing rays. The reflected light maintains its organized pattern → you see a clear image. This is why you see yourself in a mirror, a still lake, or a polished car hood.",
+                  "examples": "Mirrors, calm water, polished metal, glass, wet roads at night"
+                },
+                {
+                  "label": "Diffuse Reflection — Rough Surfaces",
+                  "body": "On a rough surface (paper, concrete, skin, wood), parallel incoming rays reflect in scattered directions because the surface normals point in random directions at the microscopic level. No organized image forms → you see the object but not a reflection. This is how you see most things in the world.",
+                  "examples": "Paper, walls, clothing, skin, unpolished wood, matte paint"
+                }
+              ]
+            },
+            {
+              "type": "prediction_cycle",
+              "cycle_id": "poc_mirror_lr",
+              "title": "Prediction Cycle: Do Mirrors Reverse Left and Right?",
+              "predict": {
+                "scenario": "You stand in front of a flat mirror. You raise your right hand. Your reflection raises its left hand.",
+                "question": "PREDICT: Does the mirror reverse left and right?",
+                "common_prediction": "'Yes — obviously. The mirror flips left and right. That's why text looks backward in a mirror.'"
+              },
+              "observe": {
+                "what_actually_happens": "The mirror does NOT reverse left and right. It reverses FRONT AND BACK. The mirror takes everything on your front surface and maps it to the reflection's front surface — which is now facing you. Your reflection's 'left hand' is actually a front-back reversed version of your right hand. Imagine pressing your face against a glass window — someone on the other side sees your right hand on THEIR left, not because left-right is flipped, but because you're facing opposite directions. The mirror creates a front-back reversal that your brain misinterprets as left-right reversal because you imagine walking around to face yourself.",
+                "evidence": "The mirror doesn't reverse up and down — your head is still on top, feet on bottom. If it were truly reversing one axis, why left-right but not up-down? Because it reverses NEITHER horizontal axis. It reverses the DEPTH axis (front-back). Your right hand is still on the East side of the mirror and the reflection's corresponding hand is also on the East side. No left-right reversal occurred."
+              },
+              "reconcile": {
+                "why_your_prediction_failed": "Your brain interprets the reflection as 'another person facing you.' If another person stood facing you, their right hand would be on YOUR left. But the mirror image isn't a rotated person — it's a front-back inverted person. The confusion arises because we instinctively model the reflection as 'me, turned around' rather than 'me, inverted in depth.'",
+                "correct_model": "Flat mirror: reverses the DEPTH axis (front ↔ back). Does NOT reverse left-right or up-down. Every point on the mirror image is at the same height and same lateral position as the real object — just at an equal distance BEHIND the mirror surface."
+              }
+            },
+            {
+              "type": "section",
+              "title": "Curved Mirrors — Focusing and Spreading Light",
+              "body": "Concave mirrors (curved inward, like a bowl) converge light to a focal point. This creates magnified images for close objects (makeup mirrors, shaving mirrors) and focused energy (satellite dishes, solar furnaces). Convex mirrors (curved outward, like a ball) diverge light, creating smaller but WIDER-field images. This is why your car's passenger mirror says 'Objects in mirror are closer than they appear' — the convex mirror compresses a wide field of view into a small mirror, making everything appear smaller (farther) than it is."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Reflection Physics You Use Daily",
+              "body": "The rearview mirror in your car: flat mirror, giving you an accurate (same-size) image of what's behind you. The side mirrors: usually convex, giving a wider field of view but making cars appear farther away (hence the warning text). A spoon: the concave inner surface shows an upside-down, magnified image of your face; the convex outer surface shows a right-side-up, shrunken image. A spoon contains both types of curved mirror physics."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Retroreflectors are special reflectors that bounce light straight back toward the source, regardless of angle. Bicycle reflectors, road signs, and road markings use retroreflectors — your car headlights hit them and the light bounces back to YOUR eyes, making them glow brightly. The Apollo astronauts left retroreflector arrays on the Moon. Scientists on Earth fire lasers at them and time the reflection — this measures the Earth-Moon distance to within a few centimeters. We know the Moon drifts 3.8 cm farther from Earth each year, measured by reflection physics left on the lunar surface."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "If every surface in a room were a perfect mirror (100% specular reflection), what would you see? Every surface would reflect every other surface, which would reflect every other surface, creating infinite reflections in every direction. Any light source would bounce endlessly, building up to blinding intensity. You couldn't distinguish walls from space — the room would appear infinite. You'd see your own reflection from every angle. This is why mirror mazes are disorienting — they create a small version of this infinite-reflection effect."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "The world's largest solar furnace (Odeillo, France) uses 10,000 concave mirrors to focus sunlight to a single point, reaching temperatures of 3,500°C — hot enough to melt steel. All from reflected, focused sunlight. No fuel. No electricity. Just reflection concentrating the Sun's energy. The same principle that lets you see yourself in the morning can melt metal by afternoon. Reflection is gentle at low concentration and devastating at high concentration."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Wet roads are shiny at night because water fills the rough surface texture of asphalt, creating a smooth (specular) surface. Dry asphalt is rough → diffuse reflection → you see the road's color. Wet asphalt is smooth → specular reflection → headlights reflect like a mirror, creating glare. This is why wet roads at night are dangerous — the specular reflection sends light directly into oncoming drivers' eyes instead of scattering it safely in all directions. The physics of surface roughness determines whether driving at night is routine or blinding."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A flat mirror appears to reverse left and right. What does it actually reverse?",
+          "options": {
+            "A": "Left and right, as it appears",
+            "B": "FRONT AND BACK (the depth axis). Your right hand stays on the same side as the reflection's corresponding hand. The mirror reverses the axis perpendicular to its surface, not horizontal. We misinterpret this as left-right reversal because we imagine rotating ourselves to face the reflection.",
+            "C": "Up and down",
+            "D": "It reverses all three dimensions"
+          },
+          "correct_answer": "B",
+          "explanation": "Flat mirrors reverse front-to-back, not left-to-right. The confusion arises from imagining the mirror image as a rotated person. It's not — it's a depth-inverted person.",
+          "tests_concept": "mirrors",
+          "detects_misconception": "Mirrors reverse left and right"
+        },
+        {
+          "question": "Why does a car's passenger side mirror say 'Objects in mirror are closer than they appear'?",
+          "options": {
+            "A": "Manufacturing defect makes images too small",
+            "B": "The mirror is CONVEX (curved outward), which diverges light to show a wider field of view. The trade-off: images are demagnified (appear smaller/farther). This wider view improves safety by reducing blind spots, but drivers must learn that objects are closer than the image suggests.",
+            "C": "The mirror is farther from the driver",
+            "D": "The glass is thicker than normal"
+          },
+          "correct_answer": "B",
+          "explanation": "Convex mirror: diverges light → wider field of view → smaller images → objects appear farther than they are. The warning compensates for the demagnification.",
+          "tests_concept": "mirrors",
+          "detects_misconception": "Mirror warning is arbitrary rather than physics-based"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "light_p4",
+      "part_title": "Refraction, Lenses, and Rainbows — When Light Bends, Reality Distorts",
+      "purpose": "Light bends when changing media. Snell's law conceptually. Total internal reflection (fiber optics, diamonds). Lenses as refraction tools. Dispersion → rainbows. Your eye as a lens system.",
+      "curriculum_concepts": [
+        "refraction",
+        "lenses",
+        "dispersion"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light Bends When It Changes Speed",
+              "body": "In vacuum, light travels at c = 3 × 10⁸ m/s. In glass, it slows to about 2 × 10⁸ m/s. In water, about 2.25 × 10⁸ m/s. In diamond, about 1.24 × 10⁸ m/s. When light crosses from one medium to another and changes speed, it BENDS. This bending is called refraction. It explains why pools look shallower than they are, why straws appear broken at the water surface, why diamonds sparkle, and why your eyes can focus images."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Refraction",
+              "body": "When light passes from one medium to another at an angle, it changes speed and bends. Light slows down in denser media → bends TOWARD the normal (perpendicular to the surface). Light speeds up in less dense media → bends AWAY from the normal. Snell's Law: n₁ sin θ₁ = n₂ sin θ₂, where n is the refractive index (ratio of c to the speed of light in the material). Higher n = slower light = more bending."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Total Internal Reflection — Trapping Light",
+              "body": "When light travels from a dense medium (glass) to a less dense medium (air) at a steep angle, it can bend so far that it reflects BACK into the dense medium instead of passing through. This is total internal reflection (TIR). Above a certain 'critical angle,' 100% of the light reflects — no refraction at all. This is how fiber optic cables work: light enters a glass fiber and bounces along inside it for kilometers because every time it hits the edge at a steep angle, TIR bounces it back in. Your entire internet connection is light trapped inside glass threads thinner than a human hair, bouncing billions of times per second."
+            },
+            {
+              "type": "section",
+              "title": "Lenses — Refraction as a Tool",
+              "body": "A lens is a piece of transparent material (usually glass or plastic) shaped to refract light in a useful way. Converging (convex) lenses are thicker in the middle — they bend light inward to a focal point. Diverging (concave) lenses are thinner in the middle — they spread light outward. Your EYE contains a converging lens that focuses light onto your retina, forming an inverted image that your brain flips right-side-up."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Lenses in Your Life",
+              "items": [
+                {
+                  "label": "Your Eye",
+                  "icon": "eye",
+                  "body": "Cornea + crystalline lens = converging system. Focuses images onto the retina. Muscles change the lens shape to focus at different distances (accommodation). This is the most sophisticated autofocus system in nature."
+                },
+                {
+                  "label": "Glasses/Contacts",
+                  "icon": "glasses",
+                  "body": "Nearsighted (myopic): eyeball too long, image focuses BEFORE retina → diverging lens corrects by spreading light before it enters the eye. Farsighted (hyperopic): eyeball too short, image focuses BEHIND retina → converging lens corrects by pre-converging light."
+                },
+                {
+                  "label": "Camera",
+                  "icon": "camera",
+                  "body": "A camera lens focuses light onto a sensor (digital) or film (analog), creating a real, inverted image — exactly like your eye. Zoom lenses adjust focal length by moving lens elements. Aperture controls light amount (like your pupil). Photography is applied optics."
+                },
+                {
+                  "label": "Microscope/Telescope",
+                  "icon": "search",
+                  "body": "Multiple lenses in series: objective lens creates a magnified real image → eyepiece lens magnifies it further. Telescopes collect light from faint/distant objects. Microscopes reveal tiny objects. Both are compound lens systems using refraction."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Dispersion — Prisms and Rainbows",
+              "body": "Different wavelengths of light slow down by slightly different amounts in glass or water. Blue light slows more than red (higher refractive index). This means blue light BENDS more than red when entering a prism. White light enters → different colors bend at different angles → colors separate into a spectrum. A prism doesn't CREATE colors — it REVEALS the colors already hidden in white light."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Every rainbow is a personal optical illusion. Each raindrop refracts, reflects internally, and refracts again — splitting sunlight into its spectrum. But the geometry means each COLOR reaches your eye from a different set of raindrops at a specific angle (red at ~42°, violet at ~40° from the anti-solar point). A person standing next to you sees a rainbow made of DIFFERENT raindrops at the same angles from THEIR perspective. No two people ever see the same rainbow. You can never reach a rainbow because it's defined by the angle between you, the Sun, and the raindrops — as you move, the angle relationship moves with you. A rainbow is literally in the eye of the beholder."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Pools Look Shallower Than They Are",
+              "body": "When light from the bottom of a pool travels upward from water to air, it speeds up and bends AWAY from the normal. Your brain traces the light rays back in straight lines (it doesn't account for bending), so it places the bottom of the pool at a shallower position than it actually is. A pool that's 2 meters deep looks about 1.5 meters deep. This is why you should never judge water depth by looking — refraction systematically makes water appear shallower."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "If you wear glasses, you're using refraction correction every waking moment. Nearsighted: your relaxed eye's focal point falls short of the retina (eyeball too long or lens too strong). The diverging lens in your glasses makes the light slightly diverge before entering your eye, effectively moving the focal point back onto the retina. Without glasses, distant objects are blurry because their image focuses in front of your retina and then defocuses by the time it hits. Every clear image you see through glasses is a refraction physics calculation, executed by lens curvature ground to YOUR specific prescription."
+            },
+            {
+              "type": "callout",
+              "style": "thought_experiment",
+              "body": "A diamond's brilliance comes from extreme refraction. Diamond has a refractive index of 2.42 (very high — light slows to 124,000 km/s, less than half its vacuum speed). This means: (1) light bends dramatically on entering, (2) the critical angle for total internal reflection is only 24.4° (very small), so light bounces around INSIDE the diamond many times before escaping, and (3) dispersion is high, splitting white light into vivid spectral colors. A diamond's 'fire' (colored sparkles) is dispersion. Its 'brilliance' (white sparkles) is total internal reflection. A diamond is a miniature optical laboratory."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Pink Floyd's 'Dark Side of the Moon' album cover — a prism splitting white light into a rainbow — is the most famous physics diagram in music history. It's also scientifically accurate: white light (all wavelengths) enters one face of a triangular prism, dispersion separates the wavelengths by refraction, and they exit as a spread spectrum from red to violet. The album cover is a correct optical physics demonstration. Storm Thorgerson, who designed it, based it on a physics textbook image. Rock and roll's most iconic image is a refraction experiment."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Fiber optic cables carry 99% of international internet data. A single fiber-optic strand, thinner than a human hair, can transmit tens of terabits per second using pulses of laser light bouncing along inside via total internal reflection. Undersea cables containing hundreds of fibers connect continents — over 1.3 million kilometers of fiber on the ocean floor. When you video-call someone on another continent, your voice is converted to light pulses that cross the ocean inside glass threads, bouncing billions of times via TIR, arriving in milliseconds. Your conversation is trapped light in glass, crossing ocean floors at the speed of light."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Find three examples of refraction in your daily life (hint: look for things that appear bent, shifted, or distorted near boundaries between media — water glasses, aquariums, car windshields when wet, eyeglasses). Photograph or describe each one and explain which medium transition causes the bending. Most creative example wins the Refraction Spotter Award!",
+              "placeholder_type": "refraction_hunt"
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A straw appears to bend at the water surface. Why?",
+          "options": {
+            "A": "Water pressure bends the straw",
+            "B": "REFRACTION — light from the submerged part of the straw changes speed at the water-air boundary and bends. Your brain traces the light rays back in straight lines, placing the underwater portion at a different apparent position. The straw is straight; the LIGHT PATH is bent.",
+            "C": "Your eyes are playing tricks on you",
+            "D": "The water magnifies the bottom of the straw"
+          },
+          "correct_answer": "B",
+          "explanation": "Refraction: light changes speed at the water-air boundary and bends. Your brain interprets light as traveling in straight lines, so the submerged portion appears displaced. The straw is straight; the light path isn't.",
+          "tests_concept": "refraction",
+          "detects_misconception": "The straw is actually bending / it's just an illusion with no physical cause"
+        },
+        {
+          "question": "Does a prism CREATE colors from white light?",
+          "options": {
+            "A": "Yes — the prism generates the colors",
+            "B": "NO — white light already CONTAINS all visible wavelengths. The prism separates them via DISPERSION: different wavelengths slow by different amounts in glass, bending at different angles. Blue slows more → bends more. Red slows less → bends less. The colors were always there; the prism reveals them.",
+            "C": "The prism filters out everything except the rainbow",
+            "D": "Chemical reactions in the glass create colors"
+          },
+          "correct_answer": "B",
+          "explanation": "Dispersion: different wavelengths have different refractive indices in glass. Blue bends more than red. White light separates into its component wavelengths. Newton proved this by recombining the spectrum back into white light with a second prism.",
+          "tests_concept": "dispersion",
+          "detects_misconception": "Prisms create colors rather than separating existing ones"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "light_p5",
+      "part_title": "Wave-Particle Duality — Light's Deepest Secret",
+      "purpose": "Introduce wave-particle duality. The photoelectric effect (particle). The double-slit experiment (wave). Light as both — and the philosophical implications. Gateway to quantum mechanics.",
+      "curriculum_concepts": [
+        "wave_particle_duality"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light Behaves Like a Wave. Light Also Behaves Like a Particle. Both Are True.",
+              "body": "Throughout this foundation, we've treated light as a wave — it reflects, refracts, diffracts, interferes, has wavelength and frequency. All confirmed. But there's a problem: certain experiments reveal that light also behaves as a PARTICLE — a discrete packet of energy called a PHOTON. Light isn't a wave OR a particle. It's something that exhibits wave behavior in some experiments and particle behavior in others. This is wave-particle duality, and it's one of the deepest mysteries in all of physics."
+            },
+            {
+              "type": "section",
+              "title": "Evidence for Light as a Wave",
+              "body": "The double-slit experiment: shine light through two narrow slits onto a screen. You see an interference pattern — bright and dark bands caused by constructive and destructive interference. Only WAVES produce interference patterns. Particles would make two bright spots. This experiment (first performed by Thomas Young in 1801) definitively proved light is a wave."
+            },
+            {
+              "type": "section",
+              "title": "Evidence for Light as a Particle",
+              "body": "The photoelectric effect: shine light on certain metals and electrons are ejected. The puzzle: making the light BRIGHTER (more amplitude) doesn't increase the electrons' energy — it only ejects more electrons. But increasing the FREQUENCY (even dim blue light) increases each electron's energy. Below a threshold frequency, NO electrons are ejected no matter how bright the light. This makes no sense for waves (more amplitude = more energy should eject more energetic electrons). Einstein explained it in 1905: light comes in discrete packets (photons). Each photon carries energy E = hf (Planck's constant × frequency). One photon hits one electron. Higher frequency = higher energy per photon = more energetic electron. Below the threshold, individual photons don't have enough energy to free an electron, regardless of how many there are."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Photon",
+              "body": "A photon is a quantum (discrete packet) of electromagnetic energy. Energy: E = hf, where h = 6.63 × 10⁻³⁴ J·s (Planck's constant) and f is the frequency. Higher frequency → higher energy per photon. Photons are massless — they have no rest mass, yet they carry energy and momentum. Every light source emits photons: a 60W bulb emits roughly 10²⁰ photons per second. Your eye can detect as few as 5-7 photons in complete darkness."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The truly disturbing version of the double-slit experiment: send photons through one at a time — so slowly that only ONE photon is in the apparatus at any moment. Each single photon hits the screen at a definite point (particle behavior). But over thousands of single photons, the dots accumulate into the SAME interference pattern as if a wave had passed through both slits simultaneously. Each individual photon somehow 'knows' about both slits. A single particle, passing through one slit, produces a pattern that requires wave interference through BOTH slits. This experiment has been called 'the most beautiful experiment in physics.' It has no satisfying classical explanation."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Wave-particle duality is not a compromise or a failure of understanding. It's a fundamental feature of reality at the quantum level. Light (and all quantum objects — electrons, atoms, etc.) exhibits wave-like properties (interference, diffraction) and particle-like properties (discrete absorption/emission, localized detection). Which property you observe depends on how you observe it. The act of measurement affects what you see. This is not a limitation of our instruments — it appears to be a fundamental aspect of nature."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Photons Power Your Technology",
+              "body": "Solar panels work because of photon physics: each photon with sufficient energy (E = hf ≥ band gap energy) knocks an electron loose in silicon, generating electric current. Low-frequency photons (infrared) don't have enough energy per photon — no matter how many hit the panel. This is why solar panel efficiency depends on the FREQUENCY spectrum of sunlight, not just total brightness. Digital cameras: each photon hitting a sensor pixel deposits its energy (E = hf), building up the image photon by photon. In low light, you literally see the graininess of individual photon arrivals — 'noise' in a dark photo is the randomness of photon detection."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Every time you see, you're detecting photons. Your rod cells (sensitive in dim light) can detect single photons — one quantum of light triggers a molecular cascade that sends an electrical signal to your brain. The minimum threshold for conscious light perception is about 5-7 photons arriving at the retina within a short time window. In a dark room, your eyes are operating at the quantum limit — detecting individual particles of light. You are a quantum detector. You have been your entire life."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Wave-particle duality raises profound questions about the nature of reality. When we don't observe a photon, it seems to behave as a wave (interfering with itself through both slits). When we observe it, it behaves as a particle (detected at a specific point). Does observation CAUSE the particle-like behavior? Does the photon EXIST in a definite state before measurement? These questions led to quantum mechanics — the most successful and most counterintuitive theory in all of science. The nature of light opened the door to a reality stranger than any science fiction."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Einstein won the Nobel Prize in 1921 not for relativity (too controversial at the time) but for explaining the photoelectric effect — proving light comes in discrete quanta (photons). The irony: Einstein spent the rest of his life uncomfortable with the full implications of quantum mechanics (which his photon work helped create). He famously said 'God does not play dice' to express his unease with quantum randomness. Niels Bohr reportedly replied: 'Stop telling God what to do.' The father of the photon never fully accepted what his own discovery implied about reality."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Richard Feynman said: 'If you think you understand quantum mechanics, you don't understand quantum mechanics.' The double-slit experiment with single photons has been reproduced thousands of times with perfect consistency. No one has a fully satisfying explanation for HOW a single photon interferes with itself. The mathematics (quantum mechanics) perfectly predicts every result. The interpretation of what's 'actually happening' remains debated 100+ years later. This is genuine frontier physics — not a gap in education, but a gap in human understanding of reality itself."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The double-slit experiment has been done with increasingly large objects: electrons, atoms, molecules of 60 carbon atoms (buckyballs), and even molecules of over 800 atoms. All show interference patterns. This means wave-particle duality isn't just a property of light — it's a property of EVERYTHING. You have a de Broglie wavelength: λ = h/mv. For a 70 kg human walking at 1 m/s: λ ≈ 10⁻³⁵ meters — so incredibly tiny that wave effects are utterly undetectable. But in principle, you are a wave. You just never notice."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In the photoelectric effect, what determines the energy of ejected electrons?",
+          "options": {
+            "A": "The brightness (amplitude) of the light",
+            "B": "The FREQUENCY of the light — each photon carries energy E = hf. Higher frequency = more energy per photon = more energetic electrons. Brightness (number of photons) determines HOW MANY electrons are ejected, not their individual energy. Below a threshold frequency, no electrons are ejected regardless of brightness.",
+            "C": "The size of the metal surface",
+            "D": "The distance from the light source"
+          },
+          "correct_answer": "B",
+          "explanation": "Photon energy = hf. One photon ejects one electron. Frequency determines energy per photon → energy per electron. Brightness = number of photons → number of electrons. This proved light's particle nature: energy comes in discrete packets tied to frequency.",
+          "tests_concept": "wave_particle_duality",
+          "detects_misconception": "Brighter light means more energetic (confusing wave amplitude with photon energy)"
+        },
+        {
+          "question": "Single photons are sent through a double slit one at a time. What pattern forms on the screen over many photons?",
+          "options": {
+            "A": "Two bright spots (one behind each slit)",
+            "B": "An INTERFERENCE PATTERN — the same pattern as if a wave passed through both slits. Each individual photon lands at a single point (particle), but over thousands, they build up the wave interference pattern. Each photon somehow 'knows' about both slits.",
+            "C": "A random scatter with no pattern",
+            "D": "A single bright spot in the center"
+          },
+          "correct_answer": "B",
+          "explanation": "This is wave-particle duality: individual photons are detected as particles (single dots), but the statistical pattern of many photons reveals wave interference. No classical explanation accounts for a single particle interfering with itself. This is quantum mechanics.",
+          "tests_concept": "wave_particle_duality",
+          "detects_misconception": "Light is purely a wave or purely a particle"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "light_p6",
+      "part_title": "Light Unified — From Photon to Perception",
+      "purpose": "Synthesize all light concepts. Connect EM spectrum → color → reflection → refraction → wave-particle duality. Show light as the thread connecting classical and quantum physics. Misconception checkpoint.",
+      "curriculum_concepts": [
+        "electromagnetic_spectrum",
+        "color_and_wavelength",
+        "law_of_reflection",
+        "refraction",
+        "wave_particle_duality"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light: The Thread That Connects Everything",
+              "body": "Light connects more physics topics than any other single subject. Electromagnetic theory (Maxwell's equations) explains what light IS. Wave physics explains how it reflects, refracts, diffracts, and interferes. Optics applies these to mirrors, lenses, cameras, and eyes. Energy physics explains that light carries energy (E = hf per photon). Quantum mechanics emerges from light's dual wave-particle nature. Relativity begins with the constancy of light speed. Cosmology uses light's Doppler shift to reveal the expanding universe. Understanding light means understanding the core of physics."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Everything You've Learned About Light, Unified",
+              "items": [
+                {
+                  "label": "Light Is an EM Wave",
+                  "icon": "radio",
+                  "body": "Oscillating electric and magnetic fields. Travels at c in vacuum. The visible spectrum (400-700 nm) is a tiny fraction of the full EM spectrum (radio to gamma rays). All same phenomenon, different frequency."
+                },
+                {
+                  "label": "Color Is a Brain Construction",
+                  "icon": "palette",
+                  "body": "Objects absorb certain wavelengths and reflect others. Your three cone types detect the reflected wavelengths. Your brain COMPUTES color from sensor data. No inherent color exists in objects — only reflectance spectra."
+                },
+                {
+                  "label": "Reflection Obeys Simple Laws",
+                  "icon": "flip-horizontal",
+                  "body": "Angle of incidence = angle of reflection. Smooth surfaces → specular (images). Rough surfaces → diffuse (no images). Curved mirrors focus or spread light. Mirrors reverse front-back, not left-right."
+                },
+                {
+                  "label": "Refraction Bends Light at Boundaries",
+                  "icon": "git-branch",
+                  "body": "Light changes speed in different media → bends. Slower medium → bends toward normal. Total internal reflection traps light (fiber optics). Dispersion separates wavelengths (rainbows, prisms)."
+                },
+                {
+                  "label": "Light Is Also a Particle",
+                  "icon": "circle-dot",
+                  "body": "Photons: discrete packets of energy E = hf. Photoelectric effect proves particle nature. Double slit proves wave nature. BOTH are true. This duality is quantum mechanics' doorstep."
+                },
+                {
+                  "label": "Light Is How You Experience Everything",
+                  "icon": "eye",
+                  "body": "Every image, every color, every face, every landscape — all light physics delivered to your retina and interpreted by your brain. Understanding light means understanding your visual experience of being alive."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Light is the universe's primary messenger. Every star you see is a message in light — some sent millions of years ago. The cosmic microwave background is light from the Big Bang, stretched by the universe's expansion. When you look at the night sky, you're literally looking back in time — seeing objects as they were when the light left them. The farthest galaxies visible (via telescopes) emitted their light over 13 billion years ago. Looking deep into space IS looking back in time. Light carries the history of the universe, encoded in its wavelengths, intensities, and arrival times."
+            },
+            {
+              "type": "transition",
+              "body": "From the photon to the atom — the next frontier is ELECTRICITY: how electrons flow, how circuits work, and how the electromagnetic force that creates light also powers every electronic device in your life."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Light Physics in One Device: Your Phone Camera",
+              "body": "Lens system: multiple converging and diverging glass/plastic lenses refract light onto the sensor (optics, refraction). Aperture: adjustable opening controls how much light enters — just like your pupil (reflection, diffraction). Sensor: millions of pixels, each containing photosensitive silicon. Photons with sufficient energy eject electrons (photoelectric effect, quantum physics). Color filters: each pixel has a red, green, or blue filter — the camera uses RGB color mixing to reconstruct full color from three channels (color physics). Image stabilization: detects and compensates for motion blur (optics). HDR mode: combines multiple exposures to handle bright and dark areas (energy/amplitude). One device, seven branches of light physics, billions of photons per image."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "If you've ever seen a rainbow, you witnessed: refraction (light entering a raindrop slows and bends), dispersion (different wavelengths bend differently), internal reflection (light bounces off the back of the raindrop), refraction again (light exits, bending further), and your eye's frequency-dependent cone response (translating wavelengths to perceived colors). Five physics concepts in one glance at the sky, happening simultaneously in millions of raindrops, each one creating a tiny spectrum that collectively paints an arc across your visual field. A rainbow is a symphony of light physics played by millions of water droplet instruments."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Newton and Huygens disagreed about light's nature for decades. Newton said particle. Huygens said wave. For over a century, Newton's prestige meant 'particle' won. Then Young's double-slit experiment (1801) proved wave behavior. Then Einstein's photoelectric effect (1905) proved particle behavior. Both Newton and Huygens were right. Both were wrong. Light is both and neither. The universe doesn't care about human categories."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The fastest thing in the universe is light in vacuum: c = 299,792,458 m/s. This number is now EXACT by definition — the meter is defined as the distance light travels in 1/299,792,458 of a second. We don't measure the speed of light anymore; we use it to define distance. Light's speed went from unknown to measured to the literal foundation of our measurement system in 300 years. Nothing in the universe with mass can reach c. Nothing without mass can travel at any other speed. Light isn't just fast — it's the cosmic speed limit, built into the geometry of spacetime."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a 'Light Journey Map': trace the path of photons from a single light source (the Sun, a lamp, your phone screen) to your eye. Identify every physics event along the way — emission, travel, reflection, refraction, absorption, detection. How many physics concepts does a single photon encounter between leaving the source and creating a signal in your brain? Most complete photon biography wins!",
+              "placeholder_type": "photon_journey"
+            }
+          ]
+        },
+        "misconception_checkpoint": {
+          "title": "Light & Optics Misconception Self-Diagnostic",
+          "instructions": "Answer these 5 scenarios with your gut reaction. These test whether common light misconceptions have been replaced with correct optical thinking.",
+          "diagnostic_scenarios": [
+            {
+              "scenario_id": "light_diag_1",
+              "scenario": "You're in a room with no windows and the lights go off.",
+              "question": "If you wait long enough, will your eyes 'adjust' and you'll eventually see?",
+              "gut_check_answer": "NO — in TRUE zero light, you see nothing no matter how long you wait. Your eyes need photons. Your rods and cones are photon detectors. No photons = no signal = no vision. Dark adaptation improves sensitivity by ~10,000×, but it cannot create photons from nothing. If zero photons enter your eyes, you see absolute blackness indefinitely.",
+              "aristotelian_trap": "If you said yes, you're confusing dark adaptation (real — takes ~30 min for rods to reach peak sensitivity) with seeing without light (impossible).",
+              "why_it_matters": "Vision requires photons. Your eyes detect light; they don't generate it. This distinguishes eyes from sonar or echolocation."
+            },
+            {
+              "scenario_id": "light_diag_2",
+              "scenario": "A yellow ball sits under white light.",
+              "question": "Is the ball yellow, or is it reflecting yellow wavelengths?",
+              "gut_check_answer": "It REFLECTS yellow wavelengths (and absorbs others). Under blue-only light, the ball would appear dark/black. The 'yellowness' is in the reflected light, not in the object. The object has a reflectance spectrum, not a color.",
+              "aristotelian_trap": "If you said 'the ball IS yellow,' you're attributing color to the object rather than to the interaction between light, surface, and eye.",
+              "why_it_matters": "Color-as-property-of-object is the most common light misconception. It prevents understanding of color mixing, stage lighting, and display technology."
+            },
+            {
+              "scenario_id": "light_diag_3",
+              "scenario": "Your WiFi router emits electromagnetic waves at 5 GHz.",
+              "question": "Is this the same fundamental phenomenon as visible light?",
+              "gut_check_answer": "YES — WiFi is electromagnetic radiation, same as visible light, just at a much lower frequency. Both are oscillating electric and magnetic fields traveling at c. WiFi: 5 GHz, λ ≈ 6 cm. Visible: ~5 × 10¹⁴ Hz, λ ≈ 500 nm. Same physics, different frequency.",
+              "aristotelian_trap": "If you said no, you're treating the EM spectrum as separate phenomena rather than one continuous phenomenon at different frequencies.",
+              "why_it_matters": "Understanding the EM spectrum as unified is essential for radio, telecommunications, medical imaging, and cosmology."
+            },
+            {
+              "scenario_id": "light_diag_4",
+              "scenario": "You see a rainbow after a rainstorm.",
+              "question": "Does the prism (raindrop) create the colors, or reveal them?",
+              "gut_check_answer": "REVEALS them — white sunlight already contains all visible wavelengths. The raindrop separates them via dispersion (different wavelengths refract at different angles). Newton proved this by recombining the spectrum back into white light.",
+              "aristotelian_trap": "If you said 'creates,' you're thinking of the prism as a color factory rather than a color separator.",
+              "why_it_matters": "This reveals that white light is a mixture, not a single 'color' — a counterintuitive but fundamental insight."
+            },
+            {
+              "scenario_id": "light_diag_5",
+              "scenario": "A single photon is sent toward a double slit.",
+              "question": "Does it go through one slit or both?",
+              "gut_check_answer": "Nobody knows — and this may be the wrong question. The photon is detected at ONE point on the screen (particle behavior), but the statistical pattern of many single photons shows interference (wave behavior, requiring both slits). Quantum mechanics says the photon's probability amplitude passes through both slits and interferes. The photon doesn't have a definite path until detected.",
+              "aristotelian_trap": "If you said 'one slit,' you're applying classical particle thinking. If you said 'both,' you're applying classical wave thinking. The quantum answer is stranger than either.",
+              "why_it_matters": "Wave-particle duality is the gateway to quantum mechanics. Accepting that quantum objects don't fit classical categories is the first step to understanding the quantum world."
+            }
+          ],
+          "scoring_guide": {
+            "5_correct": "Light physics is solid. You understand EM unification, color perception, and have a foothold in quantum mechanics.",
+            "3_to_4_correct": "Strong conceptual foundation with a few everyday intuitions persisting. Review the specific prediction cycle for the concept you missed.",
+            "1_to_2_correct": "Common light misconceptions are still active. Focus on: color = reflected wavelengths, not object property. EM spectrum is unified. Light needs a source.",
+            "0_correct": "Start with the key revelations: objects don't have color (they reflect specific wavelengths), the visible spectrum is 0.0035% of EM radiation, and light is both wave and particle."
+          },
+          "reassurance": "Light misconceptions come from deeply ingrained perceptual habits — your brain SHOWS you 'a red apple,' making it feel like redness is a property of the apple. Physics reveals the redness is in the reflected light and in your neural processing. Rewiring this takes practice: every time you see color, remind yourself 'I'm seeing specific wavelengths reflected and interpreted by my brain.' This reframe changes how you see literally everything."
+        }
+      },
+      "questions": [
+        {
+          "question": "A phone camera taking a photo involves which areas of light physics?",
+          "options": {
+            "A": "Only refraction (the lens)",
+            "B": "Refraction (lens system), photoelectric effect (photons eject electrons in sensor), color physics (RGB filtering), diffraction (aperture), optics (focus/exposure) — at minimum 5 branches of light physics in a single photo.",
+            "C": "Only the photoelectric effect",
+            "D": "Only reflection"
+          },
+          "correct_answer": "B",
+          "explanation": "A camera uses refraction (lenses), the photoelectric effect (sensor), RGB color mixing (filters), diffraction (aperture), optics (focusing), and more. A single photograph requires virtually every concept in light physics working together.",
+          "tests_concept": "electromagnetic_spectrum",
+          "detects_misconception": "Camera physics is simple / only involves one principle"
+        },
+        {
+          "question": "Looking at a distant galaxy's light reveals it is redshifted. What does this tell us?",
+          "options": {
+            "A": "The galaxy is red in color",
+            "B": "The galaxy is moving AWAY from us — its light waves are stretched (longer wavelength = red-shifted) by relative motion, via the Doppler effect for light. Combined with the observation that MORE distant galaxies are MORE redshifted, this proved the universe is expanding.",
+            "C": "The galaxy is very hot",
+            "D": "The light has lost energy over distance"
+          },
+          "correct_answer": "B",
+          "explanation": "Doppler shift for light: receding source → stretched wavelengths → redshift. Hubble's observation that all distant galaxies are redshifted (and more distant = more redshifted) proved cosmic expansion. Same Doppler physics as the ambulance siren.",
+          "tests_concept": "wave_particle_duality",
+          "detects_misconception": "Redshift means the galaxy is red / Doppler only applies to sound"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 6,
+    "total_questions": 14,
+    "total_prediction_cycles": 3,
+    "total_diagnostic_scenarios": 5,
+    "block_types_used": [
+      "section",
+      "callout",
+      "list",
+      "prediction_cycle",
+      "transition",
+      "creator_challenge"
+    ],
+    "callout_styles_used": [
+      "definition",
+      "key_idea",
+      "fun_fact",
+      "mind_blow",
+      "philosophy",
+      "personal",
+      "thought_experiment",
+      "misconception_alert"
+    ],
+    "list_styles_used": [
+      "icon_list",
+      "comparison"
+    ],
+    "curriculum_concepts_covered": [
+      "electromagnetic_spectrum",
+      "color_and_wavelength",
+      "wave_particle_duality",
+      "law_of_reflection",
+      "mirrors",
+      "refraction",
+      "lenses",
+      "dispersion"
+    ],
+    "key_misconceptions_targeted": [
+      "Only visible light is electromagnetic",
+      "Radio waves are sound waves",
+      "Different colors travel at different speeds",
+      "Objects have inherent color",
+      "Black is a color of light",
+      "Mirrors reverse left and right",
+      "Prisms create colors",
+      "Rainbow is a physical object you can reach",
+      "Light is only a wave / only a particle",
+      "Photons have mass",
+      "Brighter light = more energetic photons"
+    ],
+    "bridges_from": "sound_physics_of_music (wave principles, frequency, interference, Doppler)",
+    "bridges_to": "electricity_and_circuits (electromagnetic force, electron behavior, photovoltaics)",
+    "extended_treatment": true,
+    "has_misconception_checkpoint": true,
+    "new_pedagogical_element": "Perceptual reframing — showing students that their visual experience is a neural construction, not a direct readout of physical reality"
+  }
+}

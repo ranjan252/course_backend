@@ -1,0 +1,948 @@
+{
+  "course": "Organic Chemistry",
+  "topic": "2_structure_representation",
+  "subtopic": "2.3_intermolecular_forces",
+  "foundation_id": "intermolecular_forces_organic",
+  "foundation_title": "Intermolecular Forces — How Molecules Touch Each Other",
+  "foundation_tier": 6,
+  "prerequisites": [
+    "carbon_and_life",
+    "hybridization",
+    "polarity_and_reactivity",
+    "drawing_organic_molecules",
+    "functional_groups"
+  ],
+  "curriculum_concepts_covered": [
+    "london_dispersion",
+    "dipole_dipole",
+    "hydrogen_bonding_organic",
+    "imf_and_physical_properties",
+    "imf_and_solubility",
+    "imf_in_biology",
+    "predicting_bp_and_solubility"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 9 parts. IMFs are how molecules INTERACT with each other — the forces between separate molecules that determine boiling point, melting point, solubility, viscosity, and biological recognition. Every physical property a student can observe (is it liquid or gas? does it dissolve? does it smell?) traces to IMFs. Treated at deeply personal/experiential level: why water is liquid, why you can smell things, why oil and water separate, why drugs dissolve in blood, why proteins fold, why geckos walk on ceilings.",
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "IMFs bridge structure (Topics 1-2) and behavior (Topics 3+). Students who understand IMFs predict physical properties from structure — the most testable skill in organic chemistry. Every 'rank by boiling point' and 'predict solubility' question requires IMF reasoning. Deep treatment here makes prediction intuitive rather than memorized.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "imf_p1",
+      "part_title": "The Invisible Handshakes Between Molecules",
+      "purpose": "Hook — IMFs are why matter has physical properties. Without them, everything would be gas.",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Covalent bonds hold atoms together WITHIN a molecule. But what holds separate molecules near each other? Why is water a liquid instead of a gas? Why does butter melt at a different temperature than candle wax? Why does alcohol evaporate faster than water? Why does sugar dissolve in coffee but wax doesn't? The answer: intermolecular forces — the attractions BETWEEN separate molecules."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Intermolecular forces (IMFs) are NOT chemical bonds. They're weaker — typically 1-40 kJ/mol compared to 150-800 kJ/mol for covalent bonds. But they determine EVERY physical property you can observe: boiling point, melting point, solubility, viscosity, surface tension, vapor pressure, smell. If covalent bonds determine what a molecule IS, IMFs determine how it BEHAVES in the physical world."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "There are three types, in order of strength: (1) London dispersion forces (weakest, present in ALL molecules). (2) Dipole-dipole interactions (in polar molecules). (3) Hydrogen bonds (strongest IMF, in molecules with O—H, N—H, or F—H). Every physical property prediction in organic chemistry reduces to: which IMFs are present, and how strong are they?"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "You Experience IMFs Every Second",
+              "body": "The water in your glass is liquid because of hydrogen bonds between H₂O molecules. The scent of coffee reaches your nose because volatile molecules have WEAK IMFs (easily become gas). Your skin is waterproof because the lipids in your skin have strong London dispersion forces that create a nonpolar barrier. Cooking oil is liquid at room temperature because unsaturated fat kinks prevent tight packing → weaker London forces. Every texture, every scent, every liquid and solid you encounter is an IMF story."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Your tears are liquid water (strong H-bonds). They evaporate slowly (takes energy to break H-bonds). The alcohol in hand sanitizer evaporates much faster (fewer H-bonds per molecule). Perfume molecules evaporate at carefully designed rates — top notes are small with weak IMFs (evaporate first), base notes are large with strong IMFs (linger for hours). Perfume design IS applied intermolecular force engineering."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Without IMFs, there would be no liquids, no solids — only gas. Every substance would instantly disperse into individual molecules flying through space. No oceans. No ice cream. No you (your body is held together largely by intermolecular interactions between biomolecules). IMFs are the social bonds of the molecular world — they make molecules stick together instead of flying solo."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The boiling point of a substance is the temperature at which molecules have enough kinetic energy to OVERCOME their intermolecular forces and escape into the gas phase. So boiling point is literally a MEASUREMENT of IMF strength. Higher bp = stronger IMFs. Water (100°C, strong H-bonds) vs methane (−161°C, only weak London forces). The thermometer is an IMF detector."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "imf_p2",
+      "part_title": "London Dispersion Forces — The Universal Attraction",
+      "purpose": "The weakest IMF, but present in ALL molecules — and the ONLY force in nonpolar molecules",
+      "curriculum_concepts": [
+        "london_dispersion"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "London Dispersion Forces (LDF)",
+              "body": "Temporary, instantaneous attractions caused by momentary uneven distributions of electrons in ANY molecule. At any instant, electrons may be slightly more concentrated on one side of a molecule → creates a temporary dipole → this induces a dipole in a neighboring molecule → temporary attraction. Present in ALL molecules — polar and nonpolar. The ONLY IMF in completely nonpolar molecules (hydrocarbons, noble gases)."
+            },
+            {
+              "type": "section",
+              "title": "What Determines LDF Strength",
+              "body": "Two factors dominate: (1) MOLECULAR SIZE — more electrons = more polarizable = stronger temporary dipoles = stronger LDF. This is why larger molecules have higher boiling points. (2) MOLECULAR SHAPE — elongated molecules have more surface area for contact = stronger LDF. Compact/spherical molecules have less contact area = weaker LDF."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "Size Effect: Alkane Boiling Points",
+              "items": [
+                {
+                  "label": "Methane (CH₄, 10 electrons)",
+                  "body": "Bp: −161°C. Tiny molecule, few electrons, very weak LDF → gas."
+                },
+                {
+                  "label": "Ethane (C₂H₆, 18 electrons)",
+                  "body": "Bp: −89°C. Slightly larger → slightly stronger LDF → still gas but higher bp."
+                },
+                {
+                  "label": "Pentane (C₅H₁₂, 42 electrons)",
+                  "body": "Bp: 36°C. Enough electrons and surface area → liquid at room temperature."
+                },
+                {
+                  "label": "Decane (C₁₀H₂₂, 82 electrons)",
+                  "body": "Bp: 174°C. Many electrons, long chain, lots of contact area → high-boiling liquid."
+                },
+                {
+                  "label": "Eicosane (C₂₀H₄₂, 162 electrons)",
+                  "body": "Bp: 343°C. So many LDF interactions along the chain → waxy SOLID at room temperature (like candle wax)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Alkane boiling points demonstrate a pure LDF trend: same functional groups (none — just C and H), increasing size → increasing bp. Methane (gas) → pentane (liquid) → eicosane (solid). London forces alone, accumulated over a large molecule, can be strong enough to make a SOLID. Size matters enormously."
+            },
+            {
+              "type": "section",
+              "title": "Shape Effect: Branching Lowers Boiling Point",
+              "body": "Pentane (straight chain, bp 36°C) vs neopentane (2,2-dimethylpropane, same formula C₅H₁₂, bp 9.5°C). Same number of electrons. Same molecular formula. But neopentane is compact/spherical → less surface area for contact → fewer LDF interactions → lower bp by 27°C. Branching makes molecules more spherical → reduces contact area → weakens LDF → lowers bp."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Feel the London Forces",
+              "body": "Candle wax is a long-chain alkane (C₂₀-C₄₀). It's a solid because the LONG chains have enormous cumulative LDF along their lengths. Melt the wax (add energy to overcome LDF) → liquid. Keep heating → gas. The heat you apply is literally overcoming London dispersion forces. When you blow out a candle and see the wax re-solidify, you're watching London forces re-establish themselves as molecules slow down and find contact."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Geckos walk on ceilings using London dispersion forces. Their toe pads have millions of microscopic hair-like structures (setae) that maximize surface area contact with the surface. The cumulative LDF between gecko foot and wall is strong enough to support the gecko's entire body weight. No glue, no suction — just billions of tiny London dispersion interactions adding up. Nature engineered LDF-based adhesion millions of years before humans discovered the concept."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "London dispersion forces are the 'popularity' of the molecular world — even molecules with nothing special going for them (no polarity, no H-bonds) still attract each other a little bit. It's the baseline social interaction of all matter. 'I don't have a dipole, and I don't have O—H bonds, but I still have temporary electron fluctuations and I'm not COMPLETELY antisocial.' That's LDF."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Fritz London (1900-1954) was a German-American physicist who explained these forces using quantum mechanics in 1930. Before his work, no one understood why nonpolar substances like noble gases could be liquefied at all. If there were no attractive forces between them, they'd be gases at ALL temperatures. London showed that quantum fluctuations create temporary dipoles even in perfectly symmetric atoms. The invisible force that holds wax together was explained by quantum mechanics."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Pentane (C₅H₁₂, straight chain, bp 36°C) and neopentane (C₅H₁₂, spherical, bp 9.5°C) have the same molecular formula. Why does pentane boil 27°C higher?",
+          "options": {
+            "A": "Pentane has more electrons",
+            "B": "Pentane's elongated shape provides more surface area for intermolecular contact → more London dispersion interactions → stronger total attraction → higher bp",
+            "C": "Neopentane is polar",
+            "D": "Pentane has hydrogen bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Same formula = same electron count = same INDIVIDUAL LDF strength. But shape matters: pentane (elongated) has more surface contact than neopentane (compact sphere). More contact = more cumulative LDF = higher bp. Shape determines how effectively molecules can 'snuggle' together.",
+          "tests_concept": "london_dispersion"
+        },
+        {
+          "question": "Why are long-chain alkanes (C₂₀+) solids at room temperature despite having no polar bonds?",
+          "options": {
+            "A": "They have hydrogen bonds",
+            "B": "The cumulative London dispersion forces along their long chains are so strong (many electrons + large surface area) that room-temperature kinetic energy cannot overcome them",
+            "C": "They are ionic",
+            "D": "They have double bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Each C—H segment contributes a small LDF. But C₂₀H₄₂ has 62 atoms in a chain → enormous cumulative contact area → LDF sum is very large → solid (wax). Individual LDF is weak, but many weak interactions along a long molecule = strong total. Strength in numbers.",
+          "tests_concept": "london_dispersion"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "imf_p3",
+      "part_title": "Dipole-Dipole Interactions — When Polarity Creates Attraction",
+      "purpose": "Permanent dipole attractions — the middle-strength IMF in polar molecules",
+      "curriculum_concepts": [
+        "dipole_dipole"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Dipole-Dipole Interactions",
+              "body": "Attractions between the PERMANENT partial charges (δ⁺ and δ⁻) of polar molecules. The δ⁺ end of one molecule attracts the δ⁻ end of a neighbor. Stronger than London forces alone (for similar-sized molecules). Only occur in molecules with a NET dipole moment — requires polar bonds in an asymmetric arrangement."
+            },
+            {
+              "type": "section",
+              "title": "How Dipole-Dipole Adds to London Forces",
+              "body": "Polar molecules have BOTH London forces AND dipole-dipole interactions. The dipole-dipole is ADDITIONAL attraction on top of baseline LDF. This is why polar molecules have higher boiling points than nonpolar molecules of similar size. Example: propane (C₃H₈, nonpolar, bp −42°C) vs acetaldehyde (C₂H₄O, polar C=O, bp 20°C). Acetaldehyde has FEWER electrons but boils 62°C HIGHER because dipole-dipole adds to its LDF."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "Nonpolar vs Polar — Similar Size",
+              "items": [
+                {
+                  "label": "Butane (C₄H₁₀, MW 58, nonpolar)",
+                  "body": "Bp: −1°C. Only LDF. Gas at room temperature."
+                },
+                {
+                  "label": "Acetone (C₃H₆O, MW 58, polar C=O)",
+                  "body": "Bp: 56°C. LDF + dipole-dipole. Liquid at room temperature. Same molecular weight, 57°C higher bp due to added polar attraction."
+                },
+                {
+                  "label": "Propanal (C₃H₆O, MW 58, polar C=O)",
+                  "body": "Bp: 49°C. Similar to acetone — dipole-dipole from C=O elevates bp above nonpolar butane."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "For SIMILAR-sized molecules: nonpolar (LDF only) < polar (LDF + dipole-dipole) < H-bonding (LDF + dipole-dipole + H-bonds). This hierarchy predicts boiling points. But SIZE can override TYPE: a large nonpolar molecule (like decane, bp 174°C) can have a higher bp than a small polar molecule (like acetone, bp 56°C) because cumulative LDF from many atoms overwhelms the dipole-dipole advantage."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Dipole-Dipole in the Kitchen",
+              "body": "Acetone (nail polish remover): polar C=O gives it dipole-dipole forces → bp 56°C → liquid but evaporates relatively fast (moderate IMFs). Compare to water (100°C, H-bonding, evaporates slowly) and hexane (69°C, LDF only — hexane is larger so its LDF exceeds acetone's total, an important lesson: size matters). When you wave your hand to dry nail polish remover and feel the cooling, you're providing kinetic energy to overcome dipole-dipole and LDF interactions as acetone molecules escape into gas phase."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Many anesthetic gases (like sevoflurane, CF₃—CH(OCH₂F)—F) are polar molecules with significant dipole-dipole interactions. Their moderate IMFs give them just the right boiling points: volatile enough to be inhaled as gas, but not so volatile that they can't be controlled. Anesthesiologists adjust dosage by controlling the partial pressure of these polar molecules — essentially manipulating IMF-driven phase equilibria to keep you unconscious during surgery."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Dipole-dipole is like assigned seating at a dinner party: δ⁺ end always wants to sit next to δ⁻ end of the neighbor. London forces are like general mingling — everyone casually interacts a little. Dipole-dipole adds structure to the interaction: specific ends face specific ends, creating oriented attractions stronger than random fluctuations."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The reason you can microwave food: microwaves are electromagnetic radiation that makes POLAR molecules (mainly water) rotate rapidly back and forth as they try to align their dipoles with the oscillating field. This molecular spinning generates heat through friction. Nonpolar molecules (like fats at low temperature) don't respond as strongly. Your microwave oven is a dipole-dipole interaction engine."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Butane (MW 58, nonpolar, bp −1°C) and acetone (MW 58, polar, bp 56°C) have similar molecular weights. Why does acetone boil 57°C higher?",
+          "options": {
+            "A": "Acetone is larger",
+            "B": "Acetone has dipole-dipole interactions (from its polar C=O bond) IN ADDITION to London forces — the extra attraction requires more energy to overcome, raising the boiling point",
+            "C": "Butane has stronger bonds",
+            "D": "Acetone has hydrogen bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Same MW → similar LDF. But acetone's polar C=O creates permanent δ⁺/δ⁻ → dipole-dipole interactions add to LDF → stronger total IMF → higher bp. Acetone is NOT H-bonding (no O—H or N—H), so the boost comes specifically from dipole-dipole.",
+          "tests_concept": "dipole_dipole"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "imf_p4",
+      "part_title": "Hydrogen Bonding — The Force That Makes Life Possible",
+      "purpose": "The strongest and most biologically important IMF — hydrogen bonds",
+      "curriculum_concepts": [
+        "hydrogen_bonding_organic"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Hydrogen Bond",
+              "body": "A particularly strong dipole-dipole interaction between a hydrogen bonded to a highly electronegative atom (O, N, or F) and a lone pair on a nearby O, N, or F. Written: X—H···Y where X and Y are O, N, or F. Requires: (1) a DONOR: X—H where X is O, N, or F (the H is very δ⁺). (2) an ACCEPTOR: a lone pair on O, N, or F on another molecule. Strength: 10-40 kJ/mol — 5-10× stronger than typical dipole-dipole."
+            },
+            {
+              "type": "section",
+              "title": "Why Hydrogen Bonds Are Special",
+              "body": "Three things make H-bonds unusually strong: (1) Hydrogen is TINY — when bonded to O or N, the δ⁺ hydrogen can approach the lone pair of a neighboring O or N very closely. (2) O, N, and F are VERY electronegative — creating a very large δ⁺ on H. (3) O, N, and F have strong lone pairs that attract δ⁺ H. The combination: very positive H gets very close to very negative lone pair → unusually strong electrostatic attraction for a non-covalent interaction."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "The Hydrogen Bonding Hierarchy",
+              "items": [
+                {
+                  "label": "O—H···O (strongest common H-bond)",
+                  "body": "Water, alcohols, carboxylic acids. The benchmark. Water's unique properties (liquid at RT, high bp, universal solvent) ALL come from O—H···O hydrogen bonds."
+                },
+                {
+                  "label": "O—H···N and N—H···O",
+                  "body": "Alcohol to amine, amide bonds. Critical in protein secondary structure (α-helices, β-sheets stabilized by N—H···O=C hydrogen bonds between backbone amides)."
+                },
+                {
+                  "label": "N—H···N",
+                  "body": "Between amines, in DNA base pairing. Adenine-Thymine: 2 H-bonds. Guanine-Cytosine: 3 H-bonds. The genetic code is held together by H-bonds."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Water SHOULD be a gas. Based on its molecular weight (18), similar to methane (16, bp −161°C) and ammonia (17, bp −33°C without extensive H-bonding), water's boiling point should be around −80°C. Instead: 100°C. That's a 180°C elevation caused by hydrogen bonding. If water followed the 'normal' trend, all Earth's water would be gas, oceans wouldn't exist, and life would be impossible. Hydrogen bonds made the planet habitable."
+            },
+            {
+              "type": "section",
+              "title": "H-Bond Donors and Acceptors in Organic Chemistry",
+              "body": "DONORS (have X—H to offer): alcohols (—OH), carboxylic acids (—COOH), amines (—NH₂, —NH—), amides (—CONH—), water. ACCEPTORS (have lone pairs): oxygen in C=O (ketones, aldehydes, esters — can ACCEPT but not DONATE), nitrogen lone pairs in amines and amides, oxygen in ethers. A molecule can be: donor only, acceptor only, or BOTH. Molecules that are both (like water, alcohols, carboxylic acids) form extensive H-bond NETWORKS."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "See H-Bonding Everywhere",
+              "body": "Why does cotton absorb water but polyester doesn't? Cotton is cellulose (many —OH groups → H-bonds with water). Polyester has ester groups (C=O can accept but no O—H to donate back → weaker water interaction). Why is honey thick? Sugar molecules (many —OH groups) form extensive H-bond networks with each other → high viscosity. Why does alcohol burn in a wound? Ethanol disrupts the H-bond network of water in your cells → nerve endings detect the disruption as pain."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "DNA's double helix is held together by hydrogen bonds between base pairs. A-T: 2 hydrogen bonds. G-C: 3 hydrogen bonds. This is why G-C pairs are stronger than A-T pairs, and why DNA with higher GC content has higher melting temperatures. When scientists 'denature' DNA by heating, they're breaking hydrogen bonds — the strands separate. When they cool it, hydrogen bonds re-form and the helix re-anneals. Your genetic code is written in covalent bonds but READ through hydrogen bonds."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Hydrogen bonds are the handshakes of the molecular world — much more intentional than London forces (which are like casual bumping into someone). H-bonds are directional: the δ⁺ hydrogen points directly at the lone pair. They have a preferred angle (~180° is ideal). They form and break constantly (lifetime ~1 picosecond in liquid water). Trillions of handshakes per second per molecule. Polite but fleeting."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Ice floats because of hydrogen bonding. In liquid water, H-bonds form and break dynamically — molecules are close but disordered. In ice, H-bonds lock into a rigid hexagonal lattice with GAPS — the crystal structure is less dense than the liquid. Ice is one of very few solids less dense than its liquid. If ice sank, lakes would freeze bottom-up, killing aquatic life in winter. Life in cold climates exists because hydrogen bonds create a floating insulation layer."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Water (MW 18) boils at 100°C, while methane (MW 16) boils at −161°C. What explains this 261°C difference?",
+          "options": {
+            "A": "Water has more atoms",
+            "B": "Water forms extensive O—H···O hydrogen bonds between molecules — these strong intermolecular attractions require far more energy to overcome than methane's London forces alone",
+            "C": "Methane is less stable",
+            "D": "Water has covalent bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Similar MW but vastly different IMFs. Methane: only LDF (nonpolar). Water: LDF + dipole-dipole + extensive H-bonding (each molecule can form up to 4 H-bonds). H-bonds are ~10-40 kJ/mol each → cumulative effect raises bp by >200°C above what MW alone would predict.",
+          "tests_concept": "hydrogen_bonding_organic"
+        },
+        {
+          "question": "Acetone (C=O, bp 56°C) can accept H-bonds but cannot donate them. Ethanol (O—H, bp 78°C) can both donate AND accept. How does this explain ethanol's higher bp despite smaller molecular weight?",
+          "options": {
+            "A": "Ethanol has more atoms",
+            "B": "Ethanol's O—H can both DONATE (H points to neighbor's lone pair) and ACCEPT (O lone pairs accept neighbor's H) — forming H-bond networks — while acetone can only accept, creating weaker intermolecular attraction",
+            "C": "Acetone is nonpolar",
+            "D": "Ethanol has stronger covalent bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Donor + acceptor = network-forming capability. Ethanol: O—H donates to neighbor's O, while its O accepts from another neighbor's O—H → chains/networks. Acetone: C=O accepts but has no O—H to donate back → isolated H-bond acceptance, not network formation → weaker total IMF.",
+          "tests_concept": "hydrogen_bonding_organic"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "imf_p5",
+      "part_title": "The IMF Hierarchy — Predicting Boiling Points from Structure",
+      "purpose": "THE exam skill — systematic prediction of bp from molecular structure",
+      "curriculum_concepts": [
+        "imf_and_physical_properties",
+        "predicting_bp_and_solubility"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Boiling Point Prediction Algorithm",
+              "body": "Step 1: Identify all IMFs present (LDF in all molecules; dipole-dipole if polar; H-bonding if O—H, N—H, or F—H). Step 2: For molecules with the SAME type of IMF, larger molecules have higher bp (more LDF). Step 3: For molecules of SIMILAR size, more types of IMF = higher bp: LDF only < LDF + dipole-dipole < LDF + dipole-dipole + H-bonding. Step 4: Branching LOWERS bp (less surface contact = weaker LDF). This algorithm handles 90% of exam questions."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Ranking Practice: These 5 Molecules",
+              "items": [
+                {
+                  "label": "Pentane (C₅H₁₂): LDF only",
+                  "body": "Nonpolar hydrocarbon. Bp: 36°C. Baseline — only London forces."
+                },
+                {
+                  "label": "Diethyl ether (C₄H₁₀O): LDF + weak dipole",
+                  "body": "Slightly polar (C—O—C). Can ACCEPT H-bonds from water but not donate. Bp: 34.6°C. Similar to pentane despite being polar — the ether oxygen provides minimal dipole enhancement."
+                },
+                {
+                  "label": "Butanal (C₄H₈O): LDF + dipole-dipole",
+                  "body": "Polar C=O. Can accept H-bonds but not donate. Bp: 75°C. Stronger dipole than ether → significant dipole-dipole boost."
+                },
+                {
+                  "label": "1-Butanol (C₄H₁₀O): LDF + dipole + H-bonding",
+                  "body": "O—H: donor AND acceptor. Bp: 118°C. H-bonding networks → major bp elevation."
+                },
+                {
+                  "label": "Propanoic acid (C₃H₆O₂): LDF + dipole + strong H-bonding",
+                  "body": "—COOH: carboxylic acids form DIMERS (two molecules H-bond to each other through paired COOH groups). Bp: 141°C. Effectively doubles molecular size → very high bp."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "The ranking: pentane ≈ ether < aldehyde < alcohol < carboxylic acid. Same approximate size, increasing IMF strength → increasing bp. Carboxylic acids are special: they form DIMERS (double H-bonds between two —COOH groups), effectively doubling the molecular weight for bp purposes."
+            },
+            {
+              "type": "section",
+              "title": "The Size Override",
+              "body": "CRITICAL: a large nonpolar molecule CAN outrank a small polar one. Decane (C₁₀H₂₂, nonpolar, bp 174°C) boils HIGHER than ethanol (C₂H₆O, H-bonding, bp 78°C). Why? Decane has so many more electrons and so much more surface area that its cumulative LDF overwhelms ethanol's H-bonding advantage. Always compare SIZE first, then IMF type."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Rank by Boiling Point (Lowest to Highest)",
+              "items": [
+                {
+                  "label": "CH₃OCH₃ (dimethyl ether), CH₃CH₂OH (ethanol), CH₃CH₂CH₃ (propane)",
+                  "hints": "Propane (LDF only, bp −42°C) < dimethyl ether (weak dipole, bp −24°C) < ethanol (H-bonding, bp 78°C). Same number of heavy atoms (~3), increasing IMF → increasing bp."
+                },
+                {
+                  "label": "Hexane, 1-hexanol, hexanoic acid",
+                  "hints": "Hexane (LDF, 69°C) < 1-hexanol (H-bonding, 157°C) < hexanoic acid (dimerizing H-bonds, 205°C). Same 6-carbon base, increasing IMF."
+                },
+                {
+                  "label": "Neopentane, pentane, 1-pentanol",
+                  "hints": "Neopentane (LDF, branched/compact, 9.5°C) < pentane (LDF, straight chain, 36°C) < 1-pentanol (H-bonding, 138°C). Shape AND IMF type both matter."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Exam strategy: identify IMF type first (eliminates most wrong answers). If candidates have the same IMF type, use size and shape to rank. If different sizes AND different IMF types, be careful — large nonpolar can beat small polar. The algorithm works: IMF type → size → shape → prediction."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Ranking boiling points is the bread and butter of organic chemistry exams. Every professor loves this question. Every student dreads it. But with the algorithm — identify IMFs → compare type → compare size → compare shape — it's a mechanical process, not guesswork. Practice 20 rankings and you'll start seeing the answer before finishing the question."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Carboxylic acid dimers are so stable that formic acid (HCOOH, MW 46) has a higher bp (101°C) than ethanol (MW 46, bp 78°C) — even though both can H-bond. The dimer effectively doubles the molecular weight: two formic acid molecules H-bonded together act as a single MW 92 unit. Carboxylic acids are cheating at the boiling point game by teaming up."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Rank: pentane (C₅H₁₂), butanal (C₄H₈O), 1-butanol (C₄H₁₀O) by increasing boiling point.",
+          "options": {
+            "A": "Butanal < pentane < 1-butanol",
+            "B": "Pentane (LDF only, 36°C) < butanal (LDF + dipole-dipole, 75°C) < 1-butanol (LDF + dipole-dipole + H-bonding, 118°C) — increasing IMF types = increasing bp",
+            "C": "1-Butanol < butanal < pentane",
+            "D": "All have the same bp"
+          },
+          "correct_answer": "B",
+          "explanation": "Similar size molecules with different IMFs: pentane (nonpolar, LDF only), butanal (polar C=O, dipole-dipole added), 1-butanol (O—H, H-bonding added). More IMF types = stronger total attraction = higher bp.",
+          "tests_concept": "predicting_bp_and_solubility"
+        },
+        {
+          "question": "Decane (C₁₀H₂₂, nonpolar, bp 174°C) boils higher than ethanol (C₂H₆O, H-bonding, bp 78°C). Why can a nonpolar molecule outrank an H-bonding molecule?",
+          "options": {
+            "A": "Hydrogen bonds are weak",
+            "B": "Decane is much LARGER — its cumulative London dispersion forces from 32 atoms and 82 electrons overwhelm ethanol's H-bonding advantage from just 9 atoms",
+            "C": "Decane is polar",
+            "D": "Ethanol is a gas"
+          },
+          "correct_answer": "B",
+          "explanation": "SIZE can override IMF TYPE. Decane has ~4× more atoms → ~4× more LDF contact area. The cumulative LDF far exceeds ethanol's H-bonds + LDF combined. Always consider size first, then IMF type. A large nonpolar molecule can beat a small polar one.",
+          "tests_concept": "predicting_bp_and_solubility"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "imf_p6",
+      "part_title": "Solubility — Like Dissolves Like, and Why It Matters",
+      "purpose": "IMFs determine solubility — the most practically important physical property",
+      "curriculum_concepts": [
+        "imf_and_solubility"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Like Dissolves Like",
+              "body": "Polar solvents dissolve polar/ionic solutes. Nonpolar solvents dissolve nonpolar solutes. WHY? Dissolving requires: (1) breaking solute-solute IMFs, (2) breaking solvent-solvent IMFs, (3) forming NEW solute-solvent IMFs. If new interactions (#3) are similar in strength to those broken (#1 and #2), dissolving is favorable. If not (polar into nonpolar or vice versa), the energy cost is too high → insoluble."
+            },
+            {
+              "type": "section",
+              "title": "The Organic Solubility Rule of Thumb",
+              "body": "For organic molecules dissolving in water: the molecule needs enough polar groups (—OH, —NH₂, —COOH, ionic charges) to form H-bonds with water. Rule of thumb: for every ~5 carbons, you need at least one polar functional group to maintain water solubility. Methanol (1C, 1 OH): fully miscible. Butanol (4C, 1 OH): slightly soluble. Hexanol (6C, 1 OH): barely soluble. Decanol (10C, 1 OH): insoluble. The carbon chain is the 'hydrophobic' anchor pulling the molecule away from water."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Solubility Patterns in Organic Chemistry",
+              "items": [
+                {
+                  "label": "Small alcohols (1-3C): water-soluble",
+                  "icon": "droplet",
+                  "body": "—OH dominates → H-bonds with water. Methanol, ethanol, propanol: miscible with water."
+                },
+                {
+                  "label": "Large alcohols (6+C): water-insoluble",
+                  "icon": "x-circle",
+                  "body": "Hydrocarbon chain dominates → London forces prefer other hydrocarbons. Hexanol: barely soluble. Decanol: oil layer forms."
+                },
+                {
+                  "label": "Sugars: extremely water-soluble",
+                  "icon": "droplet",
+                  "body": "Glucose (5 OH groups on 6C): VERY soluble (91 g/100 mL). Multiple H-bond donors overwhelm the small carbon skeleton."
+                },
+                {
+                  "label": "Carboxylic acids: moderately soluble",
+                  "icon": "droplet",
+                  "body": "—COOH is a strong H-bond donor/acceptor. Small acids (acetic, propionic) are miscible. Longer-chain fatty acids: insoluble (C₁₆-C₁₈ hydrocarbon overwhelms one COOH)."
+                },
+                {
+                  "label": "Hydrocarbons: water-INSOLUBLE",
+                  "icon": "x-circle",
+                  "body": "No polar groups → no H-bonds with water → immiscible. This is why oil floats on water."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Solubility is a BALANCE: polar groups pull toward water (hydrophilic), carbon chains pull away from water (hydrophobic). The winner determines solubility. As carbon chains grow, the hydrophobic pull eventually overwhelms any single polar group. Multiple polar groups (sugars, amino acids) keep larger molecules water-soluble."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Soap: The Solubility Bridge",
+              "body": "Soap molecules (sodium salts of long-chain fatty acids) have a polar/ionic head (—COO⁻ Na⁺) and a long nonpolar tail (C₁₂-C₁₈ chain). The tail dissolves in grease (like dissolves like — nonpolar + nonpolar). The head dissolves in water (polar + polar). Soap BRIDGES the two worlds. In water, soap forms micelles: tails inward (surrounding trapped grease), heads outward (facing water). Your morning shower is a masterclass in IMF-based solubility engineering."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Drug solubility determines whether a drug WORKS. Too hydrophobic → won't dissolve in blood → never reaches target. Too hydrophilic → won't cross cell membranes → can't enter cells. The ideal drug has balanced solubility: enough polar groups for blood solubility, enough nonpolar character for membrane crossing. Lipinski's Rule of Five (a drug design guideline) is essentially an IMF-based solubility filter. Every drug you've ever taken was designed to navigate this balance."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a 'Solubility Spectrum' poster: arrange 10 molecules you encounter daily from most water-soluble to least water-soluble. For each, show: structure → functional groups → IMF types → explain why it's at that position on the spectrum. Include at least one soap/detergent molecule showing its dual nature. Best spectrum becomes the course's solubility reference!",
+              "placeholder_type": "solubility_spectrum"
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Oil and water don't mix, and everyone knows this. But WHY they don't mix is pure IMF logic: water molecules have strong H-bonds with each other. Oil molecules have strong LDF with each other. Mixing them would break strong H-bonds (expensive) and strong LDF chains (expensive) to form weak oil-water contacts (not enough payoff). The energy math doesn't work. Oil and water are both happier with their own kind. 'Like dissolves like' is molecular segregation driven by thermodynamic accounting."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Ethanol is one of the rare molecules that mixes with BOTH water and many nonpolar substances. Its —OH hydrogen-bonds with water. Its —CH₂CH₃ has enough nonpolar character to interact with oils. This dual nature makes ethanol a universal cleaning solvent, a beverage component (mixes with water), and an extraction solvent (pulls nonpolar compounds from plant material — like vanilla extract, which is ethanol extracting vanillin from vanilla beans). Ethanol is the molecular diplomat."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Methanol (1C) is fully miscible with water, but hexanol (6C) barely dissolves. Why?",
+          "options": {
+            "A": "Hexanol is a different functional group",
+            "B": "Both have —OH, but hexanol's 6-carbon chain creates a dominant hydrophobic region that cannot form favorable interactions with water — the carbon chain overwhelms the single polar —OH group",
+            "C": "Methanol has more hydrogen bonds",
+            "D": "Hexanol is ionic"
+          },
+          "correct_answer": "B",
+          "explanation": "Solubility balance: —OH pulls toward water (hydrophilic), —(CH₂)₅CH₃ pulls away (hydrophobic). In methanol (1C + 1 OH): OH wins → miscible. In hexanol (6C + 1 OH): hydrocarbon wins → barely soluble. Rule of thumb: ~5 carbons per polar group for water solubility.",
+          "tests_concept": "imf_and_solubility"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "imf_p7",
+      "part_title": "Intermolecular Forces in Biology — The Architecture of Life",
+      "purpose": "Deep personal connections — IMFs organize ALL biological structure and function",
+      "curriculum_concepts": [
+        "imf_in_biology"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Body Is Built by Intermolecular Forces",
+              "body": "Covalent bonds build molecules. But IMFs build STRUCTURES — the higher-order architecture of biology. Protein folding, DNA double helix, cell membranes, enzyme-substrate binding, antibody-antigen recognition, drug-receptor interaction — ALL are governed by intermolecular forces between separate molecules or between different parts of the same large molecule."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "IMFs Organize Every Biological Structure",
+              "items": [
+                {
+                  "label": "Protein Folding: IMF Orchestra",
+                  "icon": "settings",
+                  "body": "Hydrophobic interactions (London forces drive nonpolar residues inward), hydrogen bonds (α-helices: N—H···O=C every 4 residues; β-sheets: H-bonds between parallel/antiparallel strands), ionic interactions (salt bridges between —NH₃⁺ and —COO⁻), and dipole-dipole forces ALL work together. Disrupting any one category → misfolding → disease."
+                },
+                {
+                  "label": "DNA Double Helix: H-Bond Code",
+                  "icon": "book",
+                  "body": "A-T: 2 hydrogen bonds. G-C: 3 hydrogen bonds. Plus hydrophobic stacking of aromatic bases (London forces between the flat rings). The H-bonds provide SPECIFICITY (A pairs with T, not C). The stacking provides STABILITY. Two IMF types working in concert create the information storage system of life."
+                },
+                {
+                  "label": "Cell Membranes: Hydrophobic Effect",
+                  "icon": "square",
+                  "body": "Phospholipid bilayers self-assemble because: nonpolar tails have strong London forces with each other → cluster together → exclude water. Polar heads H-bond with water. The membrane is a structure held together ENTIRELY by intermolecular forces — no covalent bonds between lipid molecules. It's a fluid, dynamic, IMF-stabilized barrier."
+                },
+                {
+                  "label": "Enzyme-Substrate Binding: IMF Recognition",
+                  "icon": "key",
+                  "body": "Enzymes recognize substrates through complementary IMFs: H-bonds at specific positions, hydrophobic pockets for nonpolar portions, ionic interactions for charged groups. The 'lock and key' model IS IMF complementarity. Catalytic efficiency requires precise IMF matching."
+                },
+                {
+                  "label": "Drug-Receptor Binding: Designed IMFs",
+                  "icon": "crosshair",
+                  "body": "Every successful drug binds its target through specific IMFs: H-bonds (often 2-4 per drug), hydrophobic contacts (nonpolar drug surface matches nonpolar receptor pocket), occasional ionic interactions. Drug design IS IMF design."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Consider the hierarchy: atoms bond covalently → molecules. Molecules attract via IMFs → structures. Structures enable function → life. Intermolecular forces are the organizational layer between molecules and biology. Without them, you'd have a soup of individual molecules with no structure, no membranes, no folded proteins, no DNA helix — no information processing, no metabolism, no life. IMFs are the architecture of biological reality."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Fever: IMFs Under Assault",
+              "body": "When you have a fever, the elevated temperature disrupts intermolecular forces in your body's proteins. Enzymes become less efficient (their H-bond networks shift, active sites distort slightly). This is why fevers above 40°C (104°F) are dangerous — proteins begin to DENATURE (unfold) as IMFs holding their 3D shape are overcome by thermal energy. Your body's temperature limit IS the thermal stability limit of its intermolecular force networks."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "When you cook an egg, you denature proteins. The clear, liquid albumin (properly folded, held by IMFs) turns white and solid (unfolded, aggregated through new IMF contacts). You cannot 'uncook' an egg because the original IMF pattern is lost and replaced by random aggregation. Cooking IS irreversible disruption of biological intermolecular forces."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Spider silk is stronger than steel (by weight) because of an extraordinary IMF architecture: β-sheet regions (extensive H-bonds → rigidity and strength) alternate with amorphous regions (flexible, elastic). The combination creates a material that is both strong AND stretchy. The spider achieves this by precise control of IMFs during silk formation — extruding proteins in specific conditions that promote the right folding pattern. Material science at its finest, performed by a creature with a brain the size of a pinhead."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Evolution is, in a sense, a 4-billion-year optimization of intermolecular forces. Every protein that folds correctly, every enzyme that binds its substrate, every membrane that forms properly — these are solutions to IMF engineering problems. Natural selection favored molecules with optimal IMF patterns for their function. You are the product of 4 billion years of intermolecular force refinement."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "DNA base pairing (A-T: 2 H-bonds, G-C: 3 H-bonds) relies on which IMF?",
+          "options": {
+            "A": "London dispersion only",
+            "B": "Hydrogen bonds provide the SPECIFICITY (correct base pairing) while hydrophobic stacking of aromatic bases (London forces) provides additional STABILITY — both IMF types work together",
+            "C": "Covalent bonds",
+            "D": "Ionic bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "H-bonds between specific donor/acceptor patterns on bases → A pairs only with T (2 H-bonds match), G pairs only with C (3 H-bonds match). Stacking interactions (London forces between flat aromatic rings) add ~50% of stabilization energy. Information specificity (H-bonds) + structural stability (stacking) = functional DNA.",
+          "tests_concept": "imf_in_biology"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "imf_p8",
+      "part_title": "The Complete Method — From Structure to Physical Properties",
+      "purpose": "Systematic integration: structure → functional groups → IMFs → bp, mp, solubility prediction",
+      "curriculum_concepts": [
+        "predicting_bp_and_solubility",
+        "imf_and_physical_properties"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Prediction Pipeline",
+              "body": "Structure → Functional groups → IMF types → Physical properties. This is the chain of reasoning for EVERY property prediction question: (1) Look at the structure. (2) Identify functional groups. (3) Determine which IMFs are present (LDF, dipole-dipole, H-bonding). (4) Consider size and shape. (5) Predict relative bp, solubility, viscosity."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Complete Prediction Exercises",
+              "items": [
+                {
+                  "label": "Predict: Which is more viscous — glycerol (HOCH₂CH(OH)CH₂OH) or hexane (C₆H₁₄)?",
+                  "hints": "Glycerol has 3 —OH groups → extensive H-bond NETWORK → molecules 'stick' to each other → high viscosity. Hexane has only LDF → molecules slide past easily → low viscosity. Glycerol is ~1,000× more viscous."
+                },
+                {
+                  "label": "Predict: Which evaporates faster — ethanol (C₂H₅OH) or diethyl ether (C₂H₅OC₂H₅)?",
+                  "hints": "Ethanol: H-bonding (O—H) → stronger IMFs → harder to escape to gas → evaporates SLOWER. Ether: dipole-dipole only (no O—H) → weaker IMFs → evaporates FASTER. Same reason ether was used as anesthetic: rapid evaporation from face masks."
+                },
+                {
+                  "label": "Predict: Which dissolves better in water — acetic acid (CH₃COOH) or hexanoic acid (CH₃(CH₂)₄COOH)?",
+                  "hints": "Both have —COOH (H-bonding with water). Acetic acid: 2C, hydrophilic wins → miscible. Hexanoic acid: 6C, hydrophobic dominates → slightly soluble. Same functional group, different balance."
+                },
+                {
+                  "label": "Predict: Rank bp — CH₃CH₂CH₂CH₃ (butane), CH₃CH₂CHO (propanal), CH₃CH₂CH₂OH (propanol), CH₃CH₂COOH (propanoic acid)",
+                  "hints": "Butane (LDF, −1°C) < propanal (dipole, 49°C) < propanol (H-bonding, 97°C) < propanoic acid (H-bond dimers, 141°C). IMF hierarchy wins for similar-sized molecules."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "The prediction hierarchy for similar-sized molecules: (1) H-bonding acids (form dimers) > (2) H-bonding alcohols (form chains) > (3) H-bond acceptors only (C=O ketones/aldehydes) > (4) Weak dipole (ethers) > (5) Nonpolar (hydrocarbons). For DIFFERENT-sized molecules: check whether size differential overrides IMF type. Size wins when differences are large (>2× MW)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Apply It: Your Morning Coffee",
+              "body": "Water (bp 100°C, strong H-bonds → liquid for brewing). Coffee aroma compounds: small volatile molecules with weak IMFs (escape from hot water into air → reach your nose). Sugar (multiple OH → extreme H-bonding → very soluble in hot water, dissolves completely). Cream: emulsion of fat droplets (nonpolar, LDF) stabilized by milk proteins (amphiphilic, bridge fat and water). Everything in one cup follows IMF logic."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Why does sweating cool you down? Sweat is mostly water. As water evaporates from your skin, the MOST energetic molecules (those with enough kinetic energy to overcome H-bonds) escape first → the remaining liquid has lower average kinetic energy → your skin cools. Evaporative cooling IS selective removal of high-energy molecules from an H-bond network. Your body's thermoregulation system exploits intermolecular force physics."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Every 'rank by boiling point' exam question is the same algorithm wearing a different costume: identify IMFs → compare type → compare size → rank. Students who learn the algorithm ace these questions every time. Students who try to memorize individual boiling points drown in data. One algorithm. Infinite molecules. This is the power of understanding over memorization."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Perfume science ('perfumery') is applied IMF engineering. Perfumers classify fragrance molecules as: top notes (small, weak IMFs, evaporate in 15 min — first scent you notice), middle notes (medium molecules, moderate IMFs, last 2-4 hours), and base notes (large molecules, strong IMFs, last 6-24 hours — final lingering scent). A great perfume is an IMF-choreographed temporal experience: different molecules revealing themselves as their intermolecular forces are sequentially overcome."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Glycerol (3 OH groups) is ~1,000× more viscous than hexane (nonpolar). Why?",
+          "options": {
+            "A": "Glycerol is heavier",
+            "B": "Glycerol's 3 —OH groups form extensive hydrogen bond networks — molecules strongly 'stick' to each other, resisting flow — while hexane's weak London forces allow molecules to slide past easily",
+            "C": "Hexane is a gas",
+            "D": "Glycerol has ionic bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Viscosity = resistance to flow = how strongly molecules stick to neighbors. Glycerol: 3 OH per molecule → each can form multiple H-bonds → dense network → high viscosity (like syrup). Hexane: only LDF → molecules slide freely → low viscosity (like water). IMF strength directly determines flow resistance.",
+          "tests_concept": "imf_and_physical_properties"
+        }
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_id": "imf_p9",
+      "part_title": "The Philosophy of Molecular Touch — How the Invisible Shapes the Visible",
+      "purpose": "Capstone — IMFs as the bridge between molecular structure and the observable world",
+      "curriculum_concepts": [
+        "imf_in_biology",
+        "predicting_bp_and_solubility"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "You cannot see intermolecular forces. You cannot hear them. But EVERYTHING you observe about matter — is it solid, liquid, or gas? Does it dissolve? Does it smell? Is it slippery or sticky? Does it boil easily or reluctantly? — is determined by forces between molecules that are individually weaker than any covalent bond. The invisible governs the visible. Quantum fluctuations (London forces), electrostatic alignment (dipole-dipole), and directed lone-pair interactions (H-bonds) — these invisible handshakes CREATE the physical world you experience."
+            },
+            {
+              "type": "section",
+              "title": "The Complete Structure-Property Bridge",
+              "body": "You now possess a complete chain of reasoning from atom to experience: Atoms bond covalently → molecules with specific connectivity. Hybridization → specific 3D geometry. Polarity → specific charge distribution. Functional groups → specific IMF capability. IMFs between molecules → specific physical properties. Physical properties → your sensory experience. This chain — atoms to senses — is the central narrative of organic chemistry. Every subsequent topic adds detail to this chain."
+            },
+            {
+              "type": "section",
+              "title": "What You Can Now Predict",
+              "body": "Given any organic structure, you can now: identify all functional groups, determine polarity, predict IMF types, predict relative boiling point, predict solubility in water vs organic solvents, predict viscosity, predict volatility (and therefore whether you'd smell it), and explain why it has those properties at the molecular level. This is not memorization — it's reasoning from first principles."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "The fact that you can SMELL a rose is an IMF story: rose oil molecules (geraniol, citronellol, linalool — small terpene alcohols) have weak enough IMFs to evaporate from petals at room temperature → travel through air → reach your olfactory receptors → dissolve in the mucus layer (polar enough due to OH groups) → bind receptors through H-bonds and London forces → trigger nerve signals → you perceive 'rose.' Every fragrance experience is a molecular journey governed by IMFs at every step."
+            },
+            {
+              "type": "transition",
+              "body": "Topic 2 — Structure and Representation — is now COMPLETE. You can draw molecules (structural literacy), name their functional groups (chemical vocabulary), and predict their physical behavior (IMF reasoning). You speak the language of organic chemistry. Next: Topic 3 — Hydrocarbons. Alkanes, alkenes, alkynes, and aromatic compounds — the carbon frameworks on which all functional groups sit."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create an 'IMF Journey' visualization for a smell you love (coffee, vanilla, perfume, baking bread, pine forest). Trace the molecular journey: specific molecule → its functional groups → its IMF types → why it evaporates (weak enough to become gas) → how it travels → why your nose detects it (IMF-based receptor binding). Best journey becomes the course's capstone for intermolecular forces!",
+              "placeholder_type": "imf_journey_smell"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your IMF Manifesto",
+              "body": "Three force types. Universal applicability. London dispersion (always present, strengthened by size and surface area). Dipole-dipole (in polar molecules, strengthened by larger dipole moments). Hydrogen bonds (O—H, N—H, F—H to lone pairs on O, N, F — strongest IMF, organized all of biology). From these three forces: every boiling point, every solubility, every biological structure, every scent, every texture. The grammar of molecular interaction."
+            },
+            {
+              "type": "transition",
+              "body": "Topic 2 complete. Drawing + functional groups + IMFs = the language of organic chemistry. Topic 3: hydrocarbons — the carbon frameworks that carry it all."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Nine parts about why molecules are attracted to each other. The executive summary: small nonpolar things are gases (methane, propane). Add polarity and they become liquids (acetone). Add H-bonding and they become higher-boiling liquids (water, alcohols). Make them really big with H-bonds and they're solids (sugars, proteins). Everything in between is explained by some combination of size, polarity, and hydrogen bonding capacity. All of physical chemistry in one paragraph."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The 2016 Nobel Prize in Chemistry was awarded for 'the design and synthesis of molecular machines.' These nanoscale devices — molecular motors, switches, and elevators — work by controlling intermolecular forces at the single-molecule level. The frontier of chemistry is engineering IMFs with atomic precision. What you've learned in this foundation — how molecules attract each other — is the theoretical basis for nanotechnology. The future is built on forces between molecules."
+            },
+            {
+              "type": "transition",
+              "body": "Language acquired. Grammar mastered. Time for content: hydrocarbons, the simplest organic molecules and the structural backbone of everything else."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You encounter an unknown organic liquid. It has a high boiling point, is very viscous, and dissolves readily in water. What IMFs are most likely dominant?",
+          "options": {
+            "A": "London dispersion forces only",
+            "B": "Extensive hydrogen bonding — high bp (strong IMFs), high viscosity (molecules resist flowing due to H-bond networks), water solubility (H-bonds with water) all point to multiple H-bond donor/acceptor groups like those in glycerol or sugars",
+            "C": "Weak dipole-dipole",
+            "D": "No intermolecular forces"
+          },
+          "correct_answer": "B",
+          "explanation": "High bp + high viscosity + water soluble = strong, network-forming H-bonds with water compatibility. This combination (e.g., glycerol, ethylene glycol, sugars) requires multiple —OH groups that form extensive H-bond networks AND interact favorably with water.",
+          "tests_concept": "predicting_bp_and_solubility"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 11,
+    "curriculum_concepts_covered": [
+      "london_dispersion",
+      "dipole_dipole",
+      "hydrogen_bonding_organic",
+      "imf_and_physical_properties",
+      "imf_and_solubility",
+      "imf_in_biology",
+      "predicting_bp_and_solubility"
+    ],
+    "bridges_from": "functional_groups (OC Foundation #05)",
+    "bridges_to": "Topic 3: Hydrocarbons (alkanes, alkenes, alkynes, aromatics)",
+    "extended_treatment": true,
+    "completes_topic": "Topic 2: Structure & Representation (all 3 subtopics covered)"
+  }
+}

@@ -1,0 +1,1013 @@
+{
+  "course": "Organic Chemistry",
+  "topic": "3_hydrocarbons",
+  "subtopic": "3.1_alkanes",
+  "foundation_id": "alkanes_and_nomenclature",
+  "foundation_title": "Alkanes — Naming the Backbone of Organic Chemistry",
+  "foundation_tier": 7,
+  "prerequisites": [
+    "carbon_and_life",
+    "hybridization",
+    "polarity_and_reactivity",
+    "drawing_organic_molecules",
+    "functional_groups",
+    "imf_organic"
+  ],
+  "curriculum_concepts_covered": [
+    "iupac_nomenclature",
+    "alkane_naming",
+    "alkyl_substituents",
+    "conformations",
+    "cycloalkanes",
+    "alkane_properties",
+    "combustion_and_radical_reactions"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 10 parts. Alkanes are the SIMPLEST organic molecules (C and H only, all single bonds, sp³) but they teach the most FUNDAMENTAL skill: IUPAC nomenclature. This naming system extends to EVERY molecule in organic chemistry. Alkanes also introduce conformational analysis (rotation around single bonds) and the first organic reaction type (radical halogenation). Personal angle: gasoline, natural gas, propane, paraffin wax, petroleum jelly — the entire fossil fuel economy IS alkane chemistry.",
+  "total_parts": 10,
+  "extended_treatment": true,
+  "extended_reason": "IUPAC nomenclature learned here is used for the ENTIRE remainder of organic chemistry. Students who master naming with alkanes can name alcohols, halides, alkenes, alkynes, and complex multifunctional molecules. Students who struggle with alkane naming never recover. 10 parts because nomenclature + conformations + cycloalkanes + first reactions require comprehensive treatment.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "alk_p1",
+      "part_title": "Alkanes — The Simplest Molecules That Built the Modern World",
+      "purpose": "Hook — alkanes are 'boring' (no functional groups, no polarity) but they ARE the fossil fuel economy and the backbone of every organic molecule",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Alkanes are the simplest organic molecules: only carbon and hydrogen, only single bonds, only sp³ hybridization. No functional groups. No polarity (essentially). No reactivity under normal conditions. They sound boring. But alkanes are the carbon SKELETON upon which ALL other organic molecules are built — and they power the modern world."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Alkanes have the general formula CₙH₂ₙ₊₂ (acyclic) or CₙH₂ₙ (cyclic). They are SATURATED hydrocarbons — every carbon has the maximum number of hydrogen atoms (no double or triple bonds). 'Saturated' means 'full' — there's no room for more H without breaking the carbon skeleton. This simplicity makes them the perfect starting point for learning nomenclature, conformations, and basic reactions."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Natural gas (methane CH₄, ethane C₂H₆). Propane (C₃H₈, barbecue fuel). Butane (C₄H₁₀, lighter fluid). Gasoline (C₅-C₁₂ mixture). Kerosene (C₁₂-C₁₅, jet fuel). Diesel (C₁₅-C₁₈). Motor oil (C₂₀-C₅₀). Paraffin wax (C₂₀-C₄₀). Petroleum jelly/Vaseline (C₂₅+). Polyethylene plastic (C₁₀₀₀+). The entire petroleum fraction spectrum — from cooking gas to plastic bags — IS alkane chemistry at different chain lengths."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Fossil Fuel Economy Is Alkane Chemistry",
+              "body": "When you drive a car, you're combusting alkanes (gasoline = C₅-C₁₂ hydrocarbons). When you barbecue, you're burning propane (C₃H₈). When you heat your home with natural gas, that's methane (CH₄). When you light a candle, you're vaporizing and burning paraffin wax (long-chain alkanes). The energy that powers civilization comes from breaking C—H and C—C bonds in alkanes and reacting them with oxygen. Understanding alkanes IS understanding energy."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "The plastic bag carrying your groceries: polyethylene (—CH₂CH₂—)ₙ, a long-chain alkane polymer. The petroleum jelly in your medicine cabinet: long-chain alkanes. The mineral oil in baby products: alkanes. The wax on your fruit: alkanes. Paraffin in cosmetics: alkanes. You interact with alkanes — simple, 'boring' molecules — dozens of times daily without knowing it."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Alkanes are the 'plain white rice' of organic chemistry — simple, fundamental, goes with everything, and far more important than it seems. Every complex organic molecule is built on an alkane skeleton with functional groups attached. Without the rice (carbon backbone), there's nothing to put the toppings (functional groups) on. Alkanes are the foundation that makes everything else possible."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Methane (CH₄) is produced by cow digestion (methanogens in their gut). A single cow produces 70-120 kg of methane per year. Globally, livestock produce ~14.5% of greenhouse gas emissions, largely as methane. The simplest alkane — one carbon, four hydrogens — is reshaping Earth's climate. Simple doesn't mean insignificant."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "alk_p2",
+      "part_title": "IUPAC Nomenclature — The Universal Language of Naming Molecules",
+      "purpose": "THE skill — systematic naming that extends to ALL organic molecules. Learn it with alkanes, use it forever.",
+      "curriculum_concepts": [
+        "iupac_nomenclature",
+        "alkane_naming"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Naming Matters",
+              "body": "Before IUPAC nomenclature, molecules had hundreds of common names: 'grain alcohol' (ethanol), 'wood alcohol' (methanol), 'laughing gas' (nitrous oxide). Confusion was rampant. IUPAC (International Union of Pure and Applied Chemistry) created a systematic naming system where the NAME encodes the STRUCTURE. Read the name → draw the molecule. Draw the molecule → write the name. One name per structure. One structure per name. Universal. Unambiguous."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "The IUPAC Prefix System — The Root Words",
+              "body": "The first 10 straight-chain alkanes: Meth- (1C, methane). Eth- (2C, ethane). Prop- (3C, propane). But- (4C, butane). Pent- (5C, pentane). Hex- (6C, hexane). Hept- (7C, heptane). Oct- (8C, octane). Non- (9C, nonane). Dec- (10C, decane). These prefixes are the ROOT of ALL organic naming. Memorize them permanently — they appear in alcohols (-anol), alkenes (-ene), alkynes (-yne), acids (-anoic acid), and every other compound class."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The 4-Step IUPAC Naming Algorithm",
+              "items": [
+                {
+                  "label": "Step 1: Find the LONGEST continuous carbon chain",
+                  "body": "This is the PARENT CHAIN. Its length determines the root name (meth-, eth-, prop-, but-, pent-, etc.). The chain doesn't have to be drawn straight — it can zigzag, turn corners, even loop through what looks like a branch. LONGEST chain wins, even if it's not the most obvious."
+                },
+                {
+                  "label": "Step 2: Number the chain from the end nearest a substituent",
+                  "body": "Give the LOWEST possible numbers to substituent positions. If there's a tie, use alphabetical order to break it. The goal: the set of locants (position numbers) should be as LOW as possible."
+                },
+                {
+                  "label": "Step 3: Identify and name all substituents",
+                  "body": "A substituent is any group branching off the parent chain. Alkyl groups: methyl (1C), ethyl (2C), propyl (3C), butyl (4C), isopropyl (branched 3C). Halogen substituents: fluoro, chloro, bromo, iodo. Each substituent gets a number indicating its position on the parent chain."
+                },
+                {
+                  "label": "Step 4: Assemble the name",
+                  "body": "Format: [numbers]-[substituent names in alphabetical order][parent chain name][suffix]. Example: 2,3-dimethylpentane = pentane parent (5C) + two methyl groups at positions 2 and 3. Use di-, tri-, tetra- for multiple identical substituents. These prefixes (di, tri, tetra) do NOT affect alphabetical order."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Alphabetical ORDER for substituents: ethyl before methyl (e before m). But di-, tri-, tetra- are NOT considered in alphabetization: 'dimethyl' is alphabetized as 'methyl,' 'triethyl' as 'ethyl.' Also: 'iso-' and 'sec-' are NOT alphabetized, but 'tert-' (t-butyl) IS. This is the most commonly tested naming rule on exams."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Name These Alkanes",
+              "items": [
+                {
+                  "label": "CH₃CH₂CH₂CH₃",
+                  "hints": "Longest chain: 4C = butane. No substituents. Name: butane."
+                },
+                {
+                  "label": "CH₃CH(CH₃)CH₂CH₃",
+                  "hints": "Longest chain: 4C. One CH₃ branch at C2. Name: 2-methylbutane."
+                },
+                {
+                  "label": "CH₃C(CH₃)₂CH₂CH₃",
+                  "hints": "Longest chain: 4C (or find 5C going through a branch!). Look carefully — the longest chain might go THROUGH what appears to be a branch. This could be 2,2-dimethylbutane."
+                },
+                {
+                  "label": "A 6-carbon chain with ethyl at C3",
+                  "hints": "3-ethylhexane. E comes before any other common substituent alphabetically."
+                },
+                {
+                  "label": "A 7-carbon chain with methyl at C2, C4 and ethyl at C3",
+                  "hints": "3-ethyl-2,4-dimethylheptane. Ethyl before dimethyl (e before m). Numbers: lowest set wins."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The naming algorithm is a RECIPE. Follow the steps in order and you'll get the right name every time. Most naming errors come from skipping Step 1 (not finding the TRUE longest chain — it may not be the most obviously drawn chain) or Step 2 (numbering from the wrong end). Practice 30 molecules and the algorithm becomes automatic."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "IUPAC nomenclature is the GPS of organic chemistry. The name gives you turn-by-turn directions to draw the molecule: '2,3-dimethylpentane' = 'start with a 5-carbon highway, put a methyl exit at mile 2 and mile 3.' If you follow the directions, you arrive at one — and only one — molecule. No ambiguity. No wrong turns."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The common name 'isooctane' (gasoline rating standard) is actually 2,2,4-trimethylpentane in IUPAC. Eight carbons total, but the LONGEST chain is only 5 (pentane). The 'iso' prefix was used before systematic naming existed. This is why IUPAC was needed — 'isooctane' doesn't tell you the structure. '2,2,4-trimethylpentane' tells you exactly where every atom is."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "The first step in IUPAC naming is:",
+          "options": {
+            "A": "Count all atoms",
+            "B": "Find the LONGEST continuous carbon chain — this determines the parent name and root prefix, even if the longest chain isn't drawn as the most obvious horizontal line",
+            "C": "Name the substituents",
+            "D": "Number from left to right"
+          },
+          "correct_answer": "B",
+          "explanation": "The longest chain = parent chain = root name. This chain may zigzag, turn, or go through apparent branches. Always trace ALL possible paths to find the longest one. Most common exam error: choosing a chain that looks straight but isn't actually the longest.",
+          "tests_concept": "iupac_nomenclature"
+        },
+        {
+          "question": "In naming 3-ethyl-2,4-dimethylheptane, why does 'ethyl' come before 'dimethyl'?",
+          "options": {
+            "A": "Ethyl is larger",
+            "B": "Substituents are listed in ALPHABETICAL order — 'e' (ethyl) comes before 'm' (methyl). The multiplier prefix 'di-' in 'dimethyl' is NOT considered for alphabetical ordering",
+            "C": "Ethyl has a lower number",
+            "D": "It doesn't matter — either order is correct"
+          },
+          "correct_answer": "B",
+          "explanation": "IUPAC rule: substituents listed alphabetically. 'Ethyl' (e) before 'methyl' (m). Di-, tri-, tetra- prefixes are ignored for alphabetization. So dimethyl is alphabetized as 'methyl.' This rule is tested constantly on exams.",
+          "tests_concept": "alkane_naming"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "alk_p3",
+      "part_title": "Alkyl Substituents — The Branch Vocabulary",
+      "purpose": "Common substituent names and the concept of primary/secondary/tertiary/quaternary carbons",
+      "curriculum_concepts": [
+        "alkyl_substituents"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Alkyl Group",
+              "body": "An alkyl group is an alkane missing one hydrogen — it's the 'branch' that attaches to the parent chain. Named by changing the '-ane' suffix to '-yl.' Methane → methyl (—CH₃). Ethane → ethyl (—CH₂CH₃). Propane → propyl (—CH₂CH₂CH₃). Butane → butyl (—CH₂CH₂CH₂CH₃). The general symbol R— (for any alkyl group) appears constantly in organic chemistry."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "The Must-Know Substituents",
+              "items": [
+                {
+                  "label": "Methyl (—CH₃)",
+                  "icon": "circle",
+                  "body": "One carbon. The most common substituent in organic chemistry. Found in methyl groups on drugs, hormones, DNA (methylation regulates gene expression)."
+                },
+                {
+                  "label": "Ethyl (—CH₂CH₃)",
+                  "icon": "circle",
+                  "body": "Two carbons. Second most common."
+                },
+                {
+                  "label": "Propyl (—CH₂CH₂CH₃)",
+                  "icon": "circle",
+                  "body": "Three carbons, straight chain. 'n-propyl' means normal (unbranched) propyl."
+                },
+                {
+                  "label": "Isopropyl (—CH(CH₃)₂)",
+                  "icon": "git-branch",
+                  "body": "Three carbons, branched — attached through the MIDDLE carbon. Also called 1-methylethyl (IUPAC). Isopropyl alcohol = rubbing alcohol."
+                },
+                {
+                  "label": "tert-Butyl (—C(CH₃)₃)",
+                  "icon": "git-branch",
+                  "body": "Four carbons, attached through a quaternary carbon (bonded to 3 CH₃ groups + the chain). Also called 1,1-dimethylethyl (IUPAC). Bulky — creates steric effects that profoundly influence reactions."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Carbon Classification",
+              "body": "Every carbon in an organic molecule can be classified by how many OTHER CARBONS it's bonded to: Primary (1°): bonded to 1 other C (e.g., —CH₃ at the end of a chain). Secondary (2°): bonded to 2 other C's (middle of a chain). Tertiary (3°): bonded to 3 other C's (branch point). Quaternary (4°): bonded to 4 other C's (no hydrogen). This classification predicts reactivity: carbocation stability is 3° > 2° > 1°. Radical stability follows the same order."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Carbon classification (1°, 2°, 3°, 4°) appears EVERYWHERE in organic chemistry. Carbocation stability (3° > 2° > 1°), radical stability, SN1 vs SN2 preference, elimination pathways — all depend on carbon classification. Learn to classify carbons instantly now, and half of future reaction predictions become automatic."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Classify Every Carbon",
+              "items": [
+                {
+                  "label": "2-Methylbutane: CH₃CH(CH₃)CH₂CH₃",
+                  "hints": "C1 (CH₃): 1° (bonded to 1 C). C2 (CH with branch): 3° (bonded to 3 C's). C3 (CH₂): 2°. C4 (CH₃): 1°. Branch CH₃: 1°."
+                },
+                {
+                  "label": "Neopentane: C(CH₃)₄",
+                  "hints": "Central C: 4° (quaternary — bonded to 4 C's, no H!). All four CH₃: 1°."
+                },
+                {
+                  "label": "2,3-Dimethylbutane",
+                  "hints": "End CH₃ groups: 1°. Both branch-point carbons (C2, C3): 3°. Branch methyls: 1°. Count carefully!"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "DNA methylation — the addition of a methyl group (—CH₃) to cytosine bases — is one of the primary mechanisms of gene regulation. Methylated genes are typically silenced. This means the simplest alkyl substituent — one carbon with three hydrogens — controls which of your 20,000 genes are expressed. Cancer, aging, and development are all influenced by where methyl groups are placed on DNA. The humblest substituent with the mightiest power."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Learning alkyl groups is like learning the most common surnames in a new city. Methyl is 'Smith' — everywhere, on everything. Ethyl is 'Johnson.' Propyl is less common, isopropyl shows up in rubbing alcohol, and tert-butyl is the big, bulky one that takes up too much space (steric hindrance in molecular terms, spreading out on the subway in human terms)."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The tert-butyl group —C(CH₃)₃ is so bulky that it physically shields nearby reactive sites from attack. This 'steric protection' is exploited in synthesis: chemists add tert-butyl groups temporarily to BLOCK reactions at certain positions, then remove them later. A molecular bodyguard — hired for bulk, not reactivity."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A tertiary (3°) carbon is:",
+          "options": {
+            "A": "Bonded to 3 hydrogen atoms",
+            "B": "Bonded to 3 OTHER CARBON atoms — this classification predicts carbocation and radical stability (3° > 2° > 1°) and determines reaction pathways",
+            "C": "The third carbon in a chain",
+            "D": "Bonded to 3 functional groups"
+          },
+          "correct_answer": "B",
+          "explanation": "Carbon classification counts CARBON neighbors, not hydrogens. 1°: 1 C neighbor. 2°: 2 C neighbors. 3°: 3 C neighbors. 4°: 4 C neighbors (quaternary, no H). This classification predicts stability of intermediates and reaction mechanisms throughout organic chemistry.",
+          "tests_concept": "alkyl_substituents"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "alk_p4",
+      "part_title": "Conformations — The Dance of Rotating Bonds",
+      "purpose": "Rotation around C—C single bonds, Newman projections, staggered vs eclipsed, gauche vs anti",
+      "curriculum_concepts": [
+        "conformations"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Single Bonds Rotate",
+              "body": "sp³ carbon forms sigma bonds (head-on overlap). Sigma bonds allow FREE ROTATION — the two groups on either side of a C—C bond can spin relative to each other like wheels on an axle. This rotation generates different spatial arrangements called CONFORMATIONS. Conformations are NOT different molecules (no bonds broken) — they're different orientations of the same molecule achieved by rotation."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Key Conformations of Ethane",
+              "body": "Staggered: each H on the front carbon is positioned between the H's of the back carbon (60° offset). This is the LOWEST ENERGY — groups are as far apart as possible. Eclipsed: each H on the front directly overlaps an H on the back (0° offset). This is the HIGHEST ENERGY — groups are as close as possible → torsional strain (~12 kJ/mol total for ethane). Ethane rapidly interconverts between staggered and eclipsed — at room temperature, rotation is essentially free."
+            },
+            {
+              "type": "section",
+              "title": "Newman Projections",
+              "body": "Newman projections look DOWN the C—C bond axis. The front carbon is a dot (center), the back carbon is a circle. Bonds to the front carbon radiate from the center. Bonds to the back carbon radiate from the circle's edge. In staggered conformation: front and back bonds alternate (60° apart). In eclipsed: front and back bonds line up (0°). Newman projections make conformational analysis VISUAL — you see strain at a glance."
+            },
+            {
+              "type": "section",
+              "title": "Butane Conformations: Steric Effects",
+              "body": "When larger groups are involved (not just H), STERIC STRAIN becomes important. Butane (CH₃CH₂CH₂CH₃) viewed along C2—C3: Anti conformation: the two CH₃ groups 180° apart. Lowest energy — maximum separation. Gauche conformation: CH₃ groups 60° apart. Higher energy by ~3.8 kJ/mol — steric strain from methyl-methyl proximity. Eclipsed (CH₃/CH₃): highest energy by ~19 kJ/mol — severe steric + torsional strain."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Anti is lowest energy (large groups far apart). Gauche is slightly higher (large groups adjacent). Eclipsed is highest (groups overlapping). Molecules spend MOST of their time in or near the anti conformation, less time gauche, and almost no time eclipsed. This isn't locked — it's a population distribution. At room temperature, all conformations are accessible; the molecule flexes rapidly between them."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Feel Conformations",
+              "body": "Hold your two fists in front of you touching at the knuckles (the C—C bond). Your thumbs point up. Rotate one fist: when thumbs align (eclipsed) → closest → feel the collision. When thumbs oppose (anti, 180° apart) → most room → lowest strain. When thumbs are 60° apart (gauche) → moderate crowding. You've just done a conformational analysis with your hands."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Protein backbone flexibility comes from conformational rotation around SINGLE BONDS. Each amino acid's phi (φ) and psi (ψ) angles are rotation angles around single bonds in the backbone. Only certain combinations are sterically allowed (the allowed regions map onto the Ramachandran plot). Protein folding is conformational analysis at massive scale — the same staggered-vs-eclipsed preferences that govern ethane also govern how your hemoglobin folds."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Conformational analysis is molecular social distancing. Groups want to be as far apart as possible (anti = 6 feet apart). They'll tolerate being closer (gauche = elbow room). They absolutely don't want to be on top of each other (eclipsed = packed subway car). The energy cost of crowding is real and measurable. Molecules, like humans, prefer personal space."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The energy barrier to rotation in ethane is only ~12 kJ/mol. At room temperature (thermal energy ~2.5 kJ/mol per degree of freedom), this barrier is crossed billions of times per second. Each C—C bond in ethane rotates approximately 10¹⁰ times per second. Alkanes are in constant internal motion — flexing, twisting, rotating. 'Solid' molecules are anything but static at the atomic level."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In butane, the anti conformation (two CH₃ groups 180° apart) is lowest energy. Why?",
+          "options": {
+            "A": "Anti has stronger bonds",
+            "B": "Anti maximizes the distance between the two bulky CH₃ groups, minimizing steric strain — groups that are far apart don't repel each other",
+            "C": "Anti has fewer atoms",
+            "D": "Anti is the only conformation possible"
+          },
+          "correct_answer": "B",
+          "explanation": "Steric strain: when large groups are close → electron clouds repel → higher energy. Anti: 180° apart = maximum separation = minimum steric strain = lowest energy. Gauche: 60° apart = some strain. Eclipsed: 0° = maximum strain. Distance between groups determines energy.",
+          "tests_concept": "conformations"
+        },
+        {
+          "question": "Newman projections are used to:",
+          "options": {
+            "A": "Show molecular formula",
+            "B": "Visualize the spatial arrangement of groups around a C—C bond by looking DOWN the bond axis — making staggered, eclipsed, anti, and gauche relationships visible at a glance",
+            "C": "Count electrons",
+            "D": "Determine molecular weight"
+          },
+          "correct_answer": "B",
+          "explanation": "Newman projections: front C = dot, back C = circle. Bonds radiate out. You SEE whether groups are staggered (60° offset, low energy) or eclipsed (aligned, high energy). This visual tool makes conformational analysis intuitive — strain is visible, not abstract.",
+          "tests_concept": "conformations"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "alk_p5",
+      "part_title": "Cycloalkanes — Rings, Strain, and the Perfect Chair",
+      "purpose": "Ring systems — strain in small rings, cyclohexane chair/boat, axial vs equatorial",
+      "curriculum_concepts": [
+        "cycloalkanes"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Closing the Ring",
+              "body": "Cycloalkanes are alkanes whose carbon chain forms a ring: CₙH₂ₙ (two fewer H than acyclic — the ring closure 'costs' 2 H's). Cyclopropane (3C ring), cyclobutane (4C), cyclopentane (5C), cyclohexane (6C). Ring size profoundly affects properties because of RING STRAIN — the forced deviation of bond angles from the ideal 109.5°."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "Ring Strain by Size",
+              "items": [
+                {
+                  "label": "Cyclopropane (3C): Very High Strain",
+                  "body": "Forced angle: 60° (ideal: 109.5°). Enormous angle strain + eclipsing strain (all H's eclipsed). Strain energy: ~115 kJ/mol. Highly reactive — undergoes ring-opening reactions like an alkene."
+                },
+                {
+                  "label": "Cyclobutane (4C): High Strain",
+                  "body": "Forced angle: ~90°. Still far from 109.5°. Strain energy: ~110 kJ/mol. Slightly puckered to reduce eclipsing."
+                },
+                {
+                  "label": "Cyclopentane (5C): Low Strain",
+                  "body": "Nearly ideal angles (~108° vs 109.5°). Minimal angle strain. Slightly puckered ('envelope' conformation) to reduce eclipsing. Strain energy: ~25 kJ/mol."
+                },
+                {
+                  "label": "Cyclohexane (6C): ZERO Strain",
+                  "body": "Chair conformation achieves PERFECT 109.5° angles at every carbon AND fully staggered bonds. Zero angle strain. Zero torsional strain. This is why 6-membered rings dominate organic chemistry and biochemistry."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "The Cyclohexane Chair",
+              "body": "Cyclohexane adopts a 'chair' conformation: alternating up-down carbons create a non-planar shape where all bond angles = 109.5° and all adjacent bonds are perfectly staggered. Two types of positions: AXIAL (pointing straight up or down, perpendicular to the 'seat' of the chair) and EQUATORIAL (pointing outward, roughly in the plane of the ring). Each carbon has one axial and one equatorial hydrogen."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Chair flip (ring flip): cyclohexane rapidly interconverts between two chair conformations. During a flip, ALL axial positions become equatorial and ALL equatorial become axial. With only H's, both chairs are equivalent. But with a SUBSTITUENT (like CH₃), the chair with the substituent EQUATORIAL is preferred — less steric strain with neighboring axial H's. Larger substituent → stronger equatorial preference. tert-Butyl group: ~99.99% equatorial."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Build a Chair",
+              "body": "Make a fist with one hand and lay it on a table — that's the 'footrest' of the chair. Make a fist with the other hand and raise it — that's the 'headrest.' Connect them with imaginary side rails. The chair is NOT flat — it's 3D with alternating up-down vertices. Axial bonds point straight up/down from each vertex (like flagpoles). Equatorial bonds angle outward (like the equator of Earth at each vertex)."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Glucose — your body's primary energy currency — exists as a 6-membered ring (pyranose form). In the most stable chair conformation, ALL bulky —OH groups are EQUATORIAL (minimizing steric strain). This specific chair conformation is why glucose is the preferred sugar for metabolism — its perfect equatorial arrangement makes it maximally stable and easily recognized by enzymes. Your energy metabolism runs on cyclohexane conformational preferences."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "The cyclohexane chair is the most drawn structure in organic chemistry — students draw thousands of them over two semesters. There's an art to it: the parallel lines, the proper angles, the flagpole vs equatorial positioning. Some students' chairs look like furniture. Others look like abstract art. Either way, mastering the chair drawing is a rite of passage."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Odd Hassel and Derek Barton shared the 1969 Nobel Prize in Chemistry for conformational analysis — specifically for understanding cyclohexane's chair conformation and its consequences. The idea that 3D molecular shape affects chemical behavior seems obvious now, but before their work, many chemists treated molecules as flat drawings. A Nobel Prize for realizing molecules are 3D. Sometimes the deepest insights are 'obvious' — after someone proves them."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Cyclohexane in its chair conformation has zero ring strain because:",
+          "options": {
+            "A": "It's flat",
+            "B": "The chair shape achieves perfect 109.5° bond angles at every carbon AND fully staggered bonds between adjacent carbons — eliminating both angle strain and torsional strain",
+            "C": "It has no hydrogens",
+            "D": "6 is a magic number"
+          },
+          "correct_answer": "B",
+          "explanation": "Chair cyclohexane: all angles = 109.5° (ideal sp³) + all bonds staggered (maximum H—H distance). Zero angle strain + zero torsional strain = zero total strain. This perfection is why 6-membered rings dominate organic chemistry and biochemistry.",
+          "tests_concept": "cycloalkanes"
+        },
+        {
+          "question": "Methylcyclohexane strongly prefers the chair conformation with CH₃ in the equatorial position. Why?",
+          "options": {
+            "A": "Equatorial is lower on the ring",
+            "B": "An equatorial CH₃ avoids 1,3-diaxial interactions — when axial, it clashes with the axial H's on C3 and C5 (gauche-like steric strain), but equatorial avoids these interactions",
+            "C": "Methyl is too small for axial",
+            "D": "Chair flips don't occur"
+          },
+          "correct_answer": "B",
+          "explanation": "Axial substituents clash with axial H's two carbons away (1,3-diaxial interactions = gauche-like strain). Equatorial substituents point outward, avoiding these clashes. Larger groups → more severe 1,3-diaxial strain → stronger equatorial preference. tert-Butyl: >99.99% equatorial.",
+          "tests_concept": "cycloalkanes"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "alk_p6",
+      "part_title": "Alkane Physical Properties — Predicting from Structure",
+      "purpose": "Boiling points, melting points, density, solubility — all predicted from IMF (LDF only for alkanes)",
+      "curriculum_concepts": [
+        "alkane_properties"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Alkanes Have Only London Dispersion Forces",
+              "body": "No functional groups → no permanent dipoles → no dipole-dipole or H-bonding. Only LDF. This means: (1) Physical state depends ENTIRELY on chain length (LDF strength ∝ surface area ∝ number of electrons). (2) Alkanes are insoluble in water (nonpolar, can't form H-bonds with water). (3) Alkanes are less dense than water (most organic liquids float on water). (4) Boiling points increase predictably with chain length."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Trends You Can Predict",
+              "items": [
+                {
+                  "label": "Chain Length → Physical State",
+                  "icon": "thermometer",
+                  "body": "C₁-C₄: gases. C₅-C₁₇: liquids. C₁₈+: waxy solids. Each CH₂ adds ~20-30°C to bp."
+                },
+                {
+                  "label": "Branching → Lower Boiling Point",
+                  "icon": "git-branch",
+                  "body": "Branched alkanes: more compact → less surface area → weaker LDF → lower bp. Pentane: 36°C. Neopentane: 10°C. Same formula, 26°C difference."
+                },
+                {
+                  "label": "Cyclic → Higher Boiling Point",
+                  "icon": "circle",
+                  "body": "Cyclopentane (49°C) > pentane (36°C). Ring is more compact but has MORE intermolecular contact area (rigid structure packs better) → slightly stronger LDF."
+                },
+                {
+                  "label": "All Alkanes: Insoluble in Water, Less Dense",
+                  "icon": "droplet",
+                  "body": "Density: 0.6-0.8 g/mL (lighter than water). Solubility: essentially zero in water. 'Oil floats on water' — oil is long-chain alkanes/alkenes."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Alkane physical properties are the PUREST expression of London dispersion forces — no other IMFs complicate the picture. This makes alkanes the ideal training ground for predicting properties from structure. If you can predict alkane trends, you can predict any organic compound's properties by adding the effects of functional groups on top."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Petroleum Gradient",
+              "body": "A petroleum refinery is an alkane property demonstration at industrial scale. Fractional distillation separates crude oil by boiling point: natural gas exits at top (lowest bp, C₁-C₄). Then petroleum ether (C₅-C₆). Gasoline (C₅-C₁₂). Kerosene/jet fuel (C₁₂-C₁₅). Diesel (C₁₅-C₁₈). Lubricating oil (C₂₀-C₅₀). Asphalt/tar remains at bottom (highest bp, C₃₆+). Each fraction is defined by chain length → LDF strength → boiling point range."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "The 'octane rating' at gas stations (87, 89, 93) measures how well gasoline resists premature combustion (knocking). Isooctane (2,2,4-trimethylpentane, BRANCHED) = 100 rating (burns smoothly). n-Heptane (STRAIGHT chain) = 0 rating (knocks badly). Branching affects not just boiling point but combustion behavior. Your engine performance depends on alkane structure."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Methane hydrates — methane trapped in ice-like water cages on the ocean floor — contain more energy than all known coal, oil, and natural gas reserves combined. The simplest alkane, frozen in water's hydrogen-bond framework, may be the largest untapped energy source on Earth. If we figure out how to extract it safely (without triggering massive methane releases → catastrophic warming), it could power civilization for centuries."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Gasoline is a cocktail of about 200 different hydrocarbons (C₅-C₁₂ alkanes, cycloalkanes, and aromatics), carefully blended for the right boiling range, octane rating, and vapor pressure for the season. Summer gasoline: lower vapor pressure (less evaporation in heat). Winter gasoline: higher vapor pressure (easier cold starts). Your car runs on seasonally adjusted organic chemistry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Alkanes are insoluble in water because:",
+          "options": {
+            "A": "They're too heavy",
+            "B": "Alkanes are nonpolar (only C—H and C—C bonds, essentially zero dipole) — they cannot form hydrogen bonds or dipole interactions with water, so dissolution is energetically unfavorable",
+            "C": "Water is too cold",
+            "D": "Alkanes evaporate instantly"
+          },
+          "correct_answer": "B",
+          "explanation": "Dissolving nonpolar alkanes in polar water would require breaking water's H-bond network without forming equivalent new interactions. The energy cost is too high → immiscible. 'Like dissolves like': nonpolar alkanes dissolve in nonpolar solvents (hexane, toluene), not in water.",
+          "tests_concept": "alkane_properties"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "alk_p7",
+      "part_title": "Combustion — The Reaction That Powers Civilization",
+      "purpose": "Alkane combustion as the first organic reaction — and the most economically important one",
+      "curriculum_concepts": [
+        "combustion_and_radical_reactions"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Combustion",
+              "body": "CₙH₂ₙ₊₂ + excess O₂ → nCO₂ + (n+1)H₂O + energy. Complete combustion of an alkane produces carbon dioxide, water, and a large amount of heat. This is EXOTHERMIC — the energy released from forming strong C=O and O—H bonds exceeds the energy required to break C—H, C—C, and O=O bonds. This energy difference IS the energy that powers engines, heaters, and stoves."
+            },
+            {
+              "type": "section",
+              "title": "Why So Much Energy?",
+              "body": "Breaking bonds requires energy (endothermic). Forming bonds releases energy (exothermic). In combustion: bonds broken (C—H: 413 kJ/mol each, C—C: 348, O=O: 498) vs bonds formed (C=O in CO₂: 799 each, O—H: 463 each). The formed bonds are STRONGER than the broken bonds → net energy release. Methane combustion: CH₄ + 2O₂ → CO₂ + 2H₂O releases 890 kJ/mol."
+            },
+            {
+              "type": "section",
+              "title": "Incomplete Combustion",
+              "body": "With insufficient oxygen: CₙH₂ₙ₊₂ + limited O₂ → CO + C + H₂O. Produces carbon monoxide (toxic gas) and soot (elemental carbon). This happens in poorly ventilated spaces — CO poisoning. Car exhaust in enclosed garage: incomplete combustion → CO accumulation → lethal. Catalytic converters help: they convert CO → CO₂ and unburned hydrocarbons → CO₂ + H₂O."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Combustion is the MOST economically important organic reaction — it produces ~80% of the world's energy. Every internal combustion engine, every natural gas furnace, every jet turbine, every gas stove is running this one reaction: hydrocarbon + O₂ → CO₂ + H₂O + energy. Understanding combustion IS understanding the world's energy system — and its climate consequences."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Climate change is a combustion problem. For 200 years, we've burned fossil fuels (ancient alkanes from decomposed organisms): coal, oil, natural gas. Each combustion reaction produces CO₂ that enters the atmosphere. 36 billion tonnes of CO₂ annually from fossil fuel combustion. The chemistry is simple (CₙH₂ₙ₊₂ + O₂ → CO₂). The consequence is planetary. Understanding this reaction isn't just chemistry — it's understanding the defining challenge of your generation."
+            },
+            {
+              "type": "section",
+              "title": "Heat of Combustion Trends",
+              "body": "Methane: 890 kJ/mol. Ethane: 1,560. Propane: 2,220. Octane: 5,470. Longer chains → more C—H and C—C bonds to break → more CO₂ and H₂O formed → more energy released per mole. But per GRAM, all alkanes release similar energy (~47 kJ/g) because the additional energy scales with additional mass. Hydrogen (H₂): 142 kJ/g — nearly 3× more energy-dense per gram. This is why hydrogen fuel is attractive."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Combustion: the ONE reaction everyone knows, even non-chemists. Light a match? Combustion. Start your car? Combustion. Fire a rocket? Combustion. It's humanity's oldest chemical reaction (controlled fire, ~1 million years ago) and still its most important. Our entire civilization runs on the same reaction that cavemen used to cook dinner — just at larger scale with more refined fuels."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The International Space Station's water supply is partly maintained by combustion in reverse: electrolysis splits water into H₂ and O₂ (the reverse of the hydrogen-oxygen combustion reaction). The O₂ is breathed by astronauts. The chemistry of space survival is just combustion read backwards."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O releases 890 kJ/mol. Why is this exothermic?",
+          "options": {
+            "A": "Methane is unstable",
+            "B": "The energy released from FORMING strong C=O and O—H bonds in products exceeds the energy required to BREAK C—H and O=O bonds in reactants — net energy is released",
+            "C": "Oxygen is explosive",
+            "D": "CO₂ absorbs energy"
+          },
+          "correct_answer": "B",
+          "explanation": "Exothermic = products lower energy than reactants. The C=O bonds in CO₂ (very strong, 799 kJ/mol each) and O—H bonds in H₂O (463 each) release more energy upon forming than is consumed breaking C—H (413 each) and O=O (498 each). Net release: 890 kJ/mol.",
+          "tests_concept": "combustion_and_radical_reactions"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "alk_p8",
+      "part_title": "Radical Halogenation — When 'Unreactive' Alkanes Finally React",
+      "purpose": "Introduction to radical mechanisms — initiation, propagation, termination — using alkane halogenation",
+      "curriculum_concepts": [
+        "combustion_and_radical_reactions"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Making Alkanes React",
+              "body": "Alkanes are remarkably unreactive — no polar bonds, no functional groups, no electrophilic or nucleophilic sites. But under harsh conditions (heat or UV light), the C—H bond CAN be broken homolytically (each atom keeps one electron) → forming RADICALS (atoms or molecules with unpaired electrons). This opens the door to radical halogenation — replacing a C—H with a C—X (X = Cl or Br)."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Radical Chain Mechanism",
+              "body": "Three phases: (1) INITIATION: energy input (hv or heat) breaks X₂ into 2 X• radicals (homolytic cleavage). (2) PROPAGATION: X• abstracts H from alkane → HX + R•. Then R• reacts with X₂ → RX + X•. The X• produced enters the next cycle — it's a CHAIN reaction. (3) TERMINATION: any two radicals combine → stable product. Chain ends. The curly fishhook arrows (half-headed, ⇀) show single-electron movement."
+            },
+            {
+              "type": "section",
+              "title": "Selectivity: Which H Gets Replaced?",
+              "body": "Not all C—H bonds are equally reactive. Radical stability: 3° > 2° > 1° > methyl (same order as carbocation stability, for similar reasons — hyperconjugation stabilizes the electron-deficient center). Bromine is HIGHLY selective: preferentially replaces 3° H (reacts ~1600× faster with 3° than 1°). Chlorine is less selective: still prefers 3° > 2° > 1° but with smaller ratios (~5:4:1). Selectivity determines which PRODUCT forms."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Radical halogenation introduces THREE key concepts used throughout organic chemistry: (1) Reactive intermediates (radicals — species with unpaired electrons). (2) Chain mechanisms (one step generates the reagent for the next). (3) Selectivity based on intermediate stability (3° > 2° > 1°). These concepts reappear in polymerization, combustion, biological oxidation, and aging/cancer (radical damage to DNA)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Radical Chemistry in Your Life",
+              "body": "Ozone depletion: chlorine radicals (from CFCs) catalytically destroy ozone in a CHAIN REACTION — one Cl• destroys ~100,000 O₃ molecules before termination. The Montreal Protocol (1987) banned CFCs because of radical chain chemistry in the stratosphere. Aging and cancer: reactive oxygen species (superoxide O₂•⁻, hydroxyl radical HO•) damage DNA, proteins, and lipids through radical chain reactions. Antioxidants (vitamin C, vitamin E) TERMINATE these chains by donating H atoms to radicals."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Vitamin E (α-tocopherol) is a radical chain terminator. It donates an H atom to lipid peroxyl radicals (ROO•) in cell membranes → stops the radical chain → prevents oxidative damage. The vitamin E radical is STABLE (delocalized) and doesn't propagate the chain. You eat antioxidants to terminate radical chain reactions in your body. Radical chemistry is not just a textbook topic — it's happening inside you right now."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Radical halogenation is the 'peer pressure' of organic reactions. One radical converts a stable molecule into another radical, which converts another molecule into another radical — a chain reaction where one bad actor recruits others. Only when two radicals meet and neutralize each other (termination) does the cycle stop. It's chemistry's version of viral spreading."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "A single CFC molecule can destroy 100,000 ozone molecules through radical chain propagation before being deactivated. This astronomical amplification is why even small CFC emissions caused massive ozone damage. Radical chains are powerful — a tiny initiation event cascades into enormous consequences. The chemistry that put a hole in the ozone layer is the same radical chain mechanism you learn with alkane halogenation."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In radical halogenation, bromine preferentially replaces a 3° hydrogen over a 1° hydrogen (~1600:1 selectivity). Why?",
+          "options": {
+            "A": "3° hydrogens are more accessible",
+            "B": "The 3° radical intermediate is more STABLE (hyperconjugation from 3 adjacent C—H bonds stabilizes the electron-deficient carbon) — a more stable intermediate means a lower energy transition state → faster reaction",
+            "C": "Bromine is attracted to larger carbons",
+            "D": "1° hydrogens don't exist in alkanes"
+          },
+          "correct_answer": "B",
+          "explanation": "Radical stability: 3° > 2° > 1° (hyperconjugation). Hammond's postulate: more stable intermediate → lower-energy transition state → faster formation. Br• is selective because the H-abstraction step is endothermic → transition state resembles the radical product → stability differences matter. Cl• is less selective because its abstraction is exothermic → earlier transition state.",
+          "tests_concept": "combustion_and_radical_reactions"
+        }
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_id": "alk_p9",
+      "part_title": "Naming Mastery — Practice, Traps, and the Art of Precision",
+      "purpose": "Intensive naming practice with common exam traps and error prevention",
+      "curriculum_concepts": [
+        "iupac_nomenclature",
+        "alkane_naming"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Most Common Naming Mistakes",
+              "body": "Naming errors on exams are entirely preventable. The traps are well-known:"
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Top 5 Naming Traps",
+              "items": [
+                {
+                  "label": "1. Not finding the TRUE longest chain",
+                  "icon": "x-circle",
+                  "body": "The longest chain may not be the most obvious. It can zigzag, turn corners, or go through what looks like a branch. ALWAYS trace ALL possible paths. Count each one. The longest wins."
+                },
+                {
+                  "label": "2. Numbering from the wrong end",
+                  "icon": "x-circle",
+                  "body": "Number to give the LOWEST locants to substituents. If there's a tie in first substituent position, move to the second substituent. If still tied, use alphabetical priority. Always check BOTH numbering directions."
+                },
+                {
+                  "label": "3. Alphabetical order errors",
+                  "icon": "x-circle",
+                  "body": "Ethyl before methyl (e < m). Ignore di-, tri-, tetra- prefixes. But tert- IS considered ('t' comes after most letters). sec- and iso- are NOT considered."
+                },
+                {
+                  "label": "4. Forgetting multiplier prefixes",
+                  "icon": "x-circle",
+                  "body": "Two methyls = dimethyl. Three = trimethyl. The prefix IS required — '2,4-methylheptane' is WRONG. Must be '2,4-dimethylheptane.'"
+                },
+                {
+                  "label": "5. Misidentifying substituents",
+                  "icon": "x-circle",
+                  "body": "Make sure branches are NOT part of the parent chain. A common error: including a branch in the parent chain (making it too long) and then having a shorter actual parent chain."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Self-check protocol: (1) Did I find the LONGEST chain? (2) Did I number from the end giving LOWEST locants? (3) Are substituents in ALPHABETICAL order? (4) Did I include di/tri/tetra prefixes? (5) Is the name unique — would someone else draw the SAME molecule from this name? If yes to all five → correct name."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Advanced Naming: Find the Traps",
+              "items": [
+                {
+                  "label": "Structure: 7-carbon chain drawn as 5C straight + 2C branch at C3",
+                  "hints": "TRAP: the longest chain might actually be 7C if you trace through the 'branch.' Always check: does the branch + one side of the main chain create a longer continuous path than the apparent main chain?"
+                },
+                {
+                  "label": "Two methyl groups at C2 and C4 on a hexane chain",
+                  "hints": "2,4-dimethylhexane. NOT '4,2-dimethylhexane' — list numbers in ascending order. NOT '3,5-dimethylhexane' — that's numbering from the wrong end (2+4=6 < 3+5=8, so 2,4 wins)."
+                },
+                {
+                  "label": "Ethyl at C3, methyl at C2, methyl at C4 on pentane",
+                  "hints": "3-ethyl-2,4-dimethylpentane. Ethyl before dimethyl (alphabetical). Check: is pentane really the longest chain? Could going through the ethyl branch give hexane?"
+                },
+                {
+                  "label": "Name → Structure: draw 2,2,4-trimethylpentane",
+                  "hints": "5-carbon parent. Two CH₃ on C2, one CH₃ on C4. This is 'isooctane' — the octane rating standard (100). 8 total carbons but pentane is the LONGEST continuous chain."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Naming is a SKILL, not knowledge. You can't learn it by reading — you learn it by DOING. Name 50 structures and your error rate drops to near zero. The algorithm is simple. The traps are predictable. The only variable is practice volume."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "IUPAC naming on exams is the organic chemistry equivalent of spelling tests. You either know the rules and apply them systematically, or you guess and get it wrong. There's no partial credit for a name that describes a different molecule. '2,3-dimethylpentane' and '3,4-dimethylpentane' are the SAME molecule (just numbered from opposite ends). But '2,3-dimethylhexane' is a completely different compound. Precision matters."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The longest named alkane in the IUPAC system has over 100 words in its name. The longest synthetic linear alkane ever made is C₃₈₄H₇₇₀ (2005). Its IUPAC name would be 'tetraoctacontahecatane' as a base name... plus hundreds of substituent terms. At some point, chemists just use molecular formula. Even IUPAC has practical limits."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A molecule has a 6C chain drawn horizontally with a 3C branch at C3. Before naming, you should:",
+          "options": {
+            "A": "Name it as hexane with a propyl branch",
+            "B": "First check ALL possible continuous paths — the longest chain might be 7C or 8C if traced through the branch, which would change the parent name entirely",
+            "C": "Always use the horizontal chain",
+            "D": "Count all carbons and use that as parent"
+          },
+          "correct_answer": "B",
+          "explanation": "The TRUE longest chain may go through what appears to be a branch. Trace all paths: main chain only (6C), or main chain through the branch (could be 3 + part of main = potentially longer). The longest continuous chain = parent. Most common naming error = not finding it.",
+          "tests_concept": "iupac_nomenclature"
+        }
+      ]
+    },
+    {
+      "part_number": 10,
+      "part_id": "alk_p10",
+      "part_title": "The Philosophy of Simplicity — What Alkanes Teach Us",
+      "purpose": "Capstone — alkanes are simple but they teach the deepest lessons",
+      "curriculum_concepts": [
+        "alkane_naming",
+        "alkane_properties"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Alkanes are the simplest organic molecules — no functional groups, no polarity, no reactivity under normal conditions. Yet from this simplicity emerges: the nomenclature system that names all of organic chemistry, the conformational analysis that explains protein folding, the ring strain theory that explains why nature prefers 6-membered rings, the radical mechanism that explains ozone depletion, the combustion reaction that powers civilization, and the LDF trends that predict physical properties. Simplicity is not limitation. Simplicity is foundation."
+            },
+            {
+              "type": "section",
+              "title": "What You've Built in This Foundation",
+              "body": "You now possess: (1) IUPAC nomenclature — name any alkane, applicable to all organic molecules. (2) Alkyl substituent vocabulary — methyl, ethyl, propyl, isopropyl, tert-butyl. (3) Carbon classification — 1°/2°/3°/4° prediction. (4) Conformational analysis — staggered vs eclipsed, anti vs gauche, Newman projections. (5) Cyclohexane chair — axial vs equatorial, chair flips, substituent preferences. (6) Physical properties — LDF trends, petroleum fractions. (7) Combustion — the energy reaction. (8) Radical halogenation — chain mechanism, selectivity."
+            },
+            {
+              "type": "transition",
+              "body": "Alkanes mastered. The naming system you learned HERE extends to everything that follows. Next: alkenes and alkynes — add double and triple bonds to the carbon skeleton, and suddenly: geometry, reactivity, and entirely new reaction types emerge. From saturated simplicity to unsaturated complexity."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create an 'Alkane World Tour' — trace alkanes through your day from morning to night: natural gas heating water (methane), plastic toothbrush (polyethylene), gasoline commute (octane), plastic packaging (polypropylene), candle at dinner (paraffin wax). For each, identify the alkane, its chain length range, and the property (physical state, combustion energy, flexibility) that makes it useful for that application. Best tour becomes the course's alkane capstone!",
+              "placeholder_type": "alkane_world_tour"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Naming Legacy",
+              "body": "Every molecule you'll name in the rest of organic chemistry uses the system you just learned. Alcohols: find the longest chain containing the OH → name as alkanol. Alkenes: longest chain containing C=C → alkene suffix. Halides: haloalkane prefixes. Acids: alkanoic acid. The ROOT is always the alkane name. Master alkane naming → master ALL organic naming. This investment pays compound interest through 10 more topics."
+            },
+            {
+              "type": "transition",
+              "body": "Next: alkenes and alkynes — unsaturated hydrocarbons with C=C and C≡C bonds. Double bonds create geometric isomerism (cis/trans), new reactions (addition), and new properties (rigidity, color). The chemistry becomes richer. The naming builds on what you've learned here."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Ten parts about the most 'boring' molecules in organic chemistry. Except they power civilization, wrap your food in plastic, lubricate your engines, pave your roads, and teach you the naming system for 20 million compounds. Boring? Alkanes are the quiet achievers of the molecular world. They don't seek attention (literally — they have no reactive sites), but they hold everything together."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The word 'paraffin' comes from Latin 'parum affinis' meaning 'little affinity' — because paraffin wax is chemically unreactive. Alkanes were literally named for being boring. And yet: paraffin candles, petroleum jelly, baby oil, food-grade wax, mineral oil, polyethylene — the 'boring' molecules are everywhere. Sometimes the least reactive molecules are the most useful precisely BECAUSE they don't react. Stability is a feature, not a bug."
+            },
+            {
+              "type": "transition",
+              "body": "Simplicity appreciated. Complexity awaits. Alkenes and alkynes — where organic chemistry gets its first double and triple bonds — are next."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Why is IUPAC alkane nomenclature considered the 'foundation' for naming ALL organic compounds?",
+          "options": {
+            "A": "Alkanes are the most important molecules",
+            "B": "The alkane naming system (parent chain + substituent locants + alphabetical order + suffixes) extends directly to alcohols, alkenes, alkynes, halides, acids, and all other compound classes — the ROOT is always the alkane name",
+            "C": "IUPAC only names alkanes",
+            "D": "Other molecules don't need names"
+          },
+          "correct_answer": "B",
+          "explanation": "Alcohol = alkane name + '-ol'. Alkene = alkane name + '-ene'. Carboxylic acid = alkane name + '-oic acid'. The parent chain naming, numbering, and substituent rules learned with alkanes apply universally. Master alkane nomenclature → master organic nomenclature.",
+          "tests_concept": "alkane_naming"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 10,
+    "total_questions": 12,
+    "curriculum_concepts_covered": [
+      "iupac_nomenclature",
+      "alkane_naming",
+      "alkyl_substituents",
+      "conformations",
+      "cycloalkanes",
+      "alkane_properties",
+      "combustion_and_radical_reactions"
+    ],
+    "bridges_from": "imf_organic (OC Foundation #06)",
+    "bridges_to": "alkenes_alkynes (OC Foundation #08)",
+    "extended_treatment": true,
+    "opens_topic": "Topic 3: Hydrocarbons (subtopic 1)"
+  }
+}

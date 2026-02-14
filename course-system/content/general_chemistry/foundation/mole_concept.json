@@ -1,0 +1,306 @@
+{
+  "course": "General Chemistry",
+  "topic": "5_chemical_language",
+  "subtopic": "5.3_the_mole",
+  "foundation_id": "mole_concept",
+  "foundation_title": "The Mole Concept",
+  "foundation_tier": 2,
+  "prerequisites": ["chemical_reactions", "chemical_formulas"],
+  "curriculum_concepts_covered": [
+    "avogadros_number",
+    "molar_mass",
+    "mole_conversions",
+    "stoichiometry",
+    "limiting_reagents"
+  ],
+  "coverage_notes": "EXTENDED TREATMENT — 6 parts instead of standard 4-5. The mole concept is the #1 failure point in introductory chemistry. Each sub-concept gets its own part with dedicated practice and MCQs. Dimensional analysis taught explicitly as the universal conversion method.",
+  "total_parts": 6,
+  "extended_treatment": true,
+  "extended_reason": "Most difficult concept in introductory chemistry. Students consistently fail stoichiometry because the mole concept wasn't scaffolded carefully enough. This foundation builds each layer with concrete analogies before any math.",
+
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt — winners credited"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — why we need a new counting unit)",
+    "step_2": "READ Part 2 (Avogadro's number — the mole as a counting unit)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "WATCH matched video for avogadros_number",
+    "step_5": "READ Part 3 (molar mass — grams per mole from the periodic table)",
+    "step_6": "QUIZ Part 3",
+    "step_7": "WATCH matched video for molar_mass",
+    "step_8": "READ Part 4 (mole conversions — the three-way bridge)",
+    "step_9": "QUIZ Part 4",
+    "step_10": "WATCH matched video for mole_conversions",
+    "step_11": "READ Part 5 (stoichiometry — using mole ratios from equations)",
+    "step_12": "QUIZ Part 5",
+    "step_13": "READ Part 6 (limiting reagents + big picture)",
+    "step_14": "QUIZ Part 6",
+    "step_15": "FINAL QUIZ (cumulative, 4+ questions)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "mole_concept_p1",
+      "part_title": "Why Chemists Need a Special Counting Unit",
+      "purpose": "Hook — the problem: atoms are too small to count individually, but equations give us ratios",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": null, "body": "You know that 2H₂ + O₂ → 2H₂O means you need 2 hydrogen molecules for every 1 oxygen molecule. But in a lab, you don't count individual molecules. You measure GRAMS on a balance. So how do you go from 'I need twice as many hydrogen molecules as oxygen molecules' to 'I need X grams of hydrogen and Y grams of oxygen'?"},
+          {"type": "callout", "style": "key_idea", "body": "The mole is a counting unit — like 'dozen' means 12, 'mole' means 6.02 × 10²³. It's the bridge that connects molecular-level ratios (from balanced equations) to gram-level measurements (on a laboratory balance). Without the mole, balanced equations would be theoretically true but practically useless."},
+          {"type": "section", "title": null, "body": "This lesson has more steps than most, because the mole connects FOUR things: number of particles, mass in grams, balanced equation ratios, and volume of gases. We'll build each connection one at a time. No step is hard by itself. The challenge is keeping track of how they fit together."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "The Dozen Analogy", "body": "Imagine buying eggs. You don't ask for '24 eggs' — you ask for '2 dozen.' A dozen is a counting unit: 1 dozen = 12 items. It works because everyone agrees on the number."},
+          {"type": "section", "title": null, "body": "Now imagine atoms. A single drop of water contains about 1,000,000,000,000,000,000,000 molecules. Writing that number is impractical. We need a counting unit for chemistry-sized quantities. That unit is the mole: 1 mole = 602,200,000,000,000,000,000,000 particles. Written in scientific notation: 6.022 × 10²³."},
+          {"type": "callout", "style": "key_idea", "body": "A dozen eggs, a ream of paper (500 sheets), a mole of atoms. Same idea — a convenient name for a specific number. The mole's number just happens to be astronomically large because atoms are astronomically small."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": null, "body": "Here's the fundamental problem: equations tell you 'use 2 molecules of hydrogen for every 1 of oxygen.' Your lab balance tells you 'this sample weighs 4 grams.' How do you connect molecules to grams? You can't count individual molecules — they're too small to see, let alone count."},
+          {"type": "callout", "style": "fun_fact", "body": "If you tried to count to 6.02 × 10²³ at one number per second, it would take you about 19 quadrillion years. The universe is only 13.8 billion years old. You'd need over a million universe-lifetimes to finish counting. That's how big a mole is. And that's how small atoms are."},
+          {"type": "section", "title": null, "body": "The mole is just a number with a name. Like 'dozen' = 12, 'mole' = 6.02 × 10²³. It's not complicated. It's not mysterious. It's a really, really big dozen. The reason it terrifies students is that teachers rush through it. We won't."}
+        ]}
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "mole_concept_p2",
+      "part_title": "Avogadro's Number — The Chemist's Dozen",
+      "purpose": "Define the mole as a counting unit. Avogadro's number. 1 mole = 6.022 × 10²³ particles.",
+      "curriculum_concepts": ["avogadros_number"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "The Mole (mol)", "body": "A mole is a counting unit. 1 mole = 6.022 × 10²³ particles (atoms, molecules, ions — whatever you're counting). This number is called Avogadro's number (Nₐ). Just like 1 dozen = 12 items, 1 mole = 6.022 × 10²³ items."},
+          {"type": "section", "title": "Why THIS Specific Number?", "body": "6.022 × 10²³ isn't random. It's chosen so that 1 mole of atoms of any element has a mass in grams equal to that element's atomic mass from the periodic table. Carbon's atomic mass is 12.01 amu. So 1 mole of carbon atoms weighs exactly 12.01 grams. Oxygen is 16.00 amu → 1 mole = 16.00 grams. The number bridges atomic mass units to grams."},
+          {"type": "list", "style": "two_column", "title": "What Does 1 Mole Look Like?", "items": [
+            {"term": "1 mol of carbon (C)", "definition": "12.01 g — about the mass of 2 pencil graphite leads"},
+            {"term": "1 mol of water (H₂O)", "definition": "18.02 g — about 1 tablespoon of water"},
+            {"term": "1 mol of iron (Fe)", "definition": "55.85 g — a small iron bolt"},
+            {"term": "1 mol of sugar (C₁₂H₂₂O₁₁)", "definition": "342.3 g — about 1.5 cups of table sugar"},
+            {"term": "1 mol of gold (Au)", "definition": "197.0 g — a small gold bar worth ~$13,000"}
+          ]},
+          {"type": "callout", "style": "mind_blow", "body": "1 mole of any substance contains the SAME number of particles: 6.022 × 10²³. But they weigh DIFFERENT amounts because different atoms have different masses. 1 mole of hydrogen (1.008 g) is feather-light. 1 mole of lead (207.2 g) is nearly half a pound. Same count. Different mass."},
+          {"type": "creator_challenge", "prompt": "Photograph or illustrate 'What does 1 mole look like?' — show real objects that weigh approximately 1 mole of common substances (18g of water, 12g of graphite, 56g of iron, 58g of salt). Label each with its identity and mole mass. Best visual becomes the official '1 mole gallery.'", "placeholder_type": "one_mole_gallery"}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Hold a Mole", "body": "Measure 18 grams of water (about 18 mL — roughly a tablespoon). You're holding 6.022 × 10²³ water molecules. Now measure 58.44 grams of table salt (about 4 tablespoons). That's 6.022 × 10²³ formula units of NaCl. Same number of particles — very different masses and volumes."},
+          {"type": "section", "title": "The Counting Connection", "body": "If someone asks 'how many water molecules are in 36.04 grams of water?' the answer is: 36.04 g ÷ 18.02 g/mol = 2 moles. 2 moles × 6.022 × 10²³ = 1.204 × 10²⁴ molecules. You converted grams → moles → molecules. That's the whole game."},
+          {"type": "callout", "style": "key_idea", "body": "The mole is the translator. Grams (what you measure) ↔ Moles (the counting unit) ↔ Particles (what equations describe). Moles sit in the middle. Every chemistry calculation passes through moles."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "It's Just a Big Dozen", "body": "1 dozen = 12. 1 mole = 602,200,000,000,000,000,000,000. Same concept, different scale. You don't panic when someone says 'bring 3 dozen donuts.' Don't panic when someone says '3 moles of carbon.' It's the same idea."},
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "1 mol of marshmallows", "icon": "cloud", "body": "Would cover the entire surface of the Earth to a depth of about 19 kilometers. That's a LOT of marshmallows. But atoms are so small that 1 mole of carbon fits in your palm."},
+            {"label": "1 mol of pennies", "icon": "dollar", "body": "Would make a stack reaching the Sun and back — over 4 million times. The US national debt is about $33 trillion. One mole of dollars would pay that off about 18 billion times."},
+            {"label": "1 mol of sand grains", "icon": "globe", "body": "Would cover all of Earth's land area about 2 meters deep. Yet 1 mole of atoms? Fits in a test tube."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Why is the number so absurdly big? Because atoms are absurdly small. You need 6.022 × 10²³ of them before they weigh a reasonable amount in grams. The mole is the number that makes the atomic world and the human world compatible. It's a unit converter between 'unimaginably small' and 'can weigh on a scale.'"}
+        ]}
+      },
+      "questions": [
+        {"question": "How many particles are in 1 mole?", "options": {"A": "6.022 × 10²³ — Avogadro's number", "B": "6.022 × 10⁶ — a million", "C": "12 — like a dozen", "D": "It depends on the element"}, "correct_answer": "A", "explanation": "1 mole = 6.022 × 10²³ particles, always. This number (Avogadro's number) is the same for every substance — atoms, molecules, ions. What changes is the MASS of 1 mole, not the count.", "tests_concept": "avogadros_number"},
+        {"question": "1 mole of carbon weighs 12.01g and 1 mole of iron weighs 55.85g. Both contain 6.022 × 10²³ atoms. Why the mass difference?", "options": {"A": "Iron has more atoms in a mole", "B": "Each iron atom is heavier than each carbon atom — iron has more protons and neutrons", "C": "Carbon atoms are compressed more tightly", "D": "The mole number is different for each element"}, "correct_answer": "B", "explanation": "Both contain EXACTLY the same count (6.022 × 10²³). But each iron atom (26 protons + 30 neutrons) is individually heavier than each carbon atom (6 protons + 6 neutrons). Same count × heavier individual atoms = more total mass.", "tests_concept": "avogadros_number"}
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "mole_concept_p3",
+      "part_title": "Molar Mass — Your Conversion Factor",
+      "purpose": "Teach molar mass: grams per mole, how to calculate from periodic table, for elements and compounds",
+      "curriculum_concepts": ["molar_mass"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "callout", "style": "definition", "title": "Molar Mass", "body": "The mass of 1 mole of a substance, in grams per mole (g/mol). For any element, the molar mass equals the atomic mass on the periodic table — just change the unit from 'amu' to 'g/mol.' Carbon: 12.01 amu → 12.01 g/mol."},
+          {"type": "section", "title": "For Elements: Read the Periodic Table", "body": "The atomic mass on the periodic table IS the molar mass. Hydrogen: 1.008 g/mol. Oxygen: 16.00 g/mol. Iron: 55.85 g/mol. Gold: 197.0 g/mol. Just read it off."},
+          {"type": "section", "title": "For Compounds: Add Up the Atoms", "body": "To find the molar mass of a compound, add the molar masses of ALL atoms in the formula."},
+          {"type": "list", "style": "numbered_steps", "title": "Example: H₂O", "items": [
+            {"label": "H: 1.008 g/mol × 2 atoms = 2.016 g/mol", "body": "Two hydrogens contribute 2.016 g."},
+            {"label": "O: 16.00 g/mol × 1 atom = 16.00 g/mol", "body": "One oxygen contributes 16.00 g."},
+            {"label": "Total: 2.016 + 16.00 = 18.02 g/mol", "body": "1 mole of water weighs 18.02 grams."}
+          ]},
+          {"type": "list", "style": "numbered_steps", "title": "Example: Ca(OH)₂", "items": [
+            {"label": "Ca: 40.08 × 1 = 40.08", "body": "One calcium."},
+            {"label": "O: 16.00 × 2 = 32.00", "body": "Two oxygens (inside parentheses, multiplied by subscript 2)."},
+            {"label": "H: 1.008 × 2 = 2.016", "body": "Two hydrogens (same — inside parentheses × 2)."},
+            {"label": "Total: 40.08 + 32.00 + 2.016 = 74.10 g/mol", "body": "1 mole of calcium hydroxide weighs 74.10 grams."}
+          ]},
+          {"type": "callout", "style": "remember", "title": "Molar Mass Is the Bridge", "body": "Molar mass converts between grams and moles. grams ÷ molar mass = moles. moles × molar mass = grams. It's multiplication and division with one number. This is the most-used calculation in all of chemistry."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Calculate These (Use a Periodic Table)", "body": "Practice building molar masses for common compounds."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "NaCl", "hints": "Na: 22.99 + Cl: 35.45 = 58.44 g/mol. One mole of salt ≈ 4 tablespoons."},
+            {"label": "CO₂", "hints": "C: 12.01 + O: 16.00 × 2 = 12.01 + 32.00 = 44.01 g/mol."},
+            {"label": "C₆H₁₂O₆ (glucose)", "hints": "C: 12.01×6 + H: 1.008×12 + O: 16.00×6 = 72.06 + 12.10 + 96.00 = 180.16 g/mol."},
+            {"label": "Al₂(SO₄)₃", "hints": "Al: 26.98×2 + S: 32.07×3 + O: 16.00×12 = 53.96 + 96.21 + 192.00 = 342.17 g/mol."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "For compounds with parentheses like Al₂(SO₄)₃: the subscript outside multiplies EVERYTHING inside. SO₄ appears 3 times → 3 S and 12 O. This is the most common calculation error — always expand parentheses first."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Periodic Table Is a Cheat Sheet", "body": "Every element's molar mass is printed right on the periodic table. You don't have to memorize anything. Oxygen: 16.00 g/mol. Iron: 55.85 g/mol. Gold: 197.0 g/mol. The answers are literally written on the wall of every chemistry classroom."},
+          {"type": "section", "title": "Compound Molar Mass = Shopping List Math", "body": "H₂O: 'I need 2 hydrogens at 1.008 each and 1 oxygen at 16.00. Total: 18.02 g.' That's it. It's grocery receipt arithmetic. Add up the prices (molar masses) times the quantities (subscripts). The total is the compound's molar mass."},
+          {"type": "callout", "style": "fun_fact", "body": "The molar mass of caffeine (C₈H₁₀N₄O₂) is 194.19 g/mol. A standard cup of coffee has about 95 mg of caffeine. That's 0.000489 moles. Tiny amount. But that's 2.95 × 10²⁰ caffeine molecules. Nearly 300 quintillion molecules of alertness per cup. Chemistry explains your morning."}
+        ]}
+      },
+      "questions": [
+        {"question": "What is the molar mass of CO₂?", "options": {"A": "28.01 g/mol (C + O)", "B": "44.01 g/mol (C: 12.01 + O: 16.00 × 2)", "C": "16.00 g/mol (just oxygen)", "D": "60.01 g/mol (C + O₂ + O)"}, "correct_answer": "B", "explanation": "Add all atoms: C = 12.01 + 2O = 2 × 16.00 = 32.00. Total: 12.01 + 32.00 = 44.01 g/mol. Option A forgot to count BOTH oxygens.", "tests_concept": "molar_mass"},
+        {"question": "Ca(OH)₂ has a molar mass of 74.10 g/mol. If you have 148.20 g, how many moles?", "options": {"A": "1 mole", "B": "2 moles — 148.20 ÷ 74.10 = 2.000", "C": "74.10 moles", "D": "0.5 moles"}, "correct_answer": "B", "explanation": "moles = grams ÷ molar mass = 148.20 ÷ 74.10 = 2.000 mol. The molar mass is your conversion factor: divide grams by it to get moles.", "tests_concept": "molar_mass"}
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "mole_concept_p4",
+      "part_title": "Mole Conversions — The Three-Way Bridge",
+      "purpose": "Teach dimensional analysis: grams ↔ moles ↔ particles. The central skill.",
+      "curriculum_concepts": ["mole_conversions"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "The Mole Map", "body": "Moles sit at the center of three conversions. Every chemistry problem passes through moles."},
+          {"type": "list", "style": "icon_list", "items": [
+            {"label": "Grams → Moles", "icon": "scale", "body": "Divide by molar mass. 36.04 g H₂O ÷ 18.02 g/mol = 2.000 mol H₂O."},
+            {"label": "Moles → Grams", "icon": "weight", "body": "Multiply by molar mass. 3.00 mol NaCl × 58.44 g/mol = 175.3 g NaCl."},
+            {"label": "Moles → Particles", "icon": "atom", "body": "Multiply by 6.022 × 10²³. 2.00 mol × 6.022 × 10²³ = 1.204 × 10²⁴ particles."},
+            {"label": "Particles → Moles", "icon": "calculator", "body": "Divide by 6.022 × 10²³. 3.011 × 10²³ atoms ÷ 6.022 × 10²³ = 0.500 mol."}
+          ]},
+          {"type": "callout", "style": "key_idea", "title": "The Universal Method: Dimensional Analysis", "body": "Set up every conversion so units cancel. Write what you HAVE, then multiply by a fraction where the unit you want to cancel is on the opposite side. Example: 36.04 g × (1 mol / 18.02 g) = 2.000 mol. The 'g' cancels, leaving 'mol.' This method works for EVERY conversion in chemistry."},
+          {"type": "section", "title": "Multi-Step: Grams → Particles", "body": "To go from grams to particles (or vice versa), pass through moles in the middle. 36.04 g H₂O × (1 mol / 18.02 g) × (6.022 × 10²³ molecules / 1 mol) = 1.204 × 10²⁴ molecules. Each fraction cancels one unit and introduces the next."},
+          {"type": "callout", "style": "remember", "title": "The Mole Conversion Pattern", "body": "Grams ←(÷ molar mass)→ Moles ←(× Avogadro's)→ Particles. Left to right: divide by molar mass, then multiply by 6.022 × 10²³. Right to left: reverse. Always pass through moles."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Work Through These Step by Step", "body": "Use dimensional analysis. Write units. Cancel. Solve."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "How many moles in 100 g of CaCO₃?", "hints": "Molar mass: Ca(40.08) + C(12.01) + 3O(48.00) = 100.09 g/mol. 100 g ÷ 100.09 g/mol = 0.999 mol ≈ 1.00 mol."},
+            {"label": "How many grams is 0.250 mol of glucose (C₆H₁₂O₆)?", "hints": "Molar mass: 180.16 g/mol. 0.250 mol × 180.16 g/mol = 45.04 g."},
+            {"label": "How many molecules in 9.01 g of water?", "hints": "Step 1: 9.01 g ÷ 18.02 g/mol = 0.500 mol. Step 2: 0.500 × 6.022 × 10²³ = 3.011 × 10²³ molecules."},
+            {"label": "What mass contains 1.204 × 10²⁴ atoms of iron?", "hints": "Step 1: 1.204 × 10²⁴ ÷ 6.022 × 10²³ = 2.00 mol. Step 2: 2.00 × 55.85 g/mol = 111.7 g."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "Every problem follows the same pattern: identify what you have, identify what you want, pass through moles using the appropriate conversion factors. If you can do these four problems, you can do any mole conversion."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The GPS of Chemistry", "body": "Think of the mole as a GPS waypoint. Want to get from grams to particles? Your route ALWAYS goes through Mole City. Grams → Moles → Particles. Want particles to grams? Particles → Moles → Grams. No shortcuts. No bypasses. Always through moles."},
+          {"type": "section", "title": "Dimensional Analysis: The Cheat Code", "body": "Here's the trick that makes every conversion trivial: write your starting value, then multiply by fractions where the unit you want to KILL is on the opposite side. Units cancel like numbers in a fraction. 36 g × (1 mol / 18 g) — the 'g' on top cancels 'g' on bottom. You're left with mol. Done."},
+          {"type": "callout", "style": "fun_fact", "body": "Dimensional analysis isn't just for chemistry — it works for ANY unit conversion. Miles to kilometers, dollars to euros, recipes for 4 people to recipes for 7 people. It's the universal conversion method. Learning it here means you never struggle with unit conversions again. In any field. Forever."},
+          {"type": "section", "title": null, "body": "Students who fail chemistry usually fail HERE — not because moles are hard, but because they skip the unit-canceling step and try to 'just remember' when to multiply vs divide. Don't do that. Write the units. Cancel them. The math tells you what to do."}
+        ]}
+      },
+      "questions": [
+        {"question": "How many moles are in 88.02 g of CO₂ (molar mass = 44.01 g/mol)?", "options": {"A": "44.01 mol", "B": "2.000 mol — 88.02 g ÷ 44.01 g/mol = 2.000", "C": "0.500 mol", "D": "3,871 mol"}, "correct_answer": "B", "explanation": "moles = grams ÷ molar mass = 88.02 ÷ 44.01 = 2.000 mol. The molar mass is always the conversion factor between grams and moles.", "tests_concept": "mole_conversions"},
+        {"question": "How many molecules in 2.00 mol of H₂O?", "options": {"A": "2.00 molecules", "B": "6.022 × 10²³ molecules", "C": "1.204 × 10²⁴ molecules — 2.00 × 6.022 × 10²³", "D": "3.011 × 10²³ molecules"}, "correct_answer": "C", "explanation": "molecules = moles × Avogadro's number = 2.00 × 6.022 × 10²³ = 1.204 × 10²⁴. Each mole contains 6.022 × 10²³ particles, so 2 moles = twice that.", "tests_concept": "mole_conversions"},
+        {"question": "You have 3.011 × 10²³ atoms of gold (Au, molar mass 197.0 g/mol). What mass is this?", "options": {"A": "197.0 g", "B": "98.5 g — first convert to moles (0.500), then to grams (0.500 × 197.0)", "C": "394.0 g", "D": "You can't convert atoms to grams"}, "correct_answer": "B", "explanation": "Step 1: 3.011 × 10²³ ÷ 6.022 × 10²³ = 0.500 mol. Step 2: 0.500 mol × 197.0 g/mol = 98.5 g. Two-step through moles.", "tests_concept": "mole_conversions"}
+      ]
+    },
+
+    {
+      "part_number": 5,
+      "part_id": "mole_concept_p5",
+      "part_title": "Stoichiometry — Mole Ratios From Equations",
+      "purpose": "Use balanced equation coefficients as mole ratios to calculate reactant/product amounts",
+      "curriculum_concepts": ["stoichiometry"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "Coefficients ARE Mole Ratios", "body": "Here's the key insight: the coefficients in a balanced equation give you the MOLE RATIO between substances. 2H₂ + O₂ → 2H₂O means 2 moles H₂ : 1 mole O₂ : 2 moles H₂O."},
+          {"type": "callout", "style": "key_idea", "title": "The Stoichiometry Road Map", "body": "Grams of A → (÷ molar mass A) → Moles of A → (× mole ratio from equation) → Moles of B → (× molar mass B) → Grams of B. Four steps: grams→moles→mole ratio→moles→grams. This solves EVERY stoichiometry problem."},
+          {"type": "list", "style": "numbered_steps", "title": "Example: How many grams of H₂O produced from 4.032 g of H₂?", "items": [
+            {"label": "Write balanced equation", "body": "2H₂ + O₂ → 2H₂O"},
+            {"label": "Convert grams H₂ → moles H₂", "body": "4.032 g ÷ 2.016 g/mol = 2.000 mol H₂"},
+            {"label": "Use mole ratio (equation) → moles H₂O", "body": "Ratio: 2 mol H₂ : 2 mol H₂O = 1:1. So 2.000 mol H₂ → 2.000 mol H₂O"},
+            {"label": "Convert moles H₂O → grams H₂O", "body": "2.000 mol × 18.02 g/mol = 36.04 g H₂O"}
+          ]},
+          {"type": "section", "title": "Another Example: Iron Rusting", "body": "4Fe + 3O₂ → 2Fe₂O₃. How many grams of Fe₂O₃ from 111.7 g of Fe?"},
+          {"type": "list", "style": "numbered_steps", "items": [
+            {"label": "Grams Fe → moles Fe", "body": "111.7 g ÷ 55.85 g/mol = 2.000 mol Fe"},
+            {"label": "Mole ratio → moles Fe₂O₃", "body": "4 mol Fe : 2 mol Fe₂O₃ → 2.000 mol Fe × (2/4) = 1.000 mol Fe₂O₃"},
+            {"label": "Moles Fe₂O₃ → grams", "body": "1.000 mol × 159.7 g/mol = 159.7 g Fe₂O₃"}
+          ]},
+          {"type": "callout", "style": "remember", "body": "The road map never changes: grams A → moles A → (ratio) → moles B → grams B. Identify where you are (grams of what?), where you want to go (grams of what?), and follow the map. Every stoichiometry problem is the same four steps."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Practice the Road Map", "body": "Use the 4-step method for each. Write every step with units."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "CH₄ + 2O₂ → CO₂ + 2H₂O. How many grams of CO₂ from 32.04 g CH₄?", "hints": "32.04 ÷ 16.04 = 2.000 mol CH₄. Ratio 1:1 → 2.000 mol CO₂. 2.000 × 44.01 = 88.02 g CO₂."},
+            {"label": "2Na + Cl₂ → 2NaCl. How many grams of NaCl from 46.0 g Na?", "hints": "46.0 ÷ 23.0 = 2.00 mol Na. Ratio 2:2 → 2.00 mol NaCl. 2.00 × 58.44 = 116.9 g NaCl."},
+            {"label": "N₂ + 3H₂ → 2NH₃. How many grams of NH₃ from 6.048 g H₂?", "hints": "6.048 ÷ 2.016 = 3.000 mol H₂. Ratio 3:2 → 3.000 × (2/3) = 2.000 mol NH₃. 2.000 × 17.03 = 34.06 g NH₃."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "The mole ratio step is where the equation matters. It's the ONLY step that changes between different reactions. Steps 1 and 3 (converting grams↔moles) are always the same formula."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "Stoichiometry: The Recipe Calculator", "body": "Remember how balanced equations are recipes? Stoichiometry is adjusting the recipe. 'The recipe calls for 2 mol H₂. I have 4 mol. How much water do I get?' Scale the ratio: double the input, double the output. 4 mol H₂ → 4 mol H₂O."},
+          {"type": "section", "title": null, "body": "The only difference from actual cooking: you convert grams to moles first (because your balance reads grams, not moles), use the ratio, then convert back to grams. Four steps. Always four steps. The road map is tattooed on every chemist's brain."},
+          {"type": "callout", "style": "fun_fact", "body": "Stoichiometry sounds terrifying — it's Greek for 'measuring elements' (stoicheion = element, metron = measure). But it's just recipe math with a scary name. If you can scale a recipe from 4 servings to 6, you can do stoichiometry. You've been doing it in the kitchen your whole life."},
+          {"type": "section", "title": null, "body": "The #1 student error: forgetting the mole ratio step and going straight from moles of A to grams of B using B's molar mass. This only works if the ratio is 1:1. For anything else, you get the wrong answer. ALWAYS use the ratio from the balanced equation. Always."}
+        ]}
+      },
+      "questions": [
+        {"question": "2H₂ + O₂ → 2H₂O. If you react 4.032 g of H₂ (molar mass 2.016), how many grams of water form?", "options": {"A": "18.02 g", "B": "36.04 g — 2.000 mol H₂ × (2 mol H₂O / 2 mol H₂) × 18.02 g/mol = 36.04 g", "C": "4.032 g — same mass as input", "D": "72.08 g"}, "correct_answer": "B", "explanation": "4.032 g ÷ 2.016 = 2.000 mol H₂. Ratio: 2 H₂ : 2 H₂O = 1:1. So 2.000 mol H₂O. Mass: 2.000 × 18.02 = 36.04 g.", "tests_concept": "stoichiometry"},
+        {"question": "N₂ + 3H₂ → 2NH₃. The mole ratio of H₂ to NH₃ is:", "options": {"A": "1:2", "B": "3:1", "C": "3:2 — 3 moles H₂ produces 2 moles NH₃", "D": "2:3"}, "correct_answer": "C", "explanation": "Read directly from coefficients: 3 mol H₂ : 2 mol NH₃. The ratio is 3:2. To find moles of NH₃ from moles of H₂, multiply by (2/3).", "tests_concept": "stoichiometry"}
+      ]
+    },
+
+    {
+      "part_number": 6,
+      "part_id": "mole_concept_p6",
+      "part_title": "Limiting Reagents and the Big Picture",
+      "purpose": "Teach limiting reagent concept + consolidate entire mole framework",
+      "curriculum_concepts": ["limiting_reagents"],
+      "content": {
+        "common": {"blocks": [
+          {"type": "section", "title": "The Sandwich Problem", "body": "A sandwich needs 2 slices of bread and 1 slice of cheese. You have 10 slices of bread and 3 slices of cheese. How many sandwiches? Not 5 (from bread) — only 3 (cheese runs out first). Cheese is the LIMITING ingredient."},
+          {"type": "callout", "style": "definition", "title": "Limiting Reagent", "body": "The reactant that runs out first, stopping the reaction. It determines the maximum amount of product. The other reactant(s) are 'in excess' — leftover after the reaction."},
+          {"type": "list", "style": "numbered_steps", "title": "Finding the Limiting Reagent", "items": [
+            {"label": "Step 1: Convert BOTH reactants to moles", "body": "Use molar mass for each."},
+            {"label": "Step 2: Divide each by its coefficient", "body": "This gives you 'equivalent moles' — how many complete reactions each can support."},
+            {"label": "Step 3: Whichever is SMALLER is the limiting reagent", "body": "That's the one that runs out first."},
+            {"label": "Step 4: Use the limiting reagent to calculate product", "body": "Stoichiometry from the limiting reagent gives actual yield."}
+          ]},
+          {"type": "section", "title": "Example: 2H₂ + O₂ → 2H₂O", "body": "You have 5.00 mol H₂ and 2.00 mol O₂. Which is limiting? Divide by coefficient: H₂: 5.00/2 = 2.50. O₂: 2.00/1 = 2.00. O₂ is smaller → O₂ is limiting. Product from O₂: 2.00 mol O₂ × (2 mol H₂O / 1 mol O₂) = 4.00 mol H₂O. Leftover H₂: started 5.00, used 4.00 (from ratio) → 1.00 mol excess."},
+          {"type": "callout", "style": "key_idea", "title": "The Complete Mole Framework", "body": "You now have ALL the tools: (1) Avogadro's number converts moles↔particles. (2) Molar mass converts moles↔grams. (3) Balanced equations give mole ratios between substances. (4) Limiting reagent analysis tells you which reactant controls the output. These four tools solve every quantitative chemistry problem."},
+          {"type": "creator_challenge", "prompt": "Create a visual 'Mole Map' showing all the conversions: grams ↔ moles ↔ particles, with balanced equation ratios connecting different substances. Make it a one-page reference card that a student could use for any mole calculation. Best design becomes the official Mole Map!", "placeholder_type": "mole_map_reference"},
+          {"type": "transition", "body": "The mole concept connects equations to labs. With it, you can calculate exactly how much of each reactant you need and how much product you'll get. Next: acids and bases — a special category of reactions where H⁺ ions transfer between molecules, creating the pH scale that governs everything from your blood to your pool water."}
+        ]},
+        "experiential": {"blocks": [
+          {"type": "section", "title": "Limiting Reagent Practice", "body": "For each: convert both reactants to moles, divide by coefficient, identify the limiting reagent, then calculate product."},
+          {"type": "list", "style": "challenge", "items": [
+            {"label": "2Na + Cl₂ → 2NaCl. You have 46.0 g Na and 71.0 g Cl₂. Limiting reagent?", "hints": "Na: 46.0/23.0 = 2.00 mol, ÷2 = 1.00. Cl₂: 71.0/70.9 = 1.00 mol, ÷1 = 1.00. Equal! Neither is limiting — perfectly balanced (rare in practice)."},
+            {"label": "N₂ + 3H₂ → 2NH₃. You have 28.0 g N₂ and 10.0 g H₂. Limiting reagent?", "hints": "N₂: 28.0/28.0 = 1.00 mol, ÷1 = 1.00. H₂: 10.0/2.016 = 4.96 mol, ÷3 = 1.65. N₂ smaller → N₂ limiting. Product: 1.00 × (2/1) = 2.00 mol NH₃ = 34.06 g."}
+          ]},
+          {"type": "callout", "style": "key_idea", "body": "The divide-by-coefficient trick works because it normalizes everything to 'how many complete reaction batches can this reactant support.' Whichever supports fewer batches is the bottleneck — the limiting reagent."}
+        ]},
+        "funny": {"blocks": [
+          {"type": "section", "title": "The Pizza Party Problem", "body": "Making pizzas: each needs 1 dough + 3 toppings. You have 10 doughs and 24 toppings. Doughs: 10/1 = 10 batches. Toppings: 24/3 = 8 batches. Toppings run out first → toppings are limiting. You make 8 pizzas with 2 doughs left over. That's limiting reagent analysis. You already knew this."},
+          {"type": "callout", "style": "fun_fact", "body": "In industrial chemistry, limiting reagent analysis saves millions of dollars. If your reaction uses a cheap reactant and an expensive one, you make the expensive one the limiting reagent so none of it is wasted. The cheap one is in excess — who cares if some is leftover? This is why chemical engineers get paid well."},
+          {"type": "section", "title": "The Mole: A Recap for the Terrified", "body": "The mole is: (1) a number (6.022 × 10²³), (2) a bridge between grams and particles, (3) the unit that makes balanced equation ratios usable in real labs. It's not magic. It's not mysterious. It's counting. At scale."},
+          {"type": "transition", "body": "Moles mastered. Next: acids and bases — where H⁺ ions create the pH scale, acids taste sour, bases feel slippery, and neutralization reactions produce salt + water. The chemistry of swimming pools, stomach acid, and batteries."}
+        ]}
+      },
+      "questions": [
+        {"question": "2H₂ + O₂ → 2H₂O. You have 3.00 mol H₂ and 2.00 mol O₂. What's the limiting reagent?", "options": {"A": "H₂ — you always need more hydrogen", "B": "O₂ — there's less of it", "C": "H₂ — divide by coefficient: H₂ = 3.00/2 = 1.50, O₂ = 2.00/1 = 2.00. H₂ is smaller → limiting", "D": "Neither — they're equal"}, "correct_answer": "C", "explanation": "Divide each by its coefficient. H₂: 3.00/2 = 1.50 equivalent batches. O₂: 2.00/1 = 2.00 batches. H₂ can support fewer complete reactions → H₂ is limiting. Product: 3.00 mol H₂ × (2/2) = 3.00 mol H₂O.", "tests_concept": "limiting_reagents"},
+        {"question": "In the same problem, how much O₂ is left over (excess)?", "options": {"A": "0 mol — all is used", "B": "0.50 mol — only 1.50 mol O₂ was needed (3.00 mol H₂ × 1/2), leaving 2.00 − 1.50 = 0.50", "C": "1.00 mol", "D": "2.00 mol — none is used"}, "correct_answer": "B", "explanation": "3.00 mol H₂ requires: 3.00 × (1 mol O₂/2 mol H₂) = 1.50 mol O₂. Started with 2.00 mol. Leftover: 2.00 − 1.50 = 0.50 mol O₂ excess.", "tests_concept": "limiting_reagents"}
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 6,
+    "total_questions": 12,
+    "block_types_used": ["section", "callout", "list", "transition", "creator_challenge"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember", "mind_blow"],
+    "list_styles_used": ["icon_list", "two_column", "challenge", "numbered_steps"],
+    "curriculum_concepts_covered": ["avogadros_number", "molar_mass", "mole_conversions", "stoichiometry", "limiting_reagents"],
+    "bridges_from": "chemical_reactions + chemical_formulas",
+    "bridges_to": "acids_bases",
+    "extended_treatment": true,
+    "scaffolding_approach": "Each layer built separately: counting (Avogadro) → weighing (molar mass) → converting (dimensional analysis) → equation ratios (stoichiometry) → bottleneck analysis (limiting reagents)"
+  }
+}

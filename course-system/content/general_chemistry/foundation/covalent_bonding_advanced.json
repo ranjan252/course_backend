@@ -1,0 +1,1044 @@
+{
+  "course": "General Chemistry",
+  "topic": "4_chemical_bonding",
+  "subtopic": "4.3_covalent_bonding",
+  "foundation_id": "covalent_bonding_advanced",
+  "foundation_title": "Covalent Bonding",
+  "foundation_tier": 2,
+  "prerequisites": [
+    "bonding_intro",
+    "ionic_bonding",
+    "valence_electrons"
+  ],
+  "curriculum_concepts_covered": [
+    "covalent_bond_formation",
+    "lewis_structures",
+    "single_double_triple_bonds",
+    "polar_vs_nonpolar",
+    "molecular_shapes_intro",
+    "intermolecular_forces",
+    "bond_energy_and_length"
+  ],
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "Covalent bonding underpins 60%+ of subsequent chemistry. Deep treatment of Lewis structures, polarity, VSEPR, and intermolecular forces is essential.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "covalent_bonding_p1",
+      "part_title": "When Atoms Choose to Share",
+      "purpose": "Hook — philosophical and energetic basis for sharing vs transferring electrons",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Ionic bonding works when one atom eagerly gives electrons and another eagerly takes them — metal meets nonmetal. But what happens when TWO nonmetals meet? Neither wants to give up electrons. Both want MORE electrons. If neither will yield, how do they bond?"
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "They share. Instead of transferring electrons from one atom to another, both atoms contribute electrons to a SHARED pair that belongs to both simultaneously. This shared pair sits between the two nuclei, attracted to BOTH — creating a bond that holds the atoms together. This is covalent bonding."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Covalent bonding is the most common bond type in the universe. It holds together every molecule of water, every strand of DNA, every protein, every drug, every plastic, every breath of O₂ and N₂ in the air. It builds the molecular world — and the molecular world is where life happens."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Sharing Works — The Energy Story",
+              "body": "Two hydrogen atoms approach each other. Each has 1 electron and 1 proton. When they get close, each electron is now attracted to BOTH protons. The shared electrons experience more attraction than each alone did. This lowers the system's energy — nature's way of saying 'this is more stable.'"
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "At a specific distance (the bond length), the energy is at its minimum. Closer than this and the nuclei repel each other (both positive). Farther and the sharing benefit weakens. The bond length is the sweet spot — minimum energy, maximum stability."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "A covalent bond forms because sharing electrons LOWERS the total energy of the system. The shared electrons are attracted to both nuclei simultaneously. This mutual attraction is the glue. The energy released when the bond forms is the bond energy — the energy you'd need to break that bond apart."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Ionic bonding is a robbery: one atom takes electrons from another. Covalent bonding is a partnership: both atoms contribute electrons and share the benefit. It's the difference between 'give me your lunch money' and 'let's split a pizza.'"
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "There's something beautiful about covalent bonding. In a universe where atoms can bond by domination (ionic) or by cooperation (covalent), the vast majority of matter — including all living things — is held together by cooperation. Molecules exist because atoms share. Life is built on molecular partnerships."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Two lone hydrogen atoms are each unstable — they have 1 electron but want 2. When they share, both 'see' 2 electrons. Neither lost anything. Both gained stability. It's a rare transaction where both parties genuinely win. Economists call this a positive-sum game. Chemists call it a covalent bond."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "covalent_bonding_p2",
+      "part_title": "How Covalent Bonds Form — Orbital Overlap",
+      "purpose": "Core — orbital overlap model, sigma/pi bonds, bonding/lone pairs",
+      "curriculum_concepts": [
+        "covalent_bond_formation"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Orbital Overlap",
+              "body": "At the quantum level, a covalent bond forms when two atomic orbitals OVERLAP — creating a shared region of space where both electrons reside. The overlapping region has high electron density between the two nuclei, attracting both nuclei toward the center. This attraction IS the bond."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Sigma (σ) Bond",
+              "body": "Formed by HEAD-ON overlap of orbitals (s-s, s-p, or p-p end-to-end). Electron density concentrated directly between the nuclei. The strongest type of covalent bond. Every single bond is a sigma bond. Every double and triple bond contains exactly one sigma bond."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Pi (π) Bond",
+              "body": "Formed by SIDE-BY-SIDE overlap of p orbitals. Electron density is above and below the bond axis, not directly between the nuclei. Weaker than sigma. A double bond = 1σ + 1π. A triple bond = 1σ + 2π. Pi bonds restrict rotation — the molecule can't twist around a double bond."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Single Bond (C—C)",
+                  "body": "1 sigma bond. Free rotation. Bond energy: ~348 kJ/mol. Bond length: 154 pm.",
+                  "examples": "Ethane C₂H₆"
+                },
+                {
+                  "label": "Double Bond (C=C)",
+                  "body": "1 sigma + 1 pi. NO free rotation. Bond energy: ~614 kJ/mol. Bond length: 134 pm.",
+                  "examples": "Ethene C₂H₄"
+                },
+                {
+                  "label": "Triple Bond (C≡C)",
+                  "body": "1 sigma + 2 pi. Very rigid. Bond energy: ~839 kJ/mol. Bond length: 120 pm.",
+                  "examples": "Ethyne C₂H₂"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Single bond: all sigma (free rotation). Double bond: σ + π (restricted rotation). Triple bond: σ + 2π (rigid). Each additional pi bond makes the connection shorter, stronger, and more rigid."
+            },
+            {
+              "type": "section",
+              "title": "Bonding Pairs vs Lone Pairs",
+              "body": "Bonding pair: a shared pair of electrons BETWEEN two atoms — this IS the bond. Lone pair: a pair of electrons on a SINGLE atom, not shared. Lone pairs take up space, affect molecular shape, and are sites where molecules donate electrons to form new bonds."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Visualize Orbital Overlap",
+              "body": "Hold two fists together (thumb-to-thumb) — that's head-on sigma overlap. Now hold your hands flat, palms down, one above the other — that's side-by-side pi overlap. Sigma is stronger because the overlap region is directly between the nuclei."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Why double bonds don't allow rotation: the pi bond requires p orbitals to stay aligned. Rotating one atom misaligns them, breaking the overlap. Like two parallel sticks connected by rubber bands top and bottom — twisting snaps the bands."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Sigma bonds are handshakes — direct, strong grip. Pi bonds are high-fives from above and below — weaker, require alignment, break if you twist. Single bond: one handshake. Double: handshake plus high-five. Triple: handshake plus two high-fives. Very committed. Zero flexibility."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The restricted rotation of double bonds is why cis-trans isomers exist. Oleic acid (cis) is liquid olive oil. Elaidic acid (trans) is solid margarine. Same atoms, same bonds — different geometry because the double bond won't rotate. Your diet depends on orbital overlap."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A double bond consists of:",
+          "options": {
+            "A": "Two sigma bonds",
+            "B": "One sigma bond and one pi bond — sigma from head-on overlap, pi from side-by-side p orbital overlap",
+            "C": "Two pi bonds",
+            "D": "One sigma bond and two lone pairs"
+          },
+          "correct_answer": "B",
+          "explanation": "Every multiple bond has exactly one σ bond plus π bonds. Double = 1σ + 1π. Triple = 1σ + 2π.",
+          "tests_concept": "covalent_bond_formation"
+        },
+        {
+          "question": "Why can't molecules rotate freely around a double bond?",
+          "options": {
+            "A": "Double bonds are too heavy",
+            "B": "The pi bond requires parallel p orbital alignment — rotation would break the side-by-side overlap",
+            "C": "Double bonds are ionic",
+            "D": "Lone pairs prevent rotation"
+          },
+          "correct_answer": "B",
+          "explanation": "Pi bonds form from side-by-side overlap of p orbitals which must stay parallel. Rotation misaligns them, destroying the pi bond.",
+          "tests_concept": "covalent_bond_formation"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "covalent_bonding_p3",
+      "part_title": "Drawing Lewis Structures — The Complete Algorithm",
+      "purpose": "Step-by-step Lewis structure method — the #1 skill failure point",
+      "curriculum_concepts": [
+        "lewis_structures"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Lewis Structures Matter",
+              "body": "Lewis structures show which atoms are bonded, whether bonds are single/double/triple, and where lone pairs sit. Getting the Lewis structure wrong cascades into wrong answers for EVERYTHING downstream — shape, polarity, reactivity."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Lewis Structure Algorithm",
+              "items": [
+                {
+                  "label": "Step 1: Count total valence electrons",
+                  "body": "Add up valence electrons from ALL atoms. For ions: subtract for positive charge, add for negative. Example: CO₂ → C(4) + O(6) + O(6) = 16."
+                },
+                {
+                  "label": "Step 2: Identify the central atom",
+                  "body": "Usually the LEAST electronegative atom (except H, always terminal). In CO₂: carbon is central."
+                },
+                {
+                  "label": "Step 3: Draw single bonds from central to each outer atom",
+                  "body": "Each single bond uses 2 electrons. CO₂: C—O and C—O uses 4. Remaining: 12."
+                },
+                {
+                  "label": "Step 4: Complete octets on OUTER atoms first",
+                  "body": "Distribute remaining as lone pairs on outer atoms. CO₂: each O gets 3 lone pairs = 12 used. Remaining: 0."
+                },
+                {
+                  "label": "Step 5: Check central atom's octet",
+                  "body": "If short, MOVE lone pairs from outer atoms to form double/triple bonds. CO₂: C has only 4. Move 1 lone pair from each O → O=C=O. C now has 8."
+                },
+                {
+                  "label": "Step 6: Verify",
+                  "body": "Total electrons used = Step 1. Every atom has octet (duet for H). Minimize formal charges."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "The algorithm ALWAYS works: count → connect → fill outer → check central → adjust. If central is short, convert outer atom lone pairs into bonding pairs."
+            },
+            {
+              "type": "section",
+              "title": "Formal Charge",
+              "body": "Formal charge = valence e⁻ − (lone pair e⁻ + ½ bonding e⁻). Best structure minimizes formal charges and places negative charge on the most electronegative atom."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Draw These Using the Algorithm",
+              "items": [
+                {
+                  "label": "H₂O",
+                  "hints": "H(1)+H(1)+O(6)=8. O central. H—O—H uses 4. O gets 2 lone pairs (4 e⁻). Total: 8. ✓"
+                },
+                {
+                  "label": "NH₃",
+                  "hints": "N(5)+3H(1)=8. N central. 3 N—H bonds use 6. N gets 1 lone pair. Total: 8. ✓"
+                },
+                {
+                  "label": "HCN",
+                  "hints": "H(1)+C(4)+N(5)=10. C central. H—C—N uses 4. Remaining: 6. N gets 3 lone pairs but C only has 4. Move 2 pairs from N → H—C≡N. ✓"
+                },
+                {
+                  "label": "SO₄²⁻",
+                  "hints": "S(6)+4O(6)+2(charge)=32. S central. 4 S—O bonds use 8. Each O gets 3 lone pairs (24 total). S has 8 from 4 bonds. ✓"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Most common errors: (1) Wrong total count (forgetting ion charge). (2) H as central atom. (3) Forgetting to check central octet. (4) Changing total count. Follow the algorithm and avoid all four."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Lewis structures are floor plans of molecules. Get them wrong and everything collapses — wrong shape, wrong polarity, wrong reactivity. Like building from a bad blueprint."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Gilbert N. Lewis published dot structures in 1916 — before quantum mechanics existed. He figured out electron sharing from chemical intuition alone. When QM arrived in the 1920s, it confirmed he was essentially correct. Right for the wrong reasons — the best kind of scientific intuition."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Step 5 (moving lone pairs to form multiple bonds) is where students panic. Don't. If central is short, outer atoms' lone pairs are the only source. Convert lone → bonding pair. Generosity in molecular form."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Drawing CO₂: after single bonds, carbon only has 4 electrons. Next step?",
+          "options": {
+            "A": "Add more electrons",
+            "B": "Move lone pairs from oxygens to form double bonds — O=C=O — giving carbon 8",
+            "C": "Carbon doesn't need an octet",
+            "D": "Add lone pairs to carbon"
+          },
+          "correct_answer": "B",
+          "explanation": "Step 5: convert outer atom lone pairs into bonding pairs. Each O donates 1 lone pair → double bonds. O=C=O: C has 8. Total: 16. ✓",
+          "tests_concept": "lewis_structures"
+        },
+        {
+          "question": "Total valence electrons for NO₃⁻?",
+          "options": {
+            "A": "23",
+            "B": "24 — N(5) + 3O(6) + 1(negative charge) = 24",
+            "C": "22",
+            "D": "18"
+          },
+          "correct_answer": "B",
+          "explanation": "N(5) + 3×O(6) = 23. Negative charge = 1 EXTRA electron: 23 + 1 = 24. Forgetting ion charge is the #1 error.",
+          "tests_concept": "lewis_structures"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "covalent_bonding_p4",
+      "part_title": "Bond Energy and Bond Length — The Strength of Sharing",
+      "purpose": "Quantitative bond properties",
+      "curriculum_concepts": [
+        "bond_energy_and_length"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Bond Energy",
+              "body": "Energy required to BREAK one mole of a bond, in kJ/mol. Higher = stronger. C—C: 348. C=C: 614. C≡C: 839. O—H: 463. N≡N: 941 (one of the strongest in nature)."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Bond Length",
+              "body": "Distance between bonded nuclei in picometers. Shorter = stronger = more overlap. C—C: 154 pm. C=C: 134 pm. C≡C: 120 pm."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "What Determines Bond Strength?",
+              "items": [
+                {
+                  "label": "Bond Order",
+                  "icon": "layers",
+                  "body": "Single < double < triple. Triple bonds ~2.4× stronger than single."
+                },
+                {
+                  "label": "Atom Size",
+                  "icon": "minimize",
+                  "body": "Smaller atoms form stronger bonds. H—F (568) > H—Cl (431) > H—Br (366) > H—I (298 kJ/mol)."
+                },
+                {
+                  "label": "Electronegativity Difference",
+                  "icon": "zap",
+                  "body": "Greater difference = more ionic character = often stronger. C—F (485) > C—H (413)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Bond energy determines reaction energetics. Breaking bonds costs energy. Forming bonds releases energy. If forming products releases more than breaking reactants costs → exothermic. Every fire and metabolic reaction is a bond energy accounting problem."
+            },
+            {
+              "type": "section",
+              "title": "N₂: The Fortress Molecule",
+              "body": "N≡N bond energy: 941 kJ/mol. This is why 78% of air (N₂) is unreactive. Breaking the triple bond requires enormous energy. Nitrogen-fixing bacteria do it at room temperature using enzymes. The Haber process needs 400-500°C and 200+ atmospheres. Biology's engineering: billions of years ahead."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Rank: Shortest to Longest",
+              "items": [
+                {
+                  "label": "C—C, C=C, C≡C",
+                  "hints": "Triple (120 pm) < double (134 pm) < single (154 pm). More sharing = shorter."
+                },
+                {
+                  "label": "H—F, H—Cl, H—Br, H—I",
+                  "hints": "H—F (92) < H—Cl (127) < H—Br (141) < H—I (161 pm). Larger halogen = longer."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Two rules: more bonds = shorter and stronger. Smaller atoms = shorter and stronger."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Bond energy is 'how hard is this relationship to break up?' Single bonds: casual — 348 kJ. Double: committed — 614 kJ. Triple: inseparable — 839+ kJ. N≡N at 941 kJ: together since kindergarten, never breaking up."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The Haber process consumes ~1% of world energy just to break N≡N. Meanwhile bacteria do it at room temperature. Nature's engineering: billions of years ahead of ours."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Rank C—C, C=C, C≡C strongest to weakest.",
+          "options": {
+            "A": "C—C > C=C > C≡C",
+            "B": "C≡C > C=C > C—C — more shared electrons = stronger",
+            "C": "All equal",
+            "D": "C=C > C≡C > C—C"
+          },
+          "correct_answer": "B",
+          "explanation": "Triple (839) > double (614) > single (348 kJ/mol). More shared electrons = more attraction = stronger.",
+          "tests_concept": "bond_energy_and_length"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "covalent_bonding_p5",
+      "part_title": "Polarity — The Spectrum of Sharing",
+      "purpose": "Deep treatment — polarity as continuum, polar bonds vs polar molecules",
+      "curriculum_concepts": [
+        "polar_vs_nonpolar"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Sharing Isn't Always Equal",
+              "body": "When identical atoms share (H₂, O₂), sharing is perfectly equal — nonpolar. When different atoms share, the more electronegative atom pulls shared electrons closer — polar covalent bond."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Bond Polarity",
+              "body": "Unequal sharing due to electronegativity difference. More electronegative atom becomes δ⁻. Less becomes δ⁺. Creates a DIPOLE."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "The Bonding Spectrum",
+              "items": [
+                {
+                  "label": "Pure Covalent (ΔEN = 0)",
+                  "body": "Equal sharing. No dipole. H—H, O=O, N≡N.",
+                  "examples": "H₂, Cl₂"
+                },
+                {
+                  "label": "Polar Covalent (ΔEN = 0.4-1.7)",
+                  "body": "Unequal sharing. Partial charges. Most bonds between different nonmetals.",
+                  "examples": "O—H (1.4), C—O (1.0), H—Cl (0.9)"
+                },
+                {
+                  "label": "Ionic (ΔEN > 1.7)",
+                  "body": "Transfer. Full charges. Metal + nonmetal.",
+                  "examples": "NaCl (2.1), KF (3.2)"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "There's no sharp boundary between covalent and ionic. They're a continuum. Even 'ionic' bonds have some sharing. Even 'covalent' bonds between different atoms have some charge separation. The names are useful labels for regions of a spectrum, not absolute categories."
+            },
+            {
+              "type": "section",
+              "title": "Polar Bonds vs Polar Molecules",
+              "body": "A molecule with polar bonds isn't necessarily polar. It depends on SHAPE. CO₂: two polar C=O bonds, linear → dipoles cancel → nonpolar molecule. H₂O: two polar O—H bonds, bent → dipoles DON'T cancel → polar molecule. Shape determines whether dipoles add up or cancel."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Polar molecule checklist: (1) Has polar bonds? (2) Does shape allow cancellation? Symmetrical (linear CO₂, tetrahedral CH₄) → cancel → nonpolar. Asymmetrical (bent H₂O, pyramidal NH₃) → don't cancel → polar."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Polar Bond? Polar Molecule?",
+              "items": [
+                {
+                  "label": "CCl₄",
+                  "hints": "C—Cl polar. Tetrahedral → dipoles cancel → NONPOLAR molecule."
+                },
+                {
+                  "label": "CHCl₃",
+                  "hints": "Replace 1 Cl with H → symmetry broken → POLAR molecule."
+                },
+                {
+                  "label": "BF₃",
+                  "hints": "B—F polar. Trigonal planar → cancel → NONPOLAR."
+                },
+                {
+                  "label": "NF₃",
+                  "hints": "N—F polar. Pyramidal (lone pair!) → DON'T cancel → POLAR."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "LONE PAIRS break symmetry. BF₃ (no lone pair, planar, nonpolar) vs NF₃ (lone pair, pyramidal, polar). Same bond count. Completely different polarity."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Electronegativity is greediness for electrons. Fluorine (4.0) is greediest. Cesium (0.7) most generous. When they bond — basically theft (ionic). When O bonds H — pulls harder but doesn't completely take (polar covalent). Spectrum of electron-hoarding."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Water's polarity is why life exists. H₂O's bent shape creates a dipole enabling hydrogen bonding, giving water its high boiling point, solvent ability, and ice-floating behavior. One bent molecule. All of biology depends on its geometry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "CO₂ has polar bonds but is nonpolar. Why?",
+          "options": {
+            "A": "Bonds aren't polar",
+            "B": "Linear shape causes equal C=O dipoles to cancel — opposite directions, net zero",
+            "C": "Carbon cancels polarity",
+            "D": "Only single bonds can be polar"
+          },
+          "correct_answer": "B",
+          "explanation": "CO₂ linear (180°). Each C=O dipole equal but opposite: ←O=C=O→. Cancel completely. Nonpolar molecule despite polar bonds.",
+          "tests_concept": "polar_vs_nonpolar"
+        },
+        {
+          "question": "BF₃ is nonpolar but NF₃ is polar. Both have 3 polar bonds. Why?",
+          "options": {
+            "A": "Different fluorine sizes",
+            "B": "NF₃ has a lone pair creating pyramidal shape — asymmetry prevents cancellation, unlike BF₃'s trigonal planar",
+            "C": "Boron more electronegative",
+            "D": "NF₃ has stronger bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "BF₃: no lone pair → planar → cancel → nonpolar. NF₃: lone pair → pyramidal → don't cancel → polar. Lone pair breaks symmetry.",
+          "tests_concept": "polar_vs_nonpolar"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "covalent_bonding_p6",
+      "part_title": "Molecular Shapes — VSEPR Theory in Full",
+      "purpose": "Complete VSEPR — all common geometries, lone pair effects",
+      "curriculum_concepts": [
+        "molecular_shapes_intro"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "VSEPR Theory",
+              "body": "Valence Shell Electron Pair Repulsion. Electron pairs repel and arrange as FAR APART as possible. This determines ELECTRON GEOMETRY. MOLECULAR SHAPE counts only atom positions (lone pairs invisible)."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Shapes from Electron Pair Count",
+              "items": [
+                {
+                  "label": "2 groups → Linear (180°)",
+                  "icon": "minus",
+                  "body": "CO₂, BeCl₂. Straight line."
+                },
+                {
+                  "label": "3 groups → Trigonal Planar (120°)",
+                  "icon": "triangle",
+                  "body": "BF₃. If 1 lone pair: BENT (~117°), like SO₂."
+                },
+                {
+                  "label": "4 groups → Tetrahedral (109.5°)",
+                  "icon": "box",
+                  "body": "CH₄. 1 lone pair: PYRAMIDAL (~107°), NH₃. 2 lone pairs: BENT (~104.5°), H₂O."
+                },
+                {
+                  "label": "5 groups → Trigonal Bipyramidal",
+                  "icon": "star",
+                  "body": "PCl₅. Variations: seesaw, T-shaped, linear."
+                },
+                {
+                  "label": "6 groups → Octahedral (90°)",
+                  "icon": "hexagon",
+                  "body": "SF₆. Variations: square pyramidal, square planar."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Lone Pairs Compress Angles",
+              "body": "Lone pairs occupy MORE space than bonding pairs. CH₄: 109.5° (0 lone pairs). NH₃: 107° (1 lone pair). H₂O: 104.5° (2 lone pairs). Each lone pair reduces angle by ~2-2.5°."
+            },
+            {
+              "type": "section",
+              "title": "Systematic Approach",
+              "body": "(1) Draw Lewis structure. (2) Count electron groups around central atom (double/triple = ONE group). (3) Electron geometry from total groups. (4) Molecular shape from atom positions only. (5) Lone pairs invisible but affect geometry."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Predict the Shape",
+              "items": [
+                {
+                  "label": "CH₄",
+                  "hints": "4 bonds, 0 lone → tetrahedral, 109.5°. Nonpolar."
+                },
+                {
+                  "label": "NH₃",
+                  "hints": "3 bonds + 1 lone = 4 groups → pyramidal, ~107°. Polar."
+                },
+                {
+                  "label": "H₂O",
+                  "hints": "2 bonds + 2 lone = 4 groups → bent, ~104.5°. Very polar."
+                },
+                {
+                  "label": "SF₆",
+                  "hints": "6 bonds + 0 lone → octahedral, 90°. Nonpolar."
+                },
+                {
+                  "label": "XeF₂",
+                  "hints": "2 bonds + 3 lone = 5 groups → linear (lone pairs equatorial)."
+                }
+              ]
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Build 3D molecular models of CH₄, NH₃, H₂O, CO₂, BF₃ using household materials. Photograph showing different geometries. Label bond angles. Best set becomes the official VSEPR gallery!",
+              "placeholder_type": "vsepr_model_gallery"
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Molecular shape determines EVERYTHING in biology. Drug molecules must FIT receptor proteins like keys in locks. VSEPR isn't abstract geometry — it's the logic behind pharmacology."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Thalidomide: one mirror-image form treats morning sickness. The other causes birth defects. SAME atoms, SAME bonds, different 3D arrangement. Molecular geometry = the difference between cure and catastrophe."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Lone pairs are invisible roommates. They take up space, push bonding pairs into smaller angles, and change the household shape — but don't appear in the family photo (molecular shape)."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "NH₃ shape:",
+          "options": {
+            "A": "Tetrahedral",
+            "B": "Trigonal pyramidal — 3 bonding pairs form pyramid, lone pair compresses from above",
+            "C": "Trigonal planar",
+            "D": "Linear"
+          },
+          "correct_answer": "B",
+          "explanation": "4 electron groups = tetrahedral electron geometry. Molecular shape (atoms only): 3 atoms + invisible lone pair = pyramidal, ~107°.",
+          "tests_concept": "molecular_shapes_intro"
+        },
+        {
+          "question": "CH₄ 109.5°, NH₃ ~107°, H₂O ~104.5°. What causes decreasing angle?",
+          "options": {
+            "A": "Different central atom sizes",
+            "B": "Each lone pair compresses bonding pairs further — more lone pairs = smaller angles",
+            "C": "Different H counts",
+            "D": "Temperature"
+          },
+          "correct_answer": "B",
+          "explanation": "All have 4 electron groups. CH₄: 0 lone pairs → 109.5°. NH₃: 1 → ~107°. H₂O: 2 → ~104.5°. Each lone pair squeezes ~2-2.5°.",
+          "tests_concept": "molecular_shapes_intro"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "covalent_bonding_p7",
+      "part_title": "Intermolecular Forces — How Molecules Interact",
+      "purpose": "NEW — forces BETWEEN molecules determining physical properties",
+      "curriculum_concepts": [
+        "intermolecular_forces"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Bonds vs Forces",
+              "body": "Covalent bonds hold atoms WITHIN a molecule. Intermolecular forces (IMFs) hold MOLECULES near each other. When water boils, IMFs break (molecules separate). O—H covalent bonds inside each molecule remain intact."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "IMFs are WEAKER than bonds (~1-40 kJ/mol vs 150-1000). But they determine boiling point, melting point, viscosity, surface tension, and solubility."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Three Types (Weakest to Strongest)",
+              "items": [
+                {
+                  "label": "London Dispersion (ALL molecules)",
+                  "icon": "sparkles",
+                  "body": "Temporary dipoles from random electron movement. Present in EVERY molecule. Strength increases with molecular SIZE. Why larger hydrocarbons have higher boiling points."
+                },
+                {
+                  "label": "Dipole-Dipole (polar only)",
+                  "icon": "arrow-right",
+                  "body": "Permanent δ⁺/δ⁻ attraction between polar molecules. Stronger than London for similar size. Why acetone (polar, 56°C) boils higher than propane (nonpolar, −42°C)."
+                },
+                {
+                  "label": "Hydrogen Bonding (H—F, H—O, H—N)",
+                  "icon": "link",
+                  "body": "Extra-strong dipole-dipole when H is bonded to F, O, or N. Strongest IMF (~20-40 kJ/mol). Makes water liquid, gives DNA its double helix, folds proteins."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Without hydrogen bonding, water would boil at −80°C. Earth would have no liquid water. No oceans. No life. H-bonding raises water's boiling point by ~180°C. One intermolecular force made our planet habitable."
+            },
+            {
+              "type": "section",
+              "title": "Predicting Properties",
+              "body": "Higher IMF → higher boiling/melting point. Nonpolar: London only → low bp (gases/volatile). Polar: dipole + London → moderate. H-bonding: strong IMFs → high bp for size."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Rank by Boiling Point",
+              "items": [
+                {
+                  "label": "CH₄, CH₃OH, CH₃Cl",
+                  "hints": "CH₄: London only (−161°C). CH₃Cl: dipole-dipole (−24°C). CH₃OH: H-bonding (65°C)."
+                },
+                {
+                  "label": "H₂O, H₂S, H₂Se",
+                  "hints": "H₂O: H-bonding (100°C!). H₂S: dipole only (−60°C). H₂Se: (−41°C). Water is the outlier."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Quick prediction: (1) Identify strongest IMF present. (2) Among same IMF type, larger = higher bp. Two steps predict nearly all boiling points."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Bonds: marriage (strong, within molecule). IMFs: social etiquette (weaker, between molecules). London: mild awareness. Dipole-dipole: chatting. H-bonding: best friends. Boiling = leaving the party. Stronger connections = harder to leave."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Geckos walk on ceilings using London forces. Their toe pads have millions of tiny structures creating enormous surface area. Cumulative London forces support the gecko's weight. Van der Waals = gecko superpowers."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "H-bonding is why belly flops hurt. Water surface tension (from H-bonds) creates a molecular 'skin.' Your belly hits it at speed. Blame intermolecular forces."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Water boils at 100°C, H₂S at −60°C. Why the 160° difference?",
+          "options": {
+            "A": "Water is lighter",
+            "B": "Water has hydrogen bonding (O—H···O); H₂S only has dipole-dipole — S isn't electronegative enough for H-bonding",
+            "C": "H₂S is more polar",
+            "D": "Stronger covalent bonds in water"
+          },
+          "correct_answer": "B",
+          "explanation": "H-bonding requires H bonded to F, O, or N. Water qualifies. H₂S doesn't. H-bonds (~20-40 kJ) >> dipole-dipole (~5-15 kJ). 160° difference.",
+          "tests_concept": "intermolecular_forces"
+        },
+        {
+          "question": "Noble gas boiling points: He < Ne < Ar < Kr < Xe. Why?",
+          "options": {
+            "A": "Stronger covalent bonds",
+            "B": "More electrons → stronger London forces from greater polarizability",
+            "C": "Heavier = condense easier",
+            "D": "More polar"
+          },
+          "correct_answer": "B",
+          "explanation": "Noble gases: nonpolar, London forces only. More electrons = more polarizable = stronger temporary dipoles. Xe (54 e⁻) >> He (2 e⁻).",
+          "tests_concept": "intermolecular_forces"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "covalent_bonding_p8",
+      "part_title": "Covalent Bonding Built the Molecular World",
+      "purpose": "Applications — drug design, DNA, proteins, materials",
+      "curriculum_concepts": [
+        "molecular_shapes_intro",
+        "intermolecular_forces"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Drug Design",
+                  "icon": "heart",
+                  "body": "Drugs fit receptor sites via shape (VSEPR), polarity (dipoles), and H-bonding. Medicinal chemists design molecules atom by atom for the right 3D shape."
+                },
+                {
+                  "label": "DNA's Double Helix",
+                  "icon": "code",
+                  "body": "Strands held by H-bonds: A—T (2 H-bonds), G—C (3 H-bonds). Strong enough to hold, weak enough to unzip. The balance IS heredity's mechanism."
+                },
+                {
+                  "label": "Protein Folding",
+                  "icon": "settings",
+                  "body": "Proteins fold via H-bonds, London forces, polar interactions. Misfolded proteins cause Alzheimer's, mad cow disease. Shape IS function."
+                },
+                {
+                  "label": "Materials",
+                  "icon": "layers",
+                  "body": "Kevlar: H-bonds align chains (strong). Teflon: C—F creates no H-bonding surface (nonstick). Every material property traces to bonds and IMFs."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The hierarchy: covalent bonds → molecular shape → polarity → intermolecular forces → physical properties → material behavior → biological function → life. Every step follows from electron sharing."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Master this chain: bonds → shape (VSEPR) → polarity (EN + shape) → IMFs (London/dipole/H-bond) → properties (bp, solubility) → function. This IS molecular chemistry."
+            },
+            {
+              "type": "transition",
+              "body": "Ionic (transfer, lattices) + covalent (sharing, molecules) done. Metallic bonding next — the electron sea."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Spider silk is stronger than steel by weight — hydrogen bonds between protein strands. Water is liquid — hydrogen bonds. DNA stores life's code — hydrogen bonds. The most important force in biology isn't even a real 'bond.'"
+            },
+            {
+              "type": "transition",
+              "body": "Ionic: monarchy (transfer, rigid hierarchy). Covalent: democracy (sharing, molecular diversity). Metallic next: commune (electrons pooled freely). Three systems, three philosophies."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 9,
+      "part_id": "covalent_bonding_p9",
+      "part_title": "The Philosophy of Molecular Architecture",
+      "purpose": "Philosophical capstone — what covalent bonding reveals about nature's design",
+      "curriculum_concepts": [
+        "covalent_bond_formation",
+        "molecular_shapes_intro"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Covalent bonding is nature's solution to a problem: how can two electronegative atoms — both wanting more electrons — coexist? Not compromise or domination. A genuinely creative solution: SHARING. Both gain stability. Neither loses anything. The shared pair creates something new — a bond — that didn't exist in either atom alone. In chemistry, as sometimes in life, the deepest stability comes from cooperation, not competition."
+            },
+            {
+              "type": "section",
+              "title": "Emergent Complexity",
+              "body": "From 'electron pairs repel' (VSEPR), geometry emerges. From geometry, polarity. From polarity, intermolecular forces. From IMFs, properties. From properties, function. From materials, life. Each level is logical from the one below — but contains behaviors unpredictable from lower levels alone. This is EMERGENCE: complex behavior from simple rules."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Water is bent at 104.5°. This angle — from lone pair repulsion — makes water polar. Polarity enables H-bonding. H-bonding gives water high boiling point, surface tension, and dissolving power. These make Earth habitable. An angle of 104.5° — a quantum consequence — determined the fate of a planet."
+            },
+            {
+              "type": "transition",
+              "body": "Covalent bonding creates the molecular world: specific shapes, properties, functions. Combined with ionic and metallic bonding, you have the complete toolkit for understanding how atoms build every material in existence."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual showing the journey from electron sharing → Lewis structure → 3D shape → polarity → properties → function. Pick ONE molecule and trace how its function depends on covalent architecture. Best becomes the official capstone image!",
+              "placeholder_type": "molecular_architecture_visual"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Your hand: collagen (H-bonds between protein chains). Your DNA: double helix (H-bonds between bases). Your body's water: bent molecule (lone pairs → 104.5° → polar → H-bonding → liquid at body temp). Every structural detail traces to covalent geometry."
+            },
+            {
+              "type": "transition",
+              "body": "Metallic bonding completes the three bond types. Then: chemical formulas and reactions."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Nine parts from 'atoms share electrons' to 'this is why life exists.' The payoff: understanding molecular logic behind biology, medicine, and materials science. Not bad for a lesson about sharing."
+            },
+            {
+              "type": "transition",
+              "body": "Covalent bonding: mastered. Metallic bonding next — where electrons aren't shared in pairs but pooled by the community."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Water's 104.5° bond angle comes from:",
+          "options": {
+            "A": "Mass of hydrogen",
+            "B": "Temperature",
+            "C": "Two lone pairs on oxygen compressing H—O—H bonding pairs below tetrahedral 109.5°",
+            "D": "Ionic character of O—H"
+          },
+          "correct_answer": "C",
+          "explanation": "4 electron groups (tetrahedral base, 109.5°). 2 lone pairs compress bonding pairs → 104.5°. This angle → polar → H-bonding → habitable planet.",
+          "tests_concept": "molecular_shapes_intro"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 12,
+    "curriculum_concepts_covered": [
+      "covalent_bond_formation",
+      "lewis_structures",
+      "single_double_triple_bonds",
+      "polar_vs_nonpolar",
+      "molecular_shapes_intro",
+      "intermolecular_forces",
+      "bond_energy_and_length"
+    ],
+    "bridges_from": "bonding_intro + ionic_bonding + valence_electrons",
+    "bridges_to": "metallic_bonding → chemical_formulas",
+    "extended_treatment": true
+  }
+}

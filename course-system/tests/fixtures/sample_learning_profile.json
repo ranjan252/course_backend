@@ -1,0 +1,24 @@
+{
+  "PK": "test_user_001",
+  "SK": "STUDENT#PROFILE#LEARNING",
+  "data": {
+    "pada": "sensing",
+    "processing_style": "kinesthetic",
+    "doorway": "story",
+    "confidence": 0.85,
+    "dasha_context": {
+      "md_lord": "JUPITER",
+      "ad_lord": "MERCURY",
+      "pd_lord": "SATURN",
+      "moon_nakshatra": "Rohini"
+    },
+    "soul_qualities": {
+      "patience": { "natal": 7.52, "activated": 7.98 },
+      "self_study": { "natal": 6.98, "activated": 7.41 }
+    },
+    "material_qualities": {
+      "analytical_ability": { "natal": 7.76, "activated": 8.24 },
+      "communication": { "natal": 8.29, "activated": 8.87 }
+    }
+  }
+}

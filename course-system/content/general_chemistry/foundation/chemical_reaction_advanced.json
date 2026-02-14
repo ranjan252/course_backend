@@ -1,0 +1,990 @@
+{
+  "course": "General Chemistry",
+  "topic": "5_chemical_language",
+  "subtopic": "5.2_chemical_reactions",
+  "foundation_id": "chemical_reactions",
+  "foundation_title": "Chemical Reactions",
+  "foundation_tier": 2,
+  "prerequisites": [
+    "chemical_formulas",
+    "bonding_intro"
+  ],
+  "curriculum_concepts_covered": [
+    "conservation_of_mass",
+    "reading_equations",
+    "balancing_equations",
+    "reaction_types",
+    "energy_in_reactions",
+    "reaction_conditions",
+    "predicting_products"
+  ],
+  "total_parts": 8,
+  "extended_treatment": true,
+  "extended_reason": "Chemical reactions are where chemistry becomes DYNAMIC. Deep treatment of conservation philosophy, balancing methodology, all 5 reaction types with prediction logic, energy (exo/endothermic, activation energy), and reaction conditions (catalysts, temperature, concentration) builds the complete framework for understanding how matter transforms.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "chemical_reactions_p1",
+      "part_title": "Chemistry Comes Alive — The Philosophy of Transformation",
+      "purpose": "Hook — reactions are where static matter becomes dynamic; philosophical framing of transformation",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Everything we've studied — atoms, electrons, bonds, formulas — has been about substances sitting still. Now chemistry comes alive. Chemical reactions are processes where substances TRANSFORM: old bonds break, atoms rearrange, new bonds form, and entirely new substances appear. The atoms are the same. The arrangement is different. The properties change completely."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "A chemical reaction is a process where starting substances (reactants) transform into new substances (products) through the breaking and forming of chemical bonds. The atoms are rearranged, not created or destroyed. Same atoms. New architecture. Different properties."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "You witness reactions constantly: a match striking (combustion), iron rusting (oxidation), bread rising (fermentation), leaves changing color (chlorophyll breakdown), fireworks exploding (rapid combustion), your food being digested (enzymatic reactions). Every one of these transforms matter from one form to another."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Transformation Is Everywhere",
+              "body": "Light a match. The wood and chemicals in the match head (reactants) transform into heat, light, smoke, and ash (products). The atoms that were in the match still exist — they're now in the gases and residue. Nothing was created or destroyed. Everything was REARRANGED."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Mix baking soda and vinegar. The fizzing and bubbling is CO₂ gas being PRODUCED — a new substance that didn't exist in either starting material. The sodium, carbon, hydrogen, and oxygen atoms are all still present. But they've switched partners. That's a chemical reaction."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Signs a chemical reaction occurred: color change, gas production (bubbles), temperature change, precipitate formation (solid appears in liquid), light or sound. These indicate new substances formed — not just physical mixing."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Reactions are where chemistry stops being a museum and becomes a movie. Atoms are no longer posing for portraits in their crystal lattices. They're moving, breaking apart, finding new partners, building new structures. It's the action sequence of chemistry."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "There's a deep principle at work: transformation, not creation. Nothing new is created in a chemical reaction. Nothing is destroyed. Everything is TRANSFORMED. The universe conserves its building blocks while constantly rearranging them into new forms. Reactions are nature's way of recycling atoms — the same atoms that formed in stars billions of years ago are still here, just in different arrangements. You are made of the same atoms that were once in a star, then in a rock, then in a plant, then in an animal. Chemistry is the story of matter's endless transformation."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The iron atoms in your blood's hemoglobin were forged inside a massive star that exploded as a supernova billions of years ago. Those atoms cycled through interstellar gas, a planetary disk, Earth's crust, various organisms, and eventually you. Chemical reactions are the mechanism of this cosmic recycling program."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "chemical_reactions_p2",
+      "part_title": "Conservation of Mass — Nothing Is Created or Destroyed",
+      "purpose": "Deep treatment of conservation as both practical law and philosophical principle",
+      "curriculum_concepts": [
+        "conservation_of_mass"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Law of Conservation of Mass",
+              "body": "In a chemical reaction, matter is neither created nor destroyed. Total mass of reactants equals total mass of products. Every atom that enters a reaction exits the reaction. The number and type of atoms is EXACTLY the same before and after — only the arrangement changes."
+            },
+            {
+              "type": "section",
+              "title": "Lavoisier's Discovery",
+              "body": "Antoine Lavoisier (1770s) proved this by carefully weighing reactants and products in sealed containers. Before him, people thought burning destroyed matter (the ash weighs less than the wood). Lavoisier showed: wood + oxygen → ash + CO₂ + H₂O. When you account for the gases, mass is EXACTLY conserved. The 'missing' mass was in the gases that escaped."
+            },
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Conservation of mass is one of the deepest principles in chemistry. It means the universe is a closed system of building blocks. No atom has ever been created by a chemical reaction. No atom has ever been destroyed. Every atom in your body existed before you were born and will exist after you die. Chemical reactions simply shuffle the arrangement. This is conservation: not of identity, but of substance."
+            },
+            {
+              "type": "section",
+              "title": "Why This Matters for Equations",
+              "body": "Because atoms are conserved, every chemical equation must BALANCE — same number of each type of atom on both sides. An unbalanced equation violates conservation of mass. It's not just a math rule — it's a physical law. If your equation doesn't balance, it describes something impossible."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Conservation of mass → balanced equations → stoichiometry → practical chemistry. The entire quantitative framework of chemistry rests on this one law. If mass weren't conserved, we couldn't predict how much product a reaction yields."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual demonstrating conservation of mass: show the SAME atoms before and after a reaction, rearranged but not created/destroyed. Use everyday objects or colored circles to represent atoms. Best illustration becomes the official conservation visual!",
+              "placeholder_type": "conservation_of_mass_visual"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "See Conservation in Action",
+              "body": "Seal baking soda + vinegar in a ziplock bag on a scale. The mass before mixing equals mass after (including the CO₂ gas trapped in the bag). If you did this in an open container, mass would SEEM to decrease — but only because CO₂ escaped. Account for gases and mass is exactly conserved."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Steel wool + flame: the steel wool GAINS mass when burned. Why? Iron atoms combine with oxygen from the air: 4Fe + 3O₂ → 2Fe₂O₃. The product (iron oxide/rust) includes the oxygen atoms that joined. The system (iron + oxygen from air) is conserved. Mass seems to change only when you don't account for ALL reactants and products."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Common misconception: burning destroys matter. Reality: burning REARRANGES matter into gases you can't see. Wood → CO₂ + H₂O (gases). The wood didn't disappear. It became invisible gases. Weigh the gases and mass is conserved perfectly."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Lavoisier is called the 'Father of Modern Chemistry.' He proved conservation of mass, named oxygen and hydrogen, and revolutionized chemical nomenclature. He was executed during the French Revolution. The judge reportedly said 'The Republic has no need of geniuses.' The Republic was wrong."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "When you 'lose weight' through exercise, where does the mass go? You literally breathe it out as CO₂. Fat (C₅₅H₁₀₄O₆) + O₂ → CO₂ + H₂O. Most of the mass exits through your lungs. Conservation of mass: your 'lost' weight is now in the atmosphere. Weight loss is chemistry, and the product is literally hot air."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The universe is the ultimate recycler. No returns, no refunds, no new inventory. Every atom you'll ever interact with already exists. Chemistry is just rearranging the inventory. Conservation of mass is the universe's inventory management policy: count must match after every transaction."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A log burns in a campfire and appears to lose mass. What actually happened?",
+          "options": {
+            "A": "Mass was destroyed by the fire",
+            "B": "Atoms in the wood combined with O₂ to form CO₂ and H₂O gases that escaped — total mass is conserved when gases are included",
+            "C": "The fire converted mass into energy",
+            "D": "Some atoms were destroyed by the heat"
+          },
+          "correct_answer": "B",
+          "explanation": "Wood + O₂ → CO₂ + H₂O + ash. The 'missing' mass became invisible gases (CO₂, H₂O). If you captured all gases and weighed everything, reactant mass = product mass. Conservation is absolute in chemical reactions.",
+          "tests_concept": "conservation_of_mass"
+        },
+        {
+          "question": "Steel wool gains mass when burned. Why?",
+          "options": {
+            "A": "Fire creates new matter",
+            "B": "Iron atoms combine with oxygen from air: 4Fe + 3O₂ → 2Fe₂O₃ — the oxygen adds mass to the solid product",
+            "C": "Heat has mass",
+            "D": "The scale is wrong"
+          },
+          "correct_answer": "B",
+          "explanation": "The product (Fe₂O₃) includes both iron AND oxygen atoms. Oxygen from air adds mass to the solid. System mass (Fe + O₂ used) = product mass (Fe₂O₃). Conserved.",
+          "tests_concept": "conservation_of_mass"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "chemical_reactions_p3",
+      "part_title": "Reading Chemical Equations — The Language of Reactions",
+      "purpose": "Complete guide to reading and interpreting chemical equations",
+      "curriculum_concepts": [
+        "reading_equations"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Anatomy of an Equation",
+              "body": "A chemical equation is a sentence in the language of chemistry. It tells you WHAT reacts, WHAT forms, and in WHAT proportions."
+            },
+            {
+              "type": "section",
+              "title": "Example: 2H₂ + O₂ → 2H₂O",
+              "body": "Every symbol has meaning."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Reactants (left side)",
+                  "icon": "arrow-right",
+                  "body": "H₂ and O₂ — the starting substances. They're consumed in the reaction."
+                },
+                {
+                  "label": "Products (right side)",
+                  "icon": "check",
+                  "body": "H₂O — the new substance formed. Created by the reaction."
+                },
+                {
+                  "label": "Arrow (→)",
+                  "icon": "arrow-right",
+                  "body": "'Yields' or 'produces.' Reactants transform INTO products."
+                },
+                {
+                  "label": "Coefficients (big numbers)",
+                  "icon": "hash",
+                  "body": "2H₂ means 2 molecules of H₂. The coefficient tells you HOW MANY of each molecule. These are the RATIOS."
+                },
+                {
+                  "label": "Subscripts (small numbers)",
+                  "icon": "subscript",
+                  "body": "H₂ means each molecule contains 2 hydrogen atoms. Subscripts are PART OF THE FORMULA — never change them."
+                },
+                {
+                  "label": "Plus sign (+)",
+                  "icon": "plus",
+                  "body": "'And' or 'reacts with' on the left. 'And' on the right."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Coefficients vs Subscripts — THE Critical Distinction",
+              "body": "Coefficients (in front) = how many molecules. You CAN change these when balancing. Subscripts (below) = how many atoms per molecule. You NEVER change these — changing subscripts changes the IDENTITY of the substance. 2H₂O is 2 water molecules. H₂O₂ is hydrogen peroxide — a completely different substance."
+            },
+            {
+              "type": "section",
+              "title": "State Symbols",
+              "body": "Many equations include state symbols: (s) = solid, (l) = liquid, (g) = gas, (aq) = aqueous (dissolved in water). 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). These tell you the physical state of each substance."
+            },
+            {
+              "type": "section",
+              "title": "Atom Count Verification",
+              "body": "For 2H₂ + O₂ → 2H₂O: Left: 2×2 = 4 H atoms, 1×2 = 2 O atoms. Right: 2×2 = 4 H atoms, 2×1 = 2 O atoms. Left = Right for every element. The equation is balanced."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Read These Equations",
+              "items": [
+                {
+                  "label": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+                  "hints": "1 methane + 2 oxygen molecules → 1 carbon dioxide + 2 water molecules. Count: C:1=1, H:4=4, O:4=4. ✓"
+                },
+                {
+                  "label": "2Na(s) + Cl₂(g) → 2NaCl(s)",
+                  "hints": "2 solid sodium atoms + 1 chlorine gas molecule → 2 solid sodium chloride. Count: Na:2=2, Cl:2=2. ✓"
+                },
+                {
+                  "label": "CaCO₃(s) → CaO(s) + CO₂(g)",
+                  "hints": "Solid calcium carbonate decomposes into solid calcium oxide + carbon dioxide gas. Count: Ca:1=1, C:1=1, O:3=3. ✓ Decomposition reaction."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Reading equations is pattern recognition: identify reactants (left), products (right), coefficients (proportions), subscripts (molecule identity), and verify atom counts balance. Practice reading 10 equations and it becomes automatic."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Chemical equations are like recipes: ingredients (reactants) + instructions (arrow) = dish (products). 2H₂ + O₂ → 2H₂O reads as: 'Take 2 portions of hydrogen gas, add 1 portion of oxygen gas, and you get 2 portions of water.' The coefficients are the recipe ratios."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The difference between H₂O and H₂O₂ is one oxygen atom. Water sustains life. Hydrogen peroxide bleaches hair and disinfects wounds. One atom changes everything. This is why you NEVER change subscripts — you'd accidentally prescribe bleach instead of water."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "State symbols are chemistry's stage directions. (s) = solid, standing still. (l) = liquid, flowing. (g) = gas, flying away. (aq) = dissolved, swimming in water. They tell you not just WHAT's reacting but WHERE it is in the physical world."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In 2H₂ + O₂ → 2H₂O, the '2' in front of H₂O means:",
+          "options": {
+            "A": "There are 2 oxygen atoms per molecule",
+            "B": "2 molecules of water are produced — the coefficient gives the number of molecules",
+            "C": "The reaction happens twice",
+            "D": "Water has 2 bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Coefficients (numbers in front) = how many molecules. 2H₂O = 2 water molecules. Subscripts (small numbers) = atoms per molecule. The '2' in H₂ means 2 hydrogen atoms per molecule.",
+          "tests_concept": "reading_equations"
+        },
+        {
+          "question": "Why must you NEVER change subscripts when balancing?",
+          "options": {
+            "A": "It's just a rule with no reason",
+            "B": "Changing subscripts changes the substance's identity — H₂O becomes H₂O₂ (a different compound entirely)",
+            "C": "Subscripts are always 1",
+            "D": "Subscripts don't affect the equation"
+          },
+          "correct_answer": "B",
+          "explanation": "Subscripts define the molecular formula. H₂O = water. H₂O₂ = hydrogen peroxide. Changing a subscript creates a DIFFERENT chemical substance. Coefficients adjust QUANTITY without changing identity.",
+          "tests_concept": "reading_equations"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "chemical_reactions_p4",
+      "part_title": "Balancing Chemical Equations — Systematic Method",
+      "purpose": "Deep balancing method with multiple worked examples and practice",
+      "curriculum_concepts": [
+        "balancing_equations"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Balance?",
+              "body": "An unbalanced equation violates conservation of mass. If 4 hydrogen atoms enter a reaction, 4 must exit. Balancing adjusts COEFFICIENTS so every atom on the left appears on the right. It's conservation of mass expressed mathematically."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Balancing Method",
+              "items": [
+                {
+                  "label": "Step 1: Write the unbalanced equation",
+                  "body": "Correct formulas for all reactants and products. NEVER change formulas after this step."
+                },
+                {
+                  "label": "Step 2: Count atoms of each element on both sides",
+                  "body": "Make a table: element | left | right."
+                },
+                {
+                  "label": "Step 3: Balance one element at a time",
+                  "body": "Start with elements that appear in only ONE reactant and ONE product. Leave H and O for last (they often appear in multiple compounds)."
+                },
+                {
+                  "label": "Step 4: Adjust coefficients only",
+                  "body": "Multiply entire molecules. NEVER change subscripts."
+                },
+                {
+                  "label": "Step 5: Verify ALL atoms balance",
+                  "body": "Recount every element. Left must equal right for ALL."
+                },
+                {
+                  "label": "Step 6: Simplify if needed",
+                  "body": "If all coefficients share a common factor, divide through. 2H₂ + 1O₂ → 2H₂O is already simplified."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Worked Example 1: Fe + O₂ → Fe₂O₃",
+              "body": "Unbalanced: Fe + O₂ → Fe₂O₃. Count: Fe: 1 vs 2. O: 2 vs 3. Balance Fe: 2Fe + O₂ → Fe₂O₃ (Fe: 2=2 ✓). Balance O: need 3 on left. 2Fe + 3/2 O₂ → Fe₂O₃. Eliminate fraction (×2): 4Fe + 3O₂ → 2Fe₂O₃. Verify: Fe: 4=4 ✓. O: 6=6 ✓."
+            },
+            {
+              "type": "section",
+              "title": "Worked Example 2: C₃H₈ + O₂ → CO₂ + H₂O",
+              "body": "Balance C: C₃H₈ + O₂ → 3CO₂ + H₂O (C: 3=3 ✓). Balance H: C₃H₈ + O₂ → 3CO₂ + 4H₂O (H: 8=8 ✓). Balance O: right has 3(2)+4(1)=10 O. Left needs 10: 5O₂. Final: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Verify: C:3=3, H:8=8, O:10=10 ✓."
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Balancing rules: (1) Only change coefficients. (2) NEVER change subscripts. (3) Balance metals/unique elements first. (4) Save H and O for last. (5) Verify by recounting ALL atoms. (6) Simplify ratios if needed."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Balance These",
+              "items": [
+                {
+                  "label": "__Al + __O₂ → __Al₂O₃",
+                  "hints": "Al: need 2 on left → 2Al. O: need 3 on left. 3/2 O₂ → ×2 everything: 4Al + 3O₂ → 2Al₂O₃. Al:4=4, O:6=6. ✓"
+                },
+                {
+                  "label": "__N₂ + __H₂ → __NH₃",
+                  "hints": "N: N₂ gives 2 → need 2NH₃. H: 2NH₃ needs 6H → 3H₂. Final: N₂ + 3H₂ → 2NH₃. N:2=2, H:6=6. ✓"
+                },
+                {
+                  "label": "__C₂H₆ + __O₂ → __CO₂ + __H₂O",
+                  "hints": "C: 2→2CO₂. H: 6→3H₂O. O: 2(2)+3(1)=7 → 7/2 O₂. ×2: 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. C:4=4, H:12=12, O:14=14. ✓"
+                },
+                {
+                  "label": "__KClO₃ → __KCl + __O₂",
+                  "hints": "K:1=1. Cl:1=1. O: 3 left, 2 right → need LCM. 2KClO₃ → 2KCl + 3O₂. K:2=2, Cl:2=2, O:6=6. ✓"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Fractional coefficients are OK during balancing — multiply everything by the denominator at the end to get whole numbers. This is the most common technique for tricky equations."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Balancing equations is Sudoku for chemists. The rules: every atom that goes in must come out. No creating atoms. No destroying them. Adjust the coefficients until the atomic ledger balances. It's accounting. With explosions."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The combustion of octane (gasoline): 2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O. That's 25 oxygen molecules per 2 octane molecules. Your car engine burns fuel in precisely this ratio. If the ratio is off (too little O₂), you get CO (carbon monoxide, toxic) instead of CO₂. Proper balancing isn't just chemistry — it's automotive engineering. And survival."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "The #1 student error: changing subscripts instead of coefficients. 'I need more oxygen so I'll change H₂O to H₂O₂.' NO. You just made hydrogen peroxide. You can't change what the molecules ARE to make the math work. That's like changing your bank statement instead of your spending."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Balance: __CH₄ + __O₂ → __CO₂ + __H₂O",
+          "options": {
+            "A": "CH₄ + O₂ → CO₂ + H₂O",
+            "B": "CH₄ + 2O₂ → CO₂ + 2H₂O — C:1=1, H:4=4, O:4=4 ✓",
+            "C": "2CH₄ + O₂ → 2CO₂ + H₂O",
+            "D": "CH₄ + 3O₂ → CO₂ + 3H₂O"
+          },
+          "correct_answer": "B",
+          "explanation": "C: 1=1 ✓. H: 4→2H₂O (4H) ✓. O: 2(2)=4 left, 2+2=4 right ✓. CH₄ + 2O₂ → CO₂ + 2H₂O.",
+          "tests_concept": "balancing_equations"
+        },
+        {
+          "question": "4Fe + 3O₂ → 2Fe₂O₃. Is this balanced?",
+          "options": {
+            "A": "No — there are more Fe on the left",
+            "B": "Yes — Fe: 4 = 2×2 = 4 ✓, O: 3×2 = 6 = 2×3 = 6 ✓",
+            "C": "No — oxygen doesn't balance",
+            "D": "Can't tell without more information"
+          },
+          "correct_answer": "B",
+          "explanation": "Fe: left = 4, right = 2×2 = 4 ✓. O: left = 3×2 = 6, right = 2×3 = 6 ✓. Both elements balance. Conservation of mass satisfied.",
+          "tests_concept": "balancing_equations"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "chemical_reactions_p5",
+      "part_title": "Five Types of Reactions — Pattern Recognition",
+      "purpose": "Deep treatment of all 5 types with prediction logic and multiple examples",
+      "curriculum_concepts": [
+        "reaction_types",
+        "predicting_products"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Classify Reactions?",
+              "body": "Classification lets you PREDICT products. If you recognize the type, you know the product pattern without memorizing each reaction individually. Five types cover the vast majority of reactions."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "1. Synthesis (Combination)",
+                  "icon": "plus-circle",
+                  "body": "A + B → AB. Two or more substances combine into ONE product. Simple: elements combine. Complex: compounds combine. Prediction: identify what single compound the reactants form. Examples: 2Na + Cl₂ → 2NaCl. 2H₂ + O₂ → 2H₂O. CaO + CO₂ → CaCO₃."
+                },
+                {
+                  "label": "2. Decomposition",
+                  "icon": "scissors",
+                  "body": "AB → A + B. ONE compound breaks into two or more simpler substances. The reverse of synthesis. Often requires heat, electricity, or light. Prediction: break the compound into simpler parts. Examples: 2H₂O → 2H₂ + O₂ (electrolysis). CaCO₃ → CaO + CO₂ (heating limestone). 2KClO₃ → 2KCl + 3O₂ (oxygen generation)."
+                },
+                {
+                  "label": "3. Single Replacement (Displacement)",
+                  "icon": "refresh-cw",
+                  "body": "A + BC → AC + B. A free element replaces one element in a compound. The MORE reactive element displaces the LESS reactive one. Prediction: check activity series — if A is more reactive than B, reaction occurs. If not, no reaction. Examples: Zn + CuSO₄ → ZnSO₄ + Cu. 2Na + 2H₂O → 2NaOH + H₂."
+                },
+                {
+                  "label": "4. Double Replacement (Metathesis)",
+                  "icon": "repeat",
+                  "body": "AB + CD → AD + CB. Two compounds swap partners. Usually in aqueous solution. Driving force: formation of a precipitate (insoluble solid), water, or gas. Examples: NaCl + AgNO₃ → NaNO₃ + AgCl↓. HCl + NaOH → NaCl + H₂O (neutralization!)."
+                },
+                {
+                  "label": "5. Combustion",
+                  "icon": "flame",
+                  "body": "Fuel + O₂ → CO₂ + H₂O (+ energy). Organic compound burns in oxygen. ALWAYS produces CO₂ and H₂O if the fuel contains C and H. Prediction: write CO₂ + H₂O as products, then balance. Examples: CH₄ + 2O₂ → CO₂ + 2H₂O. C₃H₈ + 5O₂ → 3CO₂ + 4H₂O."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Quick Identification",
+              "body": "One product → synthesis. One reactant → decomposition. Element + compound → single replacement. Two compounds → double replacement. Fuel + O₂ → CO₂ + H₂O → combustion. Identify the pattern, predict the products."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual poster showing all 5 reaction types with a real-world example for each. Use consistent visual language (arrows, icons, color coding). Best poster becomes the official reaction types reference!",
+              "placeholder_type": "five_reaction_types_poster"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Classify and Predict Products",
+              "items": [
+                {
+                  "label": "Mg + O₂ → ?",
+                  "hints": "Element + element = SYNTHESIS. Product: MgO. Balanced: 2Mg + O₂ → 2MgO."
+                },
+                {
+                  "label": "H₂CO₃ → ?",
+                  "hints": "One reactant = DECOMPOSITION. Carbonic acid breaks down: H₂CO₃ → H₂O + CO₂. (This is why soda fizzes — dissolved CO₂ forms carbonic acid, which decomposes.)"
+                },
+                {
+                  "label": "Fe + CuSO₄ → ?",
+                  "hints": "Element + compound = SINGLE REPLACEMENT. Fe is more reactive than Cu: Fe + CuSO₄ → FeSO₄ + Cu."
+                },
+                {
+                  "label": "BaCl₂ + Na₂SO₄ → ?",
+                  "hints": "Two compounds = DOUBLE REPLACEMENT. Swap: BaSO₄ + 2NaCl. BaSO₄ is insoluble → precipitates (driving force)."
+                },
+                {
+                  "label": "C₂H₅OH + O₂ → ?",
+                  "hints": "Organic + O₂ = COMBUSTION. Products: CO₂ + H₂O. C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The pattern is the shortcut. Instead of memorizing thousands of reactions, learn 5 patterns. Identify which pattern fits → predict products → balance. Five patterns cover ~90% of general chemistry reactions."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Reaction Types as Social Situations",
+              "body": "Synthesis: two singles start dating → one couple. Decomposition: couple breaks up → two singles. Single replacement: someone steals your partner → new couple, someone's alone. Double replacement: two couples swap partners → two new couples. Combustion: everything burns → CO₂ + H₂O + regret."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The activity series (which metal displaces which) is used in metal refining. Gold is at the bottom — almost nothing displaces it. That's why gold is found as pure metal in nature. Iron is in the middle — it's displaced by more reactive metals but can displace copper. The activity series is a pecking order of electron-giving eagerness."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Zn + CuSO₄ → ZnSO₄ + Cu. What type of reaction?",
+          "options": {
+            "A": "Synthesis",
+            "B": "Single replacement — zinc (more reactive) displaces copper from the compound",
+            "C": "Double replacement",
+            "D": "Decomposition"
+          },
+          "correct_answer": "B",
+          "explanation": "A free element (Zn) replaces another element (Cu) in a compound. Zinc is more reactive → displaces copper. Cu deposits as solid metal. Classic single replacement.",
+          "tests_concept": "reaction_types"
+        },
+        {
+          "question": "Predict products: C₃H₈ + O₂ → ?",
+          "options": {
+            "A": "C₃ + H₈O₂",
+            "B": "CO₂ + H₂O — combustion of a hydrocarbon always produces carbon dioxide and water",
+            "C": "CO + H₂",
+            "D": "No reaction"
+          },
+          "correct_answer": "B",
+          "explanation": "Hydrocarbon + O₂ = combustion. Products are ALWAYS CO₂ + H₂O (with complete combustion). Balanced: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.",
+          "tests_concept": "predicting_products"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "chemical_reactions_p6",
+      "part_title": "Energy in Reactions — Exothermic and Endothermic",
+      "purpose": "NEW — energy changes, activation energy, energy diagrams",
+      "curriculum_concepts": [
+        "energy_in_reactions"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Every Reaction Involves Energy",
+              "body": "Breaking bonds COSTS energy (endothermic step). Forming bonds RELEASES energy (exothermic step). The net energy change determines whether the overall reaction releases or absorbs energy."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Exothermic (releases energy)",
+                  "body": "Products have LESS energy than reactants. Energy is released as heat/light. The energy of bonds formed > energy of bonds broken. Feels warm/hot. Examples: combustion, neutralization, most synthesis reactions.",
+                  "examples": "CH₄ + 2O₂ → CO₂ + 2H₂O + 890 kJ"
+                },
+                {
+                  "label": "Endothermic (absorbs energy)",
+                  "body": "Products have MORE energy than reactants. Energy absorbed from surroundings. Energy of bonds broken > energy of bonds formed. Feels cold. Examples: photosynthesis, cooking an egg, dissolving NH₄NO₃ in water (cold packs).",
+                  "examples": "6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Activation Energy (Eₐ)",
+              "body": "The minimum energy required to START a reaction — even an exothermic one. Like pushing a boulder to the top of a hill before it rolls down the other side. A match head needs a spark (activation energy) before the combustion (exothermic) can begin. Once started, the reaction sustains itself."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Exothermic ≠ spontaneous. Gasoline + O₂ is exothermic (releases enormous energy) but doesn't react at room temperature — the activation energy barrier prevents it. A spark provides Eₐ, and then the released energy sustains the reaction. This is why gasoline is safe in your tank but explosive with a flame."
+            },
+            {
+              "type": "section",
+              "title": "Energy Diagrams",
+              "body": "An energy diagram plots energy vs reaction progress. Reactants start at one energy level. The curve rises to a peak (activation energy barrier) then drops to products. Exothermic: products are LOWER than reactants (energy released). Endothermic: products are HIGHER (energy absorbed). The height of the peak above reactants = activation energy."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Classify: Exothermic or Endothermic?",
+              "items": [
+                {
+                  "label": "Burning wood",
+                  "hints": "EXOTHERMIC — releases heat and light. Products (CO₂, H₂O) lower energy than reactants (wood, O₂)."
+                },
+                {
+                  "label": "Cooking an egg",
+                  "hints": "ENDOTHERMIC — you must continuously add heat. Proteins absorb energy to unfold (denature)."
+                },
+                {
+                  "label": "Instant cold pack (NH₄NO₃ dissolving)",
+                  "hints": "ENDOTHERMIC — absorbs heat from surroundings, making the pack cold."
+                },
+                {
+                  "label": "Neutralization (acid + base)",
+                  "hints": "EXOTHERMIC — the solution gets warm. H⁺ + OH⁻ → H₂O releases energy."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Quick test: does it release heat (feel hot)? Exothermic. Does it absorb heat (feel cold or require continuous heating)? Endothermic."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Activation energy is like the effort to get out of bed. Your bed is comfortable (reactants — stable). Getting up costs energy (activation barrier). But once you're up, you can go downhill to coffee (products — even more stable, for exothermic mornings). Some mornings, the activation energy feels impossibly high."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Your body maintains 37°C partly to ensure enzyme reactions have enough thermal energy to overcome their activation barriers. If your temperature drops even a few degrees, reaction rates slow dangerously. Hypothermia is essentially your biochemistry running out of activation energy."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Dynamite is exothermic — very, very exothermic. But it's stable at room temperature because the activation energy is high. Alfred Nobel's fortune (and the Nobel Prize) came from figuring out how to make nitroglycerin stable enough to store but easily activated by a detonator. Chemistry + engineering = both explosive and philanthropic."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Gasoline is extremely exothermic with O₂ but doesn't combust at room temperature. Why?",
+          "options": {
+            "A": "It's not actually exothermic",
+            "B": "The activation energy barrier prevents the reaction from starting without an initial energy input (spark)",
+            "C": "Oxygen isn't present at room temperature",
+            "D": "Gasoline is too heavy to react"
+          },
+          "correct_answer": "B",
+          "explanation": "Exothermic reactions still need activation energy to begin. Gasoline + O₂ has a high Eₐ. A spark provides enough energy to overcome the barrier. Once started, the energy released sustains the reaction (the heat provides Eₐ for neighboring molecules).",
+          "tests_concept": "energy_in_reactions"
+        },
+        {
+          "question": "An instant cold pack feels cold when activated. Is the dissolving reaction exothermic or endothermic?",
+          "options": {
+            "A": "Exothermic — it releases cold",
+            "B": "Endothermic — it absorbs heat from your skin, making it feel cold",
+            "C": "Neither — it's physical, not chemical",
+            "D": "Both simultaneously"
+          },
+          "correct_answer": "B",
+          "explanation": "The pack feels cold because the dissolving reaction ABSORBS heat from the surroundings (your skin). Energy flows INTO the reaction from the environment → endothermic. 'Cold' isn't released — heat is absorbed.",
+          "tests_concept": "energy_in_reactions"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "chemical_reactions_p7",
+      "part_title": "What Controls Reactions — Catalysts, Temperature, Concentration",
+      "purpose": "NEW — factors affecting reaction rate and outcome",
+      "curriculum_concepts": [
+        "reaction_conditions"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Reactions Don't Just Happen",
+              "body": "Mixing reactants isn't always enough. The RATE (how fast) and EXTENT (how completely) of a reaction depend on conditions: temperature, concentration, surface area, and catalysts."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Factors Affecting Reaction Rate",
+              "items": [
+                {
+                  "label": "Temperature",
+                  "icon": "thermometer",
+                  "body": "Higher temperature = faster reaction. Molecules move faster, collide more often, and with more energy (more collisions exceed Eₐ). Rule of thumb: every 10°C increase roughly DOUBLES the rate. This is why refrigeration slows food spoilage (slows decomposition reactions)."
+                },
+                {
+                  "label": "Concentration",
+                  "icon": "droplet",
+                  "body": "Higher concentration = more molecules per volume = more frequent collisions = faster rate. A fire burns more intensely in pure O₂ than in air (21% O₂). More reactant molecules = more chances for productive collisions."
+                },
+                {
+                  "label": "Surface Area",
+                  "icon": "grid",
+                  "body": "Greater surface area = faster reaction. A log burns slowly. Sawdust burns fast. Fine powder can EXPLODE. Same material, more surface exposed = more molecules accessible for collision. This is why grain elevators and coal mines have explosion risks."
+                },
+                {
+                  "label": "Catalysts",
+                  "icon": "zap",
+                  "body": "A catalyst SPEEDS UP a reaction without being consumed. It provides an alternative reaction pathway with LOWER activation energy. The catalyst participates, then is regenerated. Enzymes are biological catalysts — your body has thousands, each catalyzing specific reactions at body temperature."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Catalysts Lower Activation Energy",
+              "body": "A catalyst doesn't change the energy of reactants or products — it doesn't change WHETHER a reaction is exothermic or endothermic. It just lowers the activation energy barrier, making the reaction happen FASTER (or at lower temperature). Like finding a lower mountain pass — same start and end points, easier path between."
+            },
+            {
+              "type": "section",
+              "title": "Enzymes: Nature's Catalysts",
+              "body": "Your body runs thousands of reactions per second, all at 37°C. Without enzymes, these reactions would require temperatures of hundreds of degrees. Enzymes lower Eₐ so dramatically that reactions that would take years happen in milliseconds. Each enzyme is shaped to catalyze ONE specific reaction — molecular specificity through shape matching (VSEPR and bonding again!)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Predict the Effect",
+              "items": [
+                {
+                  "label": "Dissolving sugar in hot water vs cold water",
+                  "hints": "Hot water: faster dissolving. Higher temperature → molecules move faster → more collisions between water and sugar."
+                },
+                {
+                  "label": "Burning a solid iron bar vs iron filings",
+                  "hints": "Iron filings: much faster (may even spark/explode). Greater surface area → more iron atoms exposed to O₂."
+                },
+                {
+                  "label": "Adding a platinum catalyst to H₂O₂ decomposition",
+                  "hints": "H₂O₂ → H₂O + O₂ is normally slow. Platinum catalyst: rapid bubbling. Same reaction, lower Eₐ, much faster."
+                },
+                {
+                  "label": "Hydrogen peroxide in a cut vs in the bottle",
+                  "hints": "Foams on a cut because your blood contains catalase (enzyme) that catalyzes H₂O₂ decomposition rapidly. In the bottle: no catalyst → slow decomposition."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Industrial chemistry is largely about optimizing reaction conditions. The Haber process (NH₃): high temperature (400°C) + high pressure (200 atm) + iron catalyst. Each factor addresses a different limitation. Understanding reaction conditions = understanding industrial processes."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Catalysts are like managers: they help reactions happen faster without doing the actual work themselves. They're not consumed — they show up, facilitate, and leave unchanged. Unlike some managers, catalysts always improve the outcome."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Catalytic converters in cars use platinum, palladium, and rhodium to catalyze conversion of toxic exhaust (CO, NO) into less harmful gases (CO₂, N₂, H₂O). About 40% of world rhodium production goes into catalytic converters. Your car's exhaust system contains precious metals doing chemistry at 400-800°C."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Grain dust explosions are terrifyingly real. Fine flour particles in the air have enormous surface area. A spark provides Eₐ. The reaction rate is so fast it's an EXPLOSION. Same flour that peacefully sits in your pantry becomes an explosive when dispersed as fine dust. Surface area kills."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A catalyst speeds up a reaction by:",
+          "options": {
+            "A": "Adding energy to the reactants",
+            "B": "Lowering the activation energy — providing an alternative pathway with a lower energy barrier",
+            "C": "Increasing the temperature",
+            "D": "Changing the products"
+          },
+          "correct_answer": "B",
+          "explanation": "Catalysts provide an alternative reaction pathway with lower Eₐ. Same reactants, same products, same energy change — just a lower barrier to get there. The catalyst isn't consumed and doesn't change the reaction's thermodynamics.",
+          "tests_concept": "reaction_conditions"
+        },
+        {
+          "question": "Why does food spoil faster at room temperature than in a refrigerator?",
+          "options": {
+            "A": "Bacteria are killed by cold",
+            "B": "Lower temperature slows chemical decomposition reactions — molecules move slower, collide less frequently, fewer collisions exceed activation energy",
+            "C": "Cold creates a vacuum",
+            "D": "Refrigerators remove oxygen"
+          },
+          "correct_answer": "B",
+          "explanation": "Temperature affects reaction rate: lower T → slower molecular movement → fewer energetic collisions → slower decomposition reactions. Refrigeration slows but doesn't stop spoilage. Freezing slows reactions even more.",
+          "tests_concept": "reaction_conditions"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "chemical_reactions_p8",
+      "part_title": "Reactions Are the Engine of the Universe",
+      "purpose": "Philosophical capstone + bridge to mole concept",
+      "curriculum_concepts": [
+        "conservation_of_mass",
+        "predicting_products"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "Chemical reactions are the universe's mechanism for transformation. Stars fuse hydrogen into helium (nuclear, not chemical — but the principle of transformation holds). Plants convert CO₂ and water into sugar and oxygen. Animals reverse this, burning sugar back into CO₂ and water. Rocks weather. Metals corrode. Medicines heal. All are reactions — atoms rearranging, bonds breaking and forming, energy flowing. The universe is not static. It is a perpetual chemical reaction."
+            },
+            {
+              "type": "section",
+              "title": "The Quantitative Bridge",
+              "body": "Balanced equations give exact RATIOS. 2H₂ + O₂ → 2H₂O means exactly 2 hydrogen molecules per 1 oxygen molecule, yielding exactly 2 water molecules. But in a lab, you don't count molecules — you weigh grams. How do you connect molecular ratios to measurable masses?"
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The answer is the MOLE — a counting unit that bridges molecular ratios to gram measurements. It's next, and it will make balanced equations practically usable. Equations give you the recipe. The mole gives you the kitchen scale."
+            },
+            {
+              "type": "transition",
+              "body": "Chemical equations describe reactions at the molecular level. The mole concept will translate these molecular ratios into laboratory-scale masses. With that bridge, you'll be able to calculate exactly how many grams of each reactant you need and how many grams of product you'll get. Quantitative chemistry begins."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Reaction Toolkit",
+              "body": "You now have: (1) Conservation of mass (atoms in = atoms out). (2) Equation reading (reactants, products, coefficients, subscripts). (3) Balancing (adjusting coefficients for conservation). (4) Reaction type classification (predict products from pattern). (5) Energy analysis (exo/endothermic, activation energy). (6) Rate factors (temperature, concentration, surface area, catalysts). This toolkit handles any reaction you'll encounter."
+            },
+            {
+              "type": "transition",
+              "body": "Next: the mole — connecting equations to the lab balance."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Eight parts: from 'chemistry comes alive' to 'reactions are the engine of the universe.' You can now read, balance, classify, predict, analyze energy, and control reactions. You've gone from watching chemistry happen to understanding WHY it happens and HOW to make it happen."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The total number of chemical reactions happening in your body right now is approximately 37 billion billion per second. Each one follows the exact same rules you just learned: conservation, balancing, activation energy, enzyme catalysis. You are a chemical reactor running 37 × 10¹⁸ reactions per second. And you thought you were just sitting here reading."
+            },
+            {
+              "type": "transition",
+              "body": "Equations give ratios. Labs use grams. The mole bridges them. Quantitative chemistry — the math that makes chemistry practical — is next."
+            }
+          ]
+        }
+      },
+      "questions": []
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 8,
+    "total_questions": 12,
+    "curriculum_concepts_covered": [
+      "conservation_of_mass",
+      "reading_equations",
+      "balancing_equations",
+      "reaction_types",
+      "energy_in_reactions",
+      "reaction_conditions",
+      "predicting_products"
+    ],
+    "bridges_from": "chemical_formulas + bonding_intro",
+    "bridges_to": "mole_concept",
+    "extended_treatment": true
+  }
+}

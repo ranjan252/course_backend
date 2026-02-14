@@ -1,0 +1,787 @@
+{
+  "course": "General Chemistry",
+  "topic": "4_chemical_bonding",
+  "subtopic": "4.3_covalent_bonding",
+  "foundation_id": "covalent_bonding",
+  "foundation_title": "Covalent Bonding",
+  "foundation_tier": 2,
+  "prerequisites": ["bonding_intro", "valence_electrons", "periodic_trends"],
+  "curriculum_concepts_covered": [
+    "covalent_bond_formation",
+    "single_double_triple_bonds",
+    "polar_vs_nonpolar",
+    "molecular_shapes_intro"
+  ],
+  "coverage_notes": "Comprehensive match with curriculum subtopic 4.3. Covers electron sharing mechanism, bond multiplicity (single/double/triple), polar vs nonpolar bonds and molecules, and introductory VSEPR molecular geometry.",
+  "total_parts": 5,
+
+  "rendering_guide": {
+    "section": "Headed paragraph block with spacing above/below",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text, lighter font weight"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — why sharing changes everything)",
+    "step_2": "READ Part 2 (core — how covalent bonds form, single bonds)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "WATCH matched video for covalent_bond_formation",
+    "step_5": "READ Part 3 (double and triple bonds + polar vs nonpolar)",
+    "step_6": "QUIZ Part 3",
+    "step_7": "WATCH matched video for single_double_triple_bonds + polar_vs_nonpolar",
+    "step_8": "READ Part 4 (molecular shapes — VSEPR intro)",
+    "step_9": "QUIZ Part 4",
+    "step_10": "READ Part 5 (big picture + bridge to metallic_bonding)",
+    "step_11": "FINAL QUIZ (cumulative)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "covalent_bonding_p1",
+      "part_title": "When Neither Atom Will Give In",
+      "purpose": "Hook — nonmetals can't transfer, so they invented sharing",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Ionic bonding works when one atom is willing to give electrons and another is willing to take. But what happens when TWO nonmetals meet? Both have high electronegativity. Neither will surrender its electrons. They're both takers."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The solution: instead of transferring electrons, they SHARE them. Two atoms contribute electrons to a shared space between them. Both atoms count the shared electrons toward their octet. Neither gives up ownership — they share custody. This is covalent bonding."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Covalent bonding creates discrete molecules — individual units like H₂O, CO₂, and CH₄. Unlike ionic compounds with their infinite lattices, covalent molecules are self-contained packages of atoms. Every biological molecule in your body — DNA, proteins, sugars, fats — is held together by covalent bonds."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Two Children, One Toy",
+              "body": "Imagine two children who both want the same toy. One solution: one child takes it (ionic — transfer). But if both children refuse to give it up, the only peaceful solution is to share it — they both hold onto it at the same time."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "That's covalent bonding. Two atoms that both want electrons agree to share a pair between them. The shared pair sits in the space between both nuclei, attracted to BOTH positive cores simultaneously. This mutual attraction to the shared electrons is what holds the atoms together."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Every molecule you can smell, taste, or digest is covalent. The oxygen you breathe (O₂), the water you drink (H₂O), the sugar in your coffee (C₁₂H₂₂O₁₁), the DNA in your cells — all held together by shared electrons between nonmetal atoms."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "In ionic bonding, one atom gives and one takes. Clean transaction. Covalent bonding is what happens when BOTH atoms are too stubborn to give up their electrons. Neither will donate. Neither will back down. The compromise? Shared custody."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Covalent bonding is basically 'we can't agree who gets the electrons so we'll BOTH hold onto them at the same time.' It's the chemistry equivalent of two people sharing a Netflix password. Nobody fully owns it. Everybody benefits."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "And this reluctant compromise created EVERYTHING biological. DNA, proteins, sugar, caffeine, every drug ever synthesized — all covalent. The molecules of life exist because nonmetals refused to give up their electrons. Stubbornness created biology."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "covalent_bonding_p2",
+      "part_title": "How Covalent Bonds Form",
+      "purpose": "Core teaching — electron sharing, bonding pairs, lone pairs, single bonds",
+      "curriculum_concepts": ["covalent_bond_formation"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Sharing Electrons",
+              "body": "In a covalent bond, each atom contributes one electron to a shared pair. This shared pair sits in the space between both nuclei, and BOTH atoms count it toward their octet."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Example: H₂ (Hydrogen Gas)",
+              "items": [
+                {
+                  "label": "Start: Two H atoms, each with 1 electron",
+                  "body": "Hydrogen needs 2 electrons to fill Shell 1. Each atom has only 1. Neither will give it up."
+                },
+                {
+                  "label": "Share: Both electrons go to the shared space",
+                  "body": "Each H contributes its 1 electron. The shared pair sits between both nuclei, attracted to both positive protons."
+                },
+                {
+                  "label": "Result: Both H atoms 'see' 2 electrons",
+                  "body": "Each hydrogen counts the shared pair as its own. Both have full shells (2 electrons for Shell 1). Bond formed: H—H."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Key Terms",
+              "body": "Bonding pair: A shared pair of electrons between two atoms — this IS the bond. Lone pair: A pair of valence electrons NOT shared — they belong to one atom only. Lone pairs don't form bonds but affect molecular shape."
+            },
+            {
+              "type": "section",
+              "title": "More Complex Examples",
+              "body": "Water (H₂O): Oxygen has 6 valence electrons. It shares 1 electron with each of 2 hydrogens, forming 2 bonding pairs. Oxygen's remaining 4 electrons form 2 lone pairs. Total around oxygen: 2 shared pairs + 2 lone pairs = 8 electrons. Octet achieved."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Methane (CH₄): Carbon has 4 valence electrons. It shares 1 with each of 4 hydrogens, forming 4 bonding pairs. Total around carbon: 4 shared pairs = 8 electrons. Octet achieved. Carbon has no lone pairs — all 4 valence electrons are in bonds."
+            },
+            {
+              "type": "visual",
+              "description": "Lewis structures for H₂, H₂O, and CH₄ showing bonding pairs (lines between atoms) and lone pairs (dots on atoms). Each atom's electron count labeled to show octet satisfaction.",
+              "placeholder_type": "covalent_lewis_structures"
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Drawing Covalent Lewis Structures",
+              "body": "Each line (—) between atoms represents 1 bonding pair (2 shared electrons). Dots on atoms represent lone pairs. Count electrons around each atom: bonding pairs + lone pairs should equal 8 (or 2 for hydrogen)."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Draw It Yourself: Water",
+              "body": "Grab paper. Draw O with 6 dots (2 pairs + 2 singles). Draw two H atoms, each with 1 dot. Now pair each single O dot with an H dot — draw a line between O and each H. Those lines are the bonds."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Count around oxygen: 2 bonding lines (= 4 electrons) + 2 lone pairs (= 4 electrons) = 8 total. Octet achieved. Count around each H: 1 bonding line (= 2 electrons). Full shell for hydrogen. Water's structure: H—O—H with 2 lone pairs on oxygen."
+            },
+            {
+              "type": "section",
+              "title": "Draw It Yourself: Ammonia (NH₃)",
+              "body": "Nitrogen has 5 valence electrons (3 singles + 1 pair). Each hydrogen has 1. Pair nitrogen's 3 single dots with 3 hydrogens — 3 bonds. Nitrogen keeps its lone pair. Count: 3 bonds (6 electrons) + 1 lone pair (2 electrons) = 8 around nitrogen. Done."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The pattern: an atom's unpaired dots become bonds, its paired dots stay as lone pairs. Carbon (4 unpaired) → 4 bonds, 0 lone pairs. Nitrogen (3 unpaired, 1 pair) → 3 bonds, 1 lone pair. Oxygen (2 unpaired, 2 pairs) → 2 bonds, 2 lone pairs. The Lewis dots predicted this perfectly."
+            },
+            {
+              "type": "section",
+              "title": "The Handshake Model",
+              "body": "Clasp your hands together, interlocking fingers. Each hand contributes fingers (electrons) to the shared space in the middle. Neither hand gives up its fingers — both hold on simultaneously. The interlocked region IS the bond. Pull your hands apart and you break the bond. The resistance you feel? That's the bond energy — the force holding them together."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Covalent Bonding: The Timeshare",
+              "body": "In covalent bonding, each atom puts one electron into a shared pool. Both atoms then claim those shared electrons as their own. It's electron timesharing."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "H₂: The Simplest Bond in the Universe",
+              "items": [
+                {
+                  "label": "Two hydrogens walk into a bond",
+                  "body": "Each has 1 electron. Each needs 2. Neither will give its electron to the other. Standoff."
+                },
+                {
+                  "label": "The compromise",
+                  "body": "Both electrons go to the shared space between them. Each hydrogen now 'sees' 2 electrons. Shell 1 = full. Problem solved."
+                },
+                {
+                  "label": "The result",
+                  "body": "H—H. A single covalent bond. The simplest molecule in the universe. It took two stubborn atoms to create it."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Now Scale Up",
+              "body": "Water: oxygen needs 2 more electrons. Shares with 2 hydrogens. H—O—H. Plus 2 lone pairs sitting on oxygen doing nothing (but secretly controlling the molecule's shape — more on that later)."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Methane: carbon needs 4 more. Shares with 4 hydrogens. H around C in a tetrahedron. CH₄. The main component of natural gas and cow burps. Chemistry is glamorous."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Here's the clever part: the shared electrons count for BOTH atoms simultaneously. It's like two roommates sharing a couch — one couch, both claim it as 'their living room furniture.' Accounting trick that built the entire molecular world."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "How is a covalent bond different from an ionic bond?",
+          "options": {
+            "A": "Covalent bonds are weaker than ionic bonds",
+            "B": "In covalent bonds, electrons are SHARED between atoms; in ionic bonds, electrons are TRANSFERRED from one atom to another",
+            "C": "Covalent bonds only occur between metals",
+            "D": "There's no real difference — they're the same bond with different names"
+          },
+          "correct_answer": "B",
+          "explanation": "The fundamental distinction: ionic = electron transfer (one gives, one takes, creating ions). Covalent = electron sharing (both atoms contribute to a shared pair, no ions form). This difference produces completely different materials and properties.",
+          "tests_concept": "covalent_bond_formation"
+        },
+        {
+          "question": "In a water molecule (H₂O), how many bonding pairs and lone pairs does oxygen have?",
+          "options": {
+            "A": "4 bonding pairs, 0 lone pairs",
+            "B": "1 bonding pair, 3 lone pairs",
+            "C": "2 bonding pairs, 2 lone pairs",
+            "D": "3 bonding pairs, 1 lone pair"
+          },
+          "correct_answer": "C",
+          "explanation": "Oxygen has 6 valence electrons. It shares 1 electron with each of 2 hydrogens = 2 bonding pairs. The remaining 4 electrons form 2 lone pairs. Total: 2 bonds + 2 lone pairs = 8 electrons around oxygen (octet).",
+          "tests_concept": "covalent_bond_formation"
+        },
+        {
+          "question": "Carbon forms 4 covalent bonds in methane (CH₄) while nitrogen forms 3 in ammonia (NH₃). Why the difference?",
+          "options": {
+            "A": "Carbon is larger and can fit more hydrogens around it",
+            "B": "Carbon has 4 unpaired valence electrons (4 bonds possible), while nitrogen has 3 unpaired (3 bonds) plus 1 lone pair",
+            "C": "Nitrogen is more electronegative so it refuses to share its 4th electron",
+            "D": "CH₄ and NH₃ are exceptions — most atoms form the same number of bonds"
+          },
+          "correct_answer": "B",
+          "explanation": "Carbon: 4 valence electrons, all unpaired → 4 bonds, 0 lone pairs. Nitrogen: 5 valence electrons, 3 unpaired + 1 pair → 3 bonds, 1 lone pair. The number of unpaired electrons determines bonding capacity. Lewis dots predict this exactly.",
+          "tests_concept": "covalent_bond_formation"
+        }
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "covalent_bonding_p3",
+      "part_title": "Bond Multiplicity and Polarity",
+      "purpose": "Teach single/double/triple bonds and polar vs nonpolar bonds/molecules",
+      "curriculum_concepts": ["single_double_triple_bonds", "polar_vs_nonpolar"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Sharing More Than One Pair",
+              "body": "Sometimes sharing one pair isn't enough to give both atoms an octet. The solution: share more pairs."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "items": [
+                {
+                  "label": "Single Bond (1 shared pair)",
+                  "body": "Two electrons shared. Written as one line: C—H. Each atom contributes 1 electron. Found in H₂, H₂O, CH₄, and most organic molecules. Longest and weakest of the three.",
+                  "examples": "H—H, C—H, O—H, C—C"
+                },
+                {
+                  "label": "Double Bond (2 shared pairs)",
+                  "body": "Four electrons shared. Written as two lines: O=O. Each atom contributes 2 electrons. Shorter and stronger than single bonds. Found in O₂, CO₂, ethylene (C₂H₄).",
+                  "examples": "O=O, C=O, C=C"
+                },
+                {
+                  "label": "Triple Bond (3 shared pairs)",
+                  "body": "Six electrons shared. Written as three lines: N≡N. Each atom contributes 3 electrons. Shortest and strongest covalent bond. Found in N₂, acetylene (C₂H₂), and hydrogen cyanide (HCN).",
+                  "examples": "N≡N, C≡C, C≡N"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "More Sharing = Stronger + Shorter",
+              "body": "Triple bonds > double bonds > single bonds in strength. Triple bonds < double bonds < single bonds in length. More shared electrons = stronger pull between atoms = shorter distance between nuclei."
+            },
+            {
+              "type": "section",
+              "title": "Polar vs Nonpolar Bonds",
+              "body": "Remember electronegativity? When two atoms with DIFFERENT electronegativities share electrons, the sharing is UNEQUAL. The more electronegative atom pulls the shared electrons closer to itself."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Nonpolar Covalent Bond",
+                  "icon": "equals",
+                  "body": "Same or very similar electronegativity. Electrons shared equally. No charge imbalance. Examples: H—H, O=O, Cl—Cl. Occurs when identical atoms bond."
+                },
+                {
+                  "label": "Polar Covalent Bond",
+                  "icon": "arrow-right",
+                  "body": "Different electronegativities. Electrons pulled toward the more electronegative atom. Creates partial charges: δ⁻ on the electron-hogging atom, δ⁺ on the other. Examples: O—H (in water), H—Cl."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Polar Bonds vs Polar Molecules",
+              "body": "A molecule with polar bonds isn't automatically a polar molecule. It depends on SHAPE. CO₂ has two polar C=O bonds, but they point in opposite directions and cancel out — so CO₂ is nonpolar overall. Water has two polar O—H bonds, but they're bent at an angle (104.5°) and DON'T cancel — so water IS polar. Shape matters."
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "Polarity Summary",
+              "body": "Same atoms bonding → nonpolar bond (H₂, O₂). Different atoms → polar bond (O—H, N—H). Polar molecule requires BOTH polar bonds AND asymmetric shape so that dipoles don't cancel."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "See Bond Strength in Action",
+              "body": "Nitrogen gas (N₂) has a triple bond — the strongest type. That's why nitrogen is 78% of the atmosphere and barely reacts with anything. Breaking that triple bond requires extreme energy (like a lightning strike or an industrial catalyst). In contrast, single bonds in food molecules break relatively easily — which is why your body can digest them."
+            },
+            {
+              "type": "section",
+              "title": "See Polarity in Your Kitchen",
+              "body": "Fill a glass with water. Add a drop of cooking oil. The oil floats and refuses to mix. Why? Oil molecules are nonpolar (symmetrical carbon-hydrogen bonds). Water is polar. Polar and nonpolar don't mix — 'like dissolves like.' Now add a drop of food coloring. It dissolves instantly — food coloring is polar, like water."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The polar/nonpolar divide explains why oil and water don't mix, why soap works (it has a polar end and a nonpolar end — it bridges both worlds), and why cell membranes can form barriers in your body."
+            },
+            {
+              "type": "section",
+              "title": "The Stream Test",
+              "body": "Turn on a thin stream of water from a faucet. Rub a plastic comb on your hair (or a balloon on a sweater) and hold it near the stream without touching. The water bends toward the comb. This happens because water is a polar molecule — the charged comb attracts the partial charges in the water, pulling the stream sideways. Try this with cooking oil — it won't bend. Nonpolar molecules don't respond to static charge."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "When One Pair Isn't Enough",
+              "body": "Sometimes two atoms share one electron pair and it's just not enough for an octet. So they double down. Or triple down."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Single Bond: The Handshake",
+                  "icon": "handshake",
+                  "body": "One shared pair. Polite. Professional. C—H, H—H. The basic unit of bonding. Gets the job done."
+                },
+                {
+                  "label": "Double Bond: The Firm Grip",
+                  "icon": "grip",
+                  "body": "Two shared pairs. Stronger, shorter. O=O, C=C. Like grabbing someone's hand with both of yours. Harder to pull apart."
+                },
+                {
+                  "label": "Triple Bond: The Death Grip",
+                  "icon": "lock",
+                  "body": "Three shared pairs. The strongest covalent bond possible. N≡N. This is why nitrogen gas just sits in the atmosphere doing nothing — that triple bond is nearly indestructible. Nitrogen is the couch potato of molecules."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "The Tug-of-War Problem",
+              "body": "When two different atoms share electrons, the sharing is almost never 50/50. The more electronegative atom hogs the electrons. In H—Cl, chlorine pulls the shared pair toward itself. The chlorine end becomes slightly negative (δ⁻) and the hydrogen end becomes slightly positive (δ⁺). That's a polar bond."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "CO₂ has two polar bonds but is a nonpolar MOLECULE. How? The two C=O bonds pull in opposite directions and cancel each other out — like two equally matched people in tug-of-war going nowhere. Water's O—H bonds are bent at 104.5° so they DON'T cancel — the molecule is lopsided. Shape is destiny."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "This is why oil and water don't mix: water is polar, oil is nonpolar. They literally can't relate to each other. It's the molecular equivalent of putting an introvert and an extrovert at the same dinner party and expecting them to bond. Soap works because it has BOTH a polar and nonpolar end — the bilingual diplomat of chemistry."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Nitrogen gas (N₂) has a triple bond. What makes it so unreactive?",
+          "options": {
+            "A": "Nitrogen atoms are very large, making them slow to react",
+            "B": "Triple bonds share 6 electrons, making them the shortest and strongest covalent bonds — extremely difficult to break",
+            "C": "Nitrogen is a noble gas with a full outer shell",
+            "D": "Triple bonds are weaker than single bonds, so nitrogen falls apart before it can react"
+          },
+          "correct_answer": "B",
+          "explanation": "A triple bond involves 3 shared pairs (6 electrons). More shared electrons = stronger bond. N≡N requires 945 kJ/mol to break — roughly triple the energy of a C—C single bond. This extreme strength is why nitrogen gas is inert despite being all around us.",
+          "tests_concept": "single_double_triple_bonds"
+        },
+        {
+          "question": "In an O—H bond, oxygen (EN = 3.5) pulls shared electrons away from hydrogen (EN = 2.1). What type of bond is this?",
+          "options": {
+            "A": "Nonpolar covalent — both atoms are nonmetals so the bond is always equal",
+            "B": "Ionic — the difference is too large for sharing",
+            "C": "Polar covalent — electrons are shared unequally due to the electronegativity difference",
+            "D": "Metallic — the electrons are delocalized"
+          },
+          "correct_answer": "C",
+          "explanation": "The EN difference (3.5 − 2.1 = 1.4) is significant but below the ~1.7 threshold for ionic. Electrons are shared but unequally — oxygen gets more electron density (δ⁻) and hydrogen gets less (δ⁺). This polar O—H bond is why water is a polar molecule.",
+          "tests_concept": "polar_vs_nonpolar"
+        },
+        {
+          "question": "CO₂ has two polar C=O bonds, but the molecule overall is nonpolar. Water has two polar O—H bonds and IS polar. What explains the difference?",
+          "options": {
+            "A": "Carbon is nonpolar so it cancels out the bond polarity",
+            "B": "CO₂ is linear — the two polar bonds point opposite directions and cancel. Water is bent — the bonds don't cancel, creating a net dipole",
+            "C": "Water has more electrons so it's automatically more polar",
+            "D": "CO₂ is a gas and gases can't be polar"
+          },
+          "correct_answer": "B",
+          "explanation": "Molecular shape determines whether bond dipoles cancel. CO₂ is linear (180°): the two C=O dipoles are equal and opposite → cancel → nonpolar molecule. Water is bent (104.5°): the two O—H dipoles don't oppose each other → net dipole → polar molecule.",
+          "tests_concept": "polar_vs_nonpolar"
+        }
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "covalent_bonding_p4",
+      "part_title": "Molecular Shapes — Why Shape Matters",
+      "purpose": "Introduce VSEPR theory — electron pair repulsion determines 3D molecular geometry",
+      "curriculum_concepts": ["molecular_shapes_intro"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Molecules Are 3D",
+              "body": "Lewis structures are flat drawings, but real molecules are three-dimensional. The 3D shape of a molecule determines its polarity, its biological function, its smell, and how it interacts with other molecules."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "VSEPR Theory",
+              "body": "Valence Shell Electron Pair Repulsion theory. The idea is simple: electron pairs (both bonding and lone pairs) around a central atom repel each other and arrange themselves as FAR APART as possible. This repulsion determines the molecule's 3D shape."
+            },
+            {
+              "type": "section",
+              "title": "The Logic",
+              "body": "Electron pairs are all negatively charged, so they repel each other — just like same-pole magnets push apart. They arrange themselves to maximize distance. The resulting geometry depends on how many electron groups (bonding pairs + lone pairs) surround the central atom."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "2 electron groups → Linear (180°)",
+                  "icon": "minus",
+                  "body": "Two groups push to opposite sides. Straight line. Example: CO₂ (O=C=O). This is why CO₂ is nonpolar — the two bonds cancel."
+                },
+                {
+                  "label": "3 electron groups → Trigonal Planar (120°)",
+                  "icon": "triangle",
+                  "body": "Three groups space evenly in a flat triangle. Example: BF₃ (boron trifluoride). All atoms in one plane, 120° angles."
+                },
+                {
+                  "label": "4 electron groups → Tetrahedral (109.5°)",
+                  "icon": "box",
+                  "body": "Four groups arrange in a 3D tetrahedron — like a pyramid with a triangular base. Example: CH₄ (methane). This is the most common geometry in organic chemistry."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Lone Pairs Change the Visible Shape",
+              "body": "Lone pairs take up space but are invisible (no atom at the end). They push bonding pairs closer together, distorting the shape."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "CH₄ (4 bonds, 0 lone pairs)", "definition": "Tetrahedral — perfect 109.5° angles"},
+                {"term": "NH₃ (3 bonds, 1 lone pair)", "definition": "Trigonal pyramidal — lone pair pushes bonds closer (~107°)"},
+                {"term": "H₂O (2 bonds, 2 lone pairs)", "definition": "Bent — two lone pairs compress the bond angle to ~104.5°"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Shape Determines Properties",
+              "body": "CH₄ (tetrahedral, symmetrical) → nonpolar molecule. NH₃ (pyramidal, asymmetric) → polar molecule. H₂O (bent, very asymmetric) → very polar molecule. Same number of electron groups, different shapes, different properties — all because of lone pairs."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Build Shapes With Balloons",
+              "body": "Blow up 4 balloons and tie them together at their necks. Let them arrange naturally. They'll push into a tetrahedral shape — each balloon as far from the others as possible. That's CH₄."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Now imagine one balloon is invisible (a lone pair). The three visible balloons (bonds) form a triangular pyramid shape — that's NH₃. Make two balloons invisible (2 lone pairs) and the two visible ones form a bent shape — that's H₂O."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The invisible balloons (lone pairs) still push the visible ones (bonds) around. Lone pairs are electron bullies — they take up MORE space than bonding pairs because they're not shared and spread out more. That's why bond angles get compressed: 109.5° → 107° → 104.5°."
+            },
+            {
+              "type": "section",
+              "title": "Why Water's Bend Matters for Life",
+              "body": "Water's 104.5° bent shape makes it polar — the oxygen end is negative, the hydrogen end is positive. This polarity is why water dissolves salt, why ice floats (unusual!), why water has high surface tension, and ultimately why life as we know it can exist. All because two lone pairs pushed the O—H bonds into a bent shape."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "VSEPR: Electrons Hate Each Other",
+              "body": "Here's the entire theory of molecular shape: electron pairs are all negative, and negative repels negative. So electron groups push as far apart as they can. Whatever shape maximizes their distance from each other — that's the molecular shape. Electrons are antisocial. That's the whole theory."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "2 groups → Linear (180°)",
+                  "icon": "minus",
+                  "body": "Two electron groups? Go to opposite ends. CO₂ is a straight line. Maximum distance achieved."
+                },
+                {
+                  "label": "3 groups → Trigonal Planar (120°)",
+                  "icon": "triangle",
+                  "body": "Three groups? Form an equilateral triangle. 120° apart. BF₃ is flat as a pancake."
+                },
+                {
+                  "label": "4 groups → Tetrahedral (109.5°)",
+                  "icon": "box",
+                  "body": "Four groups? Go 3D. A tetrahedron — like a tripod with a hat. CH₄ does this. Most organic molecules do this. If chemistry has a default shape, it's tetrahedral."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "The Lone Pair Plot Twist",
+              "body": "Here's where it gets spicy: lone pairs are INVISIBLE but they still push the other electrons around. They're like the person at a party who takes up two seats. NH₃ has 1 lone pair squishing the 3 bonds → pyramid shape. H₂O has 2 lone pairs squishing the 2 bonds → bent shape."
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Life on Earth exists because of 2 invisible lone pairs. They bend water's shape to 104.5°, making water polar, which lets it dissolve nutrients, regulate temperature, and form the basis of all biology. Remove those lone pairs and water would be linear, nonpolar, and life would be impossible. Two invisible electron pairs created life. Let that sink in."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Methane (CH₄) has 4 bonding pairs and 0 lone pairs around carbon. What is its 3D shape?",
+          "options": {
+            "A": "Square — 4 bonds arrange in a flat square",
+            "B": "Linear — bonds line up in a row",
+            "C": "Tetrahedral — 4 electron groups arrange in a 3D tetrahedron with 109.5° angles",
+            "D": "Bent — the bonds curve around carbon"
+          },
+          "correct_answer": "C",
+          "explanation": "Four electron groups repel each other maximally in 3D by forming a tetrahedron. In a flat square, groups are only 90° apart. In a tetrahedron, they're 109.5° apart — more distance. The tetrahedral shape is the geometry that maximizes separation for 4 groups.",
+          "tests_concept": "molecular_shapes_intro"
+        },
+        {
+          "question": "Water (H₂O) has 2 bonding pairs and 2 lone pairs. Why is it bent rather than linear?",
+          "options": {
+            "A": "Hydrogen atoms are too heavy to stay in a straight line",
+            "B": "The 2 lone pairs are invisible but still repel bonding pairs, pushing the O—H bonds into a bent arrangement (~104.5°)",
+            "C": "Water molecules are always moving so they can't maintain a straight shape",
+            "D": "Oxygen is too small to hold bonds in a straight line"
+          },
+          "correct_answer": "B",
+          "explanation": "All 4 electron groups (2 bonding + 2 lone) arrange tetrahedrally. But since lone pairs are invisible, the VISIBLE shape (just the atoms) is bent. The lone pairs push the bonding pairs closer together, compressing the angle from 109.5° to 104.5°.",
+          "tests_concept": "molecular_shapes_intro"
+        }
+      ]
+    },
+
+    {
+      "part_number": 5,
+      "part_id": "covalent_bonding_p5",
+      "part_title": "Covalent Bonding Built the Molecular World",
+      "purpose": "Tie together covalent concepts, real-world impact, bridge to metallic_bonding",
+      "curriculum_concepts": ["covalent_bond_formation", "single_double_triple_bonds", "polar_vs_nonpolar", "molecular_shapes_intro"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Why Covalent Bonding Matters Most",
+              "body": "Covalent bonding is the foundation of organic chemistry, biochemistry, pharmacology, and materials science. Every molecule in your body, every drug you've ever taken, every plastic, every fuel — covalent."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "DNA — The Blueprint of Life",
+                  "icon": "helix",
+                  "body": "The double helix is held together by covalent bonds within each strand and hydrogen bonds (weak polar attractions) between strands. The shape and polarity of each molecule is critical for genetic coding."
+                },
+                {
+                  "label": "Drugs — Shape Is Everything",
+                  "icon": "pill",
+                  "body": "Pharmaceuticals work by fitting into receptor proteins like a key into a lock. The drug's 3D shape (determined by VSEPR) must match the receptor exactly. A single bond angle difference can make a drug effective or useless."
+                },
+                {
+                  "label": "Plastics — Covalent Chains",
+                  "icon": "link",
+                  "body": "Polymers like polyethylene are enormous chains of carbon atoms bonded covalently. The flexibility of single C—C bonds makes plastics moldable. Double bonds in the chain can make them rigid."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Covalent bonds create molecules. Molecule shape determines function. Shape comes from VSEPR and lone pairs. Polarity comes from electronegativity differences and shape. Everything connects: valence electrons → Lewis structures → VSEPR → shape → polarity → properties → function."
+            },
+            {
+              "type": "transition",
+              "body": "Two bond types mastered: ionic (transfer, lattices, hard crystals) and covalent (sharing, molecules, everything biological). One remains: metallic bonding — where metals pool their electrons into a shared sea that gives us conductivity, malleability, and the materials that built civilization. The final bond type is next."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Covalent Compounds in Your Life",
+              "items": [
+                {
+                  "label": "In your body",
+                  "hints": "Water (H₂O), glucose (C₆H₁₂O₆), DNA, every protein, every hormone, every neurotransmitter. Your entire body is a covalent machine."
+                },
+                {
+                  "label": "In your kitchen",
+                  "hints": "Sugar (sucrose), vinegar (acetic acid), cooking oil (triglycerides), ethanol (in extracts), CO₂ in carbonated drinks."
+                },
+                {
+                  "label": "Around your home",
+                  "hints": "Every plastic (polyethylene, PVC, nylon), rubber, wood (cellulose), natural gas (CH₄), gasoline. All covalent."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Ionic compounds are the minerals (hard, crystalline, structural). Covalent compounds are the molecules (biological, flexible, functional). Together they cover the vast majority of substances. Metallic bonding handles the rest — the metals that conduct, bend, and shine."
+            },
+            {
+              "type": "transition",
+              "body": "Next up: metallic bonding — the electron sea model, why metals conduct, and why you can hammer gold into sheets thinner than paper."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Covalent Greatest Hits",
+              "body": "Let's appreciate what electron sharing built."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "items": [
+                {
+                  "label": "Water: 2 Bonds + 2 Lone Pairs = Life",
+                  "icon": "droplet",
+                  "body": "Bent shape → polar → dissolves things → the universal solvent → basis of all biology. Two covalent bonds and two invisible lone pairs created the liquid that makes life possible."
+                },
+                {
+                  "label": "DNA: The Covalent Hard Drive",
+                  "icon": "helix",
+                  "body": "Billions of covalent bonds in precise sequences encoding your entire genetic blueprint. The most sophisticated covalent structure in known existence."
+                },
+                {
+                  "label": "Plastic: The Covalent Chain Gang",
+                  "icon": "link",
+                  "body": "Repeating C—C bonds forming chains thousands of atoms long. The most versatile material humans ever made, entirely from covalent carbon-hydrogen sharing. Also destroying the oceans, but that's a different lesson."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Ionic compounds built the rocks. Covalent compounds built the living things standing on the rocks. And metallic bonds built the tools those living things use to dig up the rocks. Three bond types, one entire planet covered."
+            },
+            {
+              "type": "transition",
+              "body": "Last bond type: metallic bonding. Metals don't transfer OR share in pairs — they throw ALL their valence electrons into a communal pool and everyone swims. It's chemistry's commune, and it explains why copper conducts, gold shines, and steel bends. Coming up next."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A drug molecule must fit into a receptor protein to work. Which covalent bonding concept is most critical for drug design?",
+          "options": {
+            "A": "Bond strength — drugs need the strongest possible bonds",
+            "B": "3D molecular shape (from VSEPR) — the drug must match the receptor's geometry precisely",
+            "C": "Number of electrons — more electrons means more effective drugs",
+            "D": "Polarity — all drugs must be nonpolar to enter cells"
+          },
+          "correct_answer": "B",
+          "explanation": "Drug-receptor interaction depends on shape complementarity — the drug must fit the receptor like a key in a lock. VSEPR determines 3D shape from electron pair arrangement. A single bond angle change can make a drug inactive or cause side effects. Shape is the primary design criterion.",
+          "tests_concept": "molecular_shapes_intro"
+        },
+        {
+          "question": "Rank these bonds from weakest to strongest: C—C (single), C=C (double), C≡C (triple).",
+          "options": {
+            "A": "Triple < double < single (more electrons = weaker)",
+            "B": "Single < double < triple (more shared electrons = stronger bond)",
+            "C": "All equal — the number of lines is just notation",
+            "D": "Double < single < triple"
+          },
+          "correct_answer": "B",
+          "explanation": "More shared electron pairs = more attraction between nuclei = stronger bond. C—C (347 kJ/mol) < C=C (614 kJ/mol) < C≡C (839 kJ/mol). Triple bonds are also shorter because the stronger attraction pulls nuclei closer together.",
+          "tests_concept": "single_double_triple_bonds"
+        }
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 5,
+    "total_questions": 10,
+    "block_types_used": ["section", "callout", "list", "visual", "transition"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember", "mind_blow"],
+    "list_styles_used": ["icon_list", "two_column", "comparison", "challenge", "numbered_steps"],
+    "curriculum_concepts_covered": ["covalent_bond_formation", "single_double_triple_bonds", "polar_vs_nonpolar", "molecular_shapes_intro"],
+    "bridges_from": "bonding_intro + ionic_bonding",
+    "bridges_to": "metallic_bonding"
+  }
+}

@@ -1,0 +1,1094 @@
+{
+  "course": "Organic Chemistry",
+  "topic": "2_structure_representation",
+  "subtopic": "2.1_drawing",
+  "foundation_id": "drawing_organic_molecules",
+  "foundation_title": "Drawing Organic Molecules — Learning to Read and Write Chemistry",
+  "foundation_tier": 4,
+  "prerequisites": [
+    "carbon_and_life",
+    "hybridization",
+    "polarity_and_reactivity"
+  ],
+  "curriculum_concepts_covered": [
+    "condensed_formulas",
+    "line_angle",
+    "constitutional_isomers",
+    "molecular_vs_structural",
+    "drawing_fluency",
+    "implicit_hydrogens"
+  ],
+  "coverage_notes": "DEEP EXTENDED TREATMENT — 9 parts. Drawing structures is the LITERACY of organic chemistry — you cannot think about mechanisms, predict reactions, or communicate ideas without fluent structural notation. This foundation treats drawing not as tedious convention but as learning a LANGUAGE: molecular formula = word count, structural formula = sentence, line-angle = shorthand. Personal angle: every drug, every food label, every biochemical pathway diagram uses these notations. Fluency here = fluency in all future topics.",
+  "total_parts": 9,
+  "extended_treatment": true,
+  "extended_reason": "Students who can't fluently read and write organic structures fail organic chemistry — not from lack of understanding, but from inability to communicate. This is the most practical skill in the course. Every exam, every mechanism, every synthesis problem requires reading/writing structures. Depth here prevents downstream failure.",
+  "rendering_guide": {
+    "section": "Headed paragraph block",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow, philosophy, personal",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text",
+    "creator_challenge": "Student submission prompt"
+  },
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "drawing_p1",
+      "part_title": "Why Drawing Matters — The Language of Molecules",
+      "purpose": "Hook — structural drawing is not busywork, it's LITERACY. You can't think organic chemistry without it.",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Imagine trying to discuss literature without being able to read. Imagine doing mathematics without numerals. That's what organic chemistry is like without structural drawing. Structures ARE the language — every mechanism, every reaction, every synthesis problem is communicated through drawn molecular structures. There is no organic chemistry without drawing."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Organic chemistry has its own writing system. Molecular formulas (C₂H₆O) are like word counts — they tell you what's there but not how it's arranged. Structural formulas show every bond. Condensed formulas compress the information. Line-angle structures are the elegant shorthand professionals use. Learning to draw is learning to READ the molecular world — and to WRITE your own chemical arguments."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Here's the practical truth: on exams, in research papers, in pharmaceutical patents, in biochemistry textbooks — organic molecules are drawn in line-angle notation. If you can read and write line-angle structures fluently, you can follow any mechanism, interpret any pathway diagram, and solve any synthesis problem. If you can't, every page of organic chemistry is hieroglyphics."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Structures Are Everywhere",
+              "body": "Drug package inserts show molecular structures. Biochemistry textbooks draw metabolic pathways in line-angle notation. Research papers communicate new molecules through structures. Patent applications for new drugs include drawn structures. Even Wikipedia articles on molecules show structural drawings. This is the universal visual language of chemistry — and you're about to become fluent."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "Every doctor who prescribes medication, every pharmacist who dispenses it, every biochemist who studies metabolism, every food scientist who analyzes nutrition — they all read molecular structures. Whether you're heading toward medicine, research, engineering, or simply want to understand the chemistry labels on your food and medicine, structural fluency is the gateway skill."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Organic chemistry is sometimes called 'the course where you draw hexagons all day.' This is... not entirely wrong. But those hexagons represent benzene rings, which appear in aspirin, ibuprofen, Tylenol, caffeine, vanilla, cinnamon, TNT, and about 50% of all pharmaceutical drugs. Once you know what the hexagons MEAN, you're reading a language that describes half of modern medicine."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The first structural formula ever drawn was by Alexander Crum Brown in 1864 — he connected atoms with lines to show bonds. Before that, chemists wrote formulas like 'C₂H₆O' and argued endlessly about structure because they had no visual language. Drawing structures literally ended decades of chemical confusion. The pen solved what words couldn't."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+    {
+      "part_number": 2,
+      "part_id": "drawing_p2",
+      "part_title": "From Formula to Structure — What Each Representation Tells You",
+      "purpose": "The hierarchy: molecular formula → expanded structural → condensed → line-angle. What each reveals and hides.",
+      "curriculum_concepts": [
+        "molecular_vs_structural"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Four Ways to Write the Same Molecule",
+              "body": "Take ethanol — the alcohol in wine. Four progressively compressed representations, each carrying different information:"
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Representation Hierarchy",
+              "items": [
+                {
+                  "label": "Molecular Formula: C₂H₆O",
+                  "body": "Tells you WHAT atoms and HOW MANY. But C₂H₆O could be ethanol (CH₃CH₂OH, a drinkable liquid) OR dimethyl ether (CH₃OCH₃, a gaseous propellant). Same formula. Completely different substances. Molecular formula alone is AMBIGUOUS — it doesn't specify connections."
+                },
+                {
+                  "label": "Expanded Structural Formula",
+                  "body": "Shows EVERY atom and EVERY bond as a line. H—C—C—O—H with all H atoms drawn on each carbon. Complete but bulky. Good for beginners. Impractical for large molecules."
+                },
+                {
+                  "label": "Condensed Formula: CH₃CH₂OH",
+                  "body": "Groups atoms by carbon and writes them left to right. Each carbon's hydrogens are written next to it. Bonds are implied. Branches shown in parentheses. Compact but still readable. Standard in text — you'll see this in textbooks and databases."
+                },
+                {
+                  "label": "Line-Angle (Skeletal) Structure",
+                  "body": "The professional shorthand. Carbon skeleton drawn as ZIGZAG lines. Carbons at EVERY vertex and endpoint (not written — implied). Hydrogens on carbon NOT shown (implied to fill carbon's 4 bonds). Heteroatoms (O, N, S, halogens) and their H's ARE shown. This is what chemists actually use daily."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Molecular formula → 'what ingredients?' Structural formula → 'how are they connected?' Condensed formula → 'shorthand for connections.' Line-angle → 'professional notation with implied C and H.' Each level compresses information. Mastery = reading any level instantly and converting between them."
+            },
+            {
+              "type": "visual",
+              "visual_type": "diagram",
+              "description": "Ethanol shown in all 4 representations side by side: molecular formula (C₂H₆O), expanded structural (all atoms and bonds), condensed (CH₃CH₂OH), and line-angle (zigzag with OH at end). Arrows showing the compression progression."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Convert Between Representations",
+              "items": [
+                {
+                  "label": "Propane: C₃H₈",
+                  "hints": "Condensed: CH₃CH₂CH₃. Line-angle: a zigzag with 3 vertices (2 endpoints + 1 middle). Each vertex = carbon. Hydrogens implied."
+                },
+                {
+                  "label": "Acetic acid: C₂H₄O₂",
+                  "hints": "Condensed: CH₃COOH. Line-angle: one line (C—C), with =O and —OH on the right carbon. The O and H are written because they're heteroatoms."
+                },
+                {
+                  "label": "Butanol: C₄H₁₀O",
+                  "hints": "Condensed: CH₃CH₂CH₂CH₂OH. Line-angle: zigzag with 4 carbons, OH at the end."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "The golden rule of line-angle: CARBON and its HYDROGEN are IMPLIED. Everything else is EXPLICIT. If you see a bare vertex with no letter → it's carbon. If a carbon has fewer than 4 visible bonds → the remaining bonds are to hydrogen. O, N, S, halogens, and their hydrogens are always written out."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Think of the representation hierarchy like language: molecular formula = word count ('325 words'). Expanded structural = a children's book (every detail spelled out). Condensed = normal writing. Line-angle = texting shorthand. Chemists use line-angle for the same reason you text 'u' instead of 'you' — efficiency. But just like texting, you need to know the conventions to decode it."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "A large biomolecule like cholesterol (C₂₇H₄₆O) would be absurdly complex as an expanded structural formula — 74 atoms, each with explicit bonds. As a line-angle structure, it's an elegant arrangement of rings and zigzag chains that fits in a small box. Line-angle notation was invented out of necessity — complex molecules DEMAND compression."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "C₂H₆O can represent both ethanol (drinkable alcohol) and dimethyl ether (aerosol gas). Why is the molecular formula alone insufficient?",
+          "options": {
+            "A": "It's too long",
+            "B": "The molecular formula shows WHAT atoms are present but not HOW they're connected — ethanol (CH₃CH₂OH) and dimethyl ether (CH₃OCH₃) have different structures and completely different properties",
+            "C": "Molecular formulas are always wrong",
+            "D": "It doesn't include the molecular weight"
+          },
+          "correct_answer": "B",
+          "explanation": "Molecular formula = composition only. Structure = connectivity. Same atoms connected differently = different substances (isomers). Ethanol has an —OH group (liquid, bp 78°C, H-bonding). Dimethyl ether has an —O— bridge (gas, bp −24°C, no H-bonding). Structure determines properties.",
+          "tests_concept": "molecular_vs_structural"
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "part_id": "drawing_p3",
+      "part_title": "Condensed Formulas — Writing Molecules as Text",
+      "purpose": "How to read and write condensed structural formulas fluently",
+      "curriculum_concepts": [
+        "condensed_formulas"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Reading Condensed Formulas",
+              "body": "A condensed formula writes the molecule left to right, grouping each carbon with its hydrogens: CH₃CH₂CH₂OH = a 3-carbon chain with OH on the end. Read it like a sentence: methyl group (CH₃) bonded to CH₂ bonded to CH₂ bonded to OH. Each group connects to the next one in the sequence."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Rules for Condensed Formulas",
+              "items": [
+                {
+                  "label": "Write left to right along the main chain",
+                  "body": "Each carbon with its H atoms: CH₃CH₂CH₃ = propane (3 carbons, each with its hydrogens)."
+                },
+                {
+                  "label": "Branches go in parentheses",
+                  "body": "CH₃CH(CH₃)CH₃ = 2-methylpropane. The (CH₃) is a methyl branch on the second carbon. Parentheses mean 'this group is attached to the previous atom, not continuing the chain.'"
+                },
+                {
+                  "label": "Double bonds shown as =",
+                  "body": "CH₂=CH₂ = ethene. CH₃CH=CHCH₃ = 2-butene. The = tells you where the double bond is."
+                },
+                {
+                  "label": "Functional groups written explicitly",
+                  "body": "—OH (alcohol), —COOH (carboxylic acid), —CHO (aldehyde), —NH₂ (amine), —COCH₃ (ketone methyl). These appear at the end or in the chain: CH₃COOH = acetic acid. CH₃CHO = acetaldehyde."
+                },
+                {
+                  "label": "Repeating units compressed",
+                  "body": "CH₃(CH₂)₄CH₃ = hexane. The (CH₂)₄ means 4 CH₂ groups in a row. Saves writing CH₃CH₂CH₂CH₂CH₂CH₃."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Condensed formulas are the TEXT format for molecules — used in databases, chemical catalogs, textbooks, and when you can't draw. They encode connectivity as a sequence. The key skill: reading left to right and knowing that parentheses = branch, not continuation."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Decode These Condensed Formulas",
+              "items": [
+                {
+                  "label": "CH₃CH₂CH₂CH₂OH",
+                  "hints": "4-carbon chain with OH on the end = 1-butanol (an alcohol). Straight chain, no branches."
+                },
+                {
+                  "label": "CH₃CH(OH)CH₃",
+                  "hints": "3-carbon chain, OH on the MIDDLE carbon = 2-propanol (isopropyl alcohol, rubbing alcohol). The (OH) is a branch on C2."
+                },
+                {
+                  "label": "(CH₃)₃COH",
+                  "hints": "Central carbon bonded to 3 CH₃ groups and one OH = tert-butanol. The central C has NO hydrogens — all 4 bonds are to CH₃ or OH."
+                },
+                {
+                  "label": "CH₃CH₂COOH",
+                  "hints": "3 carbons: CH₃—CH₂—COOH = propanoic acid. The COOH is the carboxylic acid group (C double-bonded to O AND single-bonded to OH)."
+                },
+                {
+                  "label": "CH₃COCH₂CH₃",
+                  "hints": "CH₃—CO—CH₂—CH₃ = 2-butanone (methyl ethyl ketone). The CO in the middle means C=O (carbonyl with no H). A ketone."
+                },
+                {
+                  "label": "CH₂=CHCH₂CH₃",
+                  "hints": "CH₂=CH—CH₂—CH₃ = 1-butene. Double bond at position 1."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "Tricky notation: COOH = carboxylic acid (C=O plus O—H, but it looks like 'C-O-O-H' in condensed form — it's NOT a peroxide chain). CHO = aldehyde (C=O with H on the carbonyl carbon). CO = ketone carbonyl (C=O, no H). These functional group shorthands are conventions you must memorize — they don't follow the 'read left to right' pattern literally."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Reading condensed formulas is like reading a recipe: CH₃CH₂CH₂OH means 'take a methyl, add a CH₂, add another CH₂, finish with OH.' Parentheses are substitutions: 'but at THIS position, swap in a branch.' Once you read a few dozen, it becomes as natural as reading words — you don't sound out each letter, you see the whole structure."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Chemical databases like PubChem store millions of molecules as text strings. The SMILES notation (Simplified Molecular Input Line Entry System) is a condensed format computers can read. Ethanol in SMILES: CCO. Aspirin: CC(=O)Oc1ccccc1C(=O)O. Chemists and computers speak the same compressed language — just slightly different dialects."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In the condensed formula CH₃CH(CH₃)CH₂OH, what does the (CH₃) represent?",
+          "options": {
+            "A": "A separate molecule",
+            "B": "A methyl BRANCH attached to the second carbon — parentheses indicate a substituent on the preceding atom, not a continuation of the main chain",
+            "C": "A double bond",
+            "D": "A free-floating group"
+          },
+          "correct_answer": "B",
+          "explanation": "Parentheses = branch. The main chain reads: CH₃—CH—CH₂—OH (3 carbons). The (CH₃) is attached to the CH at position 2. This is 2-methyl-1-propanol. Without parentheses, every group continues the chain.",
+          "tests_concept": "condensed_formulas"
+        },
+        {
+          "question": "CH₃(CH₂)₈CH₃ represents:",
+          "options": {
+            "A": "A 3-carbon molecule",
+            "B": "A 10-carbon straight chain (decane) — CH₃ at each end with 8 CH₂ groups in between, written in compressed notation",
+            "C": "A branched molecule",
+            "D": "A ring"
+          },
+          "correct_answer": "B",
+          "explanation": "The subscript notation (CH₂)₈ means 8 repeating CH₂ units. Total: 1 (CH₃) + 8 (CH₂) + 1 (CH₃) = 10 carbons. This compression avoids writing CH₃CH₂CH₂CH₂CH₂CH₂CH₂CH₂CH₂CH₃.",
+          "tests_concept": "condensed_formulas"
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "part_id": "drawing_p4",
+      "part_title": "Line-Angle Structures — The Language Professionals Speak",
+      "purpose": "THE critical skill — reading and writing line-angle (skeletal) structures fluently",
+      "curriculum_concepts": [
+        "line_angle"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Most Important Drawing Skill in Organic Chemistry",
+              "body": "Line-angle notation is what organic chemists, biochemists, pharmacologists, and medical researchers actually use. Every textbook mechanism, every research paper, every drug structure, every metabolic pathway diagram uses line-angle. Master this, and you read organic chemistry. Struggle with this, and every page is opaque."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Line-Angle (Skeletal) Structure Rules",
+              "body": "(1) Draw the carbon skeleton as ZIGZAG lines. (2) Every VERTEX (angle) and ENDPOINT is a carbon atom — DON'T write 'C.' (3) Hydrogens on carbon are NOT drawn — they're IMPLIED (enough H to give each carbon 4 bonds). (4) Heteroatoms (O, N, S, halogens) ARE written explicitly. (5) Hydrogens on heteroatoms ARE written (OH, NH₂, SH). (6) Double bonds = two parallel lines. Triple bonds = three lines."
+            },
+            {
+              "type": "section",
+              "title": "Reading Line-Angle: The Hydrogen Count",
+              "body": "This is where students stumble: how many H's are on each carbon? Count the VISIBLE bonds to the carbon (lines going to it). Carbon always makes 4 bonds. Implied H = 4 − visible bonds. Endpoint carbon (1 visible bond): 3 H's (CH₃). Middle of chain (2 visible bonds): 2 H's (CH₂). Branch point (3 visible bonds): 1 H (CH). Intersection of 4 bonds: 0 H's (C, quaternary carbon)."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Reading by Position",
+              "items": [
+                {
+                  "label": "Endpoint: 1 line leaving → 3 implied H → CH₃",
+                  "icon": "corner-down-right",
+                  "body": "The ends of any chain or branch are methyl groups."
+                },
+                {
+                  "label": "Vertex with 2 lines → 2 implied H → CH₂",
+                  "icon": "minus",
+                  "body": "The most common interior position."
+                },
+                {
+                  "label": "Vertex with 3 lines → 1 implied H → CH",
+                  "icon": "git-branch",
+                  "body": "Branch points. One hydrogen is silently present."
+                },
+                {
+                  "label": "Vertex with 4 lines → 0 implied H → C (quaternary)",
+                  "icon": "grid",
+                  "body": "Rare but important. Fully substituted carbon — no hydrogens at all."
+                },
+                {
+                  "label": "Double bond vertex → adjust count",
+                  "icon": "layers",
+                  "body": "A double bond = 2 of the 4 bonds used. A carbon with one double bond and one single bond at a vertex has 1 implied H. Endpoint with double bond: 2 implied H (=CH₂)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "body": "THE rule: implied H = 4 − (number of lines coming from that vertex). Every line is a bond. Carbon always has 4. Whatever the lines don't account for, hydrogen fills in. This ONE rule unlocks every line-angle structure."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Count the Hydrogens — Speed Drill",
+              "items": [
+                {
+                  "label": "Pentane (zigzag, 5 vertices)",
+                  "hints": "Endpoints (2): 3H each = CH₃. Interior vertices (3): 2H each = CH₂. Total: C₅H₁₂. ✓"
+                },
+                {
+                  "label": "2-methylbutane (4-carbon chain with branch at C2)",
+                  "hints": "Main chain endpoints (2): 3H each. Branch endpoint (1): 3H. Branch point (C2): 3 visible bonds → 1H. Interior (C3): 2 bonds → 2H. Total: C₅H₁₂."
+                },
+                {
+                  "label": "Cyclohexane (hexagon)",
+                  "hints": "Every vertex: 2 visible bonds → 2H → all CH₂. Six vertices: C₆H₁₂. No endpoints — a ring has no ends."
+                },
+                {
+                  "label": "1-butene (zigzag with double bond at one end)",
+                  "hints": "=CH₂ at endpoint: double bond uses 2 bonds → 2H. =CH at next vertex: double + single = 3 bonds → 1H. Interior CH₂: 2 bonds → 2H. CH₃ endpoint: 1 bond → 3H. C₄H₈."
+                },
+                {
+                  "label": "Benzene (hexagon with 3 alternating double bonds)",
+                  "hints": "Each vertex: 1 double bond + 1 single bond = 3 bonds → 1H. Six CH groups: C₆H₆."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "The hydrogen-counting skill should become INSTANT — you should look at any vertex and immediately know the hydrogen count without calculating. Practice 50 structures and it becomes automatic. This automaticity frees your brain to focus on mechanisms and reactions instead of struggling with notation."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Line-angle is like architectural blueprints — they don't show every brick, but an architect reads them instantly. To a non-architect, blueprints are meaningless lines. To a trained eye, they're complete buildings. Line-angle structures work the same way: meaningless zigzags to the untrained, complete molecular architectures to the fluent."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Chemists sometimes draw structures so fast in conversations (on whiteboards, napkins, paper scraps) that they barely look like proper zigzags. Yet other chemists read them instantly. Structural fluency is like handwriting — even sloppy structures communicate clearly to a trained reader. The goal isn't pretty drawings. It's fluent communication."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In a line-angle structure, a vertex where 3 lines meet has how many implied hydrogens?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "1 — the carbon has 3 visible bonds, so 4 − 3 = 1 implied hydrogen (CH)",
+            "D": "0"
+          },
+          "correct_answer": "C",
+          "explanation": "Carbon always makes 4 bonds. If 3 are visible as lines (bonds to other carbons, O, N, etc.), the fourth must be to hydrogen. 4 − 3 = 1 implied H. This is a branch point or CH group.",
+          "tests_concept": "line_angle"
+        },
+        {
+          "question": "In a line-angle structure of cyclohexane (a hexagon), how many hydrogens does each carbon have?",
+          "options": {
+            "A": "1 — it's like benzene",
+            "B": "2 — each vertex has 2 visible bonds (to adjacent ring carbons), so 4 − 2 = 2 implied H per carbon → C₆H₁₂",
+            "C": "3",
+            "D": "0"
+          },
+          "correct_answer": "B",
+          "explanation": "Cyclohexane: each C bonded to 2 other ring C's = 2 visible bonds. 4 − 2 = 2H per carbon. Six carbons × 2H = 12H. Molecular formula: C₆H₁₂. Compare benzene (3 bonds per vertex → 1H → C₆H₆).",
+          "tests_concept": "line_angle"
+        }
+      ]
+    },
+    {
+      "part_number": 5,
+      "part_id": "drawing_p5",
+      "part_title": "Drawing Practice — Translating Between All Representations",
+      "purpose": "Intensive interconversion practice — molecular ↔ condensed ↔ line-angle ↔ name",
+      "curriculum_concepts": [
+        "drawing_fluency"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Four-Way Translation",
+              "body": "A fluent organic chemist can instantly convert between: NAME ↔ MOLECULAR FORMULA ↔ CONDENSED FORMULA ↔ LINE-ANGLE STRUCTURE. This four-way translation is the core literacy skill. Let's practice with real molecules."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Five Molecules, Four Representations Each",
+              "items": [
+                {
+                  "label": "Ethanol",
+                  "icon": "circle",
+                  "body": "Name: ethanol. Formula: C₂H₆O. Condensed: CH₃CH₂OH. Line-angle: zigzag (2 C) with OH at end."
+                },
+                {
+                  "label": "Acetone",
+                  "icon": "circle",
+                  "body": "Name: acetone. Formula: C₃H₆O. Condensed: CH₃COCH₃. Line-angle: 3 carbons, middle one has =O (double bond to oxygen shown as lines up from vertex)."
+                },
+                {
+                  "label": "Acetic acid",
+                  "icon": "circle",
+                  "body": "Name: acetic acid. Formula: C₂H₄O₂. Condensed: CH₃COOH. Line-angle: 2 carbons, end one has =O and OH."
+                },
+                {
+                  "label": "Isobutane",
+                  "icon": "circle",
+                  "body": "Name: 2-methylpropane. Formula: C₄H₁₀. Condensed: (CH₃)₃CH. Line-angle: 3-pointed star (central C bonded to 3 branches)."
+                },
+                {
+                  "label": "Cyclohexanol",
+                  "icon": "circle",
+                  "body": "Name: cyclohexanol. Formula: C₆H₁₂O. Condensed: cyclo-C₆H₁₁OH. Line-angle: hexagon with OH on one vertex."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Practice strategy: start with molecules you KNOW (ethanol, acetone, caffeine, aspirin). Convert each to all four representations. Then reverse: given a line-angle, write the condensed formula and count atoms. Do 10 molecules a day for a week and you'll be fluent."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Reverse Translation: Line-Angle → Molecular Formula",
+              "items": [
+                {
+                  "label": "A zigzag with 6 vertices (no heteroatoms)",
+                  "hints": "6 carbons. Endpoints (2): 3H. Interior (4): 2H. Total: 6C + 14H = C₆H₁₄ = hexane."
+                },
+                {
+                  "label": "A hexagon with one vertex labeled OH",
+                  "hints": "6 ring carbons. 5 interior ring C: 2H each = 10H. 1 C bonded to OH: only 1 other ring bond visible + OH = 3 bonds → 1H. OH adds O + H. Total: C₆H₁₂O = cyclohexanol."
+                },
+                {
+                  "label": "A 4-carbon zigzag with = between C2 and C3",
+                  "hints": "4 carbons. C1 endpoint: 3H. C2 with double bond + single: 1H. C3 with double bond + single: 1H. C4 endpoint: 3H. Total: C₄H₈ = 2-butene."
+                },
+                {
+                  "label": "A hexagon with alternating double bonds (benzene) + CH₃ on one vertex",
+                  "hints": "6 ring C. Benzene C's: each 3 bonds → 1H (5 of them). One C bonded to CH₃ → no H. CH₃ adds 1C + 3H. Total: C₇H₈ = toluene (methylbenzene)."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "title": "Common Verification Trick",
+              "body": "After drawing a line-angle structure, ALWAYS verify your molecular formula. Count carbons (every vertex and endpoint). Count hydrogens (4 minus visible bonds at each C). Count heteroatoms (written explicitly). Then check: does the formula match what you expect? Does it satisfy the rule that a saturated, acyclic hydrocarbon is CₙH₂ₙ₊₂? This verification catches drawing errors immediately."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Converting between representations is like translating between languages. At first it's slow — you look up each 'word' (atom, bond). With practice, you read without translating — a zigzag with OH IS ethanol, instantly, no intermediate step. Fluency means seeing the molecule, not the notation."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Organic chemistry exams are essentially reading and writing tests. Students who are fluent in structural notation finish exams with time to spare. Students who aren't spend half their time decoding structures instead of solving problems. The fastest path to a good grade: structural fluency. It's the compound interest of organic chemistry — invest early, profit everywhere."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "A line-angle structure shows a zigzag chain with 5 vertices and no heteroatoms. What is the molecular formula?",
+          "options": {
+            "A": "C₅H₁₀",
+            "B": "C₅H₁₂ — 5 carbons, 2 endpoints (3H each) + 3 interior vertices (2H each) = 6 + 6 = 12 hydrogens",
+            "C": "C₅H₈",
+            "D": "C₅H₆"
+          },
+          "correct_answer": "B",
+          "explanation": "5-carbon acyclic alkane. Endpoints: 2 × 3H = 6H. Interior: 3 × 2H = 6H. Total: 12H. Formula: C₅H₁₂ (pentane). Matches CₙH₂ₙ₊₂ for saturated acyclic hydrocarbons: 2(5)+2 = 12. ✓",
+          "tests_concept": "drawing_fluency"
+        }
+      ]
+    },
+    {
+      "part_number": 6,
+      "part_id": "drawing_p6",
+      "part_title": "Heteroatoms in Line-Angle — Where the Action Is",
+      "purpose": "How O, N, S, halogens appear in line-angle — these mark the reactive sites",
+      "curriculum_concepts": [
+        "implicit_hydrogens",
+        "line_angle"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Heteroatoms Break the Carbon-Only Pattern",
+              "body": "In line-angle structures, every UNLABELED vertex is carbon. When you see a letter — O, N, S, Cl, Br, F, I — that's a heteroatom explicitly written because it ISN'T carbon. These heteroatoms are where POLARITY lives and where REACTIONS happen."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "Common Heteroatom Patterns in Line-Angle",
+              "items": [
+                {
+                  "label": "—OH (Alcohol)",
+                  "icon": "droplet",
+                  "body": "OH written at a vertex or endpoint. The C it's on is sp³ with implied H's reduced by 1 (one bond to O). The oxygen has 2 lone pairs (not drawn but present). Makes the molecule polar and H-bonding capable."
+                },
+                {
+                  "label": "C=O (Carbonyl)",
+                  "icon": "zap",
+                  "body": "Double bond from carbon to an explicitly written O. If the carbon also bonds to H: aldehyde (drawn as CHO at an endpoint). If bonded to two C's: ketone (O at a vertex between two chain segments). The carbonyl carbon is sp², FLAT, and δ⁺."
+                },
+                {
+                  "label": "—COOH (Carboxylic Acid)",
+                  "icon": "alert-circle",
+                  "body": "C=O + OH on the same carbon. Drawn as =O going up and OH going down (or vice versa) from the same vertex. Or written explicitly as COOH at the chain end."
+                },
+                {
+                  "label": "—NH₂ or —NHR or —NR₂ (Amines)",
+                  "icon": "user",
+                  "body": "N written explicitly. NH₂ = primary amine. NHR = secondary. NR₂ = tertiary. The nitrogen has a lone pair (not drawn) — critical for nucleophilicity and basicity."
+                },
+                {
+                  "label": "—X (Halogens: F, Cl, Br, I)",
+                  "icon": "octagon",
+                  "body": "Written explicitly at the carbon where they're bonded. The C—X bond is polar → C is δ⁺ → electrophilic site → target for nucleophilic substitution."
+                },
+                {
+                  "label": "—SH (Thiol)",
+                  "icon": "shield",
+                  "body": "S written explicitly with H. Sulfur analogue of OH. Important in biochemistry (cysteine's —SH group forms disulfide bridges in proteins)."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "In line-angle notation, heteroatoms are SIGNPOSTS for reactivity. Every O, N, S, and halogen you see is a polar bond → a reactive site. When scanning a line-angle structure, your eyes should jump to heteroatoms first — they tell you where chemistry will happen. The carbon zigzag is the scaffold; heteroatoms are the functional landmarks."
+            },
+            {
+              "type": "section",
+              "title": "Implicit Hydrogen on Heteroatoms",
+              "body": "Oxygen and nitrogen also have implicit hydrogen rules, but they're DIFFERENT from carbon: Oxygen with 2 bonds (like in an ether, C—O—C): 2 bonds + 2 lone pairs = no implicit H. Oxygen with 1 bond (like —OH): needs 1H written as 'OH.' Nitrogen with 3 bonds (amine, R₃N): 3 bonds + 1 lone pair → 0 implicit H. But nitrogen with 2 bonds needs 1 H (NH), with 1 bond needs 2 H (NH₂). KEY: hydrogen on N and O must be WRITTEN — it's never implied like C—H."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Identify the Functional Groups",
+              "items": [
+                {
+                  "label": "Zigzag, 4 C, OH on C2",
+                  "hints": "2-butanol — a secondary alcohol. One reactive site: the C—OH."
+                },
+                {
+                  "label": "Zigzag, 3 C, =O on C2 (no H on carbonyl)",
+                  "hints": "Acetone — a ketone. Reactive site: δ⁺ carbonyl carbon."
+                },
+                {
+                  "label": "Hexagon with Br on one vertex",
+                  "hints": "Bromocyclohexane. Reactive site: C—Br (carbon is δ⁺, Br is leaving group)."
+                },
+                {
+                  "label": "Zigzag, 3 C, =O and OH both on C3 (endpoint)",
+                  "hints": "Propanoic acid — a carboxylic acid. Two reactive sites: acidic O—H and electrophilic C=O."
+                },
+                {
+                  "label": "Zigzag, 2 C, NH₂ on C1 (endpoint)",
+                  "hints": "Ethylamine — a primary amine. Reactive: N lone pair is nucleophilic/basic."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "When a pharmacist reads a drug structure, they scan for heteroatoms: how many OH's (solubility, H-bonding), any NH's (basicity, receptor binding), any C=O's (electrophilic sites, metabolic vulnerability), any halogens (metabolic stability, lipophilicity). The heteroatom pattern IS the drug's functional profile. You're learning to read the same way."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "A bare zigzag in line-angle is like a plain highway — nothing interesting happens there (hydrocarbon, nonpolar, unreactive). Add an OH and it becomes a rest stop. Add a C=O and it's an interchange. Add an NH₂ and it's a university exit. Add a halogen and it's a construction zone. Heteroatoms are the landmarks that make the molecular highway interesting."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The most common error in organic chemistry exams: forgetting to count implicit hydrogens when a heteroatom is present. Example: an OH on a vertex where 2 other C—C bonds meet. Students count: 2 bonds to C + 1 bond to O = 3 visible bonds → 4 − 3 = 1 implied H on carbon. The oxygen's H is written (OH). So this vertex has BOTH an implied H on carbon AND an explicit H on oxygen. Double-checking hydrogen counts at heteroatoms prevents exam disasters."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "In a line-angle structure, you see an O between two carbon segments (like ∧O∧). This represents:",
+          "options": {
+            "A": "A double bond to oxygen",
+            "B": "An ether (C—O—C) — oxygen with two bonds to carbon, no hydrogen on oxygen, 2 lone pairs on oxygen",
+            "C": "An alcohol",
+            "D": "An oxide"
+          },
+          "correct_answer": "B",
+          "explanation": "O between two C segments = ether linkage. Oxygen makes 2 bonds (to 2 carbons), has 2 lone pairs, no H. Compare: O at an endpoint with H written (OH) = alcohol. The position and context of the O determines the functional group.",
+          "tests_concept": "line_angle"
+        }
+      ]
+    },
+    {
+      "part_number": 7,
+      "part_id": "drawing_p7",
+      "part_title": "Constitutional Isomers — Same Formula, Different Wiring",
+      "purpose": "Isomers that differ in atom connectivity — the reason structural formulas matter",
+      "curriculum_concepts": [
+        "constitutional_isomers"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Constitutional (Structural) Isomers",
+              "body": "Molecules with the SAME molecular formula but DIFFERENT connectivity — atoms are bonded to different partners. They are completely different compounds with different names, different properties, and different reactivity. Constitutional isomers are the reason molecular formulas are insufficient — you NEED structural formulas to know which compound you have."
+            },
+            {
+              "type": "section",
+              "title": "How Constitutional Isomers Differ",
+              "body": "Constitutional isomers can differ in: (1) Carbon skeleton — straight chain vs branched vs cyclic (butane vs isobutane vs cyclopropane+CH₂). (2) Position of functional group — 1-propanol vs 2-propanol (OH on different carbons). (3) Type of functional group — ethanol (C₂H₆O with OH) vs dimethyl ether (C₂H₆O with O between C's). Same formula, fundamentally different molecules."
+            },
+            {
+              "type": "list",
+              "style": "comparison",
+              "title": "Constitutional Isomers of C₄H₁₀O",
+              "items": [
+                {
+                  "label": "1-Butanol: CH₃CH₂CH₂CH₂OH",
+                  "body": "OH on the end carbon. Bp: 117°C. Soluble in water. Used as a solvent."
+                },
+                {
+                  "label": "2-Butanol: CH₃CH(OH)CH₂CH₃",
+                  "body": "OH on the second carbon. Bp: 100°C. Secondary alcohol — different oxidation product."
+                },
+                {
+                  "label": "2-Methyl-1-propanol: (CH₃)₂CHCH₂OH",
+                  "body": "Branched chain, OH on end. Bp: 108°C. Used in paint removers."
+                },
+                {
+                  "label": "2-Methyl-2-propanol (tert-butanol): (CH₃)₃COH",
+                  "body": "OH on tertiary carbon. Bp: 82°C. Solid at 25°C! Different physical state entirely."
+                },
+                {
+                  "label": "Diethyl ether: CH₃CH₂OCH₂CH₃",
+                  "body": "ETHER, not alcohol. Bp: 34°C. Highly volatile. Used as anesthetic (historically). Completely different functional group."
+                },
+                {
+                  "label": "Methyl propyl ether: CH₃OCH₂CH₂CH₃",
+                  "body": "Different ether. Bp: 39°C. Same formula C₄H₁₀O. Different connectivity."
+                },
+                {
+                  "label": "Other ethers: isomers with methyl isopropyl arrangement",
+                  "body": "Seven total constitutional isomers for C₄H₁₀O — from liquid alcohols to volatile ethers."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "C₄H₁₀O: seven different compounds. One is a solid (tert-butanol). One was used as an anesthetic (diethyl ether). Others are liquid solvents. Same molecular formula. Completely different substances. This is WHY organic chemistry requires structural formulas — the molecular formula alone can't tell you which of seven compounds you're dealing with."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Draw All Constitutional Isomers",
+              "items": [
+                {
+                  "label": "C₃H₈O (2 isomers)",
+                  "hints": "1-Propanol (CH₃CH₂CH₂OH) and 2-propanol (CH₃CH(OH)CH₃). Also: methyl ethyl ether (CH₃OCH₂CH₃). Actually 3 isomers — 2 alcohols + 1 ether!"
+                },
+                {
+                  "label": "C₂H₆O (2 isomers)",
+                  "hints": "Ethanol (CH₃CH₂OH) and dimethyl ether (CH₃OCH₃). The classic pair."
+                },
+                {
+                  "label": "C₅H₁₂ (3 isomers)",
+                  "hints": "Pentane (straight chain), 2-methylbutane (one branch), 2,2-dimethylpropane (neopentane, two branches on same C). All alkanes, but different boiling points due to different shapes and packing."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Strategy for finding ALL constitutional isomers: (1) Start with the longest possible straight chain. (2) Shorten the chain by one, add a branch. (3) Move the branch to all possible positions. (4) Shorten again, add another branch. (5) Consider different functional group types (alcohol vs ether for CₙH₂ₙ₊₂O). (6) Check: are any 'different' drawings actually the same molecule viewed differently? If you can rename them to the same IUPAC name, they're the same."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Finding all constitutional isomers is like an organic chemistry puzzle — and it's addictive once you get the hang of it. 'Can I make one more isomer of C₅H₁₂? What if I branch here? What about a ring?' It's combinatorial thinking with molecules. Some students hate it. Others can't stop. There's no in-between."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The number of constitutional isomers explodes with carbon count: C₅H₁₂ has 3. C₁₀H₂₂ has 75. C₂₀H₄₂ has 366,319. C₃₀H₆₂ has over 4 billion. And those are just alkanes — add functional groups and the numbers go far higher. This combinatorial explosion is why there are over 20 million known organic compounds and why computers are increasingly used to enumerate possibilities."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a visual 'Isomer Family Portrait' for C₄H₁₀O — draw all constitutional isomers in line-angle notation, label each with its name, boiling point, and primary use. Show how same formula → different structures → different properties → different real-world applications. Best portrait becomes the official isomer reference!",
+              "placeholder_type": "isomer_family_portrait"
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Constitutional isomers have:",
+          "options": {
+            "A": "Different molecular formulas",
+            "B": "The SAME molecular formula but DIFFERENT connectivity — atoms are bonded to different partners, creating different compounds with different properties",
+            "C": "The same structure but different names",
+            "D": "Different numbers of atoms"
+          },
+          "correct_answer": "B",
+          "explanation": "Constitutional isomers: same formula, different bonding connectivity. Ethanol (CH₃CH₂OH) and dimethyl ether (CH₃OCH₃): both C₂H₆O, but OH vs O-bridge → completely different properties. Different connectivity = different compound.",
+          "tests_concept": "constitutional_isomers"
+        },
+        {
+          "question": "How many constitutional isomers exist for C₃H₈O?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3 — 1-propanol (OH on C1), 2-propanol (OH on C2), and methyl ethyl ether (O between a CH₃ and CH₂CH₃) — including both alcohols AND ethers",
+            "D": "5"
+          },
+          "correct_answer": "C",
+          "explanation": "Same formula, three different connectivities: two alcohols (differ in OH position) plus one ether (different functional group type). When counting constitutional isomers, consider ALL possible functional group types for the given formula, not just one type.",
+          "tests_concept": "constitutional_isomers"
+        }
+      ]
+    },
+    {
+      "part_number": 8,
+      "part_id": "drawing_p8",
+      "part_title": "The Mistakes Everyone Makes — And How to Avoid Them",
+      "purpose": "Error prevention — the most common drawing mistakes and verification strategies",
+      "curriculum_concepts": [
+        "drawing_fluency",
+        "implicit_hydrogens"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Mistakes That Cost Exam Points",
+              "body": "Drawing errors are the #1 preventable source of lost points in organic chemistry. Every mistake below is common, avoidable, and costs full marks when it changes the identity of the molecule."
+            },
+            {
+              "type": "list",
+              "style": "icon_list",
+              "title": "The Top 7 Drawing Mistakes",
+              "items": [
+                {
+                  "label": "1. Carbon with 5 bonds (pentavalent carbon)",
+                  "icon": "x-circle",
+                  "body": "Carbon ALWAYS makes exactly 4 bonds. If you draw 5 lines to a carbon, you've created an impossible molecule. This is the most common drawing error. CHECK: count lines at every carbon."
+                },
+                {
+                  "label": "2. Forgetting implicit hydrogens",
+                  "icon": "x-circle",
+                  "body": "Endpoint with nothing written: that's CH₃ (3 implied H). A vertex with 2 lines and OH: the carbon has 4 − 3 = 1 implied H. Forgetting these changes the molecular formula and the molecule's identity."
+                },
+                {
+                  "label": "3. Drawing carbon and hydrogen explicitly in line-angle",
+                  "icon": "x-circle",
+                  "body": "In line-angle, DON'T write 'C' at vertices or 'H' on carbons (except when clarifying specific stereochemistry). The whole point of line-angle is that C and its H are implied. Writing them clutters the structure and suggests you don't understand the notation."
+                },
+                {
+                  "label": "4. Confusing constitutional isomers with the same molecule drawn differently",
+                  "icon": "x-circle",
+                  "body": "A 4-carbon chain drawn as a zigzag vs an 'L' shape vs a curve: these are ALL butane. Different drawings, same connectivity. To check: name the molecule. If two drawings give the same name, they're the same compound."
+                },
+                {
+                  "label": "5. Wrong hydrogen count on heteroatoms",
+                  "icon": "x-circle",
+                  "body": "Oxygen with 2 bonds to carbon (ether): NO hydrogen on O. Oxygen with 1 bond (alcohol): 1 H (write OH). Nitrogen with 3 bonds: 0 H. With 2 bonds: 1 H (NH). With 1 bond: 2 H (NH₂). Forgetting or adding wrong H on O/N changes the compound."
+                },
+                {
+                  "label": "6. Drawing rings incorrectly",
+                  "icon": "x-circle",
+                  "body": "Cyclohexane is a HEXAGON (6-membered ring). Each vertex is a carbon. Common error: drawing a pentagon for cyclohexane (that's cyclopentane, a different molecule). Count vertices carefully when drawing rings."
+                },
+                {
+                  "label": "7. Forgetting lone pairs when needed",
+                  "icon": "x-circle",
+                  "body": "In line-angle, lone pairs are usually NOT drawn. But when drawing mechanisms (electron movement with curved arrows), lone pairs must be shown. Know WHEN to include them: mechanisms yes, simple structures no."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "The Verification Checklist",
+              "body": "After drawing any structure, check: (1) Every C has exactly 4 bonds? (2) Every N has 3 bonds + 1 lone pair (or 4 bonds if cation)? (3) Every O has 2 bonds + 2 lone pairs (or 1 bond + 3 lone pairs if anion)? (4) Molecular formula matches? (5) Hydrogens on heteroatoms written explicitly? (6) No 5-valent carbons? This 30-second check prevents 90% of drawing errors."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "list",
+              "style": "challenge",
+              "title": "Spot the Errors",
+              "items": [
+                {
+                  "label": "A carbon with 3 C—C bonds, 1 C—O bond, AND 1 C—H drawn",
+                  "hints": "ERROR: 3 + 1 + 1 = 5 bonds on carbon. Remove either one bond or the explicit H. Carbon can ONLY have 4."
+                },
+                {
+                  "label": "A line-angle hexagon labeled 'cyclohexane' but with only 5 vertices",
+                  "hints": "ERROR: 5 vertices = cyclopentane (C₅H₁₀). Cyclohexane needs 6 vertices (C₆H₁₂). Count vertices = count carbons in ring."
+                },
+                {
+                  "label": "An OH group on a line-angle vertex with 3 C—C bonds already there",
+                  "hints": "That carbon would have: 3 C—C + 1 C—O = 4 bonds. OK so far. But implied H = 4 − 4 = 0. Make sure you DON'T also draw an H on that carbon."
+                },
+                {
+                  "label": "Line-angle with 'C' written at every vertex",
+                  "hints": "NOT an error per se, but bad form — defeats the purpose of line-angle notation. Remove the C labels. Vertices ARE carbon by convention."
+                }
+              ]
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Pentavalent carbon — a carbon with 5 bonds — is the organic chemistry equivalent of a grammatical error so bad it changes the meaning of your sentence. It's like writing 'their' when you mean 'there' — except in chemistry, the wrong structure IS a wrong molecule. Your professor can't grade what you meant. They grade what you drew."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "There's an entire genre of 'impossible molecules' that students accidentally create on exams. Pentavalent carbon. Octavalent nitrogen. Hydrogen with 2 bonds. These molecules can't exist in reality, but they appear regularly in exam blue books. One professor collected them into a 'Gallery of the Impossible' — displayed during the last lecture of the semester. Don't be in the gallery."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "You draw a line-angle structure where one carbon vertex has 3 bonds to other carbons plus a bond to OH plus an explicitly drawn H. What's wrong?",
+          "options": {
+            "A": "Nothing — it's correct",
+            "B": "The carbon has 5 bonds (3 C—C + 1 C—O + 1 C—H = 5) — carbon can ONLY have 4 bonds. Either a C—C bond or the explicit H must be removed",
+            "C": "You can't have OH in line-angle",
+            "D": "Hydrogen is wrong"
+          },
+          "correct_answer": "B",
+          "explanation": "Carbon's valence = 4. Always. If you count more than 4 connections (bonds) to any carbon, the structure is impossible. In this case: 3 + 1 + 1 = 5. Remove the explicit H (it was already implied anyway — but with OH + 3 C—C bonds, there are NO implied H: 4 − 4 = 0).",
+          "tests_concept": "drawing_fluency"
+        }
+      ]
+    },
+    {
+      "part_number": 9,
+      "part_id": "drawing_p9",
+      "part_title": "The Art and Philosophy of Structural Literacy",
+      "purpose": "Capstone — drawing as thinking, structures as the bridge between imagination and reality",
+      "curriculum_concepts": [
+        "drawing_fluency"
+      ],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "philosophy",
+              "body": "A structural formula is a map of molecular reality. When you draw a line-angle structure, you're not making abstract art — you're representing the actual 3D arrangement of atoms bonded together in space. Every line is a real bond (shared electron pair). Every vertex is a real carbon atom with real geometry. Every OH is a real hydroxyl group capable of real hydrogen bonding. To draw a structure IS to think about a molecule. The notation is the thought."
+            },
+            {
+              "type": "section",
+              "title": "Drawing as Chemical Thinking",
+              "body": "When organic chemists solve problems, they draw. When they discuss ideas, they draw. When they design new drugs, they draw. The act of drawing a structure activates chemical reasoning — you see connections, spot reactive sites, notice symmetry, identify functional groups. Drawing isn't separate from thinking in organic chemistry. Drawing IS thinking. The pen is the instrument of chemical reasoning."
+            },
+            {
+              "type": "section",
+              "title": "Your Structural Toolkit",
+              "body": "You now possess: (1) Molecular formulas — what atoms, how many. (2) Condensed formulas — text-based connectivity. (3) Line-angle structures — professional visual notation with implicit C and H. (4) Constitutional isomers — same formula, different connectivity = different compound. (5) Hydrogen counting — 4 minus visible bonds. (6) Heteroatom patterns — O, N, S, halogens as reactive signposts. (7) Error checking — pentavalent carbon, hydrogen count verification, molecular formula matching."
+            },
+            {
+              "type": "callout",
+              "style": "personal",
+              "body": "From this point forward, every concept in organic chemistry will be communicated through drawn structures. Reaction mechanisms: drawn. Synthesis problems: drawn. Spectroscopy interpretation: drawn. Stereochemistry: drawn. If you've built fluency in these 9 parts, you're ready for everything that follows. If not, go back and practice — this is the one skill that makes or breaks the entire course."
+            },
+            {
+              "type": "transition",
+              "body": "Structures mastered, literacy achieved. Next: FUNCTIONAL GROUPS — the 'personality traits' of organic molecules. Functional groups determine how a molecule behaves, what it reacts with, and what it does in your body. They're the vocabulary of organic chemistry — and you now have the notation to write them."
+            },
+            {
+              "type": "creator_challenge",
+              "prompt": "Create a 'Rosetta Stone of Organic Chemistry' — take 5 molecules you encounter daily (caffeine, aspirin, ethanol, glucose, acetic acid) and show each in ALL 4 representations: name, molecular formula, condensed formula, and line-angle structure. Annotate each line-angle with implied hydrogen counts. Best multilingual molecular reference becomes the course's drawing benchmark!",
+              "placeholder_type": "rosetta_stone_molecules"
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Your Drawing Manifesto",
+              "body": "Organic chemistry is a visual language. Molecular formulas are ambiguous. Condensed formulas are text. Line-angle structures are the true language — compact, complete, universal. Every vertex is carbon. Every implied hydrogen fills carbon's 4-bond requirement. Heteroatoms mark reactive sites. Constitutional isomers remind you: connectivity determines identity. Draw often. Draw fast. Draw correctly. This is how organic chemistry is spoken."
+            },
+            {
+              "type": "transition",
+              "body": "Next: functional groups — the vocabulary that turns carbon skeletons into alcohols, acids, amines, ketones, and everything else."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "You've just learned to read and write in a language that has 20 million words (molecules) and counting. Every hexagon is a potential drug. Every zigzag is a potential fuel. Every OH is a potential reaction site. Welcome to structural literacy — you'll never look at a chemistry diagram the same way again."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "Friedrich August Kekulé — who proposed the ring structure of benzene — reportedly dreamed of a snake biting its own tail, which inspired the hexagonal structure. Whether or not the dream story is true, the structural DRAWING of benzene as a hexagon changed chemistry forever. One drawing. One hexagon. An entire field unlocked. That's the power of structural notation."
+            },
+            {
+              "type": "transition",
+              "body": "Literacy acquired. Vocabulary next. Functional groups — the words of organic chemistry — are waiting."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Why is structural drawing considered 'thinking' in organic chemistry, not just notation?",
+          "options": {
+            "A": "Because it's required on exams",
+            "B": "Drawing a structure forces you to represent real molecular connectivity — it activates identification of reactive sites, symmetry, functional groups, and geometric relationships that drive all chemical reasoning",
+            "C": "Because structures are artistic",
+            "D": "It's just a convention with no deeper significance"
+          },
+          "correct_answer": "B",
+          "explanation": "The act of drawing IS the act of analyzing. You can't draw a C=O without recognizing it as an electrophilic site. You can't draw OH without recognizing hydrogen bonding capability. Structure triggers chemical insight. The notation is not separate from the thinking — it IS the thinking.",
+          "tests_concept": "drawing_fluency"
+        }
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_parts": 9,
+    "total_questions": 11,
+    "curriculum_concepts_covered": [
+      "condensed_formulas",
+      "line_angle",
+      "constitutional_isomers",
+      "molecular_vs_structural",
+      "drawing_fluency",
+      "implicit_hydrogens"
+    ],
+    "bridges_from": "polarity_and_reactivity (OC Foundation #03)",
+    "bridges_to": "functional_groups (OC Foundation #05)",
+    "extended_treatment": true,
+    "opens_topic": "Topic 2: Structure & Representation (subtopic 1 of 3)"
+  }
+}

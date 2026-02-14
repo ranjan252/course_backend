@@ -1,0 +1,647 @@
+{
+  "course": "General Chemistry",
+  "topic": "2_electron_structure",
+  "subtopic": "2.3_valence_electrons",
+  "foundation_id": "valence_electrons",
+  "foundation_title": "Valence Electrons",
+  "foundation_tier": 1,
+  "prerequisites": ["electron_shells", "periodic_table_basic"],
+  "curriculum_concepts_covered": [
+    "identifying_valence_electrons",
+    "lewis_dot_structures"
+  ],
+  "coverage_notes": "Direct match with curriculum. Foundation teaches how to find valence electrons from position on periodic table and how to draw Lewis dot structures. Bridges all prior electron knowledge to bonding concepts.",
+  "total_parts": 4,
+
+  "rendering_guide": {
+    "section": "Headed paragraph block with spacing above/below",
+    "callout": "Highlighted box. Styles: definition, key_idea, fun_fact, remember, mind_blow",
+    "list": "Styled list. Styles: icon_list, two_column, comparison, challenge, numbered_steps",
+    "visual": "Placeholder for diagram/illustration",
+    "transition": "Italic bridge text, lighter font weight"
+  },
+
+  "student_flow": {
+    "step_1": "READ Part 1 (hook — outer electrons run the show)",
+    "step_2": "READ Part 2 (core — identifying valence electrons from the periodic table)",
+    "step_3": "QUIZ Part 2",
+    "step_4": "WATCH matched video for identifying_valence_electrons",
+    "step_5": "READ Part 3 (Lewis dot structures — drawing valence electrons)",
+    "step_6": "QUIZ Part 3",
+    "step_7": "WATCH matched video for lewis_dot_structures",
+    "step_8": "READ Part 4 (big picture + bridge to bonding_intro)",
+    "step_9": "FINAL QUIZ (cumulative)"
+  },
+
+  "parts": [
+    {
+      "part_number": 1,
+      "part_id": "valence_electrons_p1",
+      "part_title": "The Electrons That Actually Matter",
+      "purpose": "Hook — most electrons are spectators, only the outer ones drive chemistry",
+      "curriculum_concepts": [],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Sodium has 11 electrons. Iron has 26. Gold has 79. But here's the surprising truth: for most of chemistry, almost all of those electrons are irrelevant. The only ones that matter are the few sitting in the outermost shell."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "When two atoms approach each other, it's their outermost electrons that meet first, interact, and determine whether bonding happens. Inner electrons are shielded deep inside — they never participate. The outer electrons do ALL the work."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "These outer-shell electrons have a name: valence electrons. And learning to count them, draw them, and predict their behavior is the single most useful skill in chemistry. Everything from here — bonding, reactions, molecular shapes — depends on valence electrons."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Think of a Handshake",
+              "body": "When two people meet, they extend their hands — the outermost part of their body. They don't press their ribcages together. The handshake happens at the surface."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "Atoms work the same way. When two atoms meet, it's their outermost electrons that interact — the valence electrons. The inner electrons (core electrons) are buried deep, shielded by the inner shells, and play no direct role in the interaction. They're like your organs during a handshake — there, but not involved."
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Sodium has 11 total electrons, but 10 of them are buried in inner shells (2 + 8). Only 1 electron sits in the outer shell. That single valence electron determines everything about sodium's chemistry — its reactivity, what it bonds with, and how it behaves."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": null,
+              "body": "Gold has 79 electrons. You'd think all 79 would be important. Nope. Most are just sitting in inner shells doing absolutely nothing useful — like background extras in a movie. The real stars? The handful of electrons on the outside."
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "If atoms were companies, valence electrons would be the sales team. They're the ones making deals (bonds), closing transactions (reactions), and interacting with the outside world. The inner electrons are back office — essential for stability, but they never see a client."
+            },
+            {
+              "type": "section",
+              "title": null,
+              "body": "These outer electrons are called valence electrons, and from this point forward, they're basically the main character of the entire chemistry course. Everything interesting — bonding, color, reactivity, explosions — is a valence electron event."
+            }
+          ]
+        }
+      },
+      "questions": []
+    },
+
+    {
+      "part_number": 2,
+      "part_id": "valence_electrons_p2",
+      "part_title": "Finding Valence Electrons",
+      "purpose": "Core teaching — how to determine valence electron count from periodic table position",
+      "curriculum_concepts": ["identifying_valence_electrons"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Valence Electrons",
+              "body": "The electrons in the outermost (highest-energy) shell of an atom. These are the electrons available for bonding and chemical reactions."
+            },
+            {
+              "type": "section",
+              "title": "The Shortcut: Read It From the Group Number",
+              "body": "For main group elements (Groups 1, 2, and 13-18), there's a simple rule: the group number tells you the valence electron count."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Group 1", "definition": "1 valence electron (Li, Na, K)"},
+                {"term": "Group 2", "definition": "2 valence electrons (Be, Mg, Ca)"},
+                {"term": "Group 13", "definition": "3 valence electrons (B, Al)"},
+                {"term": "Group 14", "definition": "4 valence electrons (C, Si)"},
+                {"term": "Group 15", "definition": "5 valence electrons (N, P)"},
+                {"term": "Group 16", "definition": "6 valence electrons (O, S)"},
+                {"term": "Group 17", "definition": "7 valence electrons (F, Cl)"},
+                {"term": "Group 18", "definition": "8 valence electrons (Ne, Ar) — except He has 2"}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "remember",
+              "title": "The Pattern",
+              "body": "For Groups 1-2: valence electrons = group number. For Groups 13-18: valence electrons = group number − 10. So Group 16 → 16 − 10 = 6 valence electrons. This works for ALL main group elements."
+            },
+            {
+              "type": "section",
+              "title": "Same Column = Same Valence Electrons = Same Behavior",
+              "body": "This is WHY elements in the same group behave similarly. Lithium, sodium, and potassium are all in Group 1 — all have 1 valence electron — all react the same way (donate that electron). Fluorine and chlorine are both in Group 17 — both have 7 valence electrons — both aggressively take 1 more. The group number was the pattern all along."
+            },
+            {
+              "type": "section",
+              "title": "What About Transition Metals?",
+              "body": "Transition metals (Groups 3-12) are trickier. Most have 2 valence electrons in their outer s subshell, but they can also use inner d electrons for bonding, giving them multiple possible states. For now, focus on main group elements — the transition metals' complexity comes later."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Practice With a Periodic Table Open",
+              "body": "Pull up a periodic table and try these. For each element, find its group number, then determine its valence electron count."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Work Through These",
+              "items": [
+                {
+                  "label": "Carbon (C)",
+                  "body": "Group 14. Valence electrons = 14 − 10 = 4. Carbon has 4 valence electrons, which is why it forms 4 bonds and is the backbone of all life."
+                },
+                {
+                  "label": "Oxygen (O)",
+                  "body": "Group 16. Valence electrons = 16 − 10 = 6. Needs 2 more for a full octet. Forms 2 bonds typically (like H₂O — two bonds to hydrogen)."
+                },
+                {
+                  "label": "Sodium (Na)",
+                  "body": "Group 1. Valence electrons = 1. Has 11 total electrons but only 1 matters. Gives it away easily → Na⁺ ion."
+                },
+                {
+                  "label": "Chlorine (Cl)",
+                  "body": "Group 17. Valence electrons = 7. Needs 1 more. Grabs it from sodium → Cl⁻ ion. Together: NaCl."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Notice: 4 valence electrons (carbon) → forms 4 bonds. 6 valence electrons (oxygen) → forms 2 bonds. 7 valence electrons (chlorine) → forms 1 bond. The number of bonds = 8 minus valence electrons (for nonmetals seeking an octet). This pattern predicts molecular structure."
+            },
+            {
+              "type": "section",
+              "title": "The Electron Configuration Connection",
+              "body": "Remember electron configurations? Sodium is 1s² 2s² 2p⁶ 3s¹. The outermost subshell is 3s¹ — that's 1 valence electron. Chlorine is 1s² 2s² 2p⁶ 3s² 3p⁵. The outermost shell (3) has 3s² + 3p⁵ = 7 valence electrons. The group number is the shortcut to what the configuration tells you."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "The Easiest Cheat in Chemistry",
+              "body": "Want to know how many valence electrons an element has? Just look at its group number. That's it. That's the whole trick."
+            },
+            {
+              "type": "list",
+              "style": "two_column",
+              "items": [
+                {"term": "Group 1", "definition": "1 valence electron. One. Lonely. Ready to leave."},
+                {"term": "Group 2", "definition": "2. Still easy to give away."},
+                {"term": "Group 14", "definition": "4. The Switzerland of electrons — can go either way."},
+                {"term": "Group 17", "definition": "7. One short of full. Dangerous levels of motivation."},
+                {"term": "Group 18", "definition": "8. Full. Complete. Living their best life."}
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "For groups 13-18, subtract 10 from the group number to get valence electrons. Group 16 → 6 valence electrons. Group 15 → 5. It's literally subtraction. The most intimidating subject in school and half of it is just reading a chart and subtracting 10."
+            },
+            {
+              "type": "section",
+              "title": "Why Same Column = Same Vibe",
+              "body": "NOW you understand why elements in the same column behave alike. It's not magic. It's not coincidence. They all have the SAME number of valence electrons. Lithium, sodium, potassium — all have 1 valence electron → all explode in water. Fluorine, chlorine, bromine — all have 7 → all aggressively steal electrons. The periodic table was organized by behavior, and behavior comes from valence electron count. It's all connected."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Sulfur (S) is in Group 16. How many valence electrons does it have?",
+          "options": {
+            "A": "16 — same as its group number",
+            "B": "6 — group number minus 10",
+            "C": "2 — it only uses s-subshell electrons",
+            "D": "8 — it has a full outer shell"
+          },
+          "correct_answer": "B",
+          "explanation": "For Groups 13-18, valence electrons = group number − 10. Sulfur: 16 − 10 = 6 valence electrons. Sulfur needs 2 more electrons to complete its octet, which is why it typically forms 2 bonds.",
+          "tests_concept": "identifying_valence_electrons"
+        },
+        {
+          "question": "Phosphorus (Group 15) and nitrogen (Group 15) are in the same group. What do they have in common?",
+          "options": {
+            "A": "Same number of total electrons",
+            "B": "Same number of electron shells",
+            "C": "Same number of valence electrons (5), so similar bonding behavior",
+            "D": "Same atomic mass"
+          },
+          "correct_answer": "C",
+          "explanation": "Same group = same valence electron count. Both have 5 valence electrons (Group 15: 15 − 10 = 5). This is why both typically form 3 bonds: they need 3 more electrons to reach an octet. Nitrogen forms NH₃, phosphorus forms PH₃ — same structure.",
+          "tests_concept": "identifying_valence_electrons"
+        },
+        {
+          "question": "Carbon has 4 valence electrons and typically forms 4 bonds. Oxygen has 6 valence electrons. How many bonds does oxygen typically form?",
+          "options": {
+            "A": "6 bonds — one for each valence electron",
+            "B": "2 bonds — it needs 2 more electrons to reach 8",
+            "C": "4 bonds — same as carbon",
+            "D": "0 bonds — 6 is close enough to 8"
+          },
+          "correct_answer": "B",
+          "explanation": "Oxygen has 6 valence electrons and needs 8 (octet). 8 − 6 = 2, so oxygen typically forms 2 bonds to gain 2 more electrons through sharing. Water (H₂O) is the perfect example: oxygen forms exactly 2 bonds, one to each hydrogen.",
+          "tests_concept": "identifying_valence_electrons"
+        }
+      ]
+    },
+
+    {
+      "part_number": 3,
+      "part_id": "valence_electrons_p3",
+      "part_title": "Lewis Dot Structures",
+      "purpose": "Teach how to draw Lewis dot structures — visualizing valence electrons around an element symbol",
+      "curriculum_concepts": ["lewis_dot_structures"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Drawing What You Know",
+              "body": "Now that you can count valence electrons, there's a simple visual tool for representing them: the Lewis dot structure (also called electron dot diagram). It shows valence electrons as dots arranged around an element's symbol."
+            },
+            {
+              "type": "callout",
+              "style": "definition",
+              "title": "Lewis Dot Structure",
+              "body": "A diagram that shows an element's symbol surrounded by dots representing its valence electrons. Dots are placed on the four sides of the symbol (top, bottom, left, right), one per side first, then pairing up."
+            },
+            {
+              "type": "section",
+              "title": "How to Draw One",
+              "body": "The rules are simple: write the element symbol in the center. Place dots around it — one on each of the four sides first (like compass points: top, right, bottom, left). If there are more than 4 valence electrons, start pairing dots on the same side."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Examples: Drawing Lewis Dots Step by Step",
+              "items": [
+                {
+                  "label": "Carbon (4 valence e⁻)",
+                  "body": "One dot on each of the four sides. Four unpaired dots = 4 available bonds. That's why carbon always forms 4 bonds."
+                },
+                {
+                  "label": "Nitrogen (5 valence e⁻)",
+                  "body": "One dot on each of the four sides (4 dots), then one side gets a second dot (1 pair). Three unpaired dots = 3 available bonds, plus one lone pair."
+                },
+                {
+                  "label": "Oxygen (6 valence e⁻)",
+                  "body": "Four sides, then two sides get paired. Two unpaired dots = 2 available bonds, plus two lone pairs. This is why water is H₂O — oxygen bonds twice."
+                },
+                {
+                  "label": "Fluorine (7 valence e⁻)",
+                  "body": "Three sides paired, one side single. One unpaired dot = 1 available bond, plus three lone pairs. Fluorine forms exactly 1 bond."
+                },
+                {
+                  "label": "Neon (8 valence e⁻)",
+                  "body": "All four sides paired. Zero unpaired dots = 0 available bonds. Full octet. This is why noble gases don't bond."
+                }
+              ]
+            },
+            {
+              "type": "visual",
+              "description": "Lewis dot structures for C (4 single dots), N (1 pair + 3 singles), O (2 pairs + 2 singles), F (3 pairs + 1 single), Ne (4 pairs). Show dots arranged around element symbols on four sides.",
+              "placeholder_type": "lewis_dot_examples"
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "Unpaired Dots = Bonding Capacity",
+              "body": "The number of unpaired dots tells you how many bonds the atom will form. Carbon: 4 unpaired → 4 bonds. Oxygen: 2 unpaired → 2 bonds. Fluorine: 1 unpaired → 1 bond. The paired dots (lone pairs) don't form bonds but affect molecular shape."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Draw Them Yourself",
+              "body": "Grab a piece of paper or open a notes app. We're going to draw Lewis structures for the first 10 elements. This takes about 5 minutes and permanently locks the pattern into your brain."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Draw These (Then Check Below)",
+              "items": [
+                {
+                  "label": "Hydrogen (1 valence e⁻)",
+                  "body": "H with 1 dot. One unpaired = 1 bond. Hydrogen always forms exactly 1 bond."
+                },
+                {
+                  "label": "Helium (2 valence e⁻)",
+                  "body": "He with 2 dots (one pair). Zero unpaired = 0 bonds. Full shell (Shell 1 only holds 2). Noble gas."
+                },
+                {
+                  "label": "Lithium (1 valence e⁻)",
+                  "body": "Li with 1 dot. Same pattern as hydrogen — 1 valence electron. But lithium GIVES its electron away (metal) while hydrogen SHARES (nonmetal)."
+                },
+                {
+                  "label": "Carbon (4 valence e⁻)",
+                  "body": "C with 4 dots, one on each side. Four unpaired = 4 bonds. The king of bonding."
+                },
+                {
+                  "label": "Chlorine (7 valence e⁻)",
+                  "body": "Cl with 7 dots: 3 pairs + 1 single. One unpaired = 1 bond. Grabs 1 electron to complete octet."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Now look at your drawings. See how the dots INCREASE from left to right across a period? Group 1: 1 dot. Group 14: 4 dots. Group 18: 8 dots. The periodic table was designed around this exact pattern."
+            },
+            {
+              "type": "section",
+              "title": "Predict a Molecule",
+              "body": "Draw the Lewis dots for hydrogen (1 dot) and oxygen (2 unpaired dots). Oxygen needs 2 bonds. Each hydrogen provides 1 bond. So oxygen bonds to 2 hydrogens → H₂O. You just predicted the structure of water from dot diagrams. Lewis dots aren't just decoration — they're a prediction tool."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Chemistry's Simplest Drawing Exercise",
+              "body": "Lewis dot structures sound fancy but they're literally just writing a letter and putting dots around it. If you can write the alphabet and count to 8, you can do this."
+            },
+            {
+              "type": "section",
+              "title": "The Rules",
+              "body": "Write the element symbol. Put dots around it — one on each side first (top, right, bottom, left), then start pairing. That's it. No artistic skill required. Stick figures would be overqualified."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Dot Progression (Across Period 2)",
+              "items": [
+                {
+                  "label": "Lithium: 1 dot",
+                  "body": "One lonely dot. Will give it away to literally anyone."
+                },
+                {
+                  "label": "Beryllium: 2 dots",
+                  "body": "Two dots, one on each side. Still pretty generous."
+                },
+                {
+                  "label": "Carbon: 4 dots",
+                  "body": "One on each side. Four available bonds. The social butterfly."
+                },
+                {
+                  "label": "Nitrogen: 5 dots",
+                  "body": "One pair, three singles. Three available bonds + a reserved parking spot (lone pair)."
+                },
+                {
+                  "label": "Oxygen: 6 dots",
+                  "body": "Two pairs, two singles. Two available bonds. Just enough socializing."
+                },
+                {
+                  "label": "Fluorine: 7 dots",
+                  "body": "Three pairs, one single. One available bond. VERY selective about who it bonds with. (Just kidding — it bonds with EVERYTHING.)"
+                },
+                {
+                  "label": "Neon: 8 dots",
+                  "body": "Four pairs. Zero available bonds. Not interested. Do not disturb."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "fun_fact",
+              "body": "The genius of Lewis dots: unpaired dots = bonds the atom will form. Carbon: 4 unpaired dots → 4 bonds → CH₄ (methane), CO₂, etc. Oxygen: 2 unpaired → 2 bonds → H₂O. You can literally PREDICT molecules by counting dots. Gilbert Lewis invented this in 1916 and chemistry students have been grateful ever since."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Nitrogen has 5 valence electrons. In its Lewis dot structure, how many unpaired dots and how many lone pairs does it have?",
+          "options": {
+            "A": "5 unpaired dots, 0 lone pairs",
+            "B": "3 unpaired dots, 1 lone pair",
+            "C": "1 unpaired dot, 2 lone pairs",
+            "D": "2 unpaired dots, 1 lone pair and 1 unpaired"
+          },
+          "correct_answer": "B",
+          "explanation": "Place 5 dots around N: one on each of 4 sides (4 singles), then pair one side (making 1 pair + 3 singles). 3 unpaired dots mean nitrogen typically forms 3 bonds (like NH₃). The lone pair affects shape but doesn't form a bond.",
+          "tests_concept": "lewis_dot_structures"
+        },
+        {
+          "question": "Using Lewis dots, predict how many bonds a silicon atom (Group 14, 4 valence electrons) will typically form.",
+          "options": {
+            "A": "2 bonds — half its valence electrons",
+            "B": "14 bonds — one for each group number",
+            "C": "4 bonds — 4 unpaired dots, each can form one bond",
+            "D": "8 bonds — trying to reach a full octet by bonding to 8 atoms"
+          },
+          "correct_answer": "C",
+          "explanation": "Silicon has 4 valence electrons → 4 unpaired dots (one on each side) → 4 available bonds. Like carbon (same group), silicon bonds to 4 other atoms. SiH₄ (silane) has the same structure as CH₄ (methane).",
+          "tests_concept": "lewis_dot_structures"
+        },
+        {
+          "question": "Neon has 8 valence electrons. Its Lewis dot structure shows 4 lone pairs and 0 unpaired dots. What does this predict?",
+          "options": {
+            "A": "Neon will form 4 bonds (one per lone pair)",
+            "B": "Neon will form 8 bonds (one per electron)",
+            "C": "Neon will form 0 bonds — no unpaired electrons available for bonding",
+            "D": "Neon needs 2 more electrons to be stable"
+          },
+          "correct_answer": "C",
+          "explanation": "All 8 valence electrons are paired (4 lone pairs). No unpaired dots means no capacity to bond. This is why noble gases are inert — their Lewis dot structures show complete pairing with no bonding capacity.",
+          "tests_concept": "lewis_dot_structures"
+        }
+      ]
+    },
+
+    {
+      "part_number": 4,
+      "part_id": "valence_electrons_p4",
+      "part_title": "Valence Electrons Predict Everything",
+      "purpose": "Tie valence electrons to bonding preview, molecular formulas, and bridge to bonding_intro",
+      "curriculum_concepts": ["identifying_valence_electrons", "lewis_dot_structures"],
+      "content": {
+        "common": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "From Dots to Molecules",
+              "body": "Lewis dot structures don't just show individual atoms — they predict how atoms combine. The rule is simple: unpaired dots on different atoms can pair up to form bonds."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "Predicting Molecules From Dots",
+              "items": [
+                {
+                  "label": "Water (H₂O)",
+                  "body": "Oxygen: 2 unpaired dots (needs 2 bonds). Hydrogen: 1 unpaired dot each (needs 1 bond). Two hydrogens satisfy oxygen's need → H₂O."
+                },
+                {
+                  "label": "Ammonia (NH₃)",
+                  "body": "Nitrogen: 3 unpaired dots (needs 3 bonds). Hydrogen: 1 each. Three hydrogens → NH₃."
+                },
+                {
+                  "label": "Methane (CH₄)",
+                  "body": "Carbon: 4 unpaired dots. Hydrogen: 1 each. Four hydrogens → CH₄."
+                },
+                {
+                  "label": "Sodium Chloride (NaCl)",
+                  "body": "Sodium: 1 valence electron to give. Chlorine: 1 unpaired dot (needs 1 electron). Sodium donates → both achieve octets → NaCl."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "title": "The Master Pattern",
+              "body": "Valence electrons explain everything: why carbon forms 4 bonds in every organic molecule, why water is H₂O and not H₃O, why salt is NaCl and not NaCl₂. The formulas of compounds are not arbitrary — they're determined by valence electron counts seeking octets."
+            },
+            {
+              "type": "section",
+              "title": "Two Ways to Achieve an Octet",
+              "body": "Atoms use their valence electrons in two fundamentally different ways to achieve full outer shells. Metals with few valence electrons GIVE them away (forming ions). Nonmetals with many valence electrons SHARE them (forming covalent bonds). This divide — giving vs sharing — creates two completely different types of bonding. And that's exactly where we're headed next."
+            },
+            {
+              "type": "transition",
+              "body": "You now have the complete toolkit: you can find valence electrons from the periodic table, draw Lewis dot structures, predict how many bonds an atom forms, and even predict molecular formulas. The next step is understanding the two main types of bonding — ionic (electron transfer) and covalent (electron sharing). Valence electrons are the players. Bonding is the game."
+            }
+          ]
+        },
+        "experiential": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Predict Before You Look It Up",
+              "body": "Try predicting these molecular formulas using only valence electron counts. Grab paper and draw the Lewis dots if it helps."
+            },
+            {
+              "type": "list",
+              "style": "challenge",
+              "items": [
+                {
+                  "label": "Hydrogen + Fluorine → ?",
+                  "hints": "H has 1 unpaired dot. F has 1 unpaired dot. They pair up: HF (hydrogen fluoride). One bond. Simple."
+                },
+                {
+                  "label": "Carbon + Chlorine → ?",
+                  "hints": "C has 4 unpaired dots. Cl has 1 unpaired each. Carbon needs 4 chlorines → CCl₄ (carbon tetrachloride)."
+                },
+                {
+                  "label": "Nitrogen + Hydrogen → ?",
+                  "hints": "N has 3 unpaired. H has 1 each. Three hydrogens → NH₃ (ammonia). The lone pair on nitrogen doesn't bond but makes the molecule pyramidal."
+                },
+                {
+                  "label": "Magnesium + Chlorine → ?",
+                  "hints": "Mg has 2 valence electrons to give. Cl needs 1 each. Two chlorines take one electron each → MgCl₂. Ionic compound."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "key_idea",
+              "body": "Every molecular formula you just predicted was determined entirely by valence electron counts. CH₄, NH₃, H₂O, HF — the subscripts aren't random. They're the mathematical consequence of atoms seeking full octets."
+            },
+            {
+              "type": "transition",
+              "body": "You've mastered the foundation: electron shells, valence electrons, and Lewis dots. Next, we explore HOW atoms use these electrons to bond — the two great strategies of chemistry: giving electrons away (ionic) and sharing electrons (covalent)."
+            }
+          ]
+        },
+        "funny": {
+          "blocks": [
+            {
+              "type": "section",
+              "title": "Dots Predict Molecules (Seriously)",
+              "body": "Watch this: carbon has 4 unpaired dots. Hydrogen has 1. How many hydrogens does carbon need? FOUR. CH₄. Methane. The formula writes itself."
+            },
+            {
+              "type": "list",
+              "style": "numbered_steps",
+              "title": "The Prediction Game",
+              "items": [
+                {
+                  "label": "Oxygen (2 unpaired) + Hydrogen (1 each)",
+                  "body": "O needs 2 bonds. H gives 1 each. Answer: H₂O. Water. You just derived the formula for the most important compound on Earth using dots."
+                },
+                {
+                  "label": "Nitrogen (3 unpaired) + Hydrogen (1 each)",
+                  "body": "N needs 3. → NH₃. Ammonia. The stuff that makes cleaning products burn your nose."
+                },
+                {
+                  "label": "Carbon (4 unpaired) + Fluorine (1 unpaired each)",
+                  "body": "C needs 4 → CF₄. Carbon tetrafluoride. Sounds scary. Is scary. But the math is just dots."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "style": "mind_blow",
+              "body": "Every molecular formula in chemistry — H₂O, CO₂, NH₃, CH₄, NaCl — is just the mathematical consequence of atoms trying to get 8 valence electrons. The universe is basically doing arithmetic with dots. And now so can you."
+            },
+            {
+              "type": "transition",
+              "body": "You now speak the language of valence electrons. Next up: the two great strategies atoms use to get their octets. Strategy 1: just GIVE your electrons to someone else (ionic bonding — metals do this). Strategy 2: SHARE electrons with a partner (covalent bonding — nonmetals do this). It's giving vs sharing. The ultimate chemistry showdown. Coming next."
+            }
+          ]
+        }
+      },
+      "questions": [
+        {
+          "question": "Silicon (Group 14) has 4 valence electrons. Hydrogen has 1. Predict the formula when silicon bonds with hydrogen.",
+          "options": {
+            "A": "SiH — one bond only",
+            "B": "SiH₂ — silicon only needs 2 bonds",
+            "C": "SiH₄ — silicon needs 4 bonds to complete its octet",
+            "D": "Si₂H — two silicons share one hydrogen"
+          },
+          "correct_answer": "C",
+          "explanation": "Silicon has 4 unpaired valence electrons. Each hydrogen provides 1 bond. Silicon needs 4 bonds to reach an octet: 4 + 4 (shared) = 8 outer electrons. SiH₄ (silane) is the result — identical structure to methane (CH₄).",
+          "tests_concept": "identifying_valence_electrons + lewis_dot_structures"
+        },
+        {
+          "question": "Calcium (Group 2) has 2 valence electrons. Fluorine (Group 17) has 7. Predict the ionic compound they form.",
+          "options": {
+            "A": "CaF — calcium gives 1 electron to 1 fluorine",
+            "B": "CaF₂ — calcium gives 1 electron to each of 2 fluorines",
+            "C": "Ca₂F — two calciums share 1 fluorine",
+            "D": "CaF₇ — calcium gives electrons to match fluorine's 7"
+          },
+          "correct_answer": "B",
+          "explanation": "Calcium has 2 electrons to give. Each fluorine needs 1 electron. So calcium donates 1 electron to each of 2 fluorines → CaF₂. Both calcium (loses 2 → full shell below) and both fluorines (gain 1 each → octet) achieve stable configurations.",
+          "tests_concept": "identifying_valence_electrons"
+        }
+      ]
+    }
+  ],
+
+  "summary_stats": {
+    "total_parts": 4,
+    "total_questions": 8,
+    "block_types_used": ["section", "callout", "list", "visual", "transition"],
+    "callout_styles_used": ["definition", "key_idea", "fun_fact", "remember", "mind_blow"],
+    "list_styles_used": ["two_column", "numbered_steps", "challenge"],
+    "curriculum_concepts_covered": ["identifying_valence_electrons", "lewis_dot_structures"],
+    "bridges_from": "electron_shells + periodic_table_basic",
+    "bridges_to": "bonding_intro"
+  }
+}
