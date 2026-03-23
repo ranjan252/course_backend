@@ -1,5 +1,5 @@
 """
-POST /course/sathi
+POST /course/sathi test
 
 Sathi chat interface. Proxies to the Sathi Lambda when available,
 falls back to lightweight concept-specific help otherwise.
