@@ -37,7 +37,7 @@ class Curriculum:
     """Wraps a curriculum dict with DAG traversal methods."""
 
     def __init__(self, data: dict):
-        self._data = data
+        self._data = data.get("topics", data)
         self._concept_index = {}  # concept_id → (topic_id, subtopic_id, concept_data)
         self._build_index()
 
